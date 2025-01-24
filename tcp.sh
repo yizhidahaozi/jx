@@ -457,12 +457,14 @@ clear
 # echo -e 'Current version $version'
 echo -e '当前版本 v$version'
 echo '---'
-echo -e "1. 优化 全部"
-echo -e "2. 优化 限制"
-echo -e "3. 优化 安全"
-echo -e "4. 优化 内核"
-echo -e "---"
-echo -e "5. 更新 脚本"
+echo "1. 优化全部"
+echo "2. 优化限制"
+echo "3. 优化安全"
+echo "4. 优化内核"
+echo "---"
+echo "5. 更新脚本"
+echo "---"
+echo "0. 退出脚本"
 
 read -e -p "请输入你的选择: " choice
 
@@ -472,8 +474,10 @@ case $choice in
   3) Install_systemd ;;
   4) Install_sysctl ;;
   5) update_script ;;
+  0) clear ; exit ;;
   *) echo "无效的输入!" ;;
 esac
     break_end
 done
+}
 }
