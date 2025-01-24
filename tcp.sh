@@ -415,10 +415,10 @@ net.ipv4.neigh.default.retrans_time_ms = 280
 
 EOF
 
-file_sysctl="/etc/sysctl.d/clun-sysctl.conf"
+file_sysctl="/etc/sysctl.d/99-sysctl.conf"
 if [! -f "$file_sysctl" ]; then
     echo "$file_sysctl 文件不存在，开始执行 ln"
-    ln -s /etc/sysctl.conf /etc/sysctl.d/clun-sysctl.conf
+    ln -s /etc/sysctl.conf /etc/sysctl.d/99-sysctl.conf
 else
     echo "$file_sysctl 文件存在，不执行 ln"
 fi
