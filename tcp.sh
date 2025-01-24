@@ -494,4 +494,4 @@ done
 }
 
 
-sleep 1 && clun_tcp
+sleep 2 && clun_tcp
