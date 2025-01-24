@@ -10,8 +10,6 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-
-
 update_script() {
 local version_new=$(curl -s https://raw.githubusercontent.com/cluntop/cluntop.github.io/main/tcp.sh | grep -o 'version="[0-9.]*"' | cut -d '"' -f 2)
 
@@ -25,7 +23,7 @@ fi
 }
 
 break_end() {
-    echo -e "${gl_lv}操作完成${gl_bai}"
+    echo "操作完成"
     echo "按任意键继续..."
     read -n 1 -s -r -p ""
     echo ""
@@ -33,24 +31,22 @@ break_end() {
 }
 
 Install_limits() {
-
 cat >/etc/security/limits.conf<<EOF
-* soft     nproc          655360
-* hard     nproc          655360
-* soft     nofile         655360
-* hard     nofile         655360
+* soft     nproc          1000000
+* hard     nproc          1000000
+* soft     nofile         1000000
+* hard     nofile         1000000
 
-root soft     nproc          655360
-root hard     nproc          655360
-root soft     nofile         655360
-root hard     nofile         655360
+root soft     nproc          1000000
+root hard     nproc          1000000
+root soft     nofile         1000000
+root hard     nofile         1000000
 
-bro soft     nproc          655360
-bro hard     nproc          655360
-bro soft     nofile         655360
-bro hard     nofile         655360
+bro soft     nproc          1000000
+bro hard     nproc          1000000
+bro soft     nofile         1000000
+bro hard     nofile         1000000
 EOF
-
 }
 
 Install_systemd() {
@@ -221,11 +217,11 @@ net.ipv4.tcp_wmem = 4096 16384 536870912
 net.ipv4.tcp_adv_win_scale = -2
 # net.ipv4.tcp_collapse_max_bytes = 6291456
 # net.ipv4.tcp_notsent_lowat = 131072
-net.ipv4.ip_local_port_range = 1024 65000
+net.ipv4.ip_local_port_range = 1024 65535
 # 每个网络接口接收数据包的速率比内核处理这些包的速率快时，允许送到队列的数据包的最大数目。
 net.core.netdev_max_backlog = 250000
 # 181920 listen 函数的backlog参数
-net.ipv4.tcp_max_syn_backlog = 16384
+net.ipv4.tcp_max_syn_backlog = 10240
 net.core.somaxconn = 1024000
 # 配置TCP/IP协议栈。它用于控制在TCP接收缓冲区溢出时的行为。
 net.ipv4.tcp_abort_on_overflow = 0
@@ -248,7 +244,7 @@ net.netfilter.nf_conntrack_buckets = 655360
 net.netfilter.nf_conntrack_tcp_timeout_fin_wait = 30
 net.netfilter.nf_conntrack_tcp_timeout_time_wait = 30
 net.netfilter.nf_conntrack_tcp_timeout_close_wait = 30
-net.netfilter.nf_conntrack_tcp_timeout_established = 3600
+net.netfilter.nf_conntrack_tcp_timeout_established = 36000
 # net.ipv4.netfilter.ip_conntrack_tcp_timeout_established = 7200
 # TIME-WAIT 状态调优
 # Ref: http://vincent.bernat.im/en/blog/2014-tcp-time-wait-state-linux.html
@@ -297,7 +293,7 @@ net.ipv4.conf.all.rp_filter = 0
 
 # 减少处于 FIN-WAIT-2 连接状态的时间使系统可以处理更多的连接
 # Ref: https://www.cnblogs.com/kaishirenshi/p/11544874.html
-net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_fin_timeout = 30
 
 # Ref: https://xwl-note.readthedocs.io/en/latest/linux/tuning.html
 # 默认情况下一个 TCP 连接关闭后, 把这个连接曾经有的参数保存到dst_entry中
@@ -330,9 +326,9 @@ net.ipv4.conf.default.accept_source_route = 0
 # TCP KeepAlive 调优 # 最大闲置时间
 net.ipv4.tcp_keepalive_time = 600
 # 最大失败次数, 超过此值后将通知应用层连接失效
-net.ipv4.tcp_keepalive_probes = 3
+net.ipv4.tcp_keepalive_probes = 6
 # 发送探测包的时间间隔
-net.ipv4.tcp_keepalive_intvl = 30
+net.ipv4.tcp_keepalive_intvl = 60
 # 放弃回应一个 TCP 连接请求前, 需要进行多少次重试
 net.ipv4.tcp_retries1 = 3
 # 参数规定了在系统尝试清除这些孤儿连接之前可以重试的次数。
@@ -358,7 +354,7 @@ net.ipv4.conf.all.arp_announce = 2
 
 # Ref: Aliyun, etc
 # 内核 Panic 后 1 秒自动重启
-kernel.panic = 1
+kernel.panic = 0
 # 允许更多的PIDs, 减少滚动翻转问题
 # kernel.pid_max = 32768
 # 内核所允许的最大共享内存段的大小（bytes）
@@ -368,11 +364,11 @@ kernel.panic = 1
 # 设定程序core时生成的文件名格式
 kernel.core_pattern = core_%e
 # 当发生oom时, 自动转换为panic
-vm.panic_on_oom = 1
+vm.panic_on_oom = 0
 # 控制内存“脏数据”（dirty data）积累的后台内存比例。
 vm.dirty_background_ratio = 5
 # 表示强制Linux VM最低保留多少空闲内存（Kbytes）
-# vm.min_free_kbytes = 128
+vm.min_free_kbytes = 65536
 # 该值高于100, 则将导致内核倾向于回收directory和inode cache
 # vm.vfs_cache_pressure = 50
 # 表示系统进行交换行为的程度, 数值（0-100）越高, 越可能发生磁盘交换
@@ -394,7 +390,7 @@ kernel.sched_autogroup_enabled = 0
 # 禁用 NUMA balancing
 kernel.numa_balancing = 0
 # IPv4 TCP 低延迟参数
-net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_low_latency = 0
 
 # Ref: https://gist.github.com/lixingcong/0e13b4123d29a465e364e230b2e45f60
 # 当某个节点可用内存不足时, 系统会倾向于从其他节点分配内存. 对 Mongo/Redis 类 cache 服务器友好
