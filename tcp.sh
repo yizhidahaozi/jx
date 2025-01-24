@@ -461,7 +461,8 @@ else
     echo "$file_sysctl 文件存在，不执行 ln"
 fi
 
-sysctl -p && sysctl --system
+sysctl -p >/dev/null 2>&1
+sysctl --system >/dev/null 2>&1
 }
 
 
