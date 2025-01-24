@@ -473,7 +473,7 @@ case $choice in
      Install_systemd
      Install_sysctl
      calculate_tcp
-     calculate_udp ;;
+     calculate_udp
   2) Install_limits ;;
   3) Install_systemd ;;
   4) Install_sysctl ;;
