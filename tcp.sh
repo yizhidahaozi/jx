@@ -1,7 +1,7 @@
-##!/bin/sh
+##!/bin/bash
 # Issues https://clun.top
 
-version=1.0
+version="1.0.0"
 
 if [[ $EUID -ne 0 ]]; then
     clear
@@ -10,7 +10,7 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-echo 'Current $version'
+echo 'Current version $version'
 echo '当前版本 $version'
 echo '#'
 
