@@ -451,9 +451,9 @@ sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_hi
 # sleep 3 && reboot >/dev/null 2>&1
 
 clun_tcp() {
-# while true; do
+while true; do
 clear
-# echo -e 'Current version $version'
+echo -e 'Current version $version'
 echo -e '当前版本 v$version'
 echo '---'
 echo "1. 优化全部"
@@ -464,11 +464,10 @@ echo "---"
 echo "5. 更新脚本"
 echo "---"
 echo "0. 退出脚本"
-
 read -e -p "请输入你的选择: " choice
 
 case $choice in
-  1) Install_limits ;; Install_systemd ;; Install_sysctl ;; calculate_tcp ;; calculate_udp ;;
+  # 1) Install_limits ;; Install_systemd ;; Install_sysctl ;; calculate_tcp ;; calculate_udp ;;
   2) Install_limits ;;
   3) Install_systemd ;;
   4) Install_sysctl ;;
