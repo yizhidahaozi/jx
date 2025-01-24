@@ -451,8 +451,7 @@ sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_hi
 # sleep 3 && reboot >/dev/null 2>&1
 
 clun_tcp() {
-
-while true; do
+# while true; do
 clear
 # echo -e 'Current version $version'
 echo -e '当前版本 v$version'
