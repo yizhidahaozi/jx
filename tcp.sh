@@ -422,6 +422,8 @@ if [! -f "$file_sysctl" ]; then
 else
     echo "$file_sysctl 文件存在，不执行 ln"
 fi
+
+sysctl -p && sysctl --system
 }
 
 calculate_tcp() {
