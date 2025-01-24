@@ -499,7 +499,6 @@ while true; do
       4) Install_sysctl ;;
       5) calculate_tcp ;;
       7) calculate_tcp ;;
-
       6) calculate_udp ;;
       00) update_script ;;
       0) clear ; exit ;;
