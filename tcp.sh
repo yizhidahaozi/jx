@@ -14,11 +14,12 @@ fi
 
 update_script() {
 local version_new=$(curl -s https://raw.githubusercontent.com/cluntop/cluntop.github.io/main/tcp.sh | grep -o 'sh_v="[0-9.]*"' | cut -d '"' -f 2)
+
 if [ "$version" = "$version_new" ]; then
     echo "你已经是最新版本！"
 else
     echo "发现新版本！"
-    echo -e "当前版本 v$version        最新版本 v$version_new_new"
+    echo "当前版本 v$version        最新版本 v$version_new_new"
     curl -o clun_tcp.sh https://raw.githubusercontent.com/cluntop/cluntop.github.io/main/tcp.sh && chmod +x clun_tcp.sh
 fi
 }
