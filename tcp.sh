@@ -1,12 +1,18 @@
 ##!/bin/sh
 # Issues https://clun.top
 
+version=1.0
+
 if [[ $EUID -ne 0 ]]; then
     clear
     echo "Error: This script must be run as root!"
     echo "错误：此脚本必须以 root 身份运行!"
     exit 1
 fi
+
+echo 'Current version $version'
+echo '当前版本 $version'
+echo '#'
 
 cat >/etc/security/limits.conf<<EOF
 * soft     nproc          655360
@@ -25,22 +31,28 @@ bro soft     nofile         655360
 bro hard     nofile         655360
 EOF
 
-if grep -q "session required pam_limits.so" /etc/pam.d/common-session; then
-    echo "common-session ok."
+
+if grep -q 'pam_limits.so' /etc/pam.d/common-session-noninteractive; then
+    echo "common-session-noninteractive  Existenceok."
 else
+    sed -i '/^session required pam_limits.so/d' /etc/pam.d/common-session-noninteractive
+    echo "session required pam_limits.so" >> /etc/pam.d/common-session-noninteractive
+fi
+
+if grep -q 'DefaultLimitNOFILE=655360' /etc/systemd/system.conf; then
+    echo "DefaultLimitNOFILE Existence ok."
+else
+    sed -i '/^DefaultLimitNOFILE=/d' /etc/systemd/system.conf
+    echo "DefaultLimitNOFILE=655360" >> /etc/systemd/system.conf
+fi
+
+if grep -q 'pam_limits.so' /etc/pam.d/common-session; then
+    echo "common-session Existence ok."
+else
+    sed -i '/^session required pam_limits.so/d' /etc/pam.d/common-session
     echo "session required pam_limits.so" >> /etc/pam.d/common-session
 fi
 
-if grep -q "session required pam_limits.so" /etc/pam.d/common-session-noninteractive; then
-    echo "common-session-noninteractive ok."
-else
-    echo "session required pam_limits.so" >> /etc/pam.d/common-session-noninteractive
-fi
-if grep -q "DefaultLimitNOFILE=655360" /etc/systemd/system.conf; then
-    echo "DefaultLimitNOFILE ok."
-else
-    echo "DefaultLimitNOFILE=655360" >> /etc/systemd/system.conf
-fi
 
 cat >/etc/sysctl.conf<<EOF
 
