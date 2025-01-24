@@ -10,9 +10,11 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-echo 'Current version $version'
+echo 'Current $version'
 echo '当前版本 $version'
 echo '#'
+
+Install_limits() {
 
 cat >/etc/security/limits.conf<<EOF
 * soft     nproc          655360
@@ -31,6 +33,9 @@ bro soft     nofile         655360
 bro hard     nofile         655360
 EOF
 
+}
+
+Install_systemd() {
 
 if grep -q 'pam_limits.so' /etc/pam.d/common-session-noninteractive; then
     echo "common-session-noninteractive  Existenceok."
@@ -53,6 +58,9 @@ else
     echo "session required pam_limits.so" >> /etc/pam.d/common-session
 fi
 
+}
+
+Install_sysctl() {
 
 cat >/etc/sysctl.conf<<EOF
 
@@ -389,6 +397,9 @@ net.ipv4.neigh.default.retrans_time_ms = 280
 
 EOF
 
+}
+
+calculate_tcp() {
 
 # 获取系统内存总量，单位为字节
 total_mem_bytes=$(free -b | awk '/^Mem:/ {print $2}')
@@ -401,13 +412,12 @@ tcp_low=$((total_mem_pages / 4))
 tcp_mid=$((total_mem_pages * 2 / 2))
 tcp_high=$((total_mem_pages * 3 / 4))
 
-# 备份原有的net.ipv4.tcp_mem配置
-cp /etc/sysctl.conf /etc/sysctl.conf.bak
-
 # 修改net.ipv4.tcp_mem配置
 sed -i "s/#*net.ipv4.tcp_mem.*/net.ipv4.tcp_mem = $tcp_low $tcp_mid $tcp_high/" /etc/sysctl.conf
 
+}
 
+calculate_udp() {
 
 # 获取系统内存总量（单位：KB）
 total_mem_kb=$(free -k | awk '/Mem:/ {print $2}')
@@ -419,6 +429,8 @@ udp_high=$(echo "$total_mem_kb * 0.9 / 1" | bc)
 
 # 修改net.ipv4.udp_mem参数
 sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_high/" /etc/sysctl.conf
+
+}
 
 
 # rm tcp.sh
