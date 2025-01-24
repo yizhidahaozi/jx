@@ -461,33 +461,35 @@ sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_hi
 
 clun_tcp() {
 while true; do
-clear
-echo -e "当前版本 v$version"
-echo '---'
-echo "1. 优化全部"
-echo "2. 优化限制"
-echo "3. 优化安全"
-echo "4. 优化内核"
-echo "5. 优化TCP"
-echo "6. 优化UDP"
-echo "---"
-echo "00. 更新脚本"
-echo "---"
-echo "0. 退出脚本"
-read -e -p "请输入你的选择: " choice
+    clear
+    echo -e "当前版本 v$version"
+    echo '---'
+    echo "1. 优化全部"
+    echo "2. 优化限制"
+    echo "3. 优化安全"
+    echo "4. 优化内核"
+    echo "5. 优化TCP"
+    echo "6. 优化UDP"
+    echo "---"
+    echo "00. 更新脚本"
+    echo "---"
+    echo "0. 退出脚本"
 
-case $choice in
-  1) Install_limits ; Install_systemd ; Install_sysctl ; calculate_tcp ; calculate_udp ;;
-  2) Install_limits ;;
-  3) Install_systemd ;;
-  4) Install_sysctl ;;
-  5) calculate_tcp ;;
-  6) calculate_udp ;;
-  00) update_script ;;
-  0) clear ; exit ;;
-  *) echo "无效的输入!" ;;
-esac
-    break_end
+    read -e -p "请输入你的选择: " choice
+
+    case $choice in
+      1) Install_limits ; Install_systemd ; Install_sysctl ; calculate_tcp ; calculate_udp ;;
+      2) Install_limits ;;
+      3) Install_systemd ;;
+      4) Install_sysctl ;;
+      5) calculate_tcp ;;
+      6) calculate_udp ;;
+      00) update_script ;;
+      0) clear ; exit ;;
+      *) echo "无效的输入!" ;;
+    esac
+        break_end
+    echo
 done
 }
 
