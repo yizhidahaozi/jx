@@ -23,11 +23,11 @@ fi
 }
 
 break_end() {
-	  echo -e "${gl_lv}操作完成${gl_bai}"
-	  echo "按任意键继续..."
-	  read -n 1 -s -r -p ""
-	  echo ""
-	  clear
+    echo -e "${gl_lv}操作完成${gl_bai}"
+    echo "按任意键继续..."
+    read -n 1 -s -r -p ""
+    echo ""
+    clear
 }
 
 Install_limits() {
@@ -459,10 +459,10 @@ echo -e '当前版本 v$version'
 echo '---'
 echo -e "1. 优化 全部"
 echo -e "2. 优化 限制"
-echo -e "3. 优化 安全
-echo -e "4. 优化 内核
+echo -e "3. 优化 安全"
+echo -e "4. 优化 内核"
 echo -e "---"
-echo -e "5. 更新 脚本
+echo -e "5. 更新 脚本"
 
 read -e -p "请输入你的选择: " choice
 
@@ -474,6 +474,6 @@ case $choice in
   5) update_script ;;
   *) echo "无效的输入!" ;;
 esac
-	break_end
+    break_end
 done
 }
