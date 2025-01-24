@@ -10,9 +10,25 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-echo 'Current version $version'
-echo '当前版本 $version'
-echo '#'
+local version_new=$(curl -s https://raw.githubusercontent.com/cluntop/cluntop.github.io/main/tcp.sh | grep -o 'sh_v="[0-9.]*"' | cut -d '"' -f 2)
+
+update_script() {
+if [ "$version" = "$version_new" ]; then
+    echo "你已经是最新版本！"
+else
+    echo "发现新版本！"
+    echo -e "当前版本 v$version        最新版本 v$version_new_new"
+    curl -o clun_tcp.sh https://raw.githubusercontent.com/cluntop/cluntop.github.io/main/tcp.sh && chmod +x clun_tcp.sh
+fi
+}
+
+break_end() {
+	  echo -e "${gl_lv}操作完成${gl_bai}"
+	  echo "按任意键继续..."
+	  read -n 1 -s -r -p ""
+	  echo ""
+	  clear
+}
 
 Install_limits() {
 
@@ -407,7 +423,7 @@ total_mem_bytes=$(free -b | awk '/^Mem:/ {print $2}')
 # 将字节转换为页数，每页通常为4096字节
 total_mem_pages=$((total_mem_bytes / 4096))
 
-# 计算低、中、高水位标记，按照1:2:3的比例
+# 计算低、中、高水位标记 按照1:2:3的比例
 tcp_low=$((total_mem_pages / 4))
 tcp_mid=$((total_mem_pages * 2 / 2))
 tcp_high=$((total_mem_pages * 3 / 4))
@@ -432,6 +448,32 @@ sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_hi
 
 }
 
-
-# rm tcp.sh
 # sleep 3 && reboot >/dev/null 2>&1
+
+clun_tcp() {
+
+while true; do
+clear
+# echo -e 'Current version $version'
+echo -e '当前版本 v$version'
+echo '---'
+echo -e "1. 优化 全部"
+echo -e "2. 优化 限制"
+echo -e "3. 优化 安全
+echo -e "4. 优化 内核
+echo -e "---"
+echo -e "5. 更新 脚本
+
+read -e -p "请输入你的选择: " choice
+
+case $choice in
+  1) Install_limits ; Install_systemd ; Install_sysctl ; calculate_tcp ; calculate_udp ;;
+  2) Install_limits ;;
+  3) Install_systemd ;;
+  4) Install_sysctl ;;
+  5) update_script ;;
+  *) echo "无效的输入!" ;;
+esac
+	break_end
+done
+}
