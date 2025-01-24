@@ -78,6 +78,39 @@ fi
 
 }
 
+calculate_tcp() {
+
+# 获取系统内存总量，单位为字节
+total_mem_bytes=$(free -b | awk '/^Mem:/ {print $2}')
+
+# 将字节转换为页数，每页通常为4096字节
+total_mem_pages=$((total_mem_bytes / 4096))
+
+# 计算低、中、高水位标记 按照1:2:3的比例
+tcp_low=$((total_mem_pages / 4))
+tcp_mid=$((total_mem_pages * 2 / 2))
+tcp_high=$((total_mem_pages * 3 / 4))
+
+# 修改net.ipv4.tcp_mem配置
+sed -i "s/#*net.ipv4.tcp_mem.*/net.ipv4.tcp_mem = $tcp_low $tcp_mid $tcp_high/" /etc/sysctl.conf
+
+}
+
+calculate_udp() {
+
+# 获取系统内存总量（单位：KB）
+total_mem_kb=$(free -k | awk '/Mem:/ {print $2}')
+
+# 计算udp_mem的三个值，这里只是示例比例，你可以根据实际需求调整
+udp_low=$(echo "$total_mem_kb * 0.1 / 1" | bc)
+udp_medium=$(echo "$total_mem_kb * 0.5 / 1" | bc)
+udp_high=$(echo "$total_mem_kb * 0.9 / 1" | bc)
+
+# 修改net.ipv4.udp_mem参数
+sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_high/" /etc/sysctl.conf
+
+}
+
 Install_sysctl() {
 
 cat >/etc/sysctl.conf<<EOF
@@ -87,6 +120,11 @@ cat >/etc/sysctl.conf<<EOF
 # See /etc/sysctl.d/ for additional system variables.
 # See sysctl.conf (5) for information.
 #
+
+net.core.default_qdisc=fq_pie
+net.ipv4.tcp_congestion_control=bbr2
+
+net.ipv4.tcp_invalid_ratelimit = 10000
 
 #kernel.domainname = example.com
 
@@ -156,7 +194,7 @@ cat >/etc/sysctl.conf<<EOF
 # net.ipv4.ip_default_ttl = 64
 
 # 参阅 RFC 1323. 应当启用.
-net.ipv4.tcp_timestamps = 0
+# net.ipv4.tcp_timestamps = 0
 # ------ END 网络调优: 基本 ------
 
 # ------ 网络调优: 内核 Backlog 队列和缓存相关 ------
@@ -398,8 +436,12 @@ net.ipv6.conf.eth0.autoconf = 1
 net.ipv6.conf.all.accept_ra = 1
 net.ipv6.conf.eth0.accept_ra = 1
 
+# 1 = IPv4 优先 / 0 = 6 优先
+net.ipv6.conf.all.disable_ipv6 = 1
+
 # 控制未解析（unresolved）的邻居（neighbor）项队列长度。
 net.ipv4.neigh.default.unres_qlen = 1000
+net.ipv4.neigh.default.unres_qlen_bytes = 16777216
 
 #ARP缓存的过期时间（单位毫秒）
 net.ipv4.neigh.default.base_reachable_time_ms = 600000
@@ -426,38 +468,6 @@ fi
 sysctl -p && sysctl --system
 }
 
-calculate_tcp() {
-
-# 获取系统内存总量，单位为字节
-total_mem_bytes=$(free -b | awk '/^Mem:/ {print $2}')
-
-# 将字节转换为页数，每页通常为4096字节
-total_mem_pages=$((total_mem_bytes / 4096))
-
-# 计算低、中、高水位标记 按照1:2:3的比例
-tcp_low=$((total_mem_pages / 4))
-tcp_mid=$((total_mem_pages * 2 / 2))
-tcp_high=$((total_mem_pages * 3 / 4))
-
-# 修改net.ipv4.tcp_mem配置
-sed -i "s/#*net.ipv4.tcp_mem.*/net.ipv4.tcp_mem = $tcp_low $tcp_mid $tcp_high/" /etc/sysctl.conf
-
-}
-
-calculate_udp() {
-
-# 获取系统内存总量（单位：KB）
-total_mem_kb=$(free -k | awk '/Mem:/ {print $2}')
-
-# 计算udp_mem的三个值，这里只是示例比例，你可以根据实际需求调整
-udp_low=$(echo "$total_mem_kb * 0.1 / 1" | bc)
-udp_medium=$(echo "$total_mem_kb * 0.5 / 1" | bc)
-udp_high=$(echo "$total_mem_kb * 0.9 / 1" | bc)
-
-# 修改net.ipv4.udp_mem参数
-sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_high/" /etc/sysctl.conf
-
-}
 
 # sleep 3 && reboot >/dev/null 2>&1
 
