@@ -505,5 +505,4 @@ while true; do
 done
 }
 
-
-sleep 2 && clun_tcp
+sleep 1 && clun_tcp
