@@ -465,7 +465,6 @@ echo "---"
 echo "5. 更新脚本"
 echo "---"
 echo "0. 退出脚本"
-
 read -e -p "请输入你的选择: " choice
 
 case $choice in
