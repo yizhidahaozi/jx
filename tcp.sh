@@ -469,11 +469,11 @@ read -e -p "请输入你的选择: " choice
 
 case $choice in
   1)
-    Install_limits
-    Install_systemd
-    Install_sysctl
-    calculate_tcp
-    calculate_udp
+    Install_limits ;
+    Install_systemd ;
+    Install_sysctl ;
+    calculate_tcp ;
+    calculate_udp ;;
   2) Install_limits ;;
   3) Install_systemd ;;
   4) Install_sysctl ;;
