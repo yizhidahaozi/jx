@@ -1,7 +1,7 @@
 ##!/bin/bash
 # Issues https://clun.top
 
-version="1.0.1"
+version="1.0.2"
 
 if [[ $EUID -ne 0 ]]; then
     clear
@@ -460,7 +460,7 @@ sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_hi
 # sleep 3 && reboot >/dev/null 2>&1
 
 clun_tcp() {
-# while true; do
+while true; do
 clear
 echo -e "当前版本 v$version"
 echo '---'
@@ -488,7 +488,7 @@ case $choice in
   *) echo "无效的输入!" ;;
 esac
     break_end
-# done
+done
 }
 
 
