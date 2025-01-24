@@ -25,11 +25,22 @@ bro soft     nofile         655360
 bro hard     nofile         655360
 EOF
 
-# echo "session required pam_limits.so" >> /etc/pam.d/common-session
+if grep -q "session required pam_limits.so" /etc/pam.d/common-session; then
+    echo "common-session ok."
+else
+    echo "session required pam_limits.so" >> /etc/pam.d/common-session
+fi
 
-# echo "session required pam_limits.so" >> /etc/pam.d/common-session-noninteractive
-
-# echo "DefaultLimitNOFILE=655360" >> /etc/systemd/system.conf
+if grep -q "session required pam_limits.so" /etc/pam.d/common-session-noninteractive; then
+    echo "common-session-noninteractive ok."
+else
+    echo "session required pam_limits.so" >> /etc/pam.d/common-session-noninteractive
+fi
+if grep -q "DefaultLimitNOFILE=655360" /etc/systemd/system.conf; then
+    echo "DefaultLimitNOFILE ok."
+else
+    echo "DefaultLimitNOFILE=655360" >> /etc/systemd/system.conf
+fi
 
 cat >/etc/sysctl.conf<<EOF
 
@@ -107,7 +118,7 @@ cat >/etc/sysctl.conf<<EOF
 # net.ipv4.ip_default_ttl = 64
 
 # 参阅 RFC 1323. 应当启用.
-net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_timestamps = 0
 # ------ END 网络调优: 基本 ------
 
 # ------ 网络调优: 内核 Backlog 队列和缓存相关 ------
