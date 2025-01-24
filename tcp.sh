@@ -55,7 +55,7 @@ EOF
 Install_systemd() {
 
 if grep -q 'pam_limits.so' /etc/pam.d/common-session-noninteractive; then
-    echo "common-session-noninteractive  Existenceok."
+    echo "common-session-noninteractive  Existence ok."
 else
     sed -i '/^session required pam_limits.so/d' /etc/pam.d/common-session-noninteractive
     echo "session required pam_limits.so" >> /etc/pam.d/common-session-noninteractive
@@ -478,3 +478,6 @@ esac
     break_end
 done
 }
+
+
+sleep 1 && clun_tcp
