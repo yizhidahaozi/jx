@@ -13,7 +13,7 @@ fi
 
 
 update_script() {
-local version_new=$(curl -s https://raw.githubusercontent.com/cluntop/cluntop.github.io/main/tcp.sh | grep -o 'sh_v="[0-9.]*"' | cut -d '"' -f 2)
+local version_new=$(curl -s https://raw.githubusercontent.com/cluntop/cluntop.github.io/main/tcp.sh | grep -o 'version="[0-9.]*"' | cut -d '"' -f 2)
 
 if [ "$version" = "$version_new" ]; then
     echo "你已经是最新版本！"
