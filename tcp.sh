@@ -107,6 +107,11 @@ sed -i "s/#*net.ipv4.udp_mem =.*/net.ipv4.udp_mem = $udp_low $udp_medium $udp_hi
 
 }
 
+sysctl_p() {
+sysctl -p >/dev/null 2>&1
+sysctl --system >/dev/null 2>&1
+}
+
 Install_sysctl() {
 
 cat >/etc/sysctl.conf<<EOF
@@ -461,6 +466,7 @@ else
     echo "$file_sysctl 文件存在，不执行 ln"
 fi
 
+# sysctl_p
 sysctl -p >/dev/null 2>&1
 sysctl --system >/dev/null 2>&1
 }
@@ -477,7 +483,7 @@ while true; do
     echo "2. 优化限制"
     echo "3. 优化安全"
     echo "4. 优化内核"
-    echo "5. 优化TCP"
+    echo "7. 优化TCP"
     echo "6. 优化UDP"
     echo "---"
     echo "00. 更新脚本"
@@ -492,6 +498,8 @@ while true; do
       3) Install_systemd ;;
       4) Install_sysctl ;;
       5) calculate_tcp ;;
+      7) calculate_tcp ;;
+
       6) calculate_udp ;;
       00) update_script ;;
       0) clear ; exit ;;
