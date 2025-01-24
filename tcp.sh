@@ -1,4 +1,4 @@
-##!/bin/sh
+#!/bin/bash
 # Issues https://clun.top
 
 version="1.0.2"
