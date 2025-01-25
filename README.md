@@ -7,7 +7,7 @@
 <meta name="format-detection" content="date=no">
 <meta name="format-detection" content="address=no">
 <meta name="description" content="雨呢网盘 - 疯子社网盘.">
-<meta name="keywords" content="雨呢网盘 - 疯子社网盘 - 雨呢网盘,聚合大全.">
+<meta name="keywords" content="雨呢网盘 - 疯子社网盘 - 雨呢网盘,聚合大全,资源大全.">
 
 #### 🏷公告须知
 
@@ -32,47 +32,32 @@
 | 地址 | pan.clun.top |
 | 路径 | /dav |
 | 协议 | https |
-| 用户名 | clun |
-| 密码 | clun |
+| 用户名 | guest |
+| 密码 | guest |
 | 端口 | 443 |
 
 ## **WebDAV 配置**
 
 | 名称 | 值 |
 | - | - |
-| Url | https://pan.clun.top/dav |
-| Host | pan.clun.top |
-| 路径 | /dav |
-| 协议 | https |
-| 端口 | 443 |
-| 用户名/密码 | clun |
-
-| 名称 | 值 |
-| - | - |
-| Url | https://an.clun.top/dav |
-| Host | an.clun.top |
-| 路径 | /dav |
-| 协议 | https |
-| 端口 | 443 |
-| 用户名 | guest |
-| 密码 | guest_Api789 |
-
-自建小雅：[an.clun.top](//an.clun.top) 
+| 例如 / URL | https://pan.clun.top/dav |
+| 主机 / Host | pan.clun.top |
+| 路径 / Path | /dav |
+| 协议 / Https | SSL |
+| 端口 / Port | 443 |
+| 账号 / User | guest |
+| 密码 / Password | guest |
 
 </details>
 
 #### 交流群：[频道](//t.me/clun_tz) · [群组](//t.me/clun_top) · AList
 
-#### 联系方式: Mail：[clun@duck.com](mailto:clun@duck.com) · TG：[@cluntop](//t.me/cluntop) · [TG Bot](//t.me/clun_bot)
+#### 联系方式: Mail：[clun@duck.com](mailto:clun@duck.com) · TG：[@cluntop](//t.me/cluntop) · [TG Bot](//t.me/clunbot)
 
 #### 优化 TCP 内核 自用
 
 ```bash
-bash <(curl -sL clun.top)
-```
-
-```bash
-bash <(curl -sL cluntop.github.io/tcp.sh)
+curl -o clun_tcp.sh https://raw.githubusercontent.com/cluntop/sh/main/tcp.sh && chmod +x clun_tcp.sh && ./clun_tcp.sh
 ```
 
  - 其他内容待定
