@@ -65,5 +65,11 @@
 
 #### 联系方式: Mail：[clun@duck.com](mailto:clun@duck.com) · TG：[@cluntop](//t.me/cluntop) · [TG Bot](//t.me/clun_bot)
 
+### 优化 TCP 内核 自用
+
+```bash
+bash <(curl -L -s cluntop.github.io/tcp.sh)
+```
+
  - 其他内容待定
 
