@@ -5,6 +5,19 @@
       "server": "https://pan.clun.top"
     },
     {
+      "name": "MCCI",
+      "server": "https://bucket.001231.xyz/",
+
+      "login": {
+        "username": "udian6",
+        "password": "udian6"
+      }
+        },
+    {
+      "name": "我的alist",
+      "server": "http://192.168.0.1:5244/"
+    },
+    {
       "name": "弱水",
       "server": "http://shicheng.wang:555/"
     },
