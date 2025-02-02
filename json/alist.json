@@ -6,6 +6,10 @@
 			"server": "https://pan.clun.top"
 		},
 		{
+			"name": "聚合",
+			"server": "https://pan.clun.top/%E8%81%9A%E5%90%88"
+		},
+		{
 			"name": "MCCI",
 			"server": "https://buck.xk.ee",
 			"login": {
@@ -14,12 +18,24 @@
 			}
 		},
 		{
+			"name": "日负斗金",
+			"server": "https://asca0121.toc.icu"
+		},
+		{
 			"name": "七米藍",
 			"server": "https://al.chirmyram.com"
 		},
 		{
+			"name": "初心",
+			"server": "https://cxpan.xyz"
+		},
+		{
 			"name": "ZhuiFan",
 			"server": "https://zhuifan.link"
+		},
+		{
+			"name": "Apachec",
+			"server": "https://w2.apachecn.org"
 		},
 		{
 			"name": "Hᴇᴀᴠᴇɴ",
@@ -28,14 +44,6 @@
 		{
 			"name": "Aeahhe",
 			"server": "https://www.yeahhe.online"
-		},
-		{
-			"name": "初心",
-			"server": "https://cxpan.xyz"
-		},
-		{
-			"name": "Apachec",
-			"server": "https://w2.apachecn.org"
 		}
 	]
 }
