@@ -11,7 +11,7 @@
             "api": "csp_AList",
             "searchable": 1,
             "changeable": 1,
-            "ext": "./alist.json"
+            "ext": "./json/alist.json"
         }
     ],
     "rules": [
@@ -363,7 +363,7 @@
             "api": "csp_Feiyang",
             "url": "tv.m3u",
             "ext": "./lib/allinone;md5;8add6701eca584e4177da62b0b101423",
-            "jar": "./ja/custom_spider.jar"
+            "jar": "./jar/custom_spider.jar"
         },
         {
             "name": "live.ipv6",
