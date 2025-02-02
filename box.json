@@ -358,6 +358,14 @@
     ],
     "lives": [
         {
+            "name": "肥羊国内直播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "tv.m3u",
+            "ext": "./lib/allinone;md5;8add6701eca584e4177da62b0b101423",
+            "jar": "./ja/custom_spider.jar"
+        },
+        {
             "name": "live.ipv6",
             "type": 0,
             "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
