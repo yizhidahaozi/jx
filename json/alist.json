@@ -6,10 +6,6 @@
 			"server": "https://pan.clun.top"
 		},
 		{
-			"name": "聚合",
-			"server": "https://pan.clun.top/%E8%81%9A%E5%90%88"
-		},
-		{
 			"name": "MCCI",
 			"server": "https://buck.xk.ee",
 			"login": {
@@ -36,6 +32,14 @@
 			"server": "https://cxpan.xyz"
 		},
 		{
+			"name": "趣盘",
+			"server": "https://pan.mediy.cn"
+		},
+		{
+			"name": "电瞄",
+			"server": "https://pan.110014.xyz"
+		},
+		{
 			"name": "ZhuiFan",
 			"server": "https://zhuifan.link"
 		},
@@ -50,6 +54,10 @@
 		{
 			"name": "Aeahhe",
 			"server": "https://www.yeahhe.online"
+		},
+		{
+			"name": "ECVE",
+			"server": "https://pan.ecve.cn"
 		}
 	]
 }
