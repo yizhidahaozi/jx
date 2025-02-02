@@ -1,5 +1,5 @@
 {
-  "vodPic": "./file.jpg",
+  "vodPic": "../file.jpg",
   "drives": [
     {
       "name":"雨呢",
