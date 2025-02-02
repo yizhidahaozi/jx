@@ -358,77 +358,9 @@
 	],
 	"lives": [
 		{
-			"name": "肥羊国内直播",
-			"type": 3,
-			"api": "csp_Feiyang",
-			"url": "tv.m3u",
-			"ext": "./lib/allinone;md5;8add6701eca584e4177da62b0b101423",
-			"jar": "./jar/custom_spider.jar"
-		},
-		{
-			"name": "live.ipv6",
+			"name": "freetv",
 			"type": 0,
-			"url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "live.ipv6.m3u",
-			"type": 0,
-			"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "AI换脸",
-			"type": 0,
-			"url": "https://cloud.lxweb.cn/f/wxp2U2/AI%E6%8D%A2%E8%84%B8.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15"
-		},
-		{
-			"name": "1801",
-			"type": 0,
-			"url": "https://cloud.lxweb.cn/f/0VNQF0/1801.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15"
-		},
-		{
-			"name": "1802",
-			"type": 0,
-			"url": "https://cloud.lxweb.cn/f/96NDc1/1802.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15"
-		},
-		{
-			"name": "1803",
-			"type": 0,
-			"url": "https://cloud.lxweb.cn/f/O9xPsb/1803.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15"
-		},
-		{
-			"name": "欧美1",
-			"type": 0,
-			"url": "https://cloud.lxweb.cn/f/ngqec6/oumei-1.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15"
-		},
-		{
-			"name": "欧美2",
-			"type": 0,
-			"url": "https://cloud.lxweb.cn/f/m2bgTj/oumei-2.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15"
-		},
-		{
-			"name": "欧美3",
-			"type": 0,
-			"url": "https://cloud.lxweb.cn/f/NwLkuR/oumei-3.txt",
+			"url": "https://www.freetv.top/migu.m3u",
 			"playerType": 1,
 			"ua": "okhttp/3.15"
 		},
@@ -5648,7 +5580,7 @@
 		"wan.51img1.com",
 		"iqiyi.hbuioo.com",
 		"vip.ffzyad.com",
-		"https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd",
+		"lf1-cdn-tos.bytegoofy.com",
 		"mimg.0c1q0l.cn",
 		"www.googletagmanager.com",
 		"www.google-analytics.com",
@@ -5707,6 +5639,6 @@
 		"cdnjs.hnfenxun.com",
 		"cms.qdwght.com"
 	],
-	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+	"wallpaper": "./sslbj.jpeg",
 	"spider": "./jar/fm.jar;md5;d6377af2846bf4ae821a802907d89236"
 }
