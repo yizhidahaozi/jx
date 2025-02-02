@@ -19,6 +19,7 @@
 			"name": "proxy",
 			"hosts": [
 				"raw.githubusercontent.com",
+				"www.youtube.com",
 				"googlevideo.com",
 				"api.nivodz.com",
 				"static.nivod.tv",
@@ -35,8 +36,7 @@
 				"my.duboku.vip",
 				"bokux.com",
 				"uhibo.com",
-				"boku.com",
-				"www.youtube.com"
+				"boku.com"
 			]
 		},
 		{
