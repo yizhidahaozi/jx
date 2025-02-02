@@ -33,7 +33,7 @@
 			]
 		},
 		{
-			"name": "騰訊",
+			"name": "腾讯",
 			"url": "https://doh.pub/dns-query",
 			"ips": [
 				"119.29.29.29"
