@@ -114,6 +114,6 @@
 			]
 		}
 	],
-	"wallpaper": "https://clun.top/sslbj.jpeg",
+	"wallpaper": "./sslbj.jpeg",
 	"spider": "./jar/fm.jar;md5;d6377af2846bf4ae821a802907d89236"
 }
