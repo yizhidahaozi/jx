@@ -13,15 +13,6 @@
 			"changeable": 1,
 			"vodPic": "./file.jpg",
 			"ext": "./json/alist.json"
-		},
-		{
-			"key": "PG",
-			"name": "PG",
-			"type": 3,
-			"searchable": 1,
-			"changeable": 1,
-			"indexs": 1,
-			"ext": "./pg/jsm.json"
 		}
 	],
 	"doh": [
