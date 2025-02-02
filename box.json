@@ -12,20 +12,6 @@
 			"searchable": 1,
 			"changeable": 1,
 			"ext": "./json/alist.json"
-		},
-		{
-			"key": "网盘集合",
-			"name": "分享集合",
-			"type": 3,
-			"api": "csp_网盘集合",
-			"searchable": 1,
-			"filterable": 0,
-			"switchable": 0,
-			"jar": "./pg/pg.jar",
-			"ext": {
-				"commonConfig": "./json/peizhi.json",
-				"share": "./json/pan.json"
-			}
 		}
 	],
 	"rules": [
