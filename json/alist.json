@@ -18,6 +18,12 @@
 			}
 		},
 		{
+			"name": "小雅网盘",
+			"search": true,
+			"searchable": true,
+			"server": "http://106.54.39.182:5678"
+		},
+		{
 			"name": "日负斗金",
 			"server": "https://asca0121.toc.icu"
 		},
