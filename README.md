@@ -48,6 +48,9 @@
 
 </details>
 
+<details>
+<summary>【待定】</summary>
+
 #### 交流群：[频道](//t.me/clun_tz) · [群组](//t.me/clun_top) · AList
 
 #### 联系方式: Mail：[clun@duck.com](mailto:clun@duck.com) · TG：[@cluntop](//t.me/cluntop) · [TG Bot](//t.me/clunbot)
@@ -58,5 +61,5 @@
 curl -o clun_tcp.sh https://raw.githubusercontent.com/cluntop/sh/main/tcp.sh && chmod +x clun_tcp.sh && ./clun_tcp.sh
 ```
 
- - 其他内容待定
 
+</details>
