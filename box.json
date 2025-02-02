@@ -11,6 +11,7 @@
 			"api": "csp_AList",
 			"searchable": 1,
 			"changeable": 1,
+			"vodPic": "./file.jpg",
 			"ext": "./json/alist.json"
 		}
 	],
