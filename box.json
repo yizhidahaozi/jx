@@ -37,6 +37,42 @@
 			}
 		},
 		{
+			"name": "zbdsv4",
+			"type": 0,
+			"url": "https://live.zbds.top/tv/iptv4.m3u",
+			"playerType": 1
+		},
+		{
+			"name": "zbdsv6",
+			"type": 0,
+			"url": "https://live.zbds.top/tv/iptv6.m3u",
+			"playerType": 1
+		},
+		{
+			"name": "YueChan",
+			"type": 0,
+			"url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u",
+			"playerType": 1
+		},
+		{
+			"name": "YanG-1989",
+			"type": 0,
+			"url": "https://tv.iill.top/m3u/Gather",
+			"playerType": 1
+		},
+		{
+			"name": "Ftindy",
+			"type": 0,
+			"url": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u",
+			"playerType": 1
+		},
+		{
+			"name": "ibert",
+			"type": 0,
+			"url": "https://m3u.ibert.me/fmml_ipv6.m3u",
+			"playerType": 1
+		},
+		{
 			"name": "Ray•综合",
 			"type": 0,
 			"url": "https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
