@@ -21,7 +21,7 @@
 			"type": 0,
 			"url": "https://tv.clun.top/tv.m3u",
 			"playerType": 2,
-			//"epg": "http://tv.clun.top/?ch={name}&date={date}"
+			"epg": "http://epg.clun.top/?ch={name}&date={date}"
 		},
 		{
 			"name": "freetv",
