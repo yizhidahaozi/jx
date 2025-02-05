@@ -19,9 +19,9 @@
 		{
 			"name": "cluntop",
 			"type": 0,
-			"url": "https://tv.clun.top/?token=e647f14fd7&live=m3u",
+			"url": "https://tv.clun.top/tv.m3u",
 			"playerType": 2,
-			"epg": "http://tv.clun.top/?ch={name}&date={date}"
+			//"epg": "http://tv.clun.top/?ch={name}&date={date}"
 		},
 		{
 			"name": "freetv",
