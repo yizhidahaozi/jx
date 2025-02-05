@@ -19,7 +19,7 @@
 		{
 			"name": "cluntop",
 			"type": 0,
-			"url": "https://tv.clun.top/tv.m3u",
+			"url": "https://epg.clun.top/?live=m3u",
 			"playerType": 2,
 			"epg": "http://epg.clun.top/?ch={name}&date={date}"
 		},
