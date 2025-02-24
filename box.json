@@ -72,6 +72,12 @@
 			"url": "https://m3u.ibert.me/fmml_ipv6.m3u",
 			"playerType": 1
 		},
+  {
+			"name": "Wirili",
+			"type": 0,
+			"url": "https://gh.clun.top/github.com/Wirili/IPTV/blob/main/live.m3u",
+			"playerType": 1
+		},
 		{
 			"name": "Ray•综合",
 			"type": 0,
