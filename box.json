@@ -13,6 +13,56 @@
 			"changeable": 1,
 			"vodPic": "./img/file.jpg",
 			"ext": "./js/alist.json"
+		},
+		{
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"indexs":1,
+			"ext": "./pg/lib/tokenm.json$$$./pg/lib/douban.json"
+		},
+		{"key":"TGDouban","name":"TG豆瓣","type":3,"api":"csp_TGDouban","timeout":120, 
+			"ext":{
+				"token":"./pg/lib/tokenm.json",
+				"json":"./pg/lib/tgsearch.json",
+				"keywords":"名称,片名,推荐",
+				"tgsearch_url":"http://127.0.0.1:10199",
+				"tgsearch_media_url":"http://127.0.0.1:10199",
+				"channellist":"leoziyuan,ucpanpan,ydypzyfx,clouddriveresources,NewQuark,New_Sharing,alypzyhzq|1000,Mbox115|1000,shares_115|1000,wanwansubchat|1000",
+				"proxy":"noproxy",
+				"douban":"./pg/lib/douban.json",
+				"danmu":true
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 0.7
+			}
+		},
+		{
+			"key":"Youtube",
+			"name":"Youtube",
+			"type":3,
+			"api": "csp_Youtube",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"timeout": 120,
+			"ext":{
+				"token":"./pg/lib/tokenm.json",
+				"json":"./pg/lib/youtube.json",
+				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+				"codecs":"",
+				"proxy":"proxy",
+				"danmu":true
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.77
+			}
 		}
 	],
 	"lives": [
@@ -369,6 +419,6 @@
 			]
 		}
 	],
-	"wallpaper": "./sslbj.jpeg",
-	"spider": "./jar/fm.jar;md5;d6377af2846bf4ae821a802907d89236"
+	"wallpaper": "./img/sslbj.jpeg",
+	"spider": "./pg/pg.jar"
 }
