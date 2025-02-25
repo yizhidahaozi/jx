@@ -1,2 +1,0 @@
-# robots.txt generated at https://clun.top/ 
-Sitemap: https://clun.top/sitemap.xml

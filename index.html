@@ -1,396 +1,140 @@
 <!DOCTYPE html>
-<html lang="zh-CN" translate="no">
+<html lang="">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=0.9, maximum-scale=1.0, minimum-scale=0.9, user-scalable=0, width=device-width">
-    <meta itemprop="name" content="雨呢个人主页">
-
-    <meta itemprop="image" content="https://q1.qlogo.cn/headimg_dl?dst_uin=149749000&spec=100" />
-    <meta name="description" itemprop="description" content="向日葵在没有太阳的晚上，还有谁向它伸出手。" />
-
-    <script src="./js/jquery.3.3.1.min.js"></script>
-    <script src="./js/script.js" type="text/javascript"></script>
-
-    <link rel="apple-touch-icon" href="/logo.png">
-    <link rel="shortcut icon" type="image/ico" href="/logo.png">
-
-    <link rel="preconnect" href="https://clun.top" />
-    <link rel="stylesheet" href="./style.css" media="screen" type="text/css">
-    <link rel="bookmark" href="//fastly.jsdelivr.net/gh/cluntop/sh@main/logo.png">
-    <link rel="shortcut icon" type="image/ico" href="//fastly.jsdelivr.net/gh/cluntop/sh@main/logo.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="//fastly.jsdelivr.net/gh/cluntop/sh@main/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 浏览器标签上显示的网站标题 -->
+    <title>雨呢个人主页</title>
+    <!-- 网站介绍 -->
+    <meta name="description" content="KZHomePage是一款二次元卡片式个人网站主页模板">
+    <!-- 网站关键字 -->
+    <meta name="keywords" content="雨呢个人主页,雨呢主页,">
+    <!-- 浏览器标签上显示的图标 -->
+    <link rel="icon" type="image/ico" href="//gh.clun.top/gh/cluntop/sh@main/img/logo.png">
+    <!-- 样式文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="./static/style.css?v=1.2.0">
+    <link rel="stylesheet" href="./static/APlayer-1.10.1/dist/APlayer.min.css">
 
     <meta property="og:title" content="雨呢主页">
     <meta property="og:type" content="website">
     <meta property="og:image" content="./favicon.ico">
     <meta property="og:description" content="雨呢个人主页" />
-    <meta property="og:image" content="//fastly.jsdelivr.net/gh/cluntop/sh@main/logo.png">
+    <meta property="og:image" content="//gh.clun.top/gh/cluntop/sh@main/img/logo.png">
     <meta name="format-detection" content="telephone=no">
     <meta name="format-detection" content="date=no">
     <meta name="format-detection" content="address=no">
     <meta name="description" content="雨呢主页 - 雨呢个人主页.">
     <meta name="keywords" content="雨呢主页,雨呢个人主页,雨呢网盘 - 疯子社网盘 - 雨呢网盘,聚合大全,资源大全.">
 
-    <script>
-        $(document).ready(function () {
-            var t1 = performance.now();
-            if (typeof t1 != "undefined") { document.getElementById("time").innerHTML = " 页面加载耗时 " + Math.round(t1) + " 毫秒 "; }
-        });
-    </script>
-
-<script>
-    jQuery(document).ready(function() {
-    var QRBox   =   $('#QRBox');
-    var MainBox =   $('#MainBox');
-    var AliPayQR    =   '/Tool/skm/zfbpay.png';
-    var WeChanQR    =   '/Tool/skm/wxpay.png';
-    var QQQR        =   "/Tool/skm/qqpay.png";
-
-
-    function showQR(QR) {
-        if (QR) {
-            MainBox.css('background-image','url('+QR+')');
-        }
-        $('#DonateText,#donateBox,#github').addClass('blur');
-        QRBox.fadeIn(300,function(argument) {
-            MainBox.addClass('showQR');
-        });
-    }
-
-    $('#donateBox>li').click(function(event) {
-        var thisID  =   $(this).attr('id');
-    if (thisID === 'AliPay') {
-            showQR(AliPayQR);
-        } else if (thisID === 'WeChat') {
-            showQR(WeChanQR);
-        } else if (thisID === 'QQ') {
-            showQR(QQQR);
-
-        }
-    });
-
-    MainBox.click(function(event) {
-        MainBox.removeClass('showQR').addClass('hideQR');
-        setTimeout (function(a) {
-            QRBox.fadeOut(300,function(argument) {
-                MainBox.removeClass('hideQR');
-            });
-            $('#DonateText,#donateBox,#github').removeClass('blur');
-        },600);
-
-    });
-});
-</script>
-
-   <style>
-        .zuobiao i {
-            line-height: 1.8;
-            margin-right: 6px;
-            vertical-align: middle;
-            background-image: url(./zuobiao.svg);
-            background-size: 100%;
-            width: 16px;
-            height: 16px;
-            display: inline-block;
-            margin-top: -2px;
-        }
-
-    </style>
+    <!-- 自定义设置 -->
     <style>
-     .user-warp img {
-            width:70px;
-            border-radius:100%;
-           }
+        body {
+            /*背景图片URL 可使用随机图片API */
+            background-image: url("./static/images/bg.jpeg");
+        }
 
-/*.dark-theme .user-warp img {
-            width:70px;
-            border-radius:100%;
-            animation: light 5s ease-in-out infinite;
-            transition: 0.5s;}*/
+        .photo-bg {
+            /* 卡片左侧图片 */
+            background-image: url("./static/images/fbg.jpg");
+        }
 
+        .kz-video {
+            /* 背景视频，none: 不显示 unset 显示 */
+            display: none; 
+        }
+    </style>
+    <script>
+        // 音乐设置
+        let meting_music_api = "https://www.kezez.com/api/meting-api/";// meting api
+        let music_server = "netease"; // 音乐服务：网易云 netease 参见 meting api支持的服务
+        let music_type = "playlist"; // 歌曲类型：歌单playlist 单首歌曲 song  专辑 album
+        let music_id = "8362718673"; // 歌单ID或歌曲ID或者专辑ID 20173709 29732992
+        let music_order = "random"; // 音频循环顺序, 顺序播放： 'list', 随机播放：'random'
+        let music_mini = false; // mini模式 吸底模式开启后此选项实效 true / false
+        let music_fixed = false; // 吸底模式
+        let music_volume = 0.7; // 默认音量
+        let music_autoplay = false; // 自动播放
+        let music_loop = "all"; // 音频循环播放, 可选值: 'all', 'one', 'none' ，分别为全部循环，单曲循环，不循环
 
-
-        @keyframes light {
- 0%{box-shadow: 0 0 4px #f00;}
- 25%{box-shadow: 0 0 5px #0f0;}
- 50%{box-shadow: 0 0 4px #00f;}
- 75%{box-shadow: 0 0 5px #0f0;}
- 100%{box-shadow: 0 0 4px #f00;}
-}
-      </style>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="referrer" content="same-origin">
-    <meta name="generator" content="雨呢主页">
-    <meta name="theme-color" content="#000000">
-    <meta name="google" content="notranslate">
-
-    <title>雨呢主页 |ヽ(´ω`)ﾉ☔️ | ◔‸◔? | </title>
-
+        // 一言设置
+        let hitokoto_api = "https://v1.hitokoto.cn"; // 一言API
+    </script>
+    <!-- end 自定义设置 -->
 </head>
 
 <body>
-
-
-<div class="wrapper">
-<header>
-    <nav class="navbar" id="mobile-toggle-theme">
-        <div class="container"></div>
-    </nav>
-
-</header>
-
-    <div class="main">
-
-        <div class="container">
-            <div class="intro" style=" line-height: 50px">
-                <div class="user-warp img"><img src="//fastly.jsdelivr.net/gh/cluntop/sh@main/logo.png" alt="雨呢个人主页"></div>
-                <div class="nickname">雨呢个人主页</div>
-                <div class="description">
-                    <p>“既然不懂什么是珍惜，那么我教你，从失去开始”</p>
-
-                </div>
-
-
-                <div class="zuobiao">
-                    <i class="ico_map"></i>广东 · 中国
-                    <span style="margin-left: 30px">
-                            <input id="switch_default" type="checkbox" class="switch_default">
-                            <label for="switch_default" class="toggleBtn"></label></span>
-                </div>
-
-
-                <div class="menu navbar-right links">
-
-                    <!-- 获取页面列表 -->
-
-                    <a class="menu-item" href="//www.clun.top">
-                    导航</a> ·
-
-
-                    <a href="//up.clun.top">
-                      探针
-                    </a> ·
-
-<a href="//pan.clun.top">网盘</a> ·
-
-
-                    <a href="mailto:clun@duck.com">
-                      邮箱
-                    </a>
-
-                    <div id="time"></div>
-
-<center>
-
-<div id="header">
-</div>
-<div id="main">
-    <div class="demo">
-
-
-
-        <div id="player3" class="aplayer">
-            <pre class="aplayer-lrc-content">
-
-
-                [00:00.00]来一碗老于 - 解药(新版)
-[00:00.00]作词：口袋易百
-[00:00.00]作曲：颜小健、郑国锋
-[00:00.00]制作人：颜小健@Jyken
-[00:00.00]编曲：你的美
-[00:00.00]混音：裴东文
-[00:00.00]推广：张作全、朱佳莉、徐招祥
-[00:00.00]艺人统筹 ：黄婷
-[00:00.83]原唱：颜小健、郑国锋
-[00:00.83]出品：J.T Music Studio
-[00:00.83]（未经许可，不得翻唱翻录或使用）
-[00:00.83]咖啡店等了一整夜夜夜夜
-[00:05.23]你还是没有出现
-[00:18.99]行驶在城市的边缘
-[00:22.26]故意把情绪抛很远
-[00:28.04]电台音乐夹杂眼泪
-[00:31.42]切歌之前假装看不见
-[00:36.87]天鹅湖转了一个圈圈圈圈
-[00:41.67]从起点回到了终点
-[00:46.11]咖啡店等了一整夜夜夜夜
-[00:50.87]你还是没有出现
-[00:54.36]就在昨天爱悄然离线
-[00:58.80]等到的只是冷却的留言
-[01:03.46]说了道歉也不能澄清一切
-[01:08.00]我陷入黑色的空间
-[01:12.50]再见雨天爱越走越远
-[01:17.15]解药遗失在梦破晓之前
-[01:21.74]闭上双眼心里还是会默念
-[01:26.29]老地方出现我忘返流连
-[01:41.34]行驶在城市的边缘
-[01:44.68]故意把情绪抛很远
-[01:50.31]电台音乐夹杂眼泪
-[01:53.64]切歌之前假装看不见
-[01:59.30]天鹅湖转了一个圈圈圈圈
-[02:03.95]从起点回到了终点
-[02:08.35]咖啡店等了一整夜夜夜夜
-[02:13.10]你还是没有出现
-[02:16.58]就在昨天爱悄然离线
-[02:21.09]等到的只是冷却的留言
-[02:25.65]说了道歉也不能澄清一切
-[02:30.29]我陷入黑色的空间
-[02:34.84]再见雨天爱越走越远
-[02:39.34]解药遗失在梦破晓之前
-[02:43.99]闭上双眼心里还是会默念
-[02:48.54]老地方出现我忘返流连
-[02:53.29]就在昨天爱悄然离线
-[02:57.69]等到的只是冷却的留言
-[03:02.19]说了道歉也不能澄清一切
-[03:06.79]我陷入黑色的空间
-[03:11.30]再见雨天爱越走越远
-[03:15.90]解药遗失在梦破晓之前
-[03:20.55]闭上双眼心里还是会默念
-[03:25.10]老地方出现我忘返流连
-
-            </pre>
-        </div>
+    <div class="kz-video">
+        <video src="./static/video/lty.mp4" autoplay="autoplay" loop muted playsinline="" webkit-playsinline=""></video>
     </div>
-</div>
-<script>
-    var ap3 = new APlayer({
-        element: document.getElementById('player3'),//样式1
-        narrow: false,
-        autoplay: false,
-        showlrc: true,
-        music: {
-            title: '解药(新版)',
-            author: '来一碗老于',
-            url: './bgm.mp3',
-            pic: 'tm.png'
-        }
-    });
-    ap3.init();
-</script>
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg"></div>
+            <div class="col-lg-8 card">
+                <!-- 大标题 -->
+                <h1>雨呢个人主页</h1>
+                <!-- 标题下的一段话 -->
+                <p>
+                    很荣幸您能访问我的网站！
+                </p>
+                <p id="hitokoto_text">:D 一言获取中...</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- 导航按钮组 -->
+                        <button data-href="//www.clun.top" data-title="导航" data-anim="4"
+                            data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-primary col-lg-4">导航</button>
 
-    </center>
+                        <button data-href="//up.clun.top" data-title="探针" data-window="newtab"
+                            data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-secondary col-lg-4">探针</button>
 
+						<button data-href="//pan.clun.top" data-title="网盘" data-window="newtab"
+                            data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-success col-lg-4">网盘</button>
 
+                        <button data-href="mailto:clun@duck.com"
+                            data-anim="4" data-area-w="80%" data-area-h="90%"
+                            data-shade="false" class="kz-nav-btn btn btn-success col-lg-4">Send a Mail</button>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <!------------------------------------------------------------------------------------------->
-
-
-
-
-
-
-
-    <!------------------------------------------------------------------------------------------->
+                        <!-- end 导航按钮组 -->
+                    </div>
                 </div>
-               <div style=" line-height: 20px;font-size: 9pt;">
-                    <p>"向日葵在没有太阳的晚上，还有谁向它伸出手。"</p>
-                        <p style="margin-left: 8rem;font-size: 8pt;"><small>—— 可乐云小站</small></p>
+                <!-- aplayer inner -->
+                <div id="aplayer-inner" class="aplayer"></div>
+                <!-- end aplayer inner -->
+                <ul class="social mt-1">
+                    <li><a href="https://weibo.com/u/5223004318"><i class="fab fa-weibo " aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://github.com/kaygb"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.zhihu.com/people/kaygb/"><i class="fab fa-zhihu"
+                                aria-hidden="true"></i></a></li>
+                </ul>
 
+                <footer>
+                    <p>Copyright 2025 - Now <a href="https://www.clun.top/" target="_blank">cluntop一</a>
 
-                </div>
-
-        <br>
-                 <center>
-    <ul id="donateBox" class="list pos-f tr3">
-        <li id="AliPay">AliPay</li>
-        <li id="WeChat">WeChat</li>
-        <li id="QQ">QQ</li>
-
-    </ul>
-    <div id="QRBox" class="pos-f left-100">
-        <div id="MainBox"></div>
-    </div>
-</center>
-
-
+                    </p>
+                </footer>
             </div>
-
-
         </div>
 
-</div>
-
-<footer id="footer" class="footer">
-
-         <div class="stars">
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
     </div>
 
-        <!------------------------------------------------------------------------------------------->
+    <!-- aplayer -->
+    <div id="aplayer-fixed" class="aplayer"></div>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./static/APlayer-1.10.1/dist/APlayer.min.js"></script>
+    <script src="./static/Meting.min.js"></script>
+    <!-- end_aplayer -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./static/layer-v3.5.1/layer/layer.js"></script>
 
-
-
-</footer>
-</div>
-
-<!--
-    <div id="root">
-    <div id="time"></div>
-    <a href="https://www.similarweb.com/zh/website/clun.top" target="linkg_blank" class="pointer">网站流量查询</a>
--->
-
-</body>
+    <script src="./static/main.js"></script>
 
 </html>
