@@ -1,19 +1,6 @@
 {
+	"spider": "./pg.jar",
 	"sites": [
-		{
-			"key": "AList",
-			"name": "Alist",
-			"type": 3,
-			"style": {
-				"type": "rect",
-				"ratio": 1.485
-			},
-			"api": "csp_AList",
-			"searchable": 1,
-			"changeable": 1,
-			"vodPic": "./img/file.jpg",
-			"ext": "./js/alist.json"
-		},
 		{
 			"key": "豆瓣",
 			"name": "豆瓣",
@@ -467,15 +454,15 @@
 			"ext": "./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"
 		},
 		{
-			"key": "pg/libvio",
-			"name": "pg/libVIO|网盘",
+			"key": "Libvio",
+			"name": "LIBVIO|网盘",
 			"type": 3,
-			"api": "csp_pg/libvio",
+			"api": "csp_Libvio",
 			"quickSearch": 1,
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://www.pg/libvio.fun/$$$null"
+			"ext": "./lib/tokenm.json$$$https://www.libvio.fun/$$$null"
 		},
 		{
 			"key": "Bt0",
@@ -1257,106 +1244,6 @@
 	],
 	"lives": [
 		{
-			"name": "cluntop",
-			"type": 0,
-			"url": "https://epg.clun.top/?live=m3u",
-			"playerType": 2,
-			"epg": "http://epg.clun.top/?ch={name}&date={date}"
-		},
-		{
-			"name": "freetv",
-			"type": 0,
-			"url": "https://www.freetv.top/migu.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "XingHuo",
-			"url": "https://json.doube.eu.org/XingHuo.txt",
-			"header": {
-				"Referer": "https://www.kds.tw/"
-			}
-		},
-		{
-			"name": "zbdsv4",
-			"type": 0,
-			"url": "https://live.zbds.top/tv/iptv4.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "zbdsv6",
-			"type": 0,
-			"url": "https://live.zbds.top/tv/iptv6.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "YueChan",
-			"type": 0,
-			"url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "YanG-1989",
-			"type": 0,
-			"url": "https://tv.iill.top/m3u/Gather",
-			"playerType": 1
-		},
-		{
-			"name": "Ftindy",
-			"type": 0,
-			"url": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "ibert",
-			"type": 0,
-			"url": "https://m3u.ibert.me/fmml_ipv6.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "Wirili",
-			"type": 0,
-			"url": "https://gh.clun.top/github.com/Wirili/IPTV/blob/main/live.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "Ray•综合",
-			"type": 0,
-			"url": "https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-			"playerType": 1,
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "俊于•综合",
-			"type": 0,
-			"url": "http://home.jundie.top:81/Cat/tv/live.txt",
-			"playerType": 1,
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "范明明•电台1",
-			"type": 0,
-			"url": "https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "范明明•电台2",
-			"type": 0,
-			"url": "https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
-			"playerType": 1
-		},
-		{
-			"name": "16万•MV",
-			"type": 0,
-			"url": "https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"
-		},
-		{
-			"name": "YuanHsing•油管",
-			"type": 0,
-			"url": "https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u"
-		},
-		{
 			"name": "最强国内直播(合并版)",
 			"type": 0,
 			"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u",
@@ -1579,41 +1466,6 @@
 	],
 	"doh": [
 		{
-			"name": "OpenDNS",
-			"url": "https://dns.www.opendns.com/dns-query",
-			"ips": [
-				"208.67.222.222",
-				"208.67.220.220"
-			]
-		},
-		{
-			"name": "114dns",
-			"url": "https://dns.114dns.com/dns-query",
-			"ips": [
-				"114.114.114.114",
-				"114.114.115.115"
-			]
-		},
-		{
-			"name": "腾讯",
-			"url": "https://doh.pub/dns-query",
-			"ips": [
-				"119.29.29.29"
-			]
-		},
-		{
-			"name": "阿里",
-			"url": "https://dns.alidns.com/dns-query",
-			"ips": [
-				"223.6.6.6",
-				"223.5.5.5"
-			]
-		},
-		{
-			"name": "360",
-			"url": "https://doh.360.cn/dns-query"
-		},
-		{
 			"name": "Google",
 			"url": "https://dns.google/dns-query",
 			"ips": [
@@ -1653,168 +1505,6 @@
 			"ips": [
 				"9.9.9.9",
 				"149.112.112.112"
-			]
-		}
-	],
-	"ijk": [
-		{
-			"group": "软解码",
-			"options": [
-				{
-					"category": 4,
-					"name": "opensles",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "overlay-format",
-					"value": "842225234"
-				},
-				{
-					"category": 4,
-					"name": "framedrop",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "soundtouch",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "start-on-prepared",
-					"value": "1"
-				},
-				{
-					"category": 1,
-					"name": "http-detect-range-support",
-					"value": "0"
-				},
-				{
-					"category": 1,
-					"name": "fflags",
-					"value": "fastseek"
-				},
-				{
-					"category": 2,
-					"name": "skip_loop_filter",
-					"value": "48"
-				},
-				{
-					"category": 4,
-					"name": "reconnect",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "enable-accurate-seek",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-auto-rotate",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-handle-resolution-change",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-hevc",
-					"value": "0"
-				},
-				{
-					"category": 1,
-					"name": "dns_cache_timeout",
-					"value": "600000000"
-				}
-			]
-		},
-		{
-			"group": "硬解码",
-			"options": [
-				{
-					"category": 4,
-					"name": "opensles",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "overlay-format",
-					"value": "842225234"
-				},
-				{
-					"category": 4,
-					"name": "framedrop",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "soundtouch",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "start-on-prepared",
-					"value": "1"
-				},
-				{
-					"category": 1,
-					"name": "http-detect-range-support",
-					"value": "0"
-				},
-				{
-					"category": 1,
-					"name": "fflags",
-					"value": "fastseek"
-				},
-				{
-					"category": 2,
-					"name": "skip_loop_filter",
-					"value": "48"
-				},
-				{
-					"category": 4,
-					"name": "reconnect",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "enable-accurate-seek",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-auto-rotate",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-handle-resolution-change",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-hevc",
-					"value": "1"
-				},
-				{
-					"category": 1,
-					"name": "dns_cache_timeout",
-					"value": "600000000"
-				}
 			]
 		}
 	],
@@ -2023,6 +1713,6 @@
 		"mgtv",
 		"wasu"
 	],
-	"wallpaper": "./img/sslbj.jpeg",
-	"spider": "./pg.jar"
+	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+	"disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
 }
