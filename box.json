@@ -15,6 +15,10 @@
 			"ext": "./js/alist.json"
 		},
 		{
+			"key": "==="
+			"name": "==="
+		}'
+		{
 			"key": "豆瓣",
 			"name": "豆瓣",
 			"type": 3,
@@ -475,7 +479,7 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://www.pg/libvio.fun/$$$null"
+			"ext": "./lib/tokenm.json$$$https://www.libvio.fun/$$$null"
 		},
 		{
 			"key": "Bt0",
@@ -960,6 +964,7 @@
 			"searchable": 1,
 			"filterable": 1,
 			"changeable": 1,
+			"vodPic": "./img/file.jpg",
 			"ext": "./js/alistjar.json"
 		},
 		{
@@ -1190,6 +1195,7 @@
 			"searchable": 1,
 			"filterable": 1,
 			"changeable": 1,
+			"vodPic": "./img/file.jpg",
 			"ext": "./js/alist.json"
 		},
 		{
