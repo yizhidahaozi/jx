@@ -2024,5 +2024,5 @@
 		"wasu"
 	],
 	"wallpaper": "./img/sslbj.jpeg",
-	"spider": "./pg.jar"
+	"spider": "./pg.jar;md5;./pg.jar.md5"
 }
