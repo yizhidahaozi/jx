@@ -12,21 +12,18 @@
 			"ext": "./js/alist.json"
 		},
 		{
-			"key": "===",
 			"name": "==="
 		},
 		{
 			"key": "drpy_js_yiys",
 			"name": "yiys[js]",
 			"type": 3,
-			"api": "./lib/drpy2.min.js",
 			"ext": "./js/yiys.js",
 			"quickSearch": 1,
 			"changeable": 1,
 			"timeout": 60
 		},
 		{
-			"key": "===",
 			"name": "==="
 		},
 		{
