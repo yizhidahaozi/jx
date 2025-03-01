@@ -18,7 +18,7 @@
 			"key": "drpy_js_yiys",
 			"name": "yiys[js]",
 			"type": 3,
-			"ext": "./js/yiys.js",
+			"api": "./js/yiys.js",
 			"quickSearch": 1,
 			"changeable": 1,
 			"timeout": 60
