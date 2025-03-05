@@ -1489,6 +1489,12 @@
             "playerType": 1
         },
         {
+            "name": "Guovin",
+            "type": 0,
+            "url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+            "playerType": 1
+        },
+        {
             "name": "Ray•综合",
             "type": 0,
             "url": "https://gh.clun.top/raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
