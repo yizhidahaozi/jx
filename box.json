@@ -20,7 +20,7 @@
             "name": "yiys[js]",
             "type": 3,
             "api": "./js/yiys.js",
-			"jar": "./jar/spider.jar",
+            "jar": "./jar/spider.jar",
             "quickSearch": 1,
             "changeable": 1,
             "timeout": 60
@@ -34,7 +34,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
-			"jar": "./jar/spider.jar",
+            "jar": "./jar/spider.jar",
             "ext": {
                 "播放数组": "<tbody>&&</tbody>",
                 "分类": "电影$dianying#动画$donghua#国产剧$guochanju#美欧剧$meiouju#日韩剧$rihanju",
