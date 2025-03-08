@@ -9,6 +9,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
+            "quickSearch": 1,
             "vodPic": "./img/file.jpg",
             "ext": "./js/alist.json"
         },
@@ -31,11 +32,13 @@
             "type": 3,
             "changeable": 1,
             "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1,
             "api": "csp_XBPQ",
             "jar": "./jar/spider.jar",
             "ext": {
                 "播放数组": "<tbody>&&</tbody>",
+                "搜索": "https://www.foxjun.com/s/?q=",
                 "分类": "电影$dianying#动画$donghua#国产剧$guochanju#美欧剧$meiouju#日韩剧$rihanju",
                 "分类url": "https://www.foxjun.com/channel/{cateId}.html?apage1={catePg}",
                 "item_selector": "tr",
