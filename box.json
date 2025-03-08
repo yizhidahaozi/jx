@@ -38,8 +38,7 @@
             "jar": "./jar/spider.jar",
             "ext": {
                 "播放数组": "<tbody>&&</tbody>",
-                "搜索": "https://www.foxjun.com/s/?q={name}",
-                "搜索url": "https://www.foxjun.com/s/?q={name}",
+                "搜索": "json:list;name;id:q",
                 "分类": "电影$dianying#动画$donghua#国产剧$guochanju#美欧剧$meiouju#日韩剧$rihanju",
                 "分类url": "https://www.foxjun.com/channel/{cateId}.html?apage1={catePg}",
                 "item_selector": "tr",
