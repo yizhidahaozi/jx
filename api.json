@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider2.jar",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1741066475265/f0304.txt",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
@@ -240,16 +240,6 @@
             "ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
         },
         {
-            "key": "可可",
-            "name": "👻可可┃多线",
-            "type": 3,
-            "api": "csp_KekysGuard",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "奥特",
             "name": "🏝奥特┃多线",
             "type": 3,
@@ -342,10 +332,10 @@
         },
         {
             "key": "Jrsjs",
-            "name": "⚽ Jrs┃球迷",
+            "name": "⚽Jrs┃球迷",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
+            "api": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/jrk.js",
             "style": {
                 "type": "list"
             },
@@ -357,8 +347,8 @@
             "key": "酷奇",
             "name": "🎤酷奇┃MV",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/酷奇MV.js",
+            "api": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/酷奇MV.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -380,15 +370,15 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "./json/MTV.json"
+                "json": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/MTV.json"
             }
         },
         {
             "key": "虎牙直播js",
             "name": "🐯虎牙┃直播",
             "type": 3,
-            "api": "./api/drpy2.js",
-            "ext": "./js/huya2.js",
+            "api": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
+            "ext": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/huya2.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -402,8 +392,8 @@
             "key": "斗鱼js",
             "name": "🐟斗鱼┃直播",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/斗鱼直播.js",
+            "api": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -417,8 +407,8 @@
             "key": "有声小说js",
             "name": "🎧有声┃小说",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/有声小说吧.js",
+            "api": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://gh.clun.top/github.com/fantaiying7/EXT/refs/heads/main/有声小说吧.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -580,8 +570,8 @@
             "key": "dr_兔小贝",
             "name": "📚儿童┃启蒙",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/兔小贝.js",
+            "api": "https://gh.clun.top/github.com/fantaiying7/EXT/raw/refs/heads/main/drpy2.min.js",
+            "ext": "https://gh.clun.top/github.com/fantaiying7/EXT/raw/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -665,7 +655,7 @@
         },
         {
             "key": "fan",
-            "name": "导航 www.饭太硬.com",
+            "name": "导航www.饭太硬.com",
             "type": 3,
             "api": "csp_XPathGuard",
             "searchable": 1,
@@ -688,19 +678,22 @@
             "name": "牛播一（仅新版影视仓┃ok影视）",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.v1.mk/logo/{name}.png"
         },
         {
             "name": "V4聚合（卡顿请按左┃右键换线）",
             "type": 0,
-            "url": "./lives/V4聚合（卡顿请按左┃右键换线）.txt",
-            "epg": ""
+            "url": "https://gh.clun.top/github.com/wwb521/live/raw/refs/heads/main/tv.m3u",
+            "playerType": 1
         },
         {
             "name": "平台直播",
             "type": 0,
-            "url": "./lives/平台直播.txt",
-            "epg": ""
+            "url": "http://tv.iill.top/m3u/Live",
+            "ua": "okhttp/3.15",
+            "playerType": 2
         }
     ]
 }
