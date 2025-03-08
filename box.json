@@ -20,6 +20,7 @@
             "name": "yiys[js]",
             "type": 3,
             "api": "./js/yiys.js",
+			"jar": "./jar/spider.jar",
             "quickSearch": 1,
             "changeable": 1,
             "timeout": 60
