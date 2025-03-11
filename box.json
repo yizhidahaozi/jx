@@ -1455,25 +1455,6 @@
     ],
     "lives": [
         {
-            "name": "cluntop",
-            "type": 0,
-            "url": "https://epg.clun.top/?live=m3u",
-            "playerType": 2,
-            "epg": "http://epg.clun.top/?ch={name}&date={date}"
-        },
-        {
-            "name": "cluntop2",
-            "type": 0,
-            "url": "https://tv.clun.top/tv.m3u",
-            "playerType": 1
-        },
-        {
-            "name": "cluntop3",
-            "type": 0,
-            "url": "https://tv.clun.top/itv.m3u",
-            "playerType": 1
-        },
-        {
             "name": "freetv",
             "type": 0,
             "url": "https://www.freetv.top/migu.m3u",
