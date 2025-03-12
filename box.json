@@ -13,6 +13,23 @@
             "vodPic": "./img/file.jpg",
             "ext": "./js/alist.json"
         },
+		{
+            "key": "MTV",
+            "name": "Bili_MTV",
+            "type": 3,
+            "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "./js/mtv.json",
+                "cookie": ""
+            }
+        },
         {
             "key": "1",
             "name": "==="
@@ -46,46 +63,14 @@
                 "description_selector": "td.description"
             }
         },
-        {
-            "key": "MTV",
-            "name": "Bili_MTV",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./js/mtv.json",
-                "cookie": ""
-            }
-        },
+        
         {
             "key": "2",
             "name": "==="
         },
         {
-            "key": "哔哩_FM",
-            "name": "哔哩哔哩",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "json": "./json/bilibili.json",
-                "cookie": ""
-            }
-        },
-        {
-            "key": "360资源",
-            "name": "360资源-采集",
+            "key": "360资源-采集",
+            "name": "360资源",
             "type": 1,
             "api": "https://360zy.net/api.php/seaxml/vod/",
             "searchable": 1,
@@ -461,7 +446,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "type": "演唱会#电影#电视剧#帕梅拉#广场舞#纪录片#综艺#鬼畜#音乐#舞蹈#影视#知识#美食#风光#田园#户外#8K#徐云",
+                "type": "演唱会#电影#电视剧#帕梅拉#广场舞#纪录片#综艺#鬼畜#音乐#健身#舞蹈#影视#数码#知识#美食#食谱#风光#田园#户外#汽车#徐云",
                 "cookie": ""
             }
         },
