@@ -47,6 +47,23 @@
             }
         },
         {
+            "key": "MTV",
+            "name": "MTV",
+            "type": 3,
+            "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json",
+                "cookie": ""
+            }
+        },
+        {
             "key": "2",
             "name": "==="
         },
@@ -1827,7 +1844,7 @@
             "changeable": 0
         },
         {
-            "key": "csp_XYQHiker_虎牙直播",
+            "key": "虎牙直播",
             "name": "虎牙",
             "type": 3,
             "api": "csp_XYQHiker",
@@ -1836,21 +1853,6 @@
             "filterable": 0,
             "jar": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar",
             "ext": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/虎牙直播.json"
-        },
-        {
-            "key": "MTV",
-            "name": "MTV",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json",
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734477866371/fan.txt"
         }
     ],
     "lives": [
@@ -2625,5 +2627,5 @@
     ],
     "wallpaper": "./img/0.jpg",
     "spider": "./pg.jar;md5;./pg.jar.md5",
-	 "logo": "https://gh.clun.top/gh/cluntop/sh@main/img/logo.png"
+    "logo": "https://gh.clun.top/gh/cluntop/sh@main/img/logo.png"
 }
