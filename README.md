@@ -22,7 +22,16 @@
 
 </details>
 
+#### 欢迎 Star 及 PR。
+
 #### TVBox 自用配置
+
+| 文件名 | 说明 |
+| ---------- | ----- |
+| box.json | 自用 |
+| jsm.json | PG |
+| api.json | 饭太硬 |
+| FongMi.json | 真心 |
 
 ```自用
 https://clun.top/box.json
@@ -39,12 +48,3 @@ https://clun.top/api.json
 ```真心
 https://clun.top/FongMi.json
 ```
-
-| 文件名 | 说明 |
-| ---------- | ----- |
-| box.json | 自用 |
-| jsm.json | PG |
-| api.json | 饭太硬 |
-| FongMi.json | 真心 |
-
-#### 欢迎 Star 及 PR。
