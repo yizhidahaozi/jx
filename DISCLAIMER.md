@@ -12,7 +12,7 @@
 - **版权归属**：所有接口及内容版权归原始提供方所有，本项目**不主张任何所有权**。
 - **侵权通知**：若内容侵犯您的权益，请通过以下方式提交材料，我们将在24小时内移除：
   - 📮 邮箱：<a href="mailto:clun@duck.com">clun@duck.com</a>  
-  - 📝 GitHub Issues：[侵权反馈](.../issues)  
+  - 📝 GitHub Issues：[侵权反馈](//github.com/cluntop/cluntop.github.io/issues)  
   *(需提供版权证明、侵权内容链接及身份证明)*
 
 ### 4️⃣ 用户责任与约束
