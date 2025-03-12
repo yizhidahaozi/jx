@@ -22,5 +22,24 @@
 
 </details>
 
+## TVBox 自用配置
+
+配置链接:
+
+```自用
+https://clun.top/box.json
+```
+
+```PG
+https://clun.top/jsm.json
+```
+
+```饭太硬
+https://clun.top/api.json
+```
+
+```真心
+https://clun.top/FongMi.json
+```
 
 #### 欢迎 Star 及 PR。
