@@ -41,3 +41,7 @@ https://clun.top/FongMi.json
 ```
 
 </details>
+
+#### 群聊里有 Github 通知机器人
+
+[频道](//t.me/clun_tz)[群聊](//t.me/clun_top)
