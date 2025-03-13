@@ -34,7 +34,7 @@
             "key": "采集集合",
             "name": "采集集合",
             "type": 1,
-            "jar": "./yt.jar",
+            "jar": "./jar/yt.jar",
             "api": "http://127.0.0.1:1988/lb?lb=3",
             "searchable": 1,
             "changeable": 1,
@@ -47,7 +47,7 @@
             "key": "短剧",
             "name": "短剧",
             "type": 4,
-            "jar": "./yt.jar",
+            "jar": "./jar/yt.jar",
             "api": "http://127.0.0.1:1988/lb?lb=2",
             "searchable": 1,
             "style": {
@@ -58,9 +58,9 @@
         },
         {
             "key": "爱瓜tv",
-            "name": "爱",
+            "name": "爱瓜",
             "type": 4,
-            "jar": "./yt.jar",
+            "jar": "./jar/yt.jar",
             "api": "http://127.0.0.1:1988/lb?lb=4",
             "searchable": 1,
             "style": {
