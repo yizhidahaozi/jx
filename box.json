@@ -116,7 +116,7 @@
             "name": "==="
         },
         {
-            "key": "360资源采集",
+            "key": "360",
             "name": "360资源",
             "type": 1,
             "api": "https://360zy.net/api.php/seaxml/vod/",
@@ -154,7 +154,7 @@
             ]
         },
         {
-            "key": "ikun资源站",
+            "key": "ikun",
             "name": "ikun资源",
             "type": 1,
             "api": "https://ikunzy.com/api.php/provide/vod/",
@@ -254,12 +254,12 @@
             ]
         },
         {
-            "key": "最大资源采集网",
+            "key": "最大",
             "name": "最大资源",
-            "type": 0,
+            "type": 1,
             "api": "https://zuida.xyz/api.php/provide/vod/",
             "searchable": 1,
-            "filterable": 0,
+            "changeable": 1,
             "categories": [
                 "电影",
                 "综艺",
@@ -276,7 +276,7 @@
             ]
         },
         {
-            "key": "光速资源",
+            "key": "光速",
             "name": "光速采集",
             "type": 1,
             "api": "http://api.guangsuapi.com/api.php/provide/vod/",
@@ -293,7 +293,7 @@
             ]
         },
         {
-            "key": "极速资源",
+            "key": "极速",
             "name": "极速采集",
             "type": 1,
             "api": "https://jszyapi.com/api.php/provide/vod/",
@@ -308,7 +308,7 @@
             ]
         },
         {
-            "key": "红牛资源",
+            "key": "红牛",
             "name": "红牛采集",
             "type": 1,
             "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
@@ -340,7 +340,7 @@
             ]
         },
         {
-            "key": "豪华资源",
+            "key": "豪华",
             "name": "豪华资源",
             "type": 1,
             "api": "https://hhzyapi.com/api.php/provide/vod/",
