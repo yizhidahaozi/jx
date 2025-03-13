@@ -31,6 +31,45 @@
             }
         },
         {
+            "key": "采集集合",
+            "name": "采集集合",
+            "type": 1,
+            "jar": "./yt.jar",
+            "api": "http://127.0.0.1:1988/lb?lb=3",
+            "searchable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        },
+        {
+            "key": "短剧",
+            "name": "短剧",
+            "type": 4,
+            "jar": "./yt.jar",
+            "api": "http://127.0.0.1:1988/lb?lb=2",
+            "searchable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "爱瓜tv",
+            "name": "爱",
+            "type": 4,
+            "jar": "./yt.jar",
+            "api": "http://127.0.0.1:1988/lb?lb=4",
+            "searchable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
             "key": "黑木耳(海外)",
             "name": "黑木耳(海外)",
             "type": 1,
