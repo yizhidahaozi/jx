@@ -13,7 +13,9 @@
 
 #### 欢迎 Star 及 PR。
 
-#### TVBox 自用配置
+
+<details>
+<summary>TVBox 自用配置</summary>
 
 | 文件名 | 说明 |
 | ---------- | ----- |
@@ -37,3 +39,5 @@ https://clun.top/api.json
 ```真心
 https://clun.top/FongMi.json
 ```
+
+</details>
