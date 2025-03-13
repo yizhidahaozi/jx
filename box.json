@@ -1,5 +1,5 @@
 {
-    "about": "有问题 可访问 https://github.com/cluntop/cluntop.github.io",
+    "warningText": "有问题 可访问 https://github.com/cluntop",
     "sites": [
         {
             "key": "AList",
@@ -29,93 +29,6 @@
                 "json": "./js/mtv.json",
                 "cookie": ""
             }
-        },
-        {
-            "key": "采集集合",
-            "name": "采集集合",
-            "type": 1,
-            "jar": "./jar/yt.jar",
-            "api": "http://127.0.0.1:1988/lb?lb=3",
-            "searchable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            }
-        },
-        {
-            "key": "短剧",
-            "name": "短剧",
-            "type": 4,
-            "jar": "./jar/yt.jar",
-            "api": "http://127.0.0.1:1988/lb?lb=2",
-            "searchable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "爱瓜tv",
-            "name": "爱瓜",
-            "type": 4,
-            "jar": "./jar/yt.jar",
-            "api": "http://127.0.0.1:1988/lb?lb=4",
-            "searchable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
-        {
-            "key": "Wo4k",
-            "name": "玩偶4K|磁力",
-            "type": 3,
-            "api": "csp_Wo4k",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "./json/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./json/wogg.json",
-            "order_num": 9999
-        },
-        {
-            "key": "yydsys",
-            "name": "玩你老哥|网盘",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
-            "order_num": 9999
-        },
-        {
-            "key": "Xinshijue",
-            "name": "新视觉|网盘",
-            "type": 3,
-            "api": "csp_Xinshijue",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "./json/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./json/wogg.json",
-            "order_num": 9999
-        },
-        {
-            "key": "Hdhive",
-            "name": "影巢|网盘",
-            "type": 3,
-            "api": "csp_Hdhive",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "./json/tokenm.json$$$proxy$$$1",
-            "order_num": 9999
         },
         {
             "key": "黑木耳(海外)",
@@ -167,7 +80,7 @@
         },
         {
             "key": "1",
-            "name": "==="
+            "name": "===="
         },
         {
             "name": "yiys[js]",
@@ -200,7 +113,7 @@
         },
         {
             "key": "2",
-            "name": "==="
+            "name": "===="
         },
         {
             "key": "360",
@@ -461,7 +374,7 @@
         },
         {
             "key": "3",
-            "name": "==="
+            "name": "===="
         },
         {
             "key": "豆瓣",
@@ -1707,7 +1620,7 @@
         },
         {
             "key": "4",
-            "name": "==="
+            "name": "===="
         },
         {
             "key": "Jianpian",
@@ -2107,6 +2020,97 @@
             "filterable": 0,
             "jar": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar",
             "ext": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/虎牙直播.json"
+        },
+        {
+            "key": "5",
+            "name": "== 测试分割 =="
+        },
+        {
+            "key": "采集集合",
+            "name": "采集集合",
+            "type": 1,
+            "jar": "./jar/yt.jar",
+            "api": "http://127.0.0.1:1988/lb?lb=3",
+            "searchable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        },
+        {
+            "key": "短剧",
+            "name": "短剧",
+            "type": 4,
+            "jar": "./jar/yt.jar",
+            "api": "http://127.0.0.1:1988/lb?lb=2",
+            "searchable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "爱瓜tv",
+            "name": "爱瓜",
+            "type": 4,
+            "jar": "./jar/yt.jar",
+            "api": "http://127.0.0.1:1988/lb?lb=4",
+            "searchable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "Wo4k",
+            "name": "玩偶4K|磁力",
+            "type": 3,
+            "api": "csp_Wo4k",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./json/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./json/wogg.json",
+            "order_num": 9999
+        },
+        {
+            "key": "yydsys",
+            "name": "玩你老哥|网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
+            "order_num": 9999
+        },
+        {
+            "key": "Xinshijue",
+            "name": "新视觉|网盘",
+            "type": 3,
+            "api": "csp_Xinshijue",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./json/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./json/wogg.json",
+            "order_num": 9999
+        },
+        {
+            "key": "Hdhive",
+            "name": "影巢|网盘",
+            "type": 3,
+            "api": "csp_Hdhive",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./json/tokenm.json$$$proxy$$$1",
+            "order_num": 9999
         }
     ],
     "lives": [
