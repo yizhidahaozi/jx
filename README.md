@@ -11,6 +11,8 @@
 
 > ⚠️ **重要提示**：使用前请务必阅读 [免责声明](DISCLAIMER.md)
 
+#### 群组里有 Github 通知机器人 [频道](//t.me/clun_tz) / [群组](//t.me/clun_top)
+
 #### 欢迎 Star 及 PR。
 
 
@@ -41,7 +43,3 @@ https://clun.top/FongMi.json
 ```
 
 </details>
-
-#### 群聊里有 Github 通知机器人
-
-[频道](//t.me/clun_tz)[群聊](//t.me/clun_top)
