@@ -989,6 +989,15 @@
             "changeable": 1
         },
         {
+            "key": "优质资源",
+            "name": "优质资源",
+            "type": 1,
+            "api": "https://api.1080zyku.com/inc/api_mac10_all.php",
+            "quickSearch": 1,
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "3",
             "name": "== 3 =="
         },
