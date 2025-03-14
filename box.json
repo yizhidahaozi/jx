@@ -814,8 +814,9 @@
             "name": "樱花资源",
             "type": 1,
             "api": "https://api.apiyhzy.com/api.php/provide/vod/",
-            "searchable": 0,
-            "quickSearch": 0,
+            "quickSearch": 1,
+            "searchable": 1,
+            "changeable": 1,
             "categories": [
                 "国产动漫",
                 "日本动漫",
