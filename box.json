@@ -1,6 +1,15 @@
 {
-    "warningText": "有问题 可访问 https://github.com/cluntop",
     "sites": [
+        {
+            "key": "豆瓣",
+            "name": "豆瓣",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1,
+            "indexs": 1,
+            "ext": "./lib/tokenm.json$$$./lib/douban.json"
+        },
         {
             "key": "AList",
             "name": "Alist",
@@ -39,57 +48,12 @@
             "searchable": 1,
             "quickSearch": 1,
             "categories": [
-                "港剧",
-                "韩剧",
-                "日剧",
-                "台剧",
-                "国产剧",
-                "欧美剧",
-                "新马剧",
-                "战争片",
-                "经典片",
-                "剧情片",
-                "动作片",
-                "冒险片",
-                "喜剧片",
-                "奇幻片",
-                "恐怖片",
-                "悬疑片",
-                "惊悚片",
-                "灾难片",
-                "爱情片",
-                "犯罪片",
-                "科幻片",
-                "日本动漫",
-                "国产综艺",
-                "网络电影",
-                "动画电影",
-                "古装短剧",
-                "虐恋短剧",
-                "逆袭短剧",
-                "悬疑短剧",
-                "神豪短剧",
-                "重生短剧",
-                "复仇短剧",
-                "穿越短剧",
-                "甜宠短剧",
-                "强者短剧",
-                "萌宝短剧",
-                "合集短剧"
+                "国产动漫"
             ]
         },
         {
             "key": "1",
-            "name": "===="
-        },
-        {
-            "name": "yiys[js]",
-            "type": 3,
-            "api": "./js/yiys.js",
-            "jar": "./jar/spider.jar",
-            "quickSearch": 1,
-            "changeable": 1,
-            "timeout": 60
+            "name": "== 1 =="
         },
         {
             "key": "狐狸君磁力",
@@ -113,7 +77,7 @@
         },
         {
             "key": "2",
-            "name": "===="
+            "name": "== 2 =="
         },
         {
             "key": "360",
@@ -123,34 +87,7 @@
             "searchable": 1,
             "changeable": 1,
             "categories": [
-                "电影",
-                "综艺",
-                "动漫",
-                "连续剧",
-                "国产剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "伦理片",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "惊悚片",
-                "悬疑片",
-                "犯罪片",
-                "纪录片",
-                "爽文短剧",
-                "现代都市",
-                "脑洞悬疑",
-                "年代穿越",
-                "古装仙侠",
-                "反转爽剧",
-                "女频恋爱",
-                "成长逆袭"
+                "国产动漫"
             ]
         },
         {
@@ -158,67 +95,22 @@
             "name": "ikun资源",
             "type": 1,
             "api": "https://ikunzy.com/api.php/provide/vod/",
-            "categories": [
-                "电影",
-                "综艺",
-                "动漫",
-                "国产剧",
-                "连续剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "台湾剧",
-                "日本剧",
-                "伦理片",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "惊悚片",
-                "悬疑片",
-                "犯罪片",
-                "灾难片",
-                "爽文短剧"
-            ],
+            "quickSearch": 1,
             "searchable": 1,
-            "quickSearch": 1
+            "categories": [
+                "国产动漫"
+            ]
         },
         {
             "key": "非凡",
             "name": "非凡资源",
             "type": 1,
             "api": "http://api.ffzyapi.com/api.php/provide/vod/",
+            "quickSearch": 1,
             "searchable": 1,
             "changeable": 1,
             "categories": [
-                "短剧",
-                "国产剧",
-                "连续剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "泰国剧",
-                "电影片",
-                "综艺片",
-                "动漫片",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "伦理片",
-                "记录片",
-                "大陆综艺",
-                "国产动漫",
-                "日韩动漫"
+                "国产动漫"
             ]
         },
         {
@@ -226,30 +118,10 @@
             "name": "量子资源",
             "type": 1,
             "api": "https://cj.lziapi.com/api.php/provide/vod/",
+            "quickSearch": 1,
             "searchable": 1,
             "changeable": 1,
             "categories": [
-                "短剧",
-                "连续剧",
-                "国产剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "泰国剧",
-                "电影片",
-                "动漫片",
-                "动作片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "伦理片",
-                "记录片",
-                "大陆综艺",
                 "国产动漫"
             ]
         },
@@ -258,21 +130,11 @@
             "name": "最大资源",
             "type": 1,
             "api": "https://zuida.xyz/api.php/provide/vod/",
+            "quickSearch": 1,
             "searchable": 1,
             "changeable": 1,
             "categories": [
-                "电影",
-                "综艺",
-                "动漫",
-                "电视剧",
-                "预告片",
-                "爽文短剧",
-                "女频恋爱",
-                "反转爽剧",
-                "古装仙侠",
-                "年代穿越",
-                "脑洞悬疑",
-                "现代都市"
+                "国产动漫"
             ]
         },
         {
@@ -280,16 +142,11 @@
             "name": "光速采集",
             "type": 1,
             "api": "http://api.guangsuapi.com/api.php/provide/vod/",
+            "quickSearch": 1,
             "searchable": 1,
             "changeable": 1,
             "categories": [
-                "电影",
-                "动漫",
-                "综艺",
-                "短剧",
-                "电视剧",
-                "欧美剧",
-                "港澳剧"
+                "国产动漫"
             ]
         },
         {
@@ -297,14 +154,11 @@
             "name": "极速采集",
             "type": 1,
             "api": "https://jszyapi.com/api.php/provide/vod/",
+            "quickSearch": 1,
             "searchable": 1,
             "changeable": 1,
             "categories": [
-                "电影",
-                "动漫",
-                "综艺",
-                "短剧",
-                "电视剧"
+                "国产动漫"
             ]
         },
         {
@@ -312,31 +166,11 @@
             "name": "红牛采集",
             "type": 1,
             "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+            "quickSearch": 1,
             "searchable": 1,
             "changeable": 1,
             "categories": [
-                "电影",
-                "动漫",
-                "综艺",
-                "短剧",
-                "日剧",
-                "泰剧",
-                "韩剧",
-                "连续剧",
-                "国产剧",
-                "港澳剧",
-                "欧美剧",
-                "台湾剧",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "纪录片",
-                "伦理片",
-                "动漫电影"
+                "国产动漫"
             ]
         },
         {
@@ -344,32 +178,11 @@
             "name": "豪华资源",
             "type": 1,
             "api": "https://hhzyapi.com/api.php/provide/vod/",
+            "quickSearch": 1,
             "searchable": 1,
             "changeable": 1,
             "categories": [
-                "电影",
-                "综艺",
-                "动漫",
-                "短剧",
-                "韩剧",
-                "日剧",
-                "电视剧",
-                "内地剧",
-                "欧美剧",
-                "香港剧",
-                "台湾剧",
-                "动作片",
-                "爱情片",
-                "喜剧片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "记录片",
-                "灾难片",
-                "悬疑片",
-                "犯罪片",
-                "奇幻片"
+                "国产动漫"
             ]
         },
         {
@@ -377,22 +190,16 @@
             "name": "四圈影视",
             "type": 1,
             "api": "https://pg.fenwe078.cf/api.php/provide/vod/",
+            "quickSearch": 1,
             "searchable": 1,
-            "changeable": 1
+            "changeable": 1,
+            "categories": [
+                "国产动漫"
+            ]
         },
         {
             "key": "3",
-            "name": "===="
-        },
-        {
-            "key": "豆瓣",
-            "name": "豆瓣",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0,
-            "changeable": 1,
-            "indexs": 1,
-            "ext": "./lib/tokenm.json$$$./lib/douban.json"
+            "name": "== 3 =="
         },
         {
             "key": "TGDouban",
@@ -1628,7 +1435,7 @@
         },
         {
             "key": "4",
-            "name": "===="
+            "name": "== 4 =="
         },
         {
             "key": "Jianpian",
@@ -2034,6 +1841,15 @@
             "name": "== 测试分割 =="
         },
         {
+            "name": "yiys[js]",
+            "type": 3,
+            "api": "./js/yiys.js",
+            "jar": "./jar/spider.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 60
+        },
+        {
             "key": "采集集合",
             "name": "采集集合",
             "type": 1,
@@ -2119,6 +1935,10 @@
             "timeout": 60,
             "ext": "./json/tokenm.json$$$proxy$$$1",
             "order_num": 9999
+        },
+        {
+            "key": "6",
+            "name": "== 6                                                                  =="
         }
     ],
     "lives": [
@@ -2174,7 +1994,7 @@
         {
             "name": "Wirili",
             "type": 0,
-            "url": "https://gh.clun.top/github.com/Wirili/IPTV/blob/main/live.m3u",
+            "url": "https://gh.clun.top/raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.m3u",
             "playerType": 1
         },
         {
@@ -2182,248 +2002,6 @@
             "type": 0,
             "url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
             "playerType": 1
-        },
-        {
-            "name": "Ray•综合",
-            "type": 0,
-            "url": "https://gh.clun.top/raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "俊于•综合",
-            "type": 0,
-            "url": "http://home.jundie.top:81/Cat/tv/live.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "范明明•电台1",
-            "type": 0,
-            "url": "https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
-            "playerType": 1
-        },
-        {
-            "name": "范明明•电台2",
-            "type": 0,
-            "url": "https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
-            "playerType": 1
-        },
-        {
-            "name": "16万•MV",
-            "type": 0,
-            "url": "https://gh.clun.top/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"
-        },
-        {
-            "name": "YuanHsing•油管",
-            "type": 0,
-            "url": "https://gh.clun.top/raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u"
-        },
-        {
-            "name": "最强国内直播(合并版)",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
-            "catchup": {
-                "type": "append",
-                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
-            "name": "最强国内直播",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
-            "catchup": {
-                "type": "append",
-                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
-            "name": "最强国内直播(-1天回看)",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
-            "catchup": {
-                "type": "append",
-                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
-            "name": "BIPTV(IPV6)",
-            "type": 0,
-            "url": "./lib/biptv.txt",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "FMM.m3u",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "FMM.m3u(-1天回看)",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "FMM.m3u(-2天回看)",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE2SUB",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "FMM.m3u(-3天回看)",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE3SUB",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "FMM.m3u(-4天回看)",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE4SUB",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "FMM.m3u(-5天回看)",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE5SUB",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "FMM.m3u(-6天回看)",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE6SUB",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "肥羊MG赛事直播",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/miguevent.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "肥羊TX赛事直播",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/txevent.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "肥羊QY赛事直播",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/iqyevent.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "肥羊B站直播",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/bililive.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "肥羊虎牙一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "肥羊斗鱼一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/douyuyqk.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "肥羊YY轮播",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/yylunbo.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "YTB直播",
-            "type": 0,
-            "url": "./lib/ytblive.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "AKTV.电视直播",
-            "type": 0,
-            "url": "http://aktv.top/live.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "Gather.电视直播",
-            "type": 0,
-            "url": "https://tv.iill.top/m3u/Gather",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "Gather.网络直播",
-            "type": 0,
-            "url": "https://tv.iill.top/m3u/Live",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "FMM.txt",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/https://fanmingming.com/txt?url=https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "zouming.ipv6",
-            "type": 0,
-            "url": "http://127.0.0.1:10079/c/3600/proxy/http://ww.zouming.com/ipv6.txt",
-            "ua": "okhttp/3.15",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "YTLive",
