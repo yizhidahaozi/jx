@@ -812,7 +812,7 @@
         {
             "key": "樱花资源",
             "name": "樱花资源",
-            "type": 0,
+            "type": 1,
             "api": "https://api.apiyhzy.com/api.php/provide/vod/",
             "searchable": 0,
             "quickSearch": 0,
