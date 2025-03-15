@@ -1,0 +1,27 @@
+{
+    "spider": "./pg.jar",
+    "sites": [
+        {
+            "key": "穷电影",
+            "name": "穷电影",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "手机",
+                "数组": "<a&&</a>",
+                "图片": "data-lazy-img=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "class=\"newest\">&&</span>",
+                "播放数组": "class=\"play-list\">&&</ul>",
+                "线路标题": "data-key=\"*\">&&</a>",
+                "分类": "电影$nowplayingmovie#电视剧$topsearchtv#综艺$topsearchshow#动漫$topsearchcomic",
+                "分类url": "https://m.qiongdy6.com/top/{cateId}_{catePg}.html"
+            }
+        }
+    ]
+}
