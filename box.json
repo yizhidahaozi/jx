@@ -2736,6 +2736,8 @@
             "type": 0,
             "url": "https://tv.iill.top/m3u/Gather",
             "ua": "(Windows NT 10.0; Win64; x64) PotPlayer/25.03.13",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png",
             "playerType": 1
         },
         {
@@ -2798,6 +2800,38 @@
             "type": 0,
             "url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
             "playerType": 1
+        },
+        {
+            "name": "LIVE",
+            "type": 0,
+            "url": "https://gh.clun.top/raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "LIVE_fan",
+            "type": 0,
+            "url": "https://gh.clun.top/raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "LIVE_home",
+            "type": 0,
+            "url": "https://gh.clun.top/raw.githubusercontent.com/joevess/IPTV/refs/heads/main/home.m3u8",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "LIVEfl",
+            "type": 0,
+            "url": "https://gh.clun.top/raw.githubusercontent.com/zeee-u/lzh06/main/fl.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
             "name": "YTLive",
