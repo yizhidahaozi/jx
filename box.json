@@ -40,15 +40,6 @@
             }
         },
         {
-            "key": "黑木耳(海外)",
-            "name": "黑木耳(海外)",
-            "type": 1,
-            "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-            "playUrl": "",
-            "searchable": 1,
-            "quickSearch": 1
-        },
-        {
             "key": "采集集合",
             "name": "采集集合",
             "type": 1,
@@ -60,6 +51,15 @@
                 "ratio": 1.33
             },
             "changeable": 1
+        },
+        {
+            "key": "黑木耳(海外)",
+            "name": "黑木耳(海外)",
+            "type": 1,
+            "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "1",
@@ -3140,18 +3140,38 @@
             ]
         }
     ],
-    "parses": [],
+    "parses": [
+        {
+            "name": "777",
+            "type": 0,
+            "url": "https://jx.777jiexi.com/player/?url="
+        },
+        {
+            "name": "jsonplayer",
+            "type": 0,
+            "url": "https://jx.jsonplayer.com/player/?url="
+        },
+        {
+            "name": "xmflv",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        }
+    ],
     "flags": [
         "youku",
+        "tudou",
         "qq",
-        "iqiyi",
         "qiyi",
+        "iqiyi",
+        "leshi",
         "letv",
         "sohu",
-        "tudou",
-        "pptv",
+        "imgo",
         "mgtv",
-        "wasu"
+        "bilibili",
+        "pptv",
+        "PPTV",
+        "migu"
     ],
     "wallpaper": "./img/0.jpg",
     "spider": "./pg.jar;md5;./pg.jar.md5",
