@@ -2739,6 +2739,12 @@
             "playerType": 1
         },
         {
+            "name": "Tianmu",
+            "type": 0,
+            "url": "https://gh.clun.top/github.com/TianmuTNT/iptv/blob/main/iptv.m3u",
+            "playerType": 1
+        },
+        {
             "name": "freetv",
             "type": 0,
             "url": "https://www.freetv.top/migu.m3u",
