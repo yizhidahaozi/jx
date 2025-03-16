@@ -14,6 +14,7 @@
                 "请求头": "User-Agent$手机",
                 "数组": "<a&&</a>",
                 "搜索": "https://m.qiongdy6.com/query/{wd}",
+                "搜索列表数组规则": "body&&input-group*&&button",
                 "图片": "data-lazy-img=\"&&\"",
                 "标题": "title=\"&&\"",
                 "链接": "href=\"&&\"",
