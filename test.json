@@ -1,5 +1,5 @@
 {
-    "spider": "./pg.jar",
+    "spider": "./jar/XBPQ.jar",
     "sites": [
         {
             "key": "穷电影",
@@ -9,11 +9,11 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./jar/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext": {
-                "请求头": "手机",
+                "请求头": "User-Agent$手机",
                 "数组": "<a&&</a>",
+                "搜索": "https://m.qiongdy6.com/query/{wd}",
                 "图片": "data-lazy-img=\"&&\"",
                 "标题": "title=\"&&\"",
                 "链接": "href=\"&&\"",
