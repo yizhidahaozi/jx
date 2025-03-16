@@ -1,39 +1,72 @@
 name: Upstream Sync
+# 上游仓库同步助手
 
+# ---------------------------- #
+#         权限配置              #
+# ---------------------------- #
 permissions:
-  contents: write
+  contents: write # 允许向仓库推送更改
 
+# ---------------------------- #
+#         触发器配置            #
+# ---------------------------- #
 on:
   schedule:
-    - cron: "*/58 * * * *"
+    # 定时同步策略（UTC时间）
+	- cron: "0 * * * *"  # 每小时整点同步一次 (例如 00:00, 01:00...)
+    # - cron: "*/1 * * * *" # 每隔 1 分钟执行一次 (例如 12:01, 12:02...)
+	
+  # 手动触发选项（在 GitHub Actions 页面可手动运行）
   workflow_dispatch:
 
+# ---------------------------- #
+#         作业配置              #
+# ---------------------------- #
 jobs:
   sync_latest_from_upstream:
+    # 从上游仓库同步最新提交
     name: Sync latest commits from upstream repo
     runs-on: ubuntu-latest
+	# 仅在仓库是 Fork 时运行（避免原仓库误触发）
     if: ${{ github.event.repository.fork }}
 
     steps:
-      # Step 1: run a standard checkout action
+      # ---------------------------- #
+      # 步骤1：检出当前仓库代码
+      # ---------------------------- #
       - name: Checkout target repo
         uses: actions/checkout@v3
+		with:
+          fetch-depth: 0  # 获取完整提交历史（必要参数）
 
-      # Step 2: run the sync action
+      
+      # ---------------------------- #
+      # 步骤2：执行上游同步操作
+      # ---------------------------- #
+	    # 同步上游变更
       - name: Sync upstream changes
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
-          upstream_sync_repo: cluntop/cluntop.github.io
-          upstream_sync_branch: main
-          target_sync_branch: main
-          target_repo_token: ${{ secrets.GITHUB_TOKEN }} # automatically generated, no need to set
+          upstream_sync_repo: cluntop/cluntop.github.io # 上游仓库地址
+          upstream_sync_branch: main # 上游分支
+          target_sync_branch: main # 目标分支
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }} # 自动生成，无需设置
+		  test_mode: false # 关闭测试模式（真实操作）
 
-          # Set test_mode true to run tests instead of the true action!!
+          # 将 test_mode 设置成 true 来运行测试而不是 true 操作!!
           test_mode: false
 
-      - name: Sync check
+        
+      # ---------------------------- #
+      # 步骤3：同步失败处理
+      # ---------------------------- #
+	  - name: Sync check
         if: failure()
         run: |
-          echo "[Error] 你需要手动 Sync Fork 一次。"
+          # 高亮显示错误信息（ GitHub 日志中红色警告）
+		  echo "::error::同步失败，请手动处理冲突或同步！"
+		  echo "::warning::1. 检查是否存在代码冲突"
+          echo "::warning::2. 前往仓库设置手动同步：https://github.com/${{ github.repository }}/compare/main...cluntop:main"
+          echo "::warning::3. 处理完成后重新运行此工作流"
           exit 1
