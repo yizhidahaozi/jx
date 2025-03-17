@@ -1861,30 +1861,6 @@
    "filterable": 0,
    "timeout": 60
   }, {
-   "key": "斗鱼js",
-   "name": "斗鱼",
-   "type": 3,
-   "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-   "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js",
-   "style": {
-    "type": "rect",
-    "ratio": 1.755
-   },
-   "playerType": "1",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0
-  }, {
-   "key": "虎牙直播",
-   "name": "虎牙",
-   "type": 3,
-   "api": "csp_XYQHiker",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 0,
-   "jar": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar",
-   "ext": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/虎牙直播.json"
-  }, {
    "key": "白嫖资源站",
    "name": "白嫖资源",
    "type": 0,
@@ -1947,6 +1923,30 @@
   }, {
    "key": "5",
    "name": "== 测试 5 分割 =="
+  }, {
+   "key": "斗鱼js",
+   "name": "斗鱼",
+   "type": 3,
+   "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+   "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js",
+   "style": {
+    "type": "rect",
+    "ratio": 1.755
+   },
+   "playerType": "1",
+   "searchable": 1,
+   "quickSearch": 0,
+   "changeable": 0
+  }, {
+   "key": "虎牙直播",
+   "name": "虎牙",
+   "type": 3,
+   "api": "csp_XYQHiker",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "jar": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar",
+   "ext": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/虎牙直播.json"
   }, {
    "name": "yiys[js]",
    "type": 3,
