@@ -1932,7 +1932,7 @@
    "key": "小湿妹资源站",
    "name": "湿妹资源",
    "type": 0,
-   "api": "https://www.afasu.com/api/xml.php",
+   "api": "http://www.afasu.com/api/xml.php",
    "searchable": 1,
    "quickSearch": 0,
    "ext": "proxy"
