@@ -1888,8 +1888,8 @@
    "filterable": 1,
    "ext": "proxy"
   }, {
-   "key": "性爱电影 - sexnguon",
-   "name": "性爱电影-越南语",
+   "key": "性爱电影",
+   "name": "性爱电影",
    "type": 1,
    "api": "https://api.sexnguon.com/api.php/provide/vod/",
    "searchable": 1,
