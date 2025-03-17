@@ -1756,15 +1756,15 @@
    "filterable": 0,
    "changeable": 0
   }, {
-   "key": "松视开通1",
-   "name": "松视1",
+   "key": "淫水机资源站",
+   "name": "水机资源",
    "type": 0,
    "api": "https://www.xrbsp.com/api/xml.php",
    "searchable": 0,
    "quickSearch": 0
   }, {
-   "key": "松视开通2",
-   "name": "松视2",
+   "key": "香奶儿资源站",
+   "name": "香奶资源",
    "type": 0,
    "api": "https://www.gdlsp.com/api/xml.php",
    "searchable": 0,
@@ -1885,8 +1885,8 @@
    "jar": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar",
    "ext": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/虎牙直播.json"
   }, {
-   "key": "白嫖资源",
-   "name": "白嫖",
+   "key": "白嫖资源站",
+   "name": "白嫖资源",
    "type": 0,
    "api": "https://www.kxgav.com/api/xml.php",
    "searchable": 1,
@@ -1920,6 +1920,27 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "proxy"
+  }, {
+   "key": "美少女资源站",
+   "name": "少女资源",
+   "type": 0,
+   "api": "https://www.msnii.com/api/xml.php",
+   "searchable": 0,
+   "quickSearch": 0
+  }, {
+   "key": "小湿妹资源站",
+   "name": "湿妹资源",
+   "type": 0,
+   "api": "https://www.afasu.com/api/xml.php",
+   "searchable": 0,
+   "quickSearch": 0
+  }, {
+   "key": "黄AV资源站",
+   "name": "AV资源",
+   "type": 0,
+   "api": "https://www.pgxdy.com/api/xml.php",
+   "searchable": 0,
+   "quickSearch": 0
   }, {
    "key": "5",
    "name": "== 测试分割 =="
@@ -2085,7 +2106,8 @@
   }, {
    "key": "7",
    "name": "== 7 =="
-  }, ],
+  }
+ ],
  "lives": [{
    "name": "YanG",
    "type": 0,
