@@ -1,5 +1,13 @@
 {
  "sites": [{
+   "key": "1080源",
+   "name": "1080源",
+   "type": 1,
+   "api": "https://api.1080zyku.com/inc/apijson.php",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1
+  }, {
    "key": "豆瓣",
    "name": "豆瓣",
    "type": 3,
