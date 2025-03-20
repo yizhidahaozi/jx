@@ -1569,6 +1569,60 @@
    "key": "4",
    "name": "== 4 =="
   }, {
+   "key": "py_jianpian",
+   "name": "荐片(T3)",
+   "type": 3,
+   "api": "./python/py_jianpian.py",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "changeable": 0
+  }, {
+   "key": "py_jieyingshi",
+   "name": "界影视(T3)",
+   "type": 3,
+   "api": "./python/py_jieyingshi.py",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "changeable": 0
+  }, {
+   "key": "py_UpFuHn",
+   "name": "Hi视频(T4)",
+   "type": 4,
+   "api": "https://py.doube.eu.org/spider?site=UpFuHn",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "changeable": 0
+  }, {
+   "key": "py_OleVod",
+   "name": "欧乐影院(T4)",
+   "type": 4,
+   "api": "https://py.doube.eu.org/spider?site=OleVod",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "changeable": 0
+  }, {
+   "key": "py_Dm84",
+   "name": "动漫巴士(T4)",
+   "type": 4,
+   "api": "https://py.doube.eu.org/spider?site=Dm84",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "changeable": 0
+  }, {
+   "key": "py_BaHaoTV",
+   "name": "八号影院(T4)",
+   "type": 4,
+   "api": "https://py.doube.eu.org/spider?site=BaHaoTV",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "changeable": 0
+  } {
    "key": "5",
    "name": "== 测试 5 分割 =="
   }, {
