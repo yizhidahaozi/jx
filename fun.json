@@ -376,6 +376,13 @@
   }
  ],
  "lives": [{
+   "name": "LIVEfl",
+   "type": 0,
+   "url": "https://gh.clun.top/raw.githubusercontent.com/zeee-u/lzh06/main/fl.m3u",
+   "playerType": 1,
+   "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+   "logo": "https://live.fanmingming.com/tv/{name}.png"
+  }, {
    "name": "天美传媒816",
    "type": 0,
    "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/天美传媒816.txt",
