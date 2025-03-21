@@ -1776,15 +1776,16 @@
   }
  ],
  "lives": [{
-   "name": "ofiii",
-   "url": "./lib/ofiii.m3u"
-  }, {
    "name": "YanG",
    "type": 0,
    "url": "https://tv.iill.top/m3u/Gather",
-   "ua": "(Windows NT 10.0; Win64; x64) PotPlayer/25.03.13",
+   "ua": "(Windows NT 10.0; Win64; x64) PotPlayer/25.03.21",
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
    "logo": "https://live.fanmingming.com/tv/{name}.png",
+   "playerType": 1
+  }, {
+   "name": "ofiii",
+   "url": "./lib/ofiii.m3u",
    "playerType": 1
   }, {
    "name": "Tianmu",
@@ -1799,6 +1800,7 @@
   }, {
    "name": "XingHuo",
    "url": "https://json.doube.eu.org/XingHuo.txt",
+   "playerType": 1,
    "header": {
     "Referer": "https://www.kds.tw/"
    }
