@@ -858,16 +858,6 @@
    "timeout": 60,
    "ext": ""
   }, {
-   "key": "Moli",
-   "name": "HDmoli|网盘",
-   "type": 3,
-   "api": "csp_Moli",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$./lib/moli.json"
-  }, {
    "key": "Ppxzy",
    "name": "皮皮虾|网盘",
    "type": 3,
@@ -879,7 +869,7 @@
    "ext": "./lib/tokenm.json$$$https://ppxzy.ink$$$proxy$$$1"
   }, {
    "key": "ddys",
-   "name": "低端影视|网盘",
+   "name": "低端|网盘",
    "type": 3,
    "api": "csp_Ddys",
    "quickSearch": 1,
@@ -923,7 +913,7 @@
    }
   }, {
    "key": "Gaoqing",
-   "name": "中国高清网|网盘",
+   "name": "中国高清|网盘",
    "type": 3,
    "api": "csp_Gaoqing",
    "quickSearch": 1,
@@ -943,7 +933,7 @@
    "ext": "./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"
   }, {
    "key": "团长资源",
-   "name": "团长资源|网盘",
+   "name": "团长|网盘",
    "type": 3,
    "api": "csp_TZFile",
    "quickSearch": 1,
@@ -973,7 +963,7 @@
    "ext": "./lib/token.json$$$https://wp.huban.xyz$$$noproxy$$$1$$$./lib/wogg.json$$$U_HUBAN"
   }, {
    "key": "Bdys_spider",
-   "name": "修罗┃磁力",
+   "name": "修罗|磁力",
    "api": "csp_Bdys01",
    "type": 3,
    "filterable": 1,
@@ -998,102 +988,6 @@
    "api": "csp_YunPan",
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$null$$$proxy$$$1"
-  }, {
-   "key": "YingSo",
-   "name": "影搜|网盘搜索",
-   "type": 3,
-   "api": "csp_YingSo",
-   "timeout": 60,
-   "ext": "./lib/tokenm.json"
-  }, {
-   "key": "混合盘",
-   "name": "混合盘|网盘搜索",
-   "type": 3,
-   "api": "csp_HunHePan",
-   "timeout": 60,
-   "ext": "./lib/tokenm.json",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "88Pan",
-   "name": "88网盘|网盘搜索",
-   "type": 3,
-   "api": "csp_EightEight",
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$https://662688.xyz$$$",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "PanSearch",
-   "name": "PanSearch|网盘搜索",
-   "type": 3,
-   "api": "csp_PanSearch",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$null$$$proxy"
-  }, {
-   "key": "盘友圈",
-   "name": "盘友圈|网盘搜索",
-   "type": 3,
-   "api": "csp_Panyq",
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$site$$$proxy"
-  }, {
-   "key": "易搜",
-   "name": "易搜|网盘搜索",
-   "type": 3,
-   "api": "csp_YiSo",
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/yiso.txt",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "秒搜",
-   "name": "秒搜|网盘搜索",
-   "type": 3,
-   "api": "csp_MiaoSou",
-   "timeout": 60,
-   "ext": "./lib/tokenm.json",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "Funletu",
-   "name": "趣盘搜|夸克搜索",
-   "type": 3,
-   "api": "csp_Funletu",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "QuarkPanso",
-   "name": "夸克盘搜|夸克搜索",
-   "type": 3,
-   "api": "csp_QuarkPanso",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
   }, {
    "key": "Panta",
    "name": "盘Ta|网盘",
@@ -1127,7 +1021,7 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "./lib/tokenm.json$$$https://www.pikaso.top/$$$null",
+   "ext": "./lib/tokenm.json$$$https://www.pikasoo.top/$$$null",
    "style": {
     "type": "list",
     "ratio": 1.1
@@ -1143,30 +1037,6 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"
   }, {
-   "key": "YunSo",
-   "name": "小云搜索|网盘搜索",
-   "type": 3,
-   "api": "csp_YunSo",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "YunPanOne",
-   "name": "云盘One|网盘搜索",
-   "type": 3,
-   "api": "csp_YunPanOne",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$null$$$proxy$$$1"
-  }, {
    "key": "新6V",
    "name": "新6V|网盘",
    "type": 3,
@@ -1175,26 +1045,6 @@
    "changeable": 1,
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
-  }, {
-   "key": "NanGua",
-   "name": "南瓜|弹幕",
-   "type": 3,
-   "api": "csp_NanGua",
-   "searchable": 1,
-   "changeable": 1,
-   "ext": "null$$$1"
-  }, {
-   "key": "天天",
-   "name": "天天┃App",
-   "type": 3,
-   "api": "csp_TTian",
-   "ext": "http://op.ysdqjs.cn$$$null$$$1"
-  }, {
-   "key": "追剧",
-   "name": "追剧┃App",
-   "type": 3,
-   "api": "csp_TTian",
-   "ext": "http://app.kzjtv.com$$$null$$$1"
   }, {
    "key": "黑木耳",
    "name": "黑木耳",
@@ -1210,51 +1060,6 @@
    "searchable": 1,
    "quickSearch": 1
   }, {
-   "key": "drpy_js_愛盤搜",
-   "name": "爱盘搜[js]|夸",
-   "type": 3,
-   "api": "./lib/drpy2.min.js",
-   "ext": "./js/aipanso.js",
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 60,
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "drpy_js_人人影视",
-   "name": "人人影视[js]|搜",
-   "type": 3,
-   "api": "./lib/drpy2.min.js",
-   "ext": "./js/yyets.js",
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 60,
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "drpy_js_MP4US",
-   "name": "MP4电影[js]|磁",
-   "type": 3,
-   "api": "./lib/drpy2.min.js",
-   "ext": "./js/mp4us.js",
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 60
-  }, {
-   "key": "drpy_js_88ball",
-   "name": "88看球[js]",
-   "type": 3,
-   "api": "./lib/drpy2.min.js",
-   "ext": "./js/88ball.js",
-   "quickSearch": 0,
-   "searchable": 0,
-   "changeable": 0,
-   "timeout": 30
-  }, {
    "key": "4KHDR",
    "name": "4KHDR|网盘",
    "type": 3,
@@ -1268,33 +1073,6 @@
     "type": "list",
     "ratio": 1.1
    }
-  }, {
-   "key": "UP云搜",
-   "name": "阿里|UP云搜",
-   "type": 3,
-   "api": "csp_UpYun",
-   "timeout": 30,
-   "ext": "./lib/tokenm.json",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "JustLive",
-   "name": "JustLive",
-   "type": 3,
-   "api": "csp_JustLive",
-   "searchable": 1,
-   "changeable": 0
-  }, {
-   "key": "drpy_js_酷吧",
-   "name": "酷吧[js]|磁",
-   "type": 3,
-   "api": "./lib/drpy2.min.js",
-   "ext": "./js/kuba.js",
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 60
   }, {
    "key": "BLSGod",
    "name": "BLSGod|磁",
@@ -1317,15 +1095,6 @@
    "changeable": 1,
    "timeout": 60
   }, {
-   "key": "AList",
-   "name": "网盘|Alist[jar]",
-   "type": 3,
-   "api": "csp_AList",
-   "searchable": 1,
-   "filterable": 1,
-   "changeable": 1,
-   "ext": "./js/alistjar.json"
-  }, {
    "key": "快看",
    "name": "快看",
    "type": 3,
@@ -1336,7 +1105,7 @@
    "filterable": 1
   }, {
    "key": "Ikanbot",
-   "name": "爱看机器人",
+   "name": "爱看机器",
    "type": 3,
    "api": "csp_Ikanbot",
    "searchable": 1,
@@ -1375,8 +1144,8 @@
    "searchable": 1,
    "changeable": 1
   }, {
-   "key": "ikun",
-   "name": "ikun",
+   "key": "ikun资源",
+   "name": "ikun资源",
    "type": 1,
    "api": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/provide/vod/?",
    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -1393,32 +1162,32 @@
    "searchable": 1,
    "changeable": 1
   }, {
-   "key": "暴風",
-   "name": "暴風",
+   "key": "暴風资源",
+   "name": "暴風资源",
    "type": 1,
    "api": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod?",
    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
    "searchable": 1,
    "changeable": 1
   }, {
-   "key": "索尼",
-   "name": "索尼 ",
+   "key": "索尼资源",
+   "name": "索尼资源 ",
    "type": 1,
    "api": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod?",
    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
    "searchable": 1,
    "changeable": 1
   }, {
-   "key": "快帆",
-   "name": "快帆",
+   "key": "快帆资源",
+   "name": "快帆资源",
    "type": 1,
    "api": "http://127.0.0.1:10079/p/0/proxy/https://api.kuaifan.tv/api.php/provide/vod?",
    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
    "searchable": 1,
    "changeable": 1
   }, {
-   "key": "量子",
-   "name": "量子",
+   "key": "量子资源",
+   "name": "量子资源",
    "type": 1,
    "api": "http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/?",
    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -1426,8 +1195,8 @@
    "searchable": 1,
    "changeable": 1
   }, {
-   "key": "非凡",
-   "name": "非凡",
+   "key": "非凡资源",
+   "name": "非凡资源",
    "type": 1,
    "api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?",
    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -1435,43 +1204,26 @@
    "searchable": 1,
    "changeable": 1
   }, {
-   "key": "櫻花",
-   "name": "櫻花",
+   "key": "櫻花资源",
+   "name": "櫻花资源",
    "type": 3,
    "api": "csp_Ying",
    "searchable": 1,
    "changeable": 0
   }, {
-   "key": "巴士",
-   "name": "巴士",
+   "key": "巴士资源",
+   "name": "巴士资源",
    "type": 3,
    "api": "csp_Dm84",
    "searchable": 1,
    "changeable": 0
   }, {
-   "key": "異界",
-   "name": "異界",
+   "key": "異界资源",
+   "name": "異界资源",
    "type": 3,
    "api": "csp_Ysj",
    "searchable": 1,
    "changeable": 0
-  }, {
-   "key": "短剧",
-   "name": "短剧",
-   "type": 3,
-   "api": "csp_Duanju",
-   "searchable": 0,
-   "changeable": 1,
-   "ext": "https://www.duanjutv.icu"
-  }, {
-   "key": "drpy_js_Alist",
-   "name": "网盘 | Alist[js]",
-   "type": 3,
-   "api": "./lib/alist.min.js",
-   "searchable": 1,
-   "filterable": 1,
-   "changeable": 1,
-   "ext": "./js/alist.json"
   }, {
    "key": "MV_vod",
    "name": "电视┃MTV",
@@ -1481,15 +1233,15 @@
    "quickSearch": 0,
    "changeable": 0
   }, {
-   "key": "酷狗",
-   "name": "酷狗",
+   "key": "酷狗音乐",
+   "name": "酷狗音乐",
    "type": 3,
    "api": "csp_Kugou",
    "searchable": 1,
    "changeable": 0
   }, {
    "key": "hipy_js_KTV歌厅[听]1",
-   "name": "🎤KTV歌厅在线",
+   "name": "KTV歌厅",
    "type": 3,
    "api": "http://kxrj.site:55/lib/drpy2.min.js",
    "searchable": 1,
@@ -1522,7 +1274,7 @@
    "ext": "https://fm.t4tv.hz.cz/json/market.json"
   }, {
    "key": "直播转点播",
-   "name": "🐼️┃电视┃直播",
+   "name": "电视┃直播",
    "type": 3,
    "searchable": 0,
    "api": "./lib/live2vod.js",
