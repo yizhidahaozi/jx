@@ -1374,7 +1374,7 @@
   }, {
    "name": "cluntop",
    "type": 0,
-   "url": "./tv.m3u",
+   "url": "./lib/iptv.m3u",
    "ua": "(Windows NT 10.0; Win64; x64) PotPlayer/25.03.21"
   }, {
    "name": "YanG",
@@ -1387,58 +1387,6 @@
   }, {
    "name": "ofiii",
    "url": "./lib/ofiii.m3u",
-   "playerType": 1
-  }, {
-   "name": "Tianmu",
-   "type": 0,
-   "url": "https://gh.clun.top/github.com/TianmuTNT/iptv/blob/main/iptv.m3u",
-   "playerType": 1
-  }, {
-   "name": "freetv",
-   "type": 0,
-   "url": "https://www.freetv.top/migu.m3u",
-   "playerType": 1
-  }, {
-   "name": "XingHuo",
-   "url": "https://json.doube.eu.org/XingHuo.txt",
-   "playerType": 1,
-   "header": {
-    "Referer": "https://www.kds.tw/"
-   }
-  }, {
-   "name": "zbdsv4",
-   "type": 0,
-   "url": "https://live.zbds.top/tv/iptv4.m3u",
-   "playerType": 1
-  }, {
-   "name": "zbdsv6",
-   "type": 0,
-   "url": "https://live.zbds.top/tv/iptv6.m3u",
-   "playerType": 1
-  }, {
-   "name": "YueChan",
-   "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u",
-   "playerType": 1
-  }, {
-   "name": "Ftindy",
-   "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u",
-   "playerType": 1
-  }, {
-   "name": "ibert",
-   "type": 0,
-   "url": "https://m3u.ibert.me/fmml_ipv6.m3u",
-   "playerType": 1
-  }, {
-   "name": "Wirili",
-   "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.m3u",
-   "playerType": 1
-  }, {
-   "name": "Guovin",
-   "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
    "playerType": 1
   }, {
    "name": "LIVE",
