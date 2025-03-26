@@ -1374,7 +1374,8 @@
   }, {
    "name": "cluntop",
    "type": 0,
-   "url": "./tv.m3u"
+   "url": "./tv.m3u",
+   "ua": "(Windows NT 10.0; Win64; x64) PotPlayer/25.03.21"
   }, {
    "name": "YanG",
    "type": 0,
