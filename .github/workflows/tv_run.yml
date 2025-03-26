@@ -62,7 +62,7 @@ jobs:
     - name: Commit and Push changes
       run: |
         git add $(pwd)/lib/iptv.txt
-        git add $(pwd)/lib/tv.m3u
+        git add $(pwd)/lib/iptv.m3u
         git commit -m "Update on $DATE" --allow-empty
         git push origin HEAD:main
 
