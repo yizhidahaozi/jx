@@ -1372,6 +1372,10 @@
    "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
    "ua": "okhttp/3.15"
   }, {
+   "name": "cluntop",
+   "type": 0,
+   "url": "./tv.m3u"
+  }, {
    "name": "YanG",
    "type": 0,
    "url": "https://tv.iill.top/m3u/Gather",
