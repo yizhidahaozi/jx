@@ -1382,33 +1382,23 @@
    "url": "https://tv.iill.top/m3u/Gather",
    "ua": "(Windows NT 10.0; Win64; x64) PotPlayer/25.03.21",
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-   "logo": "https://live.fanmingming.com/tv/{name}.png",
-   "playerType": 1
+   "logo": "https://live.fanmingming.com/tv/{name}.png"
   }, {
    "name": "ofiii",
-   "url": "./lib/ofiii.m3u",
-   "playerType": 1
+   "url": "./lib/ofiii.m3u"
   }, {
-   "name": "LIVE",
+   "name": "Ftindy",
    "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
-   "playerType": 1,
-   "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-   "logo": "https://live.fanmingming.com/tv/{name}.png"
+   "url": "https://gh.clun.top/raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u"
   }, {
-   "name": "LIVE_fan",
+   "name": "Guovin",
    "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-   "playerType": 1,
-   "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-   "logo": "https://live.fanmingming.com/tv/{name}.png"
+   "url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
   }, {
-   "name": "LIVE_home",
+   "name": "Burning",
    "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/joevess/IPTV/refs/heads/main/home.m3u8",
-   "playerType": 1,
-   "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-   "logo": "https://live.fanmingming.com/tv/{name}.png"
+   "url": "https://gh.clun.top/raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
+   "logo": "https://iptv.burningc4.com/tvg-logo/{name}.png"
   }, {
    "group": "redirect",
    "channels": [{
