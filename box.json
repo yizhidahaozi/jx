@@ -1395,10 +1395,13 @@
    "type": 0,
    "url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
   }, {
-   "name": "Burning",
+   "name": "epg.pw All",
    "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
-   "logo": "https://iptv.burningc4.com/tvg-logo/{name}.png"
+   "url": "https://m3u.002397.xyz/all.m3u"
+  }, {
+   "name": "iptv.org All",
+   "type": 0,
+   "url": "https://m3u.002397.xyz/o_all.m3u"
   }, {
    "group": "redirect",
    "channels": [{
