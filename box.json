@@ -57,6 +57,13 @@
     "danmu": true
    }
   }, {
+   "key": "黑木耳",
+   "name": "黑木耳",
+   "type": 1,
+   "api": "http://127.0.0.1:10079/p/0/null/https://json.heimuer.xyz/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1
+  }, {
    "key": "黑木耳(海外)",
    "name": "黑木耳(海外)",
    "type": 1,
@@ -93,7 +100,8 @@
    "api": "https://www.lovedan.net/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "四个圈影视",
    "name": "四圈影视",
@@ -101,7 +109,8 @@
    "api": "https://pg.fenwe078.cf/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "白嫖2",
    "name": "️白嫖影视",
@@ -178,14 +187,26 @@
    "api": "https://okzyw9.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "360",
    "name": "360资源",
    "type": 1,
    "api": "https://360zy.com/api.php/provide/vod/",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+  }, {
+   "key": "ikun",
+   "name": "ikun资源",
+   "type": 1,
+   "api": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/provide/vod/",
+   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+   "playerType": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "U酷资源网",
    "name": "U酷资源",
@@ -193,7 +214,8 @@
    "api": "https://api.ukuapi88.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "丫丫资源网",
    "name": "丫丫资源",
@@ -201,23 +223,66 @@
    "api": "https://yayazy2.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
-   "key": "非凡",
+   "key": "非凡资源",
    "name": "非凡资源",
    "type": 1,
-   "api": "http://api.ffzyapi.com/api.php/provide/vod/",
-   "quickSearch": 1,
+   "api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/",
+   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+   "playerType": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
-   "key": "量子",
+   "key": "量子资源",
    "name": "量子资源",
    "type": 1,
-   "api": "https://cj.lziapi.com/api.php/provide/vod/",
-   "quickSearch": 1,
+   "api": "http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/",
+   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+   "playerType": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+  }, {
+   "key": "快帆资源",
+   "name": "快帆资源",
+   "type": 1,
+   "api": "http://127.0.0.1:10079/p/0/proxy/https://api.kuaifan.tv/api.php/provide/vod/",
+   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+  }, {
+   "key": "索尼资源",
+   "name": "索尼资源 ",
+   "type": 1,
+   "api": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod/",
+   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+  }, {
+   "key": "飞速资源",
+   "name": "飞速资源",
+   "type": 1,
+   "api": "http://127.0.0.1:10079/p/0/proxy/http://fszy1.com/api.php/provide/vod/",
+   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+   "playerType": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+  }, {
+   "key": "暴風资源",
+   "name": "暴風资源",
+   "type": 1,
+   "api": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod/",
+   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+   "playerType": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "最大",
    "name": "最大资源",
@@ -225,7 +290,8 @@
    "api": "https://zuida.xyz/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "光速",
    "name": "光速采集",
@@ -233,7 +299,8 @@
    "api": "http://api.guangsuapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "极速",
    "name": "极速采集",
@@ -241,7 +308,8 @@
    "api": "https://jszyapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "红牛",
    "name": "红牛采集",
@@ -249,7 +317,8 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "豪华",
    "name": "豪华资源",
@@ -257,7 +326,8 @@
    "api": "https://hhzyapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "虎牙资源采集网",
    "name": "虎牙资源",
@@ -265,7 +335,8 @@
    "api": "https://www.huyaapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "速播资源采集站",
    "name": "速播资源",
@@ -273,7 +344,8 @@
    "api": "https://subocaiji.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "祥祥影视",
    "name": "祥祥影视",
@@ -281,7 +353,8 @@
    "api": "http://141.147.146.105/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "金鹰资源采集网",
    "name": "金鹰资源",
@@ -291,7 +364,8 @@
    "playerType": 1,
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "飘零电影网",
    "name": "飘零影院",
@@ -299,7 +373,8 @@
    "api": "https://p2100.net/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "影图资源",
    "name": "影图资源",
@@ -307,7 +382,8 @@
    "api": "https://cj.vodimg.top/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "新浪资源",
    "name": "新浪资源",
@@ -315,7 +391,8 @@
    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "卧龙资源",
    "name": "卧龙资源",
@@ -323,7 +400,8 @@
    "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "华为吧资源",
    "name": "华为资源",
@@ -331,7 +409,8 @@
    "api": "https://huawei8.live/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "牛牛资源网",
    "name": "牛牛资源",
@@ -339,15 +418,17 @@
    "api": "https://api.niuniuzy.me/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
-   "key": "最大资源采集网",
+   "key": "最大采集网",
    "name": "最大资源",
    "type": 1,
    "api": "https://zuidazy.co/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "快鹰资源网",
    "name": "快鹰资源",
@@ -355,7 +436,8 @@
    "api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "百度云资源",
    "name": "百度资源",
@@ -363,7 +445,8 @@
    "api": "https://api.apibdzy.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "樱花资源",
    "name": "樱花资源",
@@ -371,7 +454,8 @@
    "api": "https://api.apiyhzy.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "龙龙影视",
    "name": "龙龙影视",
@@ -379,7 +463,8 @@
    "api": "http://110.42.99.99:3976/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "暴风资源",
    "name": "暴风资源",
@@ -387,7 +472,8 @@
    "api": "https://bfzyapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "如意资源网",
    "name": "如意资源",
@@ -395,7 +481,8 @@
    "api": "https://www.ryzy5.tv/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "魔都资源网",
    "name": "魔都资源",
@@ -403,7 +490,8 @@
    "api": "https://www.mdzyapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "天涯资源网",
    "name": "天涯资源",
@@ -411,7 +499,8 @@
    "api": "https://tyyszyapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "快车资源网",
    "name": "快车资源",
@@ -419,7 +508,8 @@
    "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "闪电资源网",
    "name": "闪电资源",
@@ -427,7 +517,8 @@
    "api": "https://sdzyapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "无尽资源网",
    "name": "无尽资源",
@@ -435,7 +526,8 @@
    "api": "https://api.wujinapi.net/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "天翼资源网",
    "name": "天翼影视",
@@ -443,13 +535,54 @@
    "api": "https://www.911ysw.top/tianyi.php/provide/vod/",
    "playUrl": "",
    "searchable": 1,
-   "quickSearch": 1
+   "quickSearch": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "3",
    "name": "== 3 =="
   }, {
+   "key": "TGYunPanLocal",
+   "name": "TG频道搜索",
+   "type": 3,
+   "api": "csp_TGYunPanLocal",
+   "timeout": 120,
+   "ext": {
+    "token": "./lib/tokenm.json",
+    "json": "./lib/tgsearch.json",
+    "keywords": "名称,片名,推荐",
+    "tgsearch_url": "http://127.0.0.1:10199",
+    "tgsearch_media_url": "http://127.0.0.1:10199",
+    "channellist": "tgsearchers,leoziyuan,ucpanpan,pan123pan,zyfb123,zyzhpd123,xx123pan,tianyi_pd2,tianyirigeng,tyypzhpd,cloudtianyi,kuakeclound,ydypzyfx,clouddriveresources,NewQuark,New_Sharing,oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
+    "proxy": "proxy",
+    "danmu": true
+   },
+   "style": {
+    "type": "rect",
+    "ratio": 1.77
+   }
+  }, {
+   "key": "TGYunPan",
+   "name": "TG群组搜索",
+   "type": 3,
+   "api": "csp_TGYunPan",
+   "timeout": 120,
+   "ext": {
+    "token": "./lib/tokenm.json",
+    "json": "./lib/tgsearch.json",
+    "keywords": "名称,片名,推荐",
+    "tgsearch_url": "http://127.0.0.1:10199",
+    "tgsearch_media_url": "http://127.0.0.1:10199",
+    "channellist": "alypzyhzq|1000,Mbox115|1000,shares_115|1000,NewQuark|1000,New_Sharing|1000,wanwansubchat|1000",
+    "proxy": "noproxy",
+    "danmu": true
+   },
+   "style": {
+    "type": "rect",
+    "ratio": 1.77
+   }
+  }, {
    "key": "TGDouban",
-   "name": "TG豆瓣",
+   "name": "TG_豆瓣",
    "type": 3,
    "api": "csp_TGDouban",
    "timeout": 120,
@@ -504,155 +637,9 @@
    }
   }, {
    "key": "Local",
-   "name": "本地",
+   "name": "本地文件夹",
    "type": 3,
    "api": "csp_Local"
-  }, {
-   "key": "PushShare",
-   "name": "我的资源分享",
-   "type": 3,
-   "api": "csp_PushShare",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 0,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "AlistShare",
-   "name": "网盘分享合集",
-   "type": 3,
-   "api": "csp_AlistShare",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 0,
-   "timeout": 120,
-   "ext": "./lib/tokenm.json$$$null$$$proxy$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "AliShare",
-   "name": "阿里云盘影视分享",
-   "type": 3,
-   "api": "csp_AliShare",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 0,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "AliShareEBook",
-   "name": "阿里云盘书籍分享",
-   "type": 3,
-   "api": "csp_AliShare",
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "filterable": 0,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/alishare.ebook.txt$$$db$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "QuarkShare",
-   "name": "夸克云盘分享",
-   "type": 3,
-   "api": "csp_QuarkShare",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "filterable": 0,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/quarkshare.txt",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "115Share",
-   "name": "115云盘分享",
-   "type": 3,
-   "api": "csp_P115Share",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "filterable": 0,
-   "timeout": 120,
-   "ext": "./lib/tokenm.json$$$./lib/115share.txt$$$db$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "UCShare",
-   "name": "UC云盘分享",
-   "type": 3,
-   "api": "csp_UCShare",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "filterable": 0,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/ucshare.txt$$$db$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "ThunderShare",
-   "name": "迅雷云盘分享",
-   "type": 3,
-   "api": "csp_ThunderShare",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "filterable": 0,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/thundershare.txt",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "PikPakShare",
-   "name": "PikPak分享",
-   "type": 3,
-   "api": "csp_PikPakShare",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 0,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
-   "key": "SambaShare",
-   "name": "Samba分享",
-   "type": 3,
-   "api": "csp_SambaShare",
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "filterable": 0,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/sambashare.txt"
   }, {
    "key": "FirstAid",
    "name": "🚑 急救知识 ",
@@ -666,60 +653,8 @@
     "ratio": 3.8
    }
   }, {
-   "key": "bili",
-   "name": "B站 | Bili[jar]",
-   "type": 3,
-   "api": "csp_Bili",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "type": "演唱会#电影#电视剧#帕梅拉#广场舞#纪录片#综艺#鬼畜#音乐#舞蹈#影视#知识#美食#风光#田园#户外#8K#徐云",
-    "cookie": ""
-   }
-  }, {
-   "key": "TGYunPanLocal",
-   "name": "TG频道搜索",
-   "type": 3,
-   "api": "csp_TGYunPanLocal",
-   "timeout": 120,
-   "ext": {
-    "token": "./lib/tokenm.json",
-    "json": "./lib/tgsearch.json",
-    "keywords": "名称,片名,推荐",
-    "tgsearch_url": "http://127.0.0.1:10199",
-    "tgsearch_media_url": "http://127.0.0.1:10199",
-    "channellist": "tgsearchers,leoziyuan,ucpanpan,pan123pan,zyfb123,zyzhpd123,xx123pan,tianyi_pd2,tianyirigeng,tyypzhpd,cloudtianyi,kuakeclound,ydypzyfx,clouddriveresources,NewQuark,New_Sharing,oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
-    "proxy": "proxy",
-    "danmu": true
-   },
-   "style": {
-    "type": "rect",
-    "ratio": 1.77
-   }
-  }, {
-   "key": "TGYunPan",
-   "name": "TG群组搜索",
-   "type": 3,
-   "api": "csp_TGYunPan",
-   "timeout": 120,
-   "ext": {
-    "token": "./lib/tokenm.json",
-    "json": "./lib/tgsearch.json",
-    "keywords": "名称,片名,推荐",
-    "tgsearch_url": "http://127.0.0.1:10199",
-    "tgsearch_media_url": "http://127.0.0.1:10199",
-    "channellist": "alypzyhzq|1000,Mbox115|1000,shares_115|1000,NewQuark|1000,New_Sharing|1000,wanwansubchat|1000",
-    "proxy": "noproxy",
-    "danmu": true
-   },
-   "style": {
-    "type": "rect",
-    "ratio": 1.77
-   }
-  }, {
    "key": "Guanying",
-   "name": "观影|网盘|磁力",
+   "name": "观影网盘",
    "type": 3,
    "api": "csp_Guanying",
    "quickSearch": 1,
@@ -729,7 +664,7 @@
    "ext": "./lib/tokenm.json$$$https://www.gying.net$$$noproxy$$$1$$$./lib/guanying.txt$$$GUANYING"
   }, {
    "key": "FourKFM",
-   "name": "4K影库|网盘|磁力",
+   "name": "4K网盘",
    "type": 3,
    "api": "csp_FourKFM",
    "quickSearch": 1,
@@ -739,7 +674,7 @@
    "ext": "./lib/tokenm.json$$$http://4kfm.com/$$$noproxy$$$1$$$./lib/4kfm.txt$$$4KFM"
   }, {
    "key": "校长影视",
-   "name": "校长影视|网盘",
+   "name": "校长影视",
    "type": 3,
    "api": "csp_XiaoZhang",
    "quickSearch": 1,
@@ -749,7 +684,7 @@
    "ext": "./lib/tokenm.json$$$https://xzyshd.com$$$proxy$$$1"
   }, {
    "key": "Wogg",
-   "name": "玩偶哥哥|网盘",
+   "name": "玩偶哥哥",
    "type": 3,
    "api": "csp_Wogg",
    "quickSearch": 1,
@@ -759,7 +694,7 @@
    "ext": "./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG"
   }, {
    "key": "yydsys",
-   "name": "玩你老哥|网盘",
+   "name": "玩你老哥",
    "type": 3,
    "api": "csp_Wobg",
    "quickSearch": 1,
@@ -768,18 +703,8 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json$$$WNLG"
   }, {
-   "key": "蜡笔网盘",
-   "name": "蜡笔|网盘",
-   "type": 3,
-   "api": "csp_Wobg",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$https://www.goimg.asia/$$$noproxy$$$1$$$./lib/wogg.json$$$LABI"
-  }, {
    "key": "Mogg",
-   "name": "木偶哥哥|网盘",
+   "name": "木偶哥哥",
    "type": 3,
    "api": "csp_Wobg",
    "quickSearch": 1,
@@ -789,7 +714,7 @@
    "ext": "./lib/tokenm.json$$$http://tv.91muou.icu/$$$proxy$$$1$$$./lib/wogg.json$$$MOGG"
   }, {
    "key": "WOSS",
-   "name": "玩偶叔叔|网盘",
+   "name": "玩偶叔叔",
    "type": 3,
    "api": "csp_Wobg",
    "quickSearch": 1,
@@ -799,7 +724,7 @@
    "ext": "./lib/tokenm.json$$$https://woss.fenwe.eu.org/$$$noproxy$$$1$$$./lib/wogg.json$$$WOSS"
   }, {
    "key": "DAWO",
-   "name": "大玩偶|网盘",
+   "name": "大玩偶",
    "type": 3,
    "api": "csp_Wobg",
    "quickSearch": 1,
@@ -808,8 +733,18 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$http://149.88.87.18:6688$$$noproxy$$$1$$$./lib/wogg.json$$$DAWO"
   }, {
+   "key": "蜡笔网盘",
+   "name": "蜡笔网盘",
+   "type": 3,
+   "api": "csp_Wobg",
+   "quickSearch": 1,
+   "changeable": 1,
+   "filterable": 1,
+   "timeout": 60,
+   "ext": "./lib/tokenm.json$$$https://www.goimg.asia/$$$noproxy$$$1$$$./lib/wogg.json$$$LABI"
+  }, {
    "key": "BAIJIA",
-   "name": "百家|网盘",
+   "name": "百家网盘",
    "type": 3,
    "api": "csp_Wobg",
    "quickSearch": 1,
@@ -819,7 +754,7 @@
    "ext": "./lib/tokenm.json$$$http://cj.jiexi.news$$$noproxy$$$1$$$./lib/wogg.json$$$BAIJIA"
   }, {
    "key": "Xiaomi",
-   "name": "小米|网盘",
+   "name": "小米网盘",
    "type": 3,
    "api": "csp_Wobg",
    "quickSearch": 1,
@@ -828,8 +763,36 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://www.mucpan.cc/$$$noproxy$$$1$$$./lib/wogg.json$$$XIAOMI"
   }, {
-   "key": "至臻|网盘",
-   "name": "至臻|网盘",
+   "key": "Hmxz",
+   "name": "海绵网盘",
+   "type": 3,
+   "api": "csp_Hmxz",
+   "quickSearch": 1,
+   "changeable": 1,
+   "filterable": 1,
+   "timeout": 60,
+   "ext": "./lib/tokenm.json$$$https://www.hmxz.org/$$$noproxy$$$1$$$./lib/hmxz.txt$$$HMXZ",
+   "style": {
+    "type": "list",
+    "ratio": 1.1
+   }
+  }, {
+   "key": "Leijing",
+   "name": "雷鲸网盘",
+   "type": 3,
+   "api": "csp_Panta",
+   "quickSearch": 1,
+   "changeable": 1,
+   "filterable": 1,
+   "timeout": 60,
+   "ext": "./lib/tokenm.json$$$https://leijing.xyz/$$$noproxy$$$1$$$./lib/leijing.txt$$$LEIJING",
+   "style": {
+    "type": "list",
+    "ratio": 1.1
+   }
+  }, {
+   "key": "至臻网盘",
+   "name": "至臻网盘",
    "type": 3,
    "api": "csp_Wobg",
    "quickSearch": 1,
@@ -838,22 +801,8 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"
   }, {
-   "key": "Leijing",
-   "name": "雷鲸|网盘",
-   "type": 3,
-   "api": "csp_Panta",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$https://leijing.xyz/$$$noproxy$$$1$$$LEIJING",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
    "key": "Guazi",
-   "name": "瓜子|App",
+   "name": "瓜子 App",
    "type": 3,
    "api": "csp_Guazi",
    "quickSearch": 1,
@@ -863,7 +812,7 @@
    "ext": ""
   }, {
    "key": "Ppxzy",
-   "name": "皮皮虾|网盘",
+   "name": "皮皮虾",
    "type": 3,
    "api": "csp_Ppxzy",
    "quickSearch": 1,
@@ -873,7 +822,7 @@
    "ext": "./lib/tokenm.json$$$https://ppxzy.ink$$$proxy$$$1"
   }, {
    "key": "ddys",
-   "name": "低端|网盘",
+   "name": "低端网盘",
    "type": 3,
    "api": "csp_Ddys",
    "quickSearch": 1,
@@ -883,7 +832,7 @@
    "ext": "./lib/tokenm.json$$$https://ddys.pro/$$$proxy$$$1$$$"
   }, {
    "key": "美剧迷",
-   "name": "美剧迷|网盘",
+   "name": "美剧迷",
    "type": 3,
    "api": "csp_Meijumi",
    "quickSearch": 1,
@@ -893,7 +842,7 @@
    "ext": "./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"
   }, {
    "key": "Libvio",
-   "name": "LIBVIO|网盘",
+   "name": "LIBVIO",
    "type": 3,
    "api": "csp_Libvio",
    "quickSearch": 1,
@@ -903,7 +852,7 @@
    "ext": "./lib/tokenm.json$$$https://www.libvio.fun/$$$null"
   }, {
    "key": "Bt0",
-   "name": "不太灵|磁力",
+   "name": "不太灵",
    "type": 3,
    "api": "csp_Bt0",
    "quickSearch": 1,
@@ -917,7 +866,7 @@
    }
   }, {
    "key": "Gaoqing",
-   "name": "中国高清|网盘",
+   "name": "中国高清",
    "type": 3,
    "api": "csp_Gaoqing",
    "quickSearch": 1,
@@ -927,7 +876,7 @@
    "ext": "./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"
   }, {
    "key": "Yinfans",
-   "name": "音范丝|磁力",
+   "name": "音范丝",
    "type": 3,
    "api": "csp_Gaoqing",
    "quickSearch": 1,
@@ -937,7 +886,7 @@
    "ext": "./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"
   }, {
    "key": "团长资源",
-   "name": "团长|网盘",
+   "name": "团长网盘",
    "type": 3,
    "api": "csp_TZFile",
    "quickSearch": 1,
@@ -947,7 +896,7 @@
    "ext": "./lib/tokenm.json$$$noproxy$$$1"
   }, {
    "key": "Hdhive",
-   "name": "鸟窝|网盘",
+   "name": "鸟窝网盘",
    "type": 3,
    "api": "csp_Hdh",
    "quickSearch": 1,
@@ -957,7 +906,7 @@
    "ext": "./lib/tokenm.json$$$https://hdhive.online$$$noproxy$$$1$$$./lib/hdhive.txt"
   }, {
    "key": "Huban",
-   "name": "虎斑|网盘",
+   "name": "虎斑网盘",
    "type": 3,
    "api": "csp_Wobg",
    "quickSearch": 1,
@@ -967,7 +916,7 @@
    "ext": "./lib/token.json$$$https://wp.huban.xyz$$$noproxy$$$1$$$./lib/wogg.json$$$U_HUBAN"
   }, {
    "key": "Bdys_spider",
-   "name": "修罗|磁力",
+   "name": "修罗磁力",
    "api": "csp_Bdys01",
    "type": 3,
    "filterable": 1,
@@ -977,7 +926,7 @@
    "ext": "./lib/tokenm.json$$$https://www.xlys01.com/$$$noproxy$$$1"
   }, {
    "key": "TianYiSou",
-   "name": "天逸搜|网盘搜索",
+   "name": "天逸搜",
    "type": 3,
    "api": "csp_TianYiSou",
    "quickSearch": 1,
@@ -987,14 +936,14 @@
    "ext": "./lib/tokenm.json$$$null$$$proxy"
   }, {
    "key": "YunPan",
-   "name": "云盘资源|网盘",
+   "name": "云盘资源",
    "type": 3,
    "api": "csp_YunPan",
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$null$$$proxy$$$1"
   }, {
    "key": "Panta",
-   "name": "盘Ta|网盘",
+   "name": "盘Ta网盘",
    "type": 3,
    "api": "csp_Panta",
    "quickSearch": 1,
@@ -1008,7 +957,7 @@
    }
   }, {
    "key": "DaPanSo",
-   "name": "大盘搜|网盘搜索",
+   "name": "大盘搜",
    "type": 3,
    "api": "csp_DaPanSo",
    "quickSearch": 1,
@@ -1018,7 +967,7 @@
    "ext": "./lib/tokenm.json$$$https://dapanso.com$$$proxy$$$1"
   }, {
    "key": "PikaSo",
-   "name": "皮卡搜|网盘搜索",
+   "name": "皮卡搜",
    "type": 3,
    "api": "csp_PikaSo",
    "quickSearch": 1,
@@ -1032,7 +981,7 @@
    }
   }, {
    "key": "Qianfan",
-   "name": "千帆|网盘搜索",
+   "name": "千帆网盘",
    "type": 3,
    "api": "csp_Qianfan",
    "quickSearch": 1,
@@ -1042,27 +991,13 @@
    "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"
   }, {
    "key": "新6V",
-   "name": "新6V|网盘",
+   "name": "新6V网盘",
    "type": 3,
    "api": "csp_Xb6v",
    "searchable": 1,
    "changeable": 1,
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
-  }, {
-   "key": "黑木耳",
-   "name": "黑木耳",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/null/https://json.heimuer.xyz/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1
-  }, {
-   "key": "索尼资源",
-   "name": "索尼┃资源",
-   "type": 1,
-   "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
-   "searchable": 1,
-   "quickSearch": 1
   }, {
    "key": "4KHDR",
    "name": "4KHDR|网盘",
@@ -1119,13 +1054,13 @@
    "ext": "https://v.aikanbot.com$$$proxy"
   }, {
    "key": "csp_YingShi",
-   "name": "影视|海外",
+   "name": "影视海外",
    "type": 3,
    "api": "csp_YingShi",
    "ext": "proxy"
   }, {
    "key": "星星",
-   "name": "星星 | 海外",
+   "name": "星星海外",
    "type": 3,
    "api": "csp_Star",
    "searchable": 1,
@@ -1133,7 +1068,7 @@
    "ext": "proxy"
   }, {
    "key": "獨播",
-   "name": "獨播 | 海外",
+   "name": "獨播海外",
    "type": 3,
    "api": "csp_XPathMacFilter",
    "searchable": 1,
@@ -1145,66 +1080,6 @@
    "type": 1,
    "api": "http://127.0.0.1:10079/p/0/proxy/https://haiwaikan.com/api.php/provide/vod?",
    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "searchable": 1,
-   "changeable": 1
-  }, {
-   "key": "ikun资源",
-   "name": "ikun资源",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/provide/vod/?",
-   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "playerType": 1,
-   "searchable": 1,
-   "changeable": 1
-  }, {
-   "key": "飞速资源",
-   "name": "飞速资源",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/proxy/http://fszy1.com/api.php/provide/vod/?",
-   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "playerType": 1,
-   "searchable": 1,
-   "changeable": 1
-  }, {
-   "key": "暴風资源",
-   "name": "暴風资源",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod?",
-   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "searchable": 1,
-   "changeable": 1
-  }, {
-   "key": "索尼资源",
-   "name": "索尼资源 ",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod?",
-   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "searchable": 1,
-   "changeable": 1
-  }, {
-   "key": "快帆资源",
-   "name": "快帆资源",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/proxy/https://api.kuaifan.tv/api.php/provide/vod?",
-   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "searchable": 1,
-   "changeable": 1
-  }, {
-   "key": "量子资源",
-   "name": "量子资源",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/?",
-   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "playerType": 1,
-   "searchable": 1,
-   "changeable": 1
-  }, {
-   "key": "非凡资源",
-   "name": "非凡资源",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?",
-   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "playerType": 1,
    "searchable": 1,
    "changeable": 1
   }, {
@@ -1344,22 +1219,8 @@
    "key": "5",
    "name": "== 测试 5 分割 =="
   }, {
-   "key": "斗鱼js",
-   "name": "斗鱼",
-   "type": 3,
-   "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-   "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js",
-   "style": {
-    "type": "rect",
-    "ratio": 1.755
-   },
-   "playerType": "1",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0
-  }, {
    "key": "虎牙直播",
-   "name": "虎牙",
+   "name": "虎牙直播",
    "type": 3,
    "api": "csp_XYQHiker",
    "searchable": 1,
@@ -1370,38 +1231,14 @@
   }, {
    "name": "yiys[js]",
    "type": 3,
+   "jar": "./jar/custom_spider.jar",
    "api": "./js/yiys.js",
-   "jar": "./jar/spider.jar",
    "quickSearch": 1,
    "changeable": 1,
    "timeout": 60
   }, {
-   "key": "短剧",
-   "name": "短剧",
-   "type": 4,
-   "jar": "./jar/yt.jar",
-   "api": "http://127.0.0.1:1988/lb?lb=2",
-   "searchable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   },
-   "changeable": 1
-  }, {
-   "key": "爱瓜tv",
-   "name": "爱瓜",
-   "type": 4,
-   "jar": "./jar/yt.jar",
-   "api": "http://127.0.0.1:1988/lb?lb=4",
-   "searchable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   },
-   "changeable": 1
-  }, {
    "key": "Wo4k",
-   "name": "玩偶4K|磁力",
+   "name": "玩偶4K",
    "type": 3,
    "api": "csp_Wo4k",
    "quickSearch": 1,
@@ -1411,19 +1248,8 @@
    "ext": "./json/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./json/wogg.json",
    "order_num": 9999
   }, {
-   "key": "yydsys",
-   "name": "玩你老哥|网盘",
-   "type": 3,
-   "api": "csp_Wobg",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
-   "order_num": 9999
-  }, {
    "key": "Xinshijue",
-   "name": "新视觉|网盘",
+   "name": "新视觉网盘",
    "type": 3,
    "api": "csp_Xinshijue",
    "quickSearch": 1,
@@ -1434,7 +1260,7 @@
    "order_num": 9999
   }, {
    "key": "Hdhive",
-   "name": "影巢|网盘",
+   "name": "影巢网盘",
    "type": 3,
    "api": "csp_Hdhive",
    "quickSearch": 1,
@@ -1568,7 +1394,6 @@
    "type": 0,
    "url": "http://ttkx.cc:55/lib/kx2024.txt",
    "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
-   "playerType": 1,
    "ua": "okhttp/3.15"
   }, {
    "name": "YanG",
