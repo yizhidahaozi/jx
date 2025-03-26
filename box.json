@@ -1229,14 +1229,6 @@
    "jar": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar",
    "ext": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/虎牙直播.json"
   }, {
-   "name": "yiys[js]",
-   "type": 3,
-   "jar": "./jar/custom_spider.jar",
-   "api": "./js/yiys.js",
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 60
-  }, {
    "key": "Wo4k",
    "name": "玩偶4K",
    "type": 3,
@@ -1256,7 +1248,7 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "./json/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./json/wogg.json",
+   "ext": "./json/tokenm.json$$$https://www.xinshenyushangmao.com/$$$proxy$$$1$$$./json/wogg.json",
    "order_num": 9999
   }, {
    "key": "Hdhive",
