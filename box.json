@@ -1562,6 +1562,12 @@
   }
  ],
  "lives": [{
+   "name": "网络源大杂烩",
+   "type": 0,
+   "url": "http://ttkx.cc:55/lib/kx2024.txt",
+   "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
+   "ua": "okhttp/3.15"
+  }, {
    "name": "YanG",
    "type": 0,
    "url": "https://tv.iill.top/m3u/Gather",
