@@ -2,3 +2,4 @@
 
 https://framagit.org/168/myys/-/raw/main/bb/jar/fenghuang.jar
 
+"categories": ["国产动漫", "日韩动漫", "国产剧"]
