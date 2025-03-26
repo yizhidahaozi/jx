@@ -1382,24 +1382,24 @@
    "type": 4,
    "api": "http://127.0.0.1:1988",
    "jar": "./jar/yt.jar",
+   "searchable": 1,
+   "changeable": 1
    "style": {
     "type": "rect",
     "ratio": 1.33
-   },
-   "searchable": 1,
-   "changeable": 1
+   }
   }, {
    "key": "油管播放列表1",
    "name": "油管播放列表1",
    "type": 4,
    "api": "http://127.0.0.1:1988/lb?lb=0",
    "jar": "./jar/yt.jar",
+   "searchable": 1,
+   "changeable": 1
    "style": {
     "type": "rect",
     "ratio": 1.33
-   },
-   "searchable": 1,
-   "changeable": 1
+   }
   }, {
    "key": "油管播放列表2",
    "name": "油管播放列表2",
@@ -1407,11 +1407,11 @@
    "api": "http://127.0.0.1:1988/lb?lb=1",
    "jar": "./jar/yt.jar",
    "searchable": 1,
+   "changeable": 1,
    "style": {
     "type": "rect",
     "ratio": 1.33
-   },
-   "changeable": 1
+   }
   }, {
    "key": "短剧2",
    "name": "短剧",
@@ -1419,11 +1419,11 @@
    "api": "http://127.0.0.1:1988/lb?lb=2",
    "jar": "./jar/yt.jar",
    "searchable": 1,
+   "changeable": 1,
    "style": {
     "type": "rect",
     "ratio": 1.33
-   },
-   "changeable": 1
+   }
   }, {
    "key": "爱瓜tv",
    "name": "爱瓜tv",
@@ -1431,11 +1431,11 @@
    "api": "http://127.0.0.1:1988/lb?lb=4",
    "jar": "./jar/yt.jar",
    "searchable": 1,
+   "changeable": 1,
    "style": {
     "type": "rect",
     "ratio": 1.33
-   },
-   "changeable": 1
+   }
   }, {
    "key": "Hi视频(T4)",
    "name": "Hi视频(T4)",
@@ -1443,11 +1443,11 @@
    "api": "http://127.0.0.1:1988/lb?lb=5",
    "jar": "./jar/yt.jar",
    "searchable": 1,
+   "changeable": 1,
    "style": {
     "type": "rect",
     "ratio": 1.33
-   },
-   "changeable": 1
+   }
   }, {
    "key": "直播转点播",
    "name": "直播转点播",
