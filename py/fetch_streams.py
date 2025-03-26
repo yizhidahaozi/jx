@@ -7,7 +7,7 @@ import os
 # https://github.com/qq254950134/my-iptv
 urls = [
     "http://8.138.7.223/live.txt",
-    "https://7337.kstore.space/twkj/tvzb.txt",
+    "https://tv.iill.top/m3u/Gather",
     "https://raw.githubusercontent.com/tianya7981/jiekou/refs/heads/main/%E9%87%8E%E7%81%AB959",
     "http://tot.totalh.net/tttt.txt",
     "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
