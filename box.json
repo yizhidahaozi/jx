@@ -21,9 +21,10 @@
    "name": "黑木耳",
    "type": 1,
    "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-   "searchable": 1,
    "quickSearch": 1,
-   "ext": "./js/zy.json"
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "MTV",
    "name": "Bili_MTV",
@@ -69,9 +70,10 @@
    "name": "黑木耳(海外)",
    "type": 1,
    "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-   "playUrl": "",
-   "searchable": 1,
    "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "playUrl": "",
    "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "1",
