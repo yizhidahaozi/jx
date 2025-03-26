@@ -1238,7 +1238,7 @@
    "key": "py_hitvAPP",
    "name": "hitvAPP(T3)",
    "type": 3,
-   "jar": "",
+   "jar": "null",
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/hitvAPP.py",
    "searchable": 1,
    "filterable": 0,
