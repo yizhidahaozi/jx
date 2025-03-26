@@ -253,28 +253,146 @@ https://vd2.bdstatic.com/mda-nbdj7sp20st0jd9d/sc/cae_h264_delogo/164484755799434
 https://vd4.bdstatic.com/mda-nd79nt67wda0rz2m/hd/cae_h264_delogo/1649401825584808774/mda-nd79nt67wda0rz2m.mp4
 #EXTINF:-1 tvg-name="9首醉人的情歌",9首醉人的情歌
 https://vd2.bdstatic.com/mda-nca3btr4bdxce5wj/sc/cae_h264_delogo/1647136483442128566/mda-nca3btr4bdxce5wj.mp4
+#EXTINF:-1 tvg-name="ABC News",ABC News
+https://py.doube.eu.org/xinghuo?url=/ABC-News/1192
 #EXTINF:-1 tvg-name="ABNChina",ABNChina
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
+#EXTINF:-1 tvg-name="AEC",AEC
+https://py.doube.eu.org/xinghuo?url=/AEC/871
+#EXTINF:-1 tvg-name="AFC",AFC
+https://py.doube.eu.org/xinghuo?url=/AFC/898
+#EXTINF:-1 tvg-name="AFC亚洲旅游",AFC亚洲旅游
+https://py.doube.eu.org/xinghuo?url=/AFC-Asia-Travel-Channel/1110
 #EXTINF:-1 tvg-name="AMC电影",AMC电影
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1 tvg-name="AMC电影",AMC电影
 http://122.117.71.103:8559/http/61.222.53.250:8092/upload/115/AMC_TS-1111_1.m3u8
 #EXTINF:-1 tvg-name="ANTV",ANTV
 http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8?zshijd
+#EXTINF:-1 tvg-name="AOD",AOD
+https://py.doube.eu.org/xinghuo?url=/AOD/879
 #EXTINF:-1 tvg-name="ATVWORLD",ATVWORLD
 http://ott.watch/stream/E9LDH2ZCN7/36.m3u8
+#EXTINF:-1 tvg-name="Al-Hijrah",Al-Hijrah
+https://py.doube.eu.org/xinghuo?url=/Al-Hijrah/841
+#EXTINF:-1 tvg-name="Al-Jazeera",Al-Jazeera
+https://py.doube.eu.org/xinghuo?url=/Al-Jazeera/901
+#EXTINF:-1 tvg-name="AlQuran AlKareem",AlQuran AlKareem
+https://py.doube.eu.org/xinghuo?url=/AlQuran-AlKareem/970
+#EXTINF:-1 tvg-name="All the Kpop",All the Kpop
+https://py.doube.eu.org/xinghuo?url=/All-the-Kpop/1177
+#EXTINF:-1 tvg-name="Amarin",Amarin
+https://py.doube.eu.org/xinghuo?url=/Amarin/1153
+#EXTINF:-1 tvg-name="AnTV",AnTV
+https://py.doube.eu.org/xinghuo?url=/AnTV/952
+#EXTINF:-1 tvg-name="Animal Planet",Animal Planet
+https://py.doube.eu.org/xinghuo?url=/Animal-Planet/883
+#EXTINF:-1 tvg-name="Animal Planet (Eng)",Animal Planet (Eng)
+https://py.doube.eu.org/xinghuo?url=/Animal-Planet/1224
+#EXTINF:-1 tvg-name="Animal_Planet",Animal_Planet
+https://py.doube.eu.org/xinghuo?url=/Animal_Planet/1209
+#EXTINF:-1 tvg-name="Animax",Animax
+https://py.doube.eu.org/xinghuo?url=/Animax/1277
+#EXTINF:-1 tvg-name="Apps TV",Apps TV
+https://py.doube.eu.org/xinghuo?url=/Apps-TV/1176
+#EXTINF:-1 tvg-name="Arena",Arena
+https://py.doube.eu.org/xinghuo?url=/Arena/1268
+#EXTINF:-1 tvg-name="Arena",Arena
+https://py.doube.eu.org/xinghuo?url=/Arena/904
+#EXTINF:-1 tvg-name="Arena 2",Arena 2
+https://py.doube.eu.org/xinghuo?url=/Arena-2/1269
+#EXTINF:-1 tvg-name="Arena 2",Arena 2
+https://py.doube.eu.org/xinghuo?url=/Arena-2/905
+#EXTINF:-1 tvg-name="Arena Bola 2",Arena Bola 2
+https://py.doube.eu.org/xinghuo?url=/arena-bola-2/1271
+#EXTINF:-1 tvg-name="Arirang",Arirang
+https://py.doube.eu.org/xinghuo?url=/Arirang/1164
 #EXTINF:-1 tvg-name="ArirangTV",ArirangTV
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="ArirangTV",ArirangTV
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Arirang阿里郎",Arirang阿里郎
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8
+#EXTINF:-1 tvg-name="Asia Gourmet",Asia Gourmet
+https://py.doube.eu.org/xinghuo?url=/Asia-Gourmet/1214
+#EXTINF:-1 tvg-name="Asia Travel",Asia Travel
+https://py.doube.eu.org/xinghuo?url=/Asia-Travel/1212
+#EXTINF:-1 tvg-name="Astro Beinsports 1",Astro Beinsports 1
+https://py.doube.eu.org/xinghuo?url=/Astro-Beinsports-1/1272
+#EXTINF:-1 tvg-name="Astro Cricket",Astro Cricket
+https://py.doube.eu.org/xinghuo?url=/Astro-Cricket/1235
+#EXTINF:-1 tvg-name="Astro Golf",Astro Golf
+https://py.doube.eu.org/xinghuo?url=/Astro-Golf/1236
+#EXTINF:-1 tvg-name="Astro MTV",Astro MTV
+https://py.doube.eu.org/xinghuo?url=/Astro-MTV/847
+#EXTINF:-1 tvg-name="Astro Premier",Astro Premier
+https://py.doube.eu.org/xinghuo?url=/Astro-Premier/870
+#EXTINF:-1 tvg-name="Astro Sonypix",Astro Sonypix
+https://py.doube.eu.org/xinghuo?url=/Astro-Sonypix/867
+#EXTINF:-1 tvg-name="Astrol Kplus",Astrol Kplus
+https://py.doube.eu.org/xinghuo?url=/Astrol-Kplus/1146
+#EXTINF:-1 tvg-name="Astrol Kplus",Astrol Kplus
+https://py.doube.eu.org/xinghuo?url=/Astrol-Kplus/897
+#EXTINF:-1 tvg-name="Aura",Aura
+https://py.doube.eu.org/xinghuo?url=/Aura/862
+#EXTINF:-1 tvg-name="Awani",Awani
+https://py.doube.eu.org/xinghuo?url=/Awani/842
+#EXTINF:-1 tvg-name="Awesome TV",Awesome TV
+https://py.doube.eu.org/xinghuo?url=/Awesome-TV/866
+#EXTINF:-1 tvg-name="Axn",Axn
+https://py.doube.eu.org/xinghuo?url=/Axn/1143
+#EXTINF:-1 tvg-name="BBC Earth",BBC Earth
+https://py.doube.eu.org/xinghuo?url=/BBC-Earth/1220
+#EXTINF:-1 tvg-name="BBC Earth Lifestyle",BBC Earth Lifestyle
+https://py.doube.eu.org/xinghuo?url=/BBC-Earth-Lifestyle/1221
+#EXTINF:-1 tvg-name="BBC World News",BBC World News
+https://py.doube.eu.org/xinghuo?url=/BBC-World-News/1206
+#EXTINF:-1 tvg-name="BBC World News",BBC World News
+https://py.doube.eu.org/xinghuo?url=/BBC-World-News/1205
+#EXTINF:-1 tvg-name="BBC World News",BBC World News
+https://py.doube.eu.org/xinghuo?url=/BBC-World-News/890
 #EXTINF:-1 tvg-name="BBCNewsAsiaPacific",BBCNewsAsiaPacific
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 tvg-name="BTV卡通",BTV卡通
 http://113.57.20.158:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="Baby TV",Baby TV
+https://py.doube.eu.org/xinghuo?url=/Baby-TV/1278
+#EXTINF:-1 tvg-name="Baby TV Eng",Baby TV Eng
+https://py.doube.eu.org/xinghuo?url=/Baby-TV-Eng/1273
+#EXTINF:-1 tvg-name="Bein 1 Sports",Bein 1 Sports
+https://py.doube.eu.org/xinghuo?url=/Bein-1-Sports/1259
+#EXTINF:-1 tvg-name="Bein 2 Sports",Bein 2 Sports
+https://py.doube.eu.org/xinghuo?url=/Bein-2-Sports/1260
+#EXTINF:-1 tvg-name="Bein 3 Sports",Bein 3 Sports
+https://py.doube.eu.org/xinghuo?url=/Bein-3-Sports/1261
+#EXTINF:-1 tvg-name="Bein 4 Sports",Bein 4 Sports
+https://py.doube.eu.org/xinghuo?url=/Bein-4-Sports/1262
+#EXTINF:-1 tvg-name="Bein 5 Sports",Bein 5 Sports
+https://py.doube.eu.org/xinghuo?url=/Bein-5-Sports/1263
+#EXTINF:-1 tvg-name="Bein 6 Sports",Bein 6 Sports
+https://py.doube.eu.org/xinghuo?url=/Bein-6-Sports/1264
+#EXTINF:-1 tvg-name="Bein 7 Sports",Bein 7 Sports
+https://py.doube.eu.org/xinghuo?url=/Bein-7-Sports/1265
+#EXTINF:-1 tvg-name="Berita Satu",Berita Satu
+https://py.doube.eu.org/xinghuo?url=/Berita-Satu/950
+#EXTINF:-1 tvg-name="Bernama",Bernama
+https://py.doube.eu.org/xinghuo?url=/Bernama/843
+#EXTINF:-1 tvg-name="Bloomberg News",Bloomberg News
+https://py.doube.eu.org/xinghuo?url=/Bloomberg-News/900
 #EXTINF:-1 tvg-name="BobGirlsNoway",BobGirlsNoway
 https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg3Lqw4gUoo6LL7QU.mp4
+#EXTINF:-1 tvg-name="BolaArena 1",BolaArena 1
+https://py.doube.eu.org/xinghuo?url=/BolaArena-1/1270
+#EXTINF:-1 tvg-name="Boo",Boo
+https://py.doube.eu.org/xinghuo?url=/Boo/865
+#EXTINF:-1 tvg-name="CBS",CBS
+https://py.doube.eu.org/xinghuo?url=/CBS/1194
+#EXTINF:-1 tvg-name="CBS",CBS
+https://py.doube.eu.org/xinghuo?url=/CBS/1166
+#EXTINF:-1 tvg-name="CBSN",CBSN
+https://py.doube.eu.org/xinghuo?url=/CBSN/1195
+#EXTINF:-1 tvg-name="CBeebies",CBeebies
+https://py.doube.eu.org/xinghuo?url=/CBeebies/1274
 #EXTINF:-1 tvg-name="CCTV+1Not247",CCTV+1Not247
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="CCTV+2Not247",CCTV+2Not247
@@ -338,6 +456,8 @@ http://a21709.tv.netsite.cc/proxy/485668034/485668034.m3u8
 #EXTINF:-1 tvg-name="CCTV-5+ 体育赛事",CCTV-5+ 体育赛事
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225507/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-6",CCTV-6
+https://py.doube.eu.org/xinghuo?url=/CCTV-6/1114
+#EXTINF:-1 tvg-name="CCTV-6",CCTV-6
 http://a21709.tv.netsite.cc/proxy/584456678/584456678.m3u8
 #EXTINF:-1 tvg-name="CCTV-6 电影",CCTV-6 电影
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8
@@ -371,6 +491,8 @@ http://home.kuaidi521.com:35455/gaoma/cctv1.m3u8
 http://1.180.2.93:9901/tsfile/live/1020_1.m3u8
 #EXTINF:-1 tvg-name="CCTV1",CCTV1
 http://113.140.12.230:8888/newlive/live/hls/2/live.m3u8
+#EXTINF:-1 tvg-name="CCTV1",CCTV1
+https://py.doube.eu.org/xinghuo?url=/CCTV-1-General-Channel/916
 #EXTINF:-1 tvg-name="CCTV10",CCTV10
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225627/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV10",CCTV10
@@ -383,6 +505,8 @@ http://xiaoya.crccxw.top:35455/gaoma/cctv10.m3u8
 http://58.57.40.22:9901/tsfile/live/1010_1.m3u8
 #EXTINF:-1 tvg-name="CCTV10",CCTV10
 http://220.164.192.48:50085/tsfile/live/0011_1.m3u8
+#EXTINF:-1 tvg-name="CCTV10",CCTV10
+https://py.doube.eu.org/xinghuo?url=/CCTV-10-Science-and-Education-Channel?/924
 #EXTINF:-1 tvg-name="CCTV11",CCTV11
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225628/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV11",CCTV11
@@ -395,6 +519,8 @@ http://xiaoya.crccxw.top:35455/gaoma/cctv11.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225628/index.m3u8
 #EXTINF:-1 tvg-name="CCTV11",CCTV11
 http://58.57.40.22:9901/tsfile/live/1011_1.m3u8
+#EXTINF:-1 tvg-name="CCTV11",CCTV11
+https://py.doube.eu.org/xinghuo?url=/CCTV-11-Chinese-Opera-Channel/925
 #EXTINF:-1 tvg-name="CCTV12",CCTV12
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225629/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12",CCTV12
@@ -413,6 +539,8 @@ http://36.105.100.208:35455/gaoma/cctv12.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225629/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12",CCTV12
 http://xiaoya.crccxw.top:35455/gaoma/cctv12.m3u8
+#EXTINF:-1 tvg-name="CCTV12",CCTV12
+https://py.doube.eu.org/xinghuo?url=/CCTV-12-Society-and-Law-Channel/926
 #EXTINF:-1 tvg-name="CCTV13",CCTV13
 http://36.105.100.208:35455/gaoma/cctv13.m3u8
 #EXTINF:-1 tvg-name="CCTV13",CCTV13
@@ -423,6 +551,8 @@ http://huashetou.fun:35455/gaoma/cctv13.m3u8
 http://3501776.xyz:35455/gaoma/cctv13.m3u8
 #EXTINF:-1 tvg-name="CCTV13",CCTV13
 http://39.134.115.163:8080/PLTV/88888910/224/3221225638/index.m3u8
+#EXTINF:-1 tvg-name="CCTV13",CCTV13
+https://py.doube.eu.org/xinghuo?url=/CCTV-13-News-Channel/927
 #EXTINF:-1 tvg-name="CCTV14",CCTV14
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225640/index.m3u8
 #EXTINF:-1 tvg-name="CCTV14",CCTV14
@@ -435,6 +565,8 @@ http://36.105.100.208:35455/gaoma/cctv14.m3u8
 http://58.57.40.22:9901/tsfile/live/1014_1.m3u8
 #EXTINF:-1 tvg-name="CCTV14",CCTV14
 http://huashetou.fun:35455/gaoma/cctv14.m3u8
+#EXTINF:-1 tvg-name="CCTV14",CCTV14
+https://py.doube.eu.org/xinghuo?url=/CCTV-14-Children's-Channel/928
 #EXTINF:-1 tvg-name="CCTV15",CCTV15
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225641/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15",CCTV15
@@ -451,6 +583,8 @@ http://huashetou.fun:35455/gaoma/cctv15.m3u8
 http://xiaoya.crccxw.top:35455/gaoma/cctv15.m3u8
 #EXTINF:-1 tvg-name="CCTV15",CCTV15
 http://36.105.100.208:35455/gaoma/cctv15.m3u8
+#EXTINF:-1 tvg-name="CCTV15",CCTV15
+https://py.doube.eu.org/xinghuo?url=/CCTV-15-Music-Channel/930
 #EXTINF:-1 tvg-name="CCTV16",CCTV16
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226230/index.m3u8
 #EXTINF:-1 tvg-name="CCTV16",CCTV16
@@ -501,6 +635,8 @@ http://220.164.192.48:50085/tsfile/live/0003_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1001_1.m3u8
 #EXTINF:-1 tvg-name="CCTV2",CCTV2
 http://36.105.100.208:35455/gaoma/cctv2.m3u8
+#EXTINF:-1 tvg-name="CCTV2",CCTV2
+https://py.doube.eu.org/xinghuo?url=/CCTV-2-Finance-and-Economics-Channel/917
 #EXTINF:-1 tvg-name="CCTV3",CCTV3
 http://[2409:8087:1a01:df::4041]:80/TVOD/88888888/224/3221225799/main.m3u8
 #EXTINF:-1 tvg-name="CCTV3",CCTV3
@@ -513,6 +649,8 @@ http://1.24.39.180:9003/hls/3/index.m3u8
 http://113.140.12.230:8888/newlive/live/hls/4/live.m3u8
 #EXTINF:-1 tvg-name="CCTV3",CCTV3
 http://39.170.52.236:808/hls/3/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3",CCTV3
+https://py.doube.eu.org/xinghuo?url=/CCTV-3-Variety-Show-Channel/918
 #EXTINF:-1 tvg-name="CCTV4",CCTV4
 http://220.164.192.48:50085/tsfile/live/0005_1.m3u8
 #EXTINF:-1 tvg-name="CCTV4",CCTV4
@@ -523,6 +661,10 @@ http://58.57.40.22:9901/tsfile/live/1003_1.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225621/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4",CCTV4
 http://39.77.34.83:35455/gaoma/cctv4.m3u8
+#EXTINF:-1 tvg-name="CCTV4国际",CCTV4国际
+https://py.doube.eu.org/xinghuo?url=/CCTV-4-Chinese-International-Channel/919
+#EXTINF:-1 tvg-name="CCTV4新闻",CCTV4新闻
+https://py.doube.eu.org/xinghuo?url=/CCTV-4-News-Channel/920
 #EXTINF:-1 tvg-name="CCTV5",CCTV5
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225633/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5",CCTV5
@@ -535,6 +677,8 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225633/index.m3u8
 http://58.57.40.22:9901/tsfile/live/1004_1.m3u8
 #EXTINF:-1 tvg-name="CCTV5",CCTV5
 http://huashetou.fun:35455/gaoma/cctv5.m3u8
+#EXTINF:-1 tvg-name="CCTV5",CCTV5
+https://py.doube.eu.org/xinghuo?url=/cctv-5-sports-channel/1255
 #EXTINF:-1 tvg-name="CCTV5+",CCTV5+
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225706/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5+",CCTV5+
@@ -551,6 +695,8 @@ http://huashetou.fun:35455/gaoma/cctv5p.m3u8
 http://58.57.40.22:9901/tsfile/live/1005_1.m3u8
 #EXTINF:-1 tvg-name="CCTV5+",CCTV5+
 http://112.81.218.254:35455/gaoma/cctv5p.m3u8
+#EXTINF:-1 tvg-name="CCTV5+",CCTV5+
+https://py.doube.eu.org/xinghuo?url=/CCTV-5+-Sports-Events/1256
 #EXTINF:-1 tvg-name="CCTV6",CCTV6
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225650/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6",CCTV6
@@ -567,6 +713,8 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225650/index.m3u8
 http://1.24.39.180:9003/hls/6/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6",CCTV6
 http://113.140.12.230:8888/newlive/live/hls/7/live.m3u8
+#EXTINF:-1 tvg-name="CCTV6",CCTV6
+https://py.doube.eu.org/xinghuo?url=/CCTV-6-Movie-Channel/929
 #EXTINF:-1 tvg-name="CCTV7",CCTV7
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225644/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7",CCTV7
@@ -585,6 +733,8 @@ http://220.164.192.48:50085/tsfile/live/0008_1.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225624/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7",CCTV7
 http://nas.suntao.online:35455/gaoma/cctv7.m3u8
+#EXTINF:-1 tvg-name="CCTV7",CCTV7
+https://py.doube.eu.org/xinghuo?url=/CCTV-7-Military-and-Agriculture-Channel/921
 #EXTINF:-1 tvg-name="CCTV8",CCTV8
 http://[2409:8087:1a01:df::4051]:80/TVOD/88888888/224/3221225795/main.m3u8
 #EXTINF:-1 tvg-name="CCTV8",CCTV8
@@ -597,6 +747,8 @@ http://iptv77.iptv66.eu.org:35455/gaoma/cctv8.m3u8
 http://nas.suntao.online:35455/gaoma/cctv8.m3u8
 #EXTINF:-1 tvg-name="CCTV8",CCTV8
 http://nas.suntao.online:35455/gaoma/cctv8k_36m.m3u8
+#EXTINF:-1 tvg-name="CCTV8",CCTV8
+https://py.doube.eu.org/xinghuo?url=/CCTV-8-TV-Drama-Channel/922
 #EXTINF:-1 tvg-name="CCTV9",CCTV9
 http://36.105.100.208:35455/gaoma/cctv9.m3u8
 #EXTINF:-1 tvg-name="CCTV9",CCTV9
@@ -607,6 +759,8 @@ http://39.164.160.249:9901/tsfile/live/0009_1.m3u8
 http://xiaoya.crccxw.top:35455/gaoma/cctv9.m3u8
 #EXTINF:-1 tvg-name="CCTV9",CCTV9
 http://39.134.115.163:8080/PLTV/88888910/224/3221225626/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9",CCTV9
+https://py.doube.eu.org/xinghuo?url=/CCTV-9-Documentary-Channel/923
 #EXTINF:-1 tvg-name="CCTV世界地理",CCTV世界地理
 http://180.213.174.225:9901/tsfile/live/1051_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV世界地理",CCTV世界地理
@@ -657,6 +811,10 @@ https://piccpndali.v.myalicdn.com/audio/cetv4_2.m3u8
 http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv4&videoTVChannel=cetv4&P2PChannelID=pd://cctv_p2p_hdcetv4&tai=cetv4&VideoName=cetv4&channelID=cetv4
 #EXTINF:-1 tvg-name="CGTN",CGTN
 https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 tvg-name="CGTN",CGTN
+https://py.doube.eu.org/xinghuo?url=/CGTN/1200
+#EXTINF:-1 tvg-name="CGTN",CGTN
+https://py.doube.eu.org/xinghuo?url=/CGTN/944
 #EXTINF:-1 tvg-name="CGTN",CGTN
 http://a21709.tv.netsite.cc/proxy/1162774257/1162774257.m3u8
 #EXTINF:-1 tvg-name="CGTN俄语",CGTN俄语
@@ -727,8 +885,54 @@ http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=
 http://api2.52tb.xyz/info?id=221&token=20230218qkyjia
 #EXTINF:-1 tvg-name="CHC电影",CHC电影
 http://180.213.174.225:9901/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CI",CI
+https://py.doube.eu.org/xinghuo?url=/CI/1211
+#EXTINF:-1 tvg-name="CINEMAX",CINEMAX
+https://py.doube.eu.org/xinghuo?url=/CINEMAX/1115
+#EXTINF:-1 tvg-name="CNA",CNA
+https://py.doube.eu.org/xinghuo?url=/CNA/1204
+#EXTINF:-1 tvg-name="CNA",CNA
+https://py.doube.eu.org/xinghuo?url=/CNA/889
+#EXTINF:-1 tvg-name="CNA",CNA
+https://py.doube.eu.org/xinghuo?url=/CNA/911
+#EXTINF:-1 tvg-name="CNBC",CNBC
+https://py.doube.eu.org/xinghuo?url=/CNBC/1203
+#EXTINF:-1 tvg-name="CNBC",CNBC
+https://py.doube.eu.org/xinghuo?url=/CNBC/887
+#EXTINF:-1 tvg-name="CNN",CNN
+https://py.doube.eu.org/xinghuo?url=/CNN/1202
+#EXTINF:-1 tvg-name="CNN",CNN
+https://py.doube.eu.org/xinghuo?url=/CNN/885
+#EXTINF:-1 tvg-name="CNN International",CNN International
+https://py.doube.eu.org/xinghuo?url=/CNN-International/1201
+#EXTINF:-1 tvg-name="Cartoon Network",Cartoon Network
+https://py.doube.eu.org/xinghuo?url=/cartoon-network/1282
+#EXTINF:-1 tvg-name="Cartoon Network",Cartoon Network
+https://py.doube.eu.org/xinghuo?url=/Cartoon-Network/855
+#EXTINF:-1 tvg-name="Celestial Movies",Celestial Movies
+https://py.doube.eu.org/xinghuo?url=/Celestial-Movies/894
+#EXTINF:-1 tvg-name="Ceria",Ceria
+https://py.doube.eu.org/xinghuo?url=/Ceria/846
+#EXTINF:-1 tvg-name="Ch 8",Ch 8
+https://py.doube.eu.org/xinghuo?url=/Ch-8/1154
+#EXTINF:-1 tvg-name="Channel 3 Thailand",Channel 3 Thailand
+https://py.doube.eu.org/xinghuo?url=/Channel-3-Thailand/1147
+#EXTINF:-1 tvg-name="Channel 5",Channel 5
+https://py.doube.eu.org/xinghuo?url=/Channel-5/906
+#EXTINF:-1 tvg-name="Channel 5 Thailand",Channel 5 Thailand
+https://py.doube.eu.org/xinghuo?url=/Channel-5-Thailand/1148
+#EXTINF:-1 tvg-name="Channel 7 Thailand",Channel 7 Thailand
+https://py.doube.eu.org/xinghuo?url=/Channel-7-Thailand/1149
+#EXTINF:-1 tvg-name="Channel 8",Channel 8
+https://py.doube.eu.org/xinghuo?url=/Channel-8/907
+#EXTINF:-1 tvg-name="Channel U",Channel U
+https://py.doube.eu.org/xinghuo?url=/Channel-U/909
 #EXTINF:-1 tvg-name="ChannelNewsAsia",ChannelNewsAsia
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
+#EXTINF:-1 tvg-name="Cinemax",Cinemax
+https://py.doube.eu.org/xinghuo?url=/Cinemax/958
+#EXTINF:-1 tvg-name="Citra",Citra
+https://py.doube.eu.org/xinghuo?url=/Citra/860
 #EXTINF:-1 tvg-name="DJ13首经典老歌",DJ13首经典老歌
 https://vd4.bdstatic.com/mda-igbpw1bm4vdxitj0/logo/sc/mda-igbpw1bm4vdxitj0.mp4
 #EXTINF:-1 tvg-name="DJ4首吸烟的女人",DJ4首吸烟的女人
@@ -847,10 +1051,34 @@ https://vd4.bdstatic.com/mda-nd1a4zuxf78py830/sc/cae_h264_delogo/164900382993279
 https://vd4.bdstatic.com/mda-ncidj3kqg98a7ent/360p/h264_delogo/1647683015061569002/mda-ncidj3kqg98a7ent.mp4
 #EXTINF:-1 tvg-name="DJ醉过多少回",DJ醉过多少回
 https://vd4.bdstatic.com/mda-megp46e98a4f2b9g/sc/h264/1621239560364992817/mda-megp46e98a4f2b9g.mp4
+#EXTINF:-1 tvg-name="DW (Deutsch)",DW (Deutsch)
+https://py.doube.eu.org/xinghuo?url=/DW-(Deutsch)/1197
+#EXTINF:-1 tvg-name="DaAi 2",DaAi 2
+https://py.doube.eu.org/xinghuo?url=/DaAi-2/1117
+#EXTINF:-1 tvg-name="Daai TV",Daai TV
+https://py.doube.eu.org/xinghuo?url=/Daai-TV/966
 #EXTINF:-1 tvg-name="Discovery",Discovery
 http://ott.watch/stream/E9LDH2ZCN7/146.m3u8
+#EXTINF:-1 tvg-name="Discovery",Discovery
+https://py.doube.eu.org/xinghuo?url=/Discovery/1213
+#EXTINF:-1 tvg-name="Discovery Asia",Discovery Asia
+https://py.doube.eu.org/xinghuo?url=/Discovery-Asia/1210
 #EXTINF:-1 tvg-name="DogTV",DogTV
 http://180.213.174.225:9901/tsfile/live/1042_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="Dreamworks",Dreamworks
+https://py.doube.eu.org/xinghuo?url=/Dreamworks/858
+#EXTINF:-1 tvg-name="EBS 1",EBS 1
+https://py.doube.eu.org/xinghuo?url=/EBS-1/1167
+#EXTINF:-1 tvg-name="EBS Plus2",EBS Plus2
+https://py.doube.eu.org/xinghuo?url=/EBS-Plus2/1169
+#EXTINF:-1 tvg-name="EBS2",EBS2
+https://py.doube.eu.org/xinghuo?url=/EBS2/1168
+#EXTINF:-1 tvg-name="ETTV Business",ETTV Business
+https://py.doube.eu.org/xinghuo?url=/ETTV-Business/1193
+#EXTINF:-1 tvg-name="ETTV Yoyo TV",ETTV Yoyo TV
+https://py.doube.eu.org/xinghuo?url=/ETTV-Yoyo-TV/1281
+#EXTINF:-1 tvg-name="EWTN",EWTN
+https://py.doube.eu.org/xinghuo?url=/EWTN/969
 #EXTINF:-1 tvg-name="EWTNAfricaAsia",EWTNAfricaAsia
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-name="EWTNAsiaPacificNot247",EWTNAsiaPacificNot247
@@ -859,50 +1087,390 @@ https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg2abB4gUohpLdxAQ.mp4
 #EXTINF:-1 tvg-name="EXID啊是的",EXID啊是的
 https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1J_-4gUouJjNQw.mp4
+#EXTINF:-1 tvg-name="EYETV旅游",EYETV旅游
+https://py.doube.eu.org/xinghuo?url=/EYETV-Travel/1099
+#EXTINF:-1 tvg-name="Elta Sports 2",Elta Sports 2
+https://py.doube.eu.org/xinghuo?url=/Elta-Sports-2/1257
+#EXTINF:-1 tvg-name="Elta Sports 3",Elta Sports 3
+https://py.doube.eu.org/xinghuo?url=/Elta-Sports-3/1258
+#EXTINF:-1 tvg-name="Elta影剧台",Elta影剧台
+https://py.doube.eu.org/xinghuo?url=/Elta-Drama/1109
+#EXTINF:-1 tvg-name="Elta综合",Elta综合
+https://py.doube.eu.org/xinghuo?url=/Elta-General-Channel/1107
+#EXTINF:-1 tvg-name="Entertain",Entertain
+https://py.doube.eu.org/xinghuo?url=/Entertain/976
 #EXTINF:-1 tvg-name="FIESTARMirror",FIESTARMirror
 https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg4K_04wUo5-iTyAU.mp4
+#EXTINF:-1 tvg-name="Fashion TV",Fashion TV
+https://py.doube.eu.org/xinghuo?url=/Fashion-TV/1218
+#EXTINF:-1 tvg-name="Fight Sports",Fight Sports
+https://py.doube.eu.org/xinghuo?url=/Fight-Sports/1233
+#EXTINF:-1 tvg-name="Fight Sports",Fight Sports
+https://py.doube.eu.org/xinghuo?url=/Fight-Sports/981
+#EXTINF:-1 tvg-name="Food Planet",Food Planet
+https://py.doube.eu.org/xinghuo?url=/Food-Planet/1086
+#EXTINF:-1 tvg-name="Foodnetwork",Foodnetwork
+https://py.doube.eu.org/xinghuo?url=/Foodnetwork/1226
+#EXTINF:-1 tvg-name="Foodnetwork",Foodnetwork
+https://py.doube.eu.org/xinghuo?url=/Foodnetwork/891
+#EXTINF:-1 tvg-name="Fox News",Fox News
+https://py.doube.eu.org/xinghuo?url=/Fox-News/1199
+#EXTINF:-1 tvg-name="France 24",France 24
+https://py.doube.eu.org/xinghuo?url=/France-24/1196
 #EXTINF:-1 tvg-name="FusungNewsTV",FusungNewsTV
 http://stream8.jlntv.cn/fs/sd/live.m3u8
+#EXTINF:-1 tvg-name="GTV",GTV
+https://py.doube.eu.org/xinghuo?url=/GTV/962
 #EXTINF:-1 tvg-name="Gavy20NJDontCall",Gavy20NJDontCall
 https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgsu_c4gUohrr0igU.mp4
 #EXTINF:-1 tvg-name="GeoDaSilvaJ",GeoDaSilvaJ
 https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg5avW4gUo47zhvwU.mp4
+#EXTINF:-1 tvg-name="Gmm Channel",Gmm Channel
+https://py.doube.eu.org/xinghuo?url=/Gmm-Channel/1160
+#EXTINF:-1 tvg-name="GmmOne",GmmOne
+https://py.doube.eu.org/xinghuo?url=/GmmOne/1155
+#EXTINF:-1 tvg-name="Goshop",Goshop
+https://py.doube.eu.org/xinghuo?url=/Goshop/893
+#EXTINF:-1 tvg-name="HBO",HBO
+https://py.doube.eu.org/xinghuo?url=/HBO/1130
+#EXTINF:-1 tvg-name="HBO",HBO
+https://py.doube.eu.org/xinghuo?url=/HBO/851
+#EXTINF:-1 tvg-name="HBO Family",HBO Family
+https://py.doube.eu.org/xinghuo?url=/HBO-Family/1126
+#EXTINF:-1 tvg-name="HBO HITS",HBO HITS
+https://py.doube.eu.org/xinghuo?url=/HBO_HITS/1112
+#EXTINF:-1 tvg-name="HBO Hits",HBO Hits
+https://py.doube.eu.org/xinghuo?url=/HBO-Hits/1133
+#EXTINF:-1 tvg-name="HBO Hits",HBO Hits
+https://py.doube.eu.org/xinghuo?url=/HBO-Hits/853
+#EXTINF:-1 tvg-name="HBO Signature",HBO Signature
+https://py.doube.eu.org/xinghuo?url=/HBO-Signature/1132
+#EXTINF:-1 tvg-name="HBO Signature",HBO Signature
+https://py.doube.eu.org/xinghuo?url=/HBO-Signature/852
+#EXTINF:-1 tvg-name="HBO_HD",HBO_HD
+https://py.doube.eu.org/xinghuo?url=/HBO_HD/1111
+#EXTINF:-1 tvg-name="HGTV",HGTV
+https://py.doube.eu.org/xinghuo?url=/HGTV/892
+#EXTINF:-1 tvg-name="HK31",HK31
+https://py.doube.eu.org/xinghuo?url=/Radio-Television-Hong-Kong-31/992
+#EXTINF:-1 tvg-name="HK32",HK32
+https://py.doube.eu.org/xinghuo?url=/Radio-Television-Hong-Kong-32/994
 #EXTINF:-1 tvg-name="HiroshimaWeatherInformation",HiroshimaWeatherInformation
 https://hiroshima-tv-live.hls.wselive.stream.ne.jp/hiroshima-tv-live/live/playlist.m3u8
+#EXTINF:-1 tvg-name="History",History
+https://py.doube.eu.org/xinghuo?url=/History/1219
+#EXTINF:-1 tvg-name="Hits",Hits
+https://py.doube.eu.org/xinghuo?url=/Hits/1127
+#EXTINF:-1 tvg-name="Hits",Hits
+https://py.doube.eu.org/xinghuo?url=/Hits/977
+#EXTINF:-1 tvg-name="Hits Movie",Hits Movie
+https://py.doube.eu.org/xinghuo?url=/Hits-Movie/1138
+#EXTINF:-1 tvg-name="Hits Movie",Hits Movie
+https://py.doube.eu.org/xinghuo?url=/Hits-Movie/982
+#EXTINF:-1 tvg-name="Indosiar",Indosiar
+https://py.doube.eu.org/xinghuo?url=/Indosiar/951
+#EXTINF:-1 tvg-name="J the Kpop",J the Kpop
+https://py.doube.eu.org/xinghuo?url=/J-the-Kpop/1178
+#EXTINF:-1 tvg-name="J2",J2
+https://py.doube.eu.org/xinghuo?url=/j2-channel/988
+#EXTINF:-1 tvg-name="JTV",JTV
+https://py.doube.eu.org/xinghuo?url=/JTV/956
+#EXTINF:-1 tvg-name="Jak TV",Jak TV
+https://py.doube.eu.org/xinghuo?url=/Jak-TV/964
 #EXTINF:-1 tvg-name="KBC",KBC
 http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8
+#EXTINF:-1 tvg-name="KBS World",KBS World
+https://py.doube.eu.org/xinghuo?url=/KBS-World/864
+#EXTINF:-1 tvg-name="KBS World 24",KBS World 24
+https://py.doube.eu.org/xinghuo?url=/KBS-World-24/1172
 #EXTINF:-1 tvg-name="KCTV",KCTV
 http://119.77.96.184:1935/chn05/chn05/chunklist.m3u8
 #EXTINF:-1 tvg-name="KantikOrfelogy",KantikOrfelogy
 https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggq-W4gUouLym-QQ.mp4
+#EXTINF:-1 tvg-name="Kids TV",Kids TV
+https://py.doube.eu.org/xinghuo?url=/Kids-TV/1275
+#EXTINF:-1 tvg-name="Kompass TV",Kompass TV
+https://py.doube.eu.org/xinghuo?url=/Kompass-TV/949
 #EXTINF:-1 tvg-name="LUNA即便如此",LUNA即便如此
 https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgxfG98AUogN6hqgU.mp4
+#EXTINF:-1 tvg-name="Lifestyle&Fashion",Lifestyle&Fashion
+https://py.doube.eu.org/xinghuo?url=/Lifestyle&Fashion/975
+#EXTINF:-1 tvg-name="MCOT Thailand-1",MCOT Thailand-1
+https://py.doube.eu.org/xinghuo?url=/MCOT-Thailand-1/1150
+#EXTINF:-1 tvg-name="MNC TV",MNC TV
+https://py.doube.eu.org/xinghuo?url=/MNC-TV/953
+#EXTINF:-1 tvg-name="MTV Live",MTV Live
+https://py.doube.eu.org/xinghuo?url=/MTV-Live/1222
+#EXTINF:-1 tvg-name="Madinah",Madinah
+https://py.doube.eu.org/xinghuo?url=/Madinah/849
+#EXTINF:-1 tvg-name="MeWatch Ch 5",MeWatch Ch 5
+https://py.doube.eu.org/xinghuo?url=/MeWatch-Ch-5/912
+#EXTINF:-1 tvg-name="MeWatch Ch 8",MeWatch Ch 8
+https://py.doube.eu.org/xinghuo?url=/MeWatch-Ch-8/913
+#EXTINF:-1 tvg-name="MeWatch Ch U",MeWatch Ch U
+https://py.doube.eu.org/xinghuo?url=/MeWatch-Ch-U/914
+#EXTINF:-1 tvg-name="MeWatch Suria",MeWatch Suria
+https://py.doube.eu.org/xinghuo?url=/MeWatch-Suria/915
+#EXTINF:-1 tvg-name="Mecca Live",Mecca Live
+https://py.doube.eu.org/xinghuo?url=/Mecca-Live/848
+#EXTINF:-1 tvg-name="Metro TV",Metro TV
+https://py.doube.eu.org/xinghuo?url=/Metro-TV/957
+#EXTINF:-1 tvg-name="MiaoMi",MiaoMi
+https://py.doube.eu.org/xinghuo?url=/MiaoMi/1279
+#EXTINF:-1 tvg-name="Momo TV",Momo TV
+https://py.doube.eu.org/xinghuo?url=/Momo-TV/1276
+#EXTINF:-1 tvg-name="Mono",Mono
+https://py.doube.eu.org/xinghuo?url=/Mono/1156
+#EXTINF:-1 tvg-name="Movies Now",Movies Now
+https://py.doube.eu.org/xinghuo?url=/Movies-Now/1123
+#EXTINF:-1 tvg-name="Music TV",Music TV
+https://py.doube.eu.org/xinghuo?url=/Music-TV/974
+#EXTINF:-1 tvg-name="Muslim TV",Muslim TV
+https://py.doube.eu.org/xinghuo?url=/Muslim-TV/973
+#EXTINF:-1 tvg-name="NBA TV",NBA TV
+https://py.doube.eu.org/xinghuo?url=/NBA-TV/1234
+#EXTINF:-1 tvg-name="NHK World",NHK World
+https://py.doube.eu.org/xinghuo?url=/NHK-World/1198
+#EXTINF:-1 tvg-name="NTV7",NTV7
+https://py.doube.eu.org/xinghuo?url=/NTV7/835
+#EXTINF:-1 tvg-name="NatGeo",NatGeo
+https://py.doube.eu.org/xinghuo?url=/NatGeo/1217
+#EXTINF:-1 tvg-name="NatGeo Wild",NatGeo Wild
+https://py.doube.eu.org/xinghuo?url=/NatGeo-Wild/1223
+#EXTINF:-1 tvg-name="NatGeo Wild",NatGeo Wild
+https://py.doube.eu.org/xinghuo?url=/NatGeo-Wild/854
+#EXTINF:-1 tvg-name="NatGeo_Wild",NatGeo_Wild
+https://py.doube.eu.org/xinghuo?url=/NatGeo_Wild/1208
+#EXTINF:-1 tvg-name="Natgeo_HD",Natgeo_HD
+https://py.doube.eu.org/xinghuo?url=/Natgeo_HD/1207
+#EXTINF:-1 tvg-name="Nation",Nation
+https://py.doube.eu.org/xinghuo?url=/Nation/1161
+#EXTINF:-1 tvg-name="Nbt",Nbt
+https://py.doube.eu.org/xinghuo?url=/Nbt/1163
+#EXTINF:-1 tvg-name="Net TV",Net TV
+https://py.doube.eu.org/xinghuo?url=/Net-TV/967
 #EXTINF:-1 tvg-name="NewTV动作电影",NewTV动作电影
 http://3501776.xyz:35455/itv/1000000004000018653.m3u8?cdn=ystenlive
+#EXTINF:-1 tvg-name="Nick Jr",Nick Jr
+https://py.doube.eu.org/xinghuo?url=/Nick-Jr/857
+#EXTINF:-1 tvg-name="Nickelodeon",Nickelodeon
+https://py.doube.eu.org/xinghuo?url=/Nickelodeon/856
+#EXTINF:-1 tvg-name="Now新聞",Now新聞
+https://py.doube.eu.org/xinghuo?url=/nowxw/1284
+#EXTINF:-1 tvg-name="Now直播",Now直播
+https://py.doube.eu.org/xinghuo?url=/nowxw/1285
+#EXTINF:-1 tvg-name="Now財經",Now財經
+https://py.doube.eu.org/xinghuo?url=/nowcj/1286
+#EXTINF:-1 tvg-name="Oasis",Oasis
+https://py.doube.eu.org/xinghuo?url=/Oasis/850
+#EXTINF:-1 tvg-name="One",One
+https://py.doube.eu.org/xinghuo?url=/One/1139
+#EXTINF:-1 tvg-name="One",One
+https://py.doube.eu.org/xinghuo?url=/One/983
+#EXTINF:-1 tvg-name="One",One
+https://py.doube.eu.org/xinghuo?url=/One/880
+#EXTINF:-1 tvg-name="PPTV Thailand1",PPTV Thailand1
+https://py.doube.eu.org/xinghuo?url=/PPTV-Thailand1/1151
+#EXTINF:-1 tvg-name="Paramount Network",Paramount Network
+https://py.doube.eu.org/xinghuo?url=/Paramount-Network/1144
+#EXTINF:-1 tvg-name="Paramount Network",Paramount Network
+https://py.doube.eu.org/xinghuo?url=/Paramount-Network/896
+#EXTINF:-1 tvg-name="Prima",Prima
+https://py.doube.eu.org/xinghuo?url=/Prima/844
+#EXTINF:-1 tvg-name="Prima 2",Prima 2
+https://py.doube.eu.org/xinghuo?url=/Prima-2/845
+#EXTINF:-1 tvg-name="RCTI",RCTI
+https://py.doube.eu.org/xinghuo?url=/RCTI/948
+#EXTINF:-1 tvg-name="RTM Sports",RTM Sports
+https://py.doube.eu.org/xinghuo?url=/RTM-Sports/1267
+#EXTINF:-1 tvg-name="RTM Sports",RTM Sports
+https://py.doube.eu.org/xinghuo?url=/RTM-Sports/903
+#EXTINF:-1 tvg-name="RTV",RTV
+https://py.doube.eu.org/xinghuo?url=/RTV/963
+#EXTINF:-1 tvg-name="Rania",Rania
+https://py.doube.eu.org/xinghuo?url=/Rania/863
 #EXTINF:-1 tvg-name="RedBullTV",RedBullTV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8?denmstv.m3u8
+#EXTINF:-1 tvg-name="Ria",Ria
+https://py.doube.eu.org/xinghuo?url=/Ria/839
+#EXTINF:-1 tvg-name="Ria-3",Ria-3
+https://py.doube.eu.org/xinghuo?url=/Ria-3/840
+#EXTINF:-1 tvg-name="Rock Actions",Rock Actions
+https://py.doube.eu.org/xinghuo?url=/Rock-Actions/899
+#EXTINF:-1 tvg-name="Rock Entertainment",Rock Entertainment
+https://py.doube.eu.org/xinghuo?url=/Rock-Entertainment/902
+#EXTINF:-1 tvg-name="Rugby Pass TV",Rugby Pass TV
+https://py.doube.eu.org/xinghuo?url=/Rugby-Pass-TV/1266
+#EXTINF:-1 tvg-name="SBS Plus",SBS Plus
+https://py.doube.eu.org/xinghuo?url=/SBS-Plus/1170
+#EXTINF:-1 tvg-name="SCM",SCM
+https://py.doube.eu.org/xinghuo?url=/SCM/1135
+#EXTINF:-1 tvg-name="SCM",SCM
+https://py.doube.eu.org/xinghuo?url=/SCM/979
+#EXTINF:-1 tvg-name="SCTV",SCTV
+https://py.doube.eu.org/xinghuo?url=/SCTV/959
+#EXTINF:-1 tvg-name="SPOTV 1",SPOTV 1
+https://py.doube.eu.org/xinghuo?url=/SPOTV-1/1244
+#EXTINF:-1 tvg-name="SPOTV 2",SPOTV 2
+https://py.doube.eu.org/xinghuo?url=/SPO-TV-2/1245
+#EXTINF:-1 tvg-name="Sensasi",Sensasi
+https://py.doube.eu.org/xinghuo?url=/Sensasi/861
+#EXTINF:-1 tvg-name="Siar",Siar
+https://py.doube.eu.org/xinghuo?url=/Siar/859
+#EXTINF:-1 tvg-name="SkyLink Cartoon Channel",SkyLink Cartoon Channel
+https://py.doube.eu.org/xinghuo?url=/SkyLink-Cartoon-Channel/1280
+#EXTINF:-1 tvg-name="Skynews",Skynews
+https://py.doube.eu.org/xinghuo?url=/Skynews/1191
+#EXTINF:-1 tvg-name="Skysports Arena",Skysports Arena
+https://py.doube.eu.org/xinghuo?url=/Skysports-Arena/1246
+#EXTINF:-1 tvg-name="Skysports Cricket",Skysports Cricket
+https://py.doube.eu.org/xinghuo?url=/Skysports-Cricket/1248
+#EXTINF:-1 tvg-name="Skysports EPL",Skysports EPL
+https://py.doube.eu.org/xinghuo?url=/Skysports-EPL/1249
+#EXTINF:-1 tvg-name="Skysports F1",Skysports F1
+https://py.doube.eu.org/xinghuo?url=/Skysports-F1/1247
+#EXTINF:-1 tvg-name="Skysports Football",Skysports Football
+https://py.doube.eu.org/xinghuo?url=/Skysports-Football/1250
+#EXTINF:-1 tvg-name="Skysports Golf",Skysports Golf
+https://py.doube.eu.org/xinghuo?url=/Skysports-Golf/1251
+#EXTINF:-1 tvg-name="Skysports Main Event",Skysports Main Event
+https://py.doube.eu.org/xinghuo?url=/Skysports-Main-Event/1252
+#EXTINF:-1 tvg-name="Skysports Mix",Skysports Mix
+https://py.doube.eu.org/xinghuo?url=/Skysports-Mix/1254
+#EXTINF:-1 tvg-name="Skysports News",Skysports News
+https://py.doube.eu.org/xinghuo?url=/Skysports-News/1253
 #EXTINF:-1 tvg-name="Soda东南亚之旅",Soda东南亚之旅
 https://vdse.bdstatic.com//b6295e9776c2cd347716fc2447e27fac.mp4
+#EXTINF:-1 tvg-name="Sony",Sony
+https://py.doube.eu.org/xinghuo?url=/Sony/868
+#EXTINF:-1 tvg-name="Sony Pix",Sony Pix
+https://py.doube.eu.org/xinghuo?url=/Sony-Pix/1145
+#EXTINF:-1 tvg-name="Sony Ten 1",Sony Ten 1
+https://py.doube.eu.org/xinghuo?url=/Sony-Ten-1/1241
+#EXTINF:-1 tvg-name="Sony Ten 2",Sony Ten 2
+https://py.doube.eu.org/xinghuo?url=/Sony-Ten-2/1242
+#EXTINF:-1 tvg-name="Sony Ten 3",Sony Ten 3
+https://py.doube.eu.org/xinghuo?url=/Sony-Ten-3/1243
+#EXTINF:-1 tvg-name="Supersports 1",Supersports 1
+https://py.doube.eu.org/xinghuo?url=/supersports-1/1227
+#EXTINF:-1 tvg-name="Supersports 2",Supersports 2
+https://py.doube.eu.org/xinghuo?url=/Supersports-2/1228
+#EXTINF:-1 tvg-name="Supersports 3",Supersports 3
+https://py.doube.eu.org/xinghuo?url=/Supersports-3/1229
+#EXTINF:-1 tvg-name="Supersports 4",Supersports 4
+https://py.doube.eu.org/xinghuo?url=/supersports-4/1230
+#EXTINF:-1 tvg-name="Supersports 5",Supersports 5
+https://py.doube.eu.org/xinghuo?url=/Supersports-5/1231
+#EXTINF:-1 tvg-name="Suria",Suria
+https://py.doube.eu.org/xinghuo?url=/Suria/908
+#EXTINF:-1 tvg-name="TLC",TLC
+https://py.doube.eu.org/xinghuo?url=/TLC/1225
+#EXTINF:-1 tvg-name="TLC",TLC
+https://py.doube.eu.org/xinghuo?url=/TLC/888
+#EXTINF:-1 tvg-name="TLC Asia",TLC Asia
+https://py.doube.eu.org/xinghuo?url=/TLC-Asia/1087
+#EXTINF:-1 tvg-name="TNT Sports 1",TNT Sports 1
+https://py.doube.eu.org/xinghuo?url=/TNT-Sports-1/1237
+#EXTINF:-1 tvg-name="TNT Sports 2",TNT Sports 2
+https://py.doube.eu.org/xinghuo?url=/TNT-Sports-2/1238
+#EXTINF:-1 tvg-name="TNT Sports 3",TNT Sports 3
+https://py.doube.eu.org/xinghuo?url=/TNT-Sports-3/1239
+#EXTINF:-1 tvg-name="TNT Sports 4",TNT Sports 4
+https://py.doube.eu.org/xinghuo?url=/TNT-Sports-4/1240
+#EXTINF:-1 tvg-name="TV1",TV1
+https://py.doube.eu.org/xinghuo?url=/TV1/832
+#EXTINF:-1 tvg-name="TV2",TV2
+https://py.doube.eu.org/xinghuo?url=/TV2/833
+#EXTINF:-1 tvg-name="TV3",TV3
+https://py.doube.eu.org/xinghuo?url=/TV3/834
 #EXTINF:-1 tvg-name="TV5MondePacifique",TV5MondePacifique
 https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8
+#EXTINF:-1 tvg-name="TV8",TV8
+https://py.doube.eu.org/xinghuo?url=/TV8/836
+#EXTINF:-1 tvg-name="TV9",TV9
+https://py.doube.eu.org/xinghuo?url=/TV9/837
+#EXTINF:-1 tvg-name="TVB Asia",TVB Asia
+https://py.doube.eu.org/xinghuo?url=/TVB-Asia/876
+#EXTINF:-1 tvg-name="TVBS",TVBS
+https://py.doube.eu.org/xinghuo?url=/TVBS/1034
+#EXTINF:-1 tvg-name="TVBS新聞",TVBS新聞
+https://py.doube.eu.org/xinghuo?url=/TVBS-News-News-Channel/1032
+#EXTINF:-1 tvg-name="TVBS歡樂",TVBS歡樂
+https://py.doube.eu.org/xinghuo?url=/TVBS-Happy-Channel/1033
+#EXTINF:-1 tvg-name="TVB娱乐新闻",TVB娱乐新闻
+https://py.doube.eu.org/xinghuo?url=/TVB-Entertainment/877
+#EXTINF:-1 tvg-name="TVB星河",TVB星河
+https://py.doube.eu.org/xinghuo?url=/TVB-Xing-He/881
 #EXTINF:-1 tvg-name="TVEInternacionalEuropeAsia",TVEInternacionalEuropeAsia
 https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
+#EXTINF:-1 tvg-name="TVMU",TVMU
+https://py.doube.eu.org/xinghuo?url=/TVMU/961
+#EXTINF:-1 tvg-name="TVN",TVN
+https://py.doube.eu.org/xinghuo?url=/TvN/869
+#EXTINF:-1 tvg-name="TVRI National",TVRI National
+https://py.doube.eu.org/xinghuo?url=/TVRI-National/947
+#EXTINF:-1 tvg-name="Tawaf TV",Tawaf TV
+https://py.doube.eu.org/xinghuo?url=/Tawaf-TV/971
+#EXTINF:-1 tvg-name="Thai Thai",Thai Thai
+https://py.doube.eu.org/xinghuo?url=/Thai-Thai/1152
+#EXTINF:-1 tvg-name="Thairath",Thairath
+https://py.doube.eu.org/xinghuo?url=/Thairath/1157
+#EXTINF:-1 tvg-name="Thrill",Thrill
+https://py.doube.eu.org/xinghuo?url=/Thrill/1137
+#EXTINF:-1 tvg-name="Thrill",Thrill
+https://py.doube.eu.org/xinghuo?url=/Thrill/980
+#EXTINF:-1 tvg-name="Tnn24",Tnn24
+https://py.doube.eu.org/xinghuo?url=/Tnn24/1162
 #EXTINF:-1 tvg-name="TraceSportsStars",TraceSportsStars
 https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-name="Trans 7",Trans 7
+https://py.doube.eu.org/xinghuo?url=/Trans-7/954
+#EXTINF:-1 tvg-name="Transtv",Transtv
+https://py.doube.eu.org/xinghuo?url=/Transtv/955
+#EXTINF:-1 tvg-name="Tvone",Tvone
+https://py.doube.eu.org/xinghuo?url=/Tvone/960
+#EXTINF:-1 tvg-name="Vasantham",Vasantham
+https://py.doube.eu.org/xinghuo?url=/Vasantham/910
+#EXTINF:-1 tvg-name="Vision Prime",Vision Prime
+https://py.doube.eu.org/xinghuo?url=/Vision-Prime/972
+#EXTINF:-1 tvg-name="ViuTV1",ViuTV1
+https://py.doube.eu.org/xinghuo?url=/ViuTV1/993
+#EXTINF:-1 tvg-name="WWE",WWE
+https://py.doube.eu.org/xinghuo?url=/WWE/1232
+#EXTINF:-1 tvg-name="Warna",Warna
+https://py.doube.eu.org/xinghuo?url=/Warna/838
+#EXTINF:-1 tvg-name="Warner TV",Warner TV
+https://py.doube.eu.org/xinghuo?url=/Warner-TV/978
 #EXTINF:-1 tvg-name="WeihaiOceanChannel",WeihaiOceanChannel
 http://l2.weihai.tv:8081/hls/x8b19NoyEG.m3u8
 #EXTINF:-1 tvg-name="WeihaiPublicChannel",WeihaiPublicChannel
 http://l2.weihai.tv:8081/hls/g16E3482eM.m3u8
+#EXTINF:-1 tvg-name="Workpoint",Workpoint
+https://py.doube.eu.org/xinghuo?url=/Workpoint/1159
 #EXTINF:-1 tvg-name="XITE",XITE
 https://xite-samsung-de.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="YCTV",YCTV
 http://tvpull.dxhmt.cn:9081/tv/11481-1.m3u8
 #EXTINF:-1 tvg-name="YMG未来",YMG未来
 http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?
+#EXTINF:-1 tvg-name="YTN",YTN
+https://py.doube.eu.org/xinghuo?url=/YTN/1171
+#EXTINF:-1 tvg-name="YTN DMB",YTN DMB
+https://py.doube.eu.org/xinghuo?url=/YTN-DMB/1175
+#EXTINF:-1 tvg-name="YTN Korean",YTN Korean
+https://py.doube.eu.org/xinghuo?url=/YTN-Korean/1174
+#EXTINF:-1 tvg-name="YTN Science",YTN Science
+https://py.doube.eu.org/xinghuo?url=/YTN-Science/1173
 #EXTINF:-1 tvg-name="YanbianCineseComprehensiveChannel",YanbianCineseComprehensiveChannel
 https://live.ybtvyun.com/video/s10016-6d4fe23a90b3/index.m3u8
+#EXTINF:-1 tvg-name="Yonhap News",Yonhap News
+https://py.doube.eu.org/xinghuo?url=/Yonhap-News/1165
+#EXTINF:-1 tvg-name="Yoyo TV",Yoyo TV
+https://py.doube.eu.org/xinghuo?url=/Yoyo-TV/1103
 #EXTINF:-1 tvg-name="ZhejiangTVInternational",ZhejiangTVInternational
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
+#EXTINF:-1 tvg-name="astro wahlai toi",astro wahlai toi
+https://py.doube.eu.org/xinghuo?url=/astro-wahlai-toi/872
 #EXTINF:-1 tvg-name="cctv10",cctv10
 http://61.136.172.236:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="cctv12",cctv12
@@ -921,6 +1489,16 @@ https://vd3.bdstatic.com/mda-mkp88kxv6r8y73k9/sc/cae_h264/1637733263867775329/md
 https://vd3.bdstatic.com/mda-mkt45tnypacz3smk/sc/cae_h264/1638069225501294830/mda-mkt45tnypacz3smk.mp4
 #EXTINF:-1 tvg-name="dj舞曲金典",dj舞曲金典
 https://vd2.bdstatic.com/mda-mkk0g8x89nnx62tm/sc/cae_h264/1637456174213928981/mda-mkk0g8x89nnx62tm.mp4
+#EXTINF:-1 tvg-name="iNews TV",iNews TV
+https://py.doube.eu.org/xinghuo?url=/iNews-TV/965
+#EXTINF:-1 tvg-name="tpbs",tpbs
+https://py.doube.eu.org/xinghuo?url=/tpbs/1158
+#EXTINF:-1 tvg-name="tvN Movie",tvN Movie
+https://py.doube.eu.org/xinghuo?url=/tvN-Movie/1140
+#EXTINF:-1 tvg-name="tvN Movie",tvN Movie
+https://py.doube.eu.org/xinghuo?url=/tvN-Movie/984
+#EXTINF:-1 tvg-name="tvN Movie",tvN Movie
+https://py.doube.eu.org/xinghuo?url=/tvN-Movie/884
 #EXTINF:-1 tvg-name="www.izbds.com",www.izbds.com
 https://vd2.bdstatic.com/mda-rbb1937q5fjkn0g4/sc/cae_h264/1739321733310807626/mda-rbb1937q5fjkn0g4.mp4
 #EXTINF:-1 tvg-name="ycccc满天星辰不及你",ycccc满天星辰不及你
@@ -981,6 +1559,12 @@ https://pullsstv90080111.ssws.tv/live/SSTV20220729.m3u8
 http://58.243.224.244:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="三沙卫视",三沙卫视
 http://a21709.tv.netsite.cc/proxy/1337100319/1337100319.m3u8
+#EXTINF:-1 tvg-name="三立國際",三立國際
+https://py.doube.eu.org/xinghuo?url=/Sanli-Metro/1058
+#EXTINF:-1 tvg-name="三立臺灣",三立臺灣
+https://py.doube.eu.org/xinghuo?url=/Sanli-Taiwan/1056
+#EXTINF:-1 tvg-name="三立都會",三立都會
+https://py.doube.eu.org/xinghuo?url=/Sanli-Metro-Channel/1059
 #EXTINF:-1 tvg-name="上林电视台",上林电视台
 http://hls.nntv.cn/nnlive/SLTV_A.m3u8?zguangxd
 #EXTINF:-1 tvg-name="上海东方卫视",上海东方卫视
@@ -1070,6 +1654,8 @@ http://58.19.43.46:9901/tsfile/live/1046_1.m3u8
 #EXTINF:-1 tvg-name="东南卫视",东南卫视
 http://183.94.1.118:8801/tsfile/live/0137_1.m3u8
 #EXTINF:-1 tvg-name="东南卫视",东南卫视
+https://py.doube.eu.org/xinghuo?url=/Fujian-Southeast-Satellite-TV/935
+#EXTINF:-1 tvg-name="东南卫视",东南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
 #EXTINF:-1 tvg-name="东南卫视",东南卫视
 http://a21709.tv.netsite.cc/proxy/698479958/698479958.m3u8
@@ -1087,6 +1673,8 @@ http://39.164.160.249:9901/tsfile/live/0107_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1030_1.m3u8
 #EXTINF:-1 tvg-name="东方卫视",东方卫视
 http://36.32.174.67:60080/newlive/live/hls/24/live.m3u8
+#EXTINF:-1 tvg-name="东方卫视",东方卫视
+https://py.doube.eu.org/xinghuo?url=/Dragon-TV/943
 #EXTINF:-1 tvg-name="东方卫视",东方卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
 #EXTINF:-1 tvg-name="东方卫视",东方卫视
@@ -1135,8 +1723,20 @@ http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
 #EXTINF:-1 tvg-name="中国蓝新闻",中国蓝新闻
 https://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8?
+#EXTINF:-1 tvg-name="中天亞洲",中天亞洲
+https://py.doube.eu.org/xinghuo?url=/CTI-Asia-Channel/1038
+#EXTINF:-1 tvg-name="中天娛樂",中天娛樂
+https://py.doube.eu.org/xinghuo?url=/CTI-Entertaiment/1036
+#EXTINF:-1 tvg-name="中天新聞",中天新聞
+https://py.doube.eu.org/xinghuo?url=/CTI-News/1035
+#EXTINF:-1 tvg-name="中天綜合",中天綜合
+https://py.doube.eu.org/xinghuo?url=/CTI-Metro/1037
 #EXTINF:-1 tvg-name="中奖了",中奖了
 https://vd3.bdstatic.com/mda-kmkh9zy2b3gnx4bq/mda-kmkh9zy2b3gnx4bq.mp4?pd=19&vt=1
+#EXTINF:-1 tvg-name="中視",中視
+https://py.doube.eu.org/xinghuo?url=/CTV/1042
+#EXTINF:-1 tvg-name="中視新聞",中視新聞
+https://py.doube.eu.org/xinghuo?url=/CTV-News-Channel/1043
 #EXTINF:-1 tvg-name="丰顺综合",丰顺综合
 http://1b6467f415.iok.la:9931/tsfile/live/1100_1.m3u8
 #EXTINF:-1 tvg-name="串烧歌曲",串烧歌曲
@@ -1235,6 +1835,8 @@ http://a21709.tv.netsite.cc/proxy/847703940/847703940.m3u8
 https://p2hs.vzan.com/slowlive/821481626725612419/live.m3u8
 #EXTINF:-1 tvg-name="亚美尼亚ArmeniaTV",亚美尼亚ArmeniaTV
 http://ott.watch/stream/E9LDH2ZCN7/175.m3u8
+#EXTINF:-1 tvg-name="亞洲美食",亞洲美食
+https://py.doube.eu.org/xinghuo?url=/Asia-Gourmet/1085
 #EXTINF:-1 tvg-name="产科医生第一集",产科医生第一集
 https://cdn8.yzzy-tv-cdn.com/20220909/18886_55df9e25/1000k/hls/index.m3u8
 #EXTINF:-1 tvg-name="产科医生第七集",产科医生第七集
@@ -1507,6 +2109,8 @@ https://vd4.bdstatic.com/mda-ma7y4ug97hcdf710/v1-cae/1080p/mda-ma7y4ug97hcdf710.
 https://vd4.bdstatic.com/mda-je7nte3m37r5t44a/hd/mda-je7nte3m37r5t44a.mp4
 #EXTINF:-1 tvg-name="免饮人先醉",免饮人先醉
 https://vd2.bdstatic.com/mda-jenpdh07589ewyb2/v1-cae/mda-jenpdh07589ewyb2.mp4
+#EXTINF:-1 tvg-name="全佳",全佳
+https://py.doube.eu.org/xinghuo?url=/Astro-QJ/874
 #EXTINF:-1 tvg-name="全球最大唱片公司宝丽金15周年1986群星演唱会完整版",全球最大唱片公司宝丽金15周年1986群星演唱会完整版
 https://vd4.bdstatic.com/mda-pbndmfww1uvvr7hh/cae_h264/1677147471612943557/mda-pbndmfww1uvvr7hh.mp4
 #EXTINF:-1 tvg-name="全球最大唱片公司宝丽金成立20周年1990群星演唱会完整版",全球最大唱片公司宝丽金成立20周年1990群星演唱会完整版
@@ -1517,6 +2121,16 @@ https://vd2.bdstatic.com/mda-pbq9cde2ii3ti6dc/sc/cae_h264/1677313014207602418/md
 https://vd2.bdstatic.com/mda-pbr4g2edssnu2heu/720p/h264/1677381477864191175/mda-pbr4g2edssnu2heu.mp4
 #EXTINF:-1 tvg-name="全纪实",全纪实
 http://180.213.174.225:9901/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="八大娛樂",八大娛樂
+https://py.doube.eu.org/xinghuo?url=/GTV-Entertainment/1052
+#EXTINF:-1 tvg-name="八大戲劇",八大戲劇
+https://py.doube.eu.org/xinghuo?url=/GTV-Drama/1051
+#EXTINF:-1 tvg-name="八大綜合",八大綜合
+https://py.doube.eu.org/xinghuo?url=/GTV-Metro/1050
+#EXTINF:-1 tvg-name="公視",公視
+https://py.doube.eu.org/xinghuo?url=/CTV-Public-Television/1048
+#EXTINF:-1 tvg-name="公視2",公視2
+https://py.doube.eu.org/xinghuo?url=/CTV-Public-Television-2/1068
 #EXTINF:-1 tvg-name="六合新闻综合",六合新闻综合
 http://p2hs.vzan.com/720020/432453820030502236/live.m3u8
 #EXTINF:-1 tvg-name="六安公共",六安公共
@@ -1680,6 +2294,8 @@ https://vdse.bdstatic.com//4d7e8fe409b2ba9e08b179de8e146fa3.mp4
 #EXTINF:-1 tvg-name="几首绝美情歌DJ",几首绝美情歌DJ
 https://vdse.bdstatic.com//c5c64b60c9fdfbdfa3e959bb1d56c4b0.mp4
 #EXTINF:-1 tvg-name="凤凰中文",凤凰中文
+https://py.doube.eu.org/xinghuo?url=/Phoenix-Satellite-TV/945
+#EXTINF:-1 tvg-name="凤凰中文",凤凰中文
 http://play-flive.ifeng.com/live/06OLEGEGM4G.m3u8
 #EXTINF:-1 tvg-name="凤凰中文",凤凰中文
 http://a21709.tv.netsite.cc/proxy/1846789161/1846789161.m3u8
@@ -1717,6 +2333,8 @@ http://a21709.tv.netsite.cc/proxy/1650326537/1650326537.m3u8
 https://gcalic.v.myalicdn.com/gc/fhgcdgm_1/index.m3u8
 #EXTINF:-1 tvg-name="凤凰古城南华山",凤凰古城南华山
 https://gcalic.v.myalicdn.com/gc/fhgcdnhs_1/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯",凤凰资讯
+https://py.doube.eu.org/xinghuo?url=/Phoenix-InfoNews/946
 #EXTINF:-1 tvg-name="凤凰资讯",凤凰资讯
 http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 tvg-name="刀郎的西海情歌",刀郎的西海情歌
@@ -1810,6 +2428,8 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225674/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视",北京卫视
 http://1.180.2.93:9901/tsfile/live/0122_1.m3u8
 #EXTINF:-1 tvg-name="北京卫视",北京卫视
+https://py.doube.eu.org/xinghuo?url=/Beijing-Satellite-TV/938
+#EXTINF:-1 tvg-name="北京卫视",北京卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视",北京卫视
 http://a21709.tv.netsite.cc/proxy/1773564112/1773564112.m3u8
@@ -1859,8 +2479,12 @@ https://p8.vzan.com/slowlive/034028687228317362/live.m3u8?zbid=351104&amp;amp%3B
 https://p8.vzan.com/slowlive/034028687228317362/live.m3u8?zbid=351104&tpid=868100086
 #EXTINF:-1 tvg-name="十首伤感DJ情歌",十首伤感DJ情歌
 https://vdse.bdstatic.com//5319e5b5cd1ad9d27a21b9bf4ad534ba.mp4#
+#EXTINF:-1 tvg-name="千禧经典",千禧经典
+https://py.doube.eu.org/xinghuo?url=/TVB-Classic/878
 #EXTINF:-1 tvg-name="半吨兄弟39首无损音乐",半吨兄弟39首无损音乐
 https://txmov2.a.kwimgs.com/bs3/video-hls/5236842040854840391_hlsb.m3u8
+#EXTINF:-1 tvg-name="华丽台",华丽台
+https://py.doube.eu.org/xinghuo?url=/astro-huahee-tai/873
 #EXTINF:-1 tvg-name="华数4K",华数4K
 http://36.105.100.208:35455/itv/2000000004000000014.m3u8?cdn=hnbblive
 #EXTINF:-1 tvg-name="卓尼综合",卓尼综合
@@ -1915,8 +2539,18 @@ http://hls.nntv.cn/nnlive/NNTV_NEWS_A.m3u8?zguangxd
 http://hls.nntv.cn/nnlive/NNTV_METRO_A.m3u8?zguangxd
 #EXTINF:-1 tvg-name="南宁都市生活",南宁都市生活
 http://hls.nntv.cn/nnlive/NNTV_METRO_A.m3u8
+#EXTINF:-1 tvg-name="南方卫视",南方卫视
+https://py.doube.eu.org/xinghuo?url=/Guangdong-Southern-TV/936
 #EXTINF:-1 tvg-name="南通都市生活",南通都市生活
 https://cm-live.ntjoy.com/live/4f3.m3u8
+#EXTINF:-1 tvg-name="博斯無限",博斯無限
+https://py.doube.eu.org/xinghuo?url=/Boss-Infinity/1096
+#EXTINF:-1 tvg-name="博斯网球",博斯网球
+https://py.doube.eu.org/xinghuo?url=/Boss-Tennis/1093
+#EXTINF:-1 tvg-name="博斯运动1",博斯运动1
+https://py.doube.eu.org/xinghuo?url=/Boss-Sports-1/1090
+#EXTINF:-1 tvg-name="博斯高球",博斯高球
+https://py.doube.eu.org/xinghuo?url=/Boss-Golf-2/1092
 #EXTINF:-1 tvg-name="卡酷少儿",卡酷少儿
 http://58.57.40.22:9901/tsfile/live/1060_1.m3u8
 #EXTINF:-1 tvg-name="卡酷少儿",卡酷少儿
@@ -2190,6 +2824,8 @@ http://110.53.52.63:8888/newlive/live/hls/31/live.m3u8
 #EXTINF:-1 tvg-name="四川卫视",四川卫视
 http://120.238.94.10:9901/tsfile/live/1058_1.m3u8
 #EXTINF:-1 tvg-name="四川卫视",四川卫视
+https://py.doube.eu.org/xinghuo?url=/Sichuan-Satellite-TV/942
+#EXTINF:-1 tvg-name="四川卫视",四川卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8
 #EXTINF:-1 tvg-name="四川卫视",四川卫视
 http://a21709.tv.netsite.cc/proxy/59757691/59757691.m3u8
@@ -2261,6 +2897,10 @@ http://live.daningtv.com/aac_dngb/playlist.m3u8
 http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="大庆新闻综合",大庆新闻综合
 https://stream.hrbtv.net/zxpd/sd/live.m3u8
+#EXTINF:-1 tvg-name="大愛1",大愛1
+https://py.doube.eu.org/xinghuo?url=/Tzu-Chi-1/1069
+#EXTINF:-1 tvg-name="大愛2",大愛2
+https://py.doube.eu.org/xinghuo?url=/Tzu-Chi-2/1084
 #EXTINF:-1 tvg-name="大湾区卫视",大湾区卫视
 http://222.128.55.152:9080/live/dwq.m3u8
 #EXTINF:-1 tvg-name="大湾区卫视",大湾区卫视
@@ -2285,6 +2925,14 @@ http://dtrmlive.qhdtrm.cn/testpush/playlist.m3u8#http://dtrmlive.qhdtrm.cn/testp
 http://wouu.net:9977/udp/239.93.42.55:5140
 #EXTINF:-1 tvg-name="天公不作美黄静美",天公不作美黄静美
 https://vd2.bdstatic.com/mda-mcibj6pxkwe3x1ji/1080p/cae_h264/1616117049/mda-mcibj6pxkwe3x1ji.mp4
+#EXTINF:-1 tvg-name="天映經典",天映經典
+https://py.doube.eu.org/xinghuo?url=/Celestial-Classic/1141
+#EXTINF:-1 tvg-name="天映经典",天映经典
+https://py.doube.eu.org/xinghuo?url=/Celestial-Classic/886
+#EXTINF:-1 tvg-name="天映頻道",天映頻道
+https://py.doube.eu.org/xinghuo?url=/Celestial-Movies/1142
+#EXTINF:-1 tvg-name="天映频道",天映频道
+https://py.doube.eu.org/xinghuo?url=/Celestial-Movies/985
 #EXTINF:-1 tvg-name="天水新闻综合",天水新闻综合
 https://play.kankanlive.com/live/1698724188723989.m3u8
 #EXTINF:-1 tvg-name="天津",天津
@@ -2357,6 +3005,10 @@ https://txmov2.a.kwimgs.com/bs3/video-hls/5228960742650458807_hlsb.m3u8
 https://vd4.bdstatic.com/mda-nca4dy51snpz9cnz/sc/cae_h264_delogo/1647144982589585207/mda-nca4dy51snpz9cnz.mp4
 #EXTINF:-1 tvg-name="好歌分享精选6首伤感DJ舞曲",好歌分享精选6首伤感DJ舞曲
 https://vdse.bdstatic.com//0c87c8977d0a33498fe7362d3c60c22c.mp4
+#EXTINF:-1 tvg-name="好消息2",好消息2
+https://py.doube.eu.org/xinghuo?url=/Good-TV-2/1083
+#EXTINF:-1 tvg-name="好萊屋電影",好萊屋電影
+https://py.doube.eu.org/xinghuo?url=/Hollywood-Movies/1113
 #EXTINF:-1 tvg-name="如东一套新闻综合",如东一套新闻综合
 http://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
 #EXTINF:-1 tvg-name="如果云知道",如果云知道
@@ -2515,6 +3167,10 @@ http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
 https://vd4.bdstatic.com/mda-kb5gc9c1vmtz93g8/v1-cae/sc/mda-kb5gc9c1vmtz93g8.mp4
 #EXTINF:-1 tvg-name="寒战",寒战
 https://vip.ffzy-play6.com/20221019/157_bf0740ee/index.m3u8
+#EXTINF:-1 tvg-name="寰宇新聞",寰宇新聞
+https://py.doube.eu.org/xinghuo?url=/Universal-News-Channel/1067
+#EXTINF:-1 tvg-name="寰宇財經",寰宇財經
+https://py.doube.eu.org/xinghuo?url=/Universal-Finance/1066
 #EXTINF:-1 tvg-name="寻秦记",寻秦记
 http://1.94.31.214:35455/huya/29465848
 #EXTINF:-1 tvg-name="封神榜",封神榜
@@ -2790,6 +3446,8 @@ http://stream.qhbtv.com/adws/sd/live.m3u8
 #EXTINF:-1 tvg-name="广东卫视",广东卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225701/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视",广东卫视
+https://py.doube.eu.org/xinghuo?url=/Guangdong-Satellite-TV/937
+#EXTINF:-1 tvg-name="广东卫视",广东卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视",广东卫视
 http://a21709.tv.netsite.cc/proxy/573869971/573869971.m3u8
@@ -2879,6 +3537,8 @@ http://36.32.174.67:60080/newlive/live/hls/38/live.m3u8
 http://110.53.52.63:8888/newlive/live/hls/25/live.m3u8
 #EXTINF:-1 tvg-name="广西卫视",广西卫视
 https://mobilelive.gxtv.cn/live/gx_live1004/playlist.m3u8
+#EXTINF:-1 tvg-name="广西卫视",广西卫视
+https://py.doube.eu.org/xinghuo?url=/Guangxi-Satellite-TV/940
 #EXTINF:-1 tvg-name="广西卫视",广西卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8
 #EXTINF:-1 tvg-name="广西卫视",广西卫视
@@ -3279,6 +3939,8 @@ http://live.ynurl.com/video/s10047-cntv/index.m3u8?zyund
 https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="昌黎综合",昌黎综合
 https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8?zhebd
+#EXTINF:-1 tvg-name="明珠臺",明珠臺
+https://py.doube.eu.org/xinghuo?url=/TVB-Pearl/989
 #EXTINF:-1 tvg-name="易门综合",易门综合
 https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
 #EXTINF:-1 tvg-name="星空卫视",星空卫视
@@ -3287,6 +3949,10 @@ http://218.202.220.2:5000/nn_live.ts?id=STARTV#rtmp://58.200.131.2:1935/livetv/s
 http://218.202.220.2:5000/nn_live.ts?id=STARTV
 #EXTINF:-1 tvg-name="星空卫视",星空卫视
 http://122.224.58.42:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="星衛電影",星衛電影
+https://py.doube.eu.org/xinghuo?url=/Star-Movies/1134
+#EXTINF:-1 tvg-name="星衛電影",星衛電影
+https://py.doube.eu.org/xinghuo?url=/Star-Movies/1129
 #EXTINF:-1 tvg-name="昨天今天明天",昨天今天明天
 https://vd3.bdstatic.com/mda-ia4xz7n2s4hxbhby/logo/hd/mda-ia4xz7n2s4hxbhby.mp4?pd=19&vt=1&playlist=%5B%22hd%22%2C%22sc%22%5D
 #EXTINF:-1 tvg-name="昭化综合",昭化综合
@@ -3365,6 +4031,16 @@ https://vdse.bdstatic.com//d5e3237c7ef186217ea1c9b24d58e2ae.mp4
 http://120.198.101.106:9901/tsfile/live/1008_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="杯中影",杯中影
 https://vd2.bdstatic.com/mda-jdnnsnviqbzm3sm9/v1-cae/hd/mda-jdnnsnviqbzm3sm9.mp4
+#EXTINF:-1 tvg-name="東森洋片",東森洋片
+https://py.doube.eu.org/xinghuo?url=/ETTV-Western/1119
+#EXTINF:-1 tvg-name="東森綜合",東森綜合
+https://py.doube.eu.org/xinghuo?url=/ETTV-Metro/1062
+#EXTINF:-1 tvg-name="東森財經",東森財經
+https://py.doube.eu.org/xinghuo?url=/ETTV-Business/1065
+#EXTINF:-1 tvg-name="東森超視",東森超視
+https://py.doube.eu.org/xinghuo?url=/ETTV-Super-Channel/1064
+#EXTINF:-1 tvg-name="東森電影",東森電影
+https://py.doube.eu.org/xinghuo?url=/ETTV-Movie/1118
 #EXTINF:-1 tvg-name="松潘新闻综合",松潘新闻综合
 http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 #EXTINF:-1 tvg-name="松阳新闻综合",松阳新闻综合
@@ -3627,6 +4303,12 @@ https://vdse.bdstatic.com//21736d388636d7648510b2a36fc7cbfd.mp4
 http://livecdn.dmqhyadmin.com/hls/xjminhe.m3u8?zqinghd#http://livecdn.dmqhyadmin.com/hls/xjminhe.m3u8
 #EXTINF:-1 tvg-name="民和综合",民和综合
 http://livecdn.dmqhyadmin.com/hls/xjminhe.m3u8?zqinghd
+#EXTINF:-1 tvg-name="民視",民視
+https://py.doube.eu.org/xinghuo?url=/FTV/1044
+#EXTINF:-1 tvg-name="民視新聞",民視新聞
+https://py.doube.eu.org/xinghuo?url=/FTV-News-News-Channel/1045
+#EXTINF:-1 tvg-name="民視臺灣",民視臺灣
+https://py.doube.eu.org/xinghuo?url=/FTV-Taiwan-Channel/1046
 #EXTINF:-1 tvg-name="永嘉新闻综合",永嘉新闻综合
 http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8
 #EXTINF:-1 tvg-name="永嘉新闻综合",永嘉新闻综合
@@ -3707,6 +4389,8 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225702/index.m3u8
 http://36.32.174.67:60080/newlive/live/hls/31/live.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视
 http://112.46.85.60:8009/hls/33/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视",江苏卫视
+https://py.doube.eu.org/xinghuo?url=/Jiangsu-Satellite-TV/933
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视",江苏卫视
@@ -4042,6 +4726,8 @@ http://110.53.52.63:8888/newlive/live/hls/23/live.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
+https://py.doube.eu.org/xinghuo?url=/Zhejiang-Satellite-TV/932
+#EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江卫视",浙江卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
@@ -4274,6 +4960,8 @@ http://124.116.183.146:9901/tsfile/live/0126_1.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视
 http://111.160.17.2:59901/tsfile/live/0001_49.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视
+https://py.doube.eu.org/xinghuo?url=/Shenzhen-Satellite-TV/934
+#EXTINF:-1 tvg-name="深圳卫视",深圳卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
 #EXTINF:-1 tvg-name="深圳卫视",深圳卫视
 http://a21709.tv.netsite.cc/proxy/457534194/457534194.m3u8
@@ -4317,6 +5005,8 @@ http://110.53.52.63:8888/newlive/live/hls/33/live.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225699/index.m3u8
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视
 http://124.116.183.146:9901/tsfile/live/0132_1.m3u8
+#EXTINF:-1 tvg-name="湖北卫视",湖北卫视
+https://py.doube.eu.org/xinghuo?url=/Hubei-Satellite-TV/941
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
 #EXTINF:-1 tvg-name="湖北卫视",湖北卫视
@@ -4379,6 +5069,8 @@ http://113.140.86.162:8009/hls/32/index.m3u8
 http://175.31.21.146:4480/hls/36/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视
 http://110.53.52.63:8888/newlive/live/hls/22/live.m3u8
+#EXTINF:-1 tvg-name="湖南卫视",湖南卫视
+https://py.doube.eu.org/xinghuo?url=/Hunan-Satellite-TV/931
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视",湖南卫视
@@ -4545,6 +5237,10 @@ http://live.yantaitv.cn/live/27f84144e95a4652ae9e5c211b2a6b55/405f3e33ba384aa0a1
 https://vd3.bdstatic.com/mda-jdvphdexuphgijzt/v1-cae/sc/mda-jdvphdexuphgijzt.mp4
 #EXTINF:-1 tvg-name="热火斯卡拉",热火斯卡拉
 https://vd4.bdstatic.com/mda-nk3qfbxhf5dqpywt/sc/cae_h264/1667582665910576925/mda-nk3qfbxhf5dqpywt.mp4
+#EXTINF:-1 tvg-name="無線新聞",無線新聞
+https://py.doube.eu.org/xinghuo?url=/iNews-News-Channel/987
+#EXTINF:-1 tvg-name="無線財經",無線財經
+https://py.doube.eu.org/xinghuo?url=/TVB-Finance-&-Information-Channel/991
 #EXTINF:-1 tvg-name="焦作公共",焦作公共
 http://zhpull.dxhmt.cn/jiaozuo/29b65b69130c4ef1a3283cc7b913da05/playlist.m3u8
 #EXTINF:-1 tvg-name="焦作公共频道",焦作公共频道
@@ -4565,6 +5261,8 @@ https://vd4.bdstatic.com/mda-nca7s910919tw2qb/720p/h264_delogo/16469766190061164
 https://txmov2.a.kwimgs.com/bs3/video-hls/5250352842906861136_hlsb.m3u8
 #EXTINF:-1 tvg-name="爱多深情恨多痛",爱多深情恨多痛
 https://txmov2.a.kwimgs.com/bs3/video-hls/5216575845032023947_hlsb.m3u8
+#EXTINF:-1 tvg-name="爱奇艺",爱奇艺
+https://py.doube.eu.org/xinghuo?url=/iQiyi/882
 #EXTINF:-1 tvg-name="爱情一阵风",爱情一阵风
 https://vd4.bdstatic.com:443/mda-mdkd7yybv4y505qa/1080p/h264_cae/1620480120114753589/mda-mdkd7yybv4y505qa.mp4
 #EXTINF:-1 tvg-name="爱情不是传说",爱情不是传说
@@ -4629,6 +5327,8 @@ http://218.84.127.245:1026/hls/main1/playlist.m3u8
 http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,
 #EXTINF:-1 tvg-name="环映",环映
 http://180.213.174.225:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="珠江频道",珠江频道
+https://py.doube.eu.org/xinghuo?url=/Pearl-River-Channel/939
 #EXTINF:-1 tvg-name="珲春新闻",珲春新闻
 http://stream8.jlntv.cn/hctv/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="珲春新闻综合",珲春新闻综合
@@ -4911,6 +5611,16 @@ https://vd2.bdstatic.com/mda-ncsh78jh0xna7ngs/sc/cae_h264_delogo/164838940824492
 https://vd2.bdstatic.com/mda-maqfk730tsig88wr/v2-hknm/1080p/mda-maqfk730tsig88wr.mp4
 #EXTINF:-1 tvg-name="精选韩宝仪经典歌曲10首F",精选韩宝仪经典歌曲10首F
 https://vdse.bdstatic.com//42d5ac65a9070eeab2513bf6bc65ea4d.mp4
+#EXTINF:-1 tvg-name="緯來日本",緯來日本
+https://py.doube.eu.org/xinghuo?url=/Videoland-Japan-Channel/1077
+#EXTINF:-1 tvg-name="緯來精彩",緯來精彩
+https://py.doube.eu.org/xinghuo?url=/Videoland-Wonderful/1082
+#EXTINF:-1 tvg-name="緯來綜合",緯來綜合
+https://py.doube.eu.org/xinghuo?url=/Videoland-General-Channel/1080
+#EXTINF:-1 tvg-name="緯來育樂",緯來育樂
+https://py.doube.eu.org/xinghuo?url=/Videoland-Entertainment/1081
+#EXTINF:-1 tvg-name="緯來體育",緯來體育
+https://py.doube.eu.org/xinghuo?url=/Videoland-Sports-Channel/1079
 #EXTINF:-1 tvg-name="红牛REDBULLTV",红牛REDBULLTV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 #EXTINF:-1 tvg-name="红颜知己",红颜知己
@@ -5021,10 +5731,16 @@ http://hls.cntv.myhwcdn.cn/asp/hls/4000/0303000a/3/default/51d937a0201f4c78a5878
 http://hls.cntv.myhwcdn.cn/asp/hls/4000/0303000a/3/default/8cdd688b04e4495ba1635e218419d6f9/4000.m3u8
 #EXTINF:-1 tvg-name="美丽云南",美丽云南
 https://www.ynbit.com:1937/cyds-mlyn/livestream/playlist.m3u8?zyund
+#EXTINF:-1 tvg-name="美亞電影",美亞電影
+https://py.doube.eu.org/xinghuo?url=/Mei-Ah-Movie/1131
 #EXTINF:-1 tvg-name="美人热舞洗脑DJ舞曲",美人热舞洗脑DJ舞曲
 https://vdse.bdstatic.com//3700f6b78ceaf0f4a5313f4d68c95b72.mp4
 #EXTINF:-1 tvg-name="美酒加咖啡龙飘飘F",美酒加咖啡龙飘飘F
 https://vdse.bdstatic.com//816c73543ede254586a625cacc67ea0f.mp4
+#EXTINF:-1 tvg-name="翡翠台",翡翠台
+https://py.doube.eu.org/xinghuo?url=/TVB-Jade/875
+#EXTINF:-1 tvg-name="翡翠臺",翡翠臺
+https://py.doube.eu.org/xinghuo?url=/翡翠臺/986
 #EXTINF:-1 tvg-name="老歌DJ化蝶",老歌DJ化蝶
 https://vd4.bdstatic.com/mda-nd0if1hnkf4zzh2r/hd/cae_h264_delogo/1648822586944230351/mda-nd0if1hnkf4zzh2r.mp4
 #EXTINF:-1 tvg-name="老歌DJ版精选8首",老歌DJ版精选8首
@@ -5039,6 +5755,12 @@ http://live.ynurl.com/video/s10012-TCTV/index.m3u8?zyund
 http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/81a1ad3a661748bfb8560c92d38204ca/1200.m3u8
 #EXTINF:-1 tvg-name="自贡综合",自贡综合
 http://110.189.153.160:1001/zhpd.flv?zsicd
+#EXTINF:-1 tvg-name="臺視",臺視
+https://py.doube.eu.org/xinghuo?url=/TTV/1039
+#EXTINF:-1 tvg-name="臺視新聞",臺視新聞
+https://py.doube.eu.org/xinghuo?url=/TTV-News-Channel/1040
+#EXTINF:-1 tvg-name="臺視綜合",臺視綜合
+https://py.doube.eu.org/xinghuo?url=/TTV-General-Channel/1041
 #EXTINF:-1 tvg-name="舒兰新闻",舒兰新闻
 http://stream8.jlntv.cn/shulan/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="舒兰新闻综合",舒兰新闻综合
@@ -5137,6 +5859,8 @@ http://live.hznet.tv:1935/live/live3/500K/tzwj_video.m3u8?shandd
 http://live.hznet.tv:1935/live/live1/500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="菏泽经济生活",菏泽经济生活
 http://live.hznet.tv:1935/live/live2/500K/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="華視",華視
+https://py.doube.eu.org/xinghuo?url=/CTS/1047
 #EXTINF:-1 tvg-name="萧山新闻",萧山新闻
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-name="萧山新闻综合",萧山新闻综合
@@ -5165,6 +5889,8 @@ http://api3.52tb.xyz/info?id=782&token=20221127jxwhhemby
 https://vdse.bdstatic.com//05ac23835ae8ee17af1c3d7c4fa13aa2.mp4?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2023-04-06T18%3A27%3A26Z%2F-1%2Fhost%2F7564205c6c0786dbd69ee76323b9b158d9515c405cde46df37ccb977c6bf0dbe
 #EXTINF:-1 tvg-name="蔡丽津月圆情",蔡丽津月圆情
 http://vd3.bdstatic.com/mda-jm53zq7k0b0kbxch/sc/mda-jm53zq7k0b0kbxch.mp4
+#EXTINF:-1 tvg-name="衛視中文",衛視中文
+https://py.doube.eu.org/xinghuo?url=/Star-Movies-Chinese/1125
 #EXTINF:-1 tvg-name="衢江新闻",衢江新闻
 http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8
 #EXTINF:-1 tvg-name="衢江新闻",衢江新闻
@@ -5741,6 +6467,8 @@ http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8
 https://vd4.bdstatic.com/mda-pd47d6hs6bdriz7z/sc/cae_h264/1680672162318444423/mda-pd47d6hs6bdriz7z.mp4
 #EXTINF:-1 tvg-name="阿曼OMANTV",阿曼OMANTV
 https://company.fluid.stream/CompanyTV/smil:Company_ALL.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="阿里郎",阿里郎
+https://py.doube.eu.org/xinghuo?url=/Arirang/1089
 #EXTINF:-1 tvg-name="陇川综合",陇川综合
 https://zb-live.ynurl.com/longchuan/58f88df3-605e-4c57-865c-8e8f85241ca1.m3u8
 #EXTINF:-1 tvg-name="陇川综合",陇川综合
@@ -5999,6 +6727,8 @@ http://lmt.scqstv.com:80/live1/live1.m3u8
 http://lmt.scqstv.com/live1/live1.m3u8?zsicd?
 #EXTINF:-1 tvg-name="青神综合",青神综合
 http://lmt.scqstv.com/live1/live1.m3u8?zsicd
+#EXTINF:-1 tvg-name="靖天國際",靖天國際
+https://py.doube.eu.org/xinghuo?url=/SkyLink-International-Channel/1075
 #EXTINF:-1 tvg-name="靖宇",靖宇
 http://stream8.jlntv.cn/jytv/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="靖宇综合",靖宇综合
@@ -6097,6 +6827,12 @@ https://vdse.bdstatic.com//e179fea2ba171a7268188a055702229d.mp4?authorization=bc
 https://vip.ffzy-play7.com/20221127/7286_672b6ffa/2000k/hls/mixed.m3u8
 #EXTINF:-1 tvg-name="魔戒首部曲魔戒现身",魔戒首部曲魔戒现身
 https://vip.ffzy-play7.com/20230411/22167_a385d245/2000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="鳳凰中文",鳳凰中文
+https://py.doube.eu.org/xinghuo?url=/Phoenix-Satellite-TV/995
+#EXTINF:-1 tvg-name="鳳凰資訊",鳳凰資訊
+https://py.doube.eu.org/xinghuo?url=/fhzx/1283
+#EXTINF:-1 tvg-name="鳳凰香港",鳳凰香港
+https://py.doube.eu.org/xinghuo?url=/Phoenix-Hong-Kong/990
 #EXTINF:-1 tvg-name="鸳鸯DJ劲爆DJ",鸳鸯DJ劲爆DJ
 https://vd3.bdstatic.com/mda-nba9z1mqi949jyyb/sc/cae_h264_delogo/1644629210546304303/mda-nba9z1mqi949jyyb.mp4
 #EXTINF:-1 tvg-name="鹿泉一套",鹿泉一套
@@ -6207,6 +6943,14 @@ http://112.99.193.34:9901/tsfile/live/1027_1.m3u8?key=txiptv&amp;playlive=1&amp;
 https://gcalic.v.myalicdn.com/gc/mdjxxmhjyxj_1/index.m3u8?contentid=2820180516001
 #EXTINF:-1 tvg-name="齐鲁",齐鲁
 http://124.128.73.58:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="龍祥時代",龍祥時代
+https://py.doube.eu.org/xinghuo?url=/Longxiang-Times/1098
+#EXTINF:-1 tvg-name="龍華戲劇",龍華戲劇
+https://py.doube.eu.org/xinghuo?url=/Lunghua-Idol/1073
+#EXTINF:-1 tvg-name="龍華洋片",龍華洋片
+https://py.doube.eu.org/xinghuo?url=/Lunghua-Western/1120
+#EXTINF:-1 tvg-name="龍華經黃",龍華經黃
+https://py.doube.eu.org/xinghuo?url=/Lunghua-Classic-Channel/1072
 #EXTINF:-1 tvg-name="龙井",龙井
 http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="龙井综合",龙井综合
@@ -6251,6 +6995,8 @@ http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8?zzhed
 https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
 #EXTINF:-1 tvg-name="龙游生活娱乐",龙游生活娱乐
 http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8?zzhed
+#EXTINF:-1 tvg-name="龙祥时代",龙祥时代
+https://py.doube.eu.org/xinghuo?url=/Longxiang-Times/1122
 #EXTINF:-1 tvg-name="龙门飞甲",龙门飞甲
 http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
 #EXTINF:-1 tvg-name="龙门飞甲",龙门飞甲
