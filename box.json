@@ -45,21 +45,11 @@
    },
    "changeable": 1
   }, {
-   "key": "Jianpian",
-   "name": "荐片影视",
-   "type": 3,
-   "api": "csp_Jianpian",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "jar": "https://gh.clun.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/Yoursmile.jar",
-   "ext": "https://gh.clun.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/sub/jianpian.json"
-  }, {
    "key": "小苹果",
    "name": "苹果影视",
    "type": 3,
    "api": "csp_Xpg",
-   "jar": "https://framagit.org/168/myys/-/raw/main/bb/jar/fenghuang.jar",
+   "jar": "./jar/fenghuang.jar",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
