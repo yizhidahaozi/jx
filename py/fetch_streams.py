@@ -6,10 +6,6 @@ import os
 # 多个网站 URL 列表
 # https://github.com/qq254950134/my-iptv
 urls = [
-    "http://8.138.7.223/live.txt",
-    "https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
-    "https://raw.githubusercontent.com/tianya7981/jiekou/refs/heads/main/%E9%87%8E%E7%81%AB959",
-    "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u",
     "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
     'https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u',
@@ -113,9 +109,9 @@ def save_to_txt(grouped_streams, filename="tv.m3u"):
                 ipv6_lines.append(f"{program_name},{url}")
 
     with open(filepath, 'w', encoding='utf-8') as output_file:
-        output_file.write("# IPv4 Streams\n")
+        output_file.write("#EXTM3U\n# IPv4 Streams\n#EXTINF:-1 group-title="Ipv4",")
         output_file.write("\n".join(ipv4_lines))
-        output_file.write("\n\n# IPv6 Streams\n")
+        output_file.write("\n\n# IPv6 Streams\n#EXTINF:-1 group-title="Ipv6",")
         output_file.write("\n".join(ipv6_lines))
 
     print(f"所有源已保存到 {filepath}")
