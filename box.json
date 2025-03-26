@@ -1237,18 +1237,7 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "./json/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./json/wogg.json",
-   "order_num": 9999
-  }, {
-   "key": "Xinshijue",
-   "name": "新视觉网盘",
-   "type": 3,
-   "api": "csp_Xinshijue",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./json/tokenm.json$$$https://www.xinshenyushangmao.com/$$$proxy$$$1$$$./json/wogg.json",
+   "ext": "./json/tokenm.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./json/wogg.json",
    "order_num": 9999
   }, {
    "key": "Hdhive",
