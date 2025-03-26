@@ -53,9 +53,9 @@
    "quickSearch": 1,
    "filterable": 1,
    "jar": "https://gh.clun.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/Yoursmile.jar",
-   "ext": "https://gh.clun.top/raw.githubusercontent.com/yoursmile66/TVBox/main/sub/jianpian.json"
+   "ext": "https://gh.clun.top/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/sub/jianpian.json"
   }, {
-   "key": "小苹果弹幕",
+   "key": "小苹果",
    "name": "苹果影视",
    "type": 3,
    "api": "csp_Xpg",
