@@ -109,9 +109,9 @@ def save_to_txt(grouped_streams, filename="tv.m3u"):
                 ipv6_lines.append(f"{program_name},{url}")
 
     with open(filepath, 'w', encoding='utf-8') as output_file:
-        output_file.write("#EXTM3U\n# IPv4 Streams\n#EXTINF:-1 group-title="Ipv4,"\n")
+        output_file.write("#EXTM3U\n# IPv4 Streams\n#EXTINF:-1 group-title=\"Ipv4\",\n")
         output_file.write("\n".join(ipv4_lines))
-        output_file.write("\n\n# IPv6 Streams\n#EXTINF:-1 group-title="Ipv6,"\n")
+        output_file.write("\n\n# IPv6 Streams\n#EXTINF:-1 group-title=\"Ipv6\",\n")
         output_file.write("\n".join(ipv6_lines))
 
     print(f"所有源已保存到 {filepath}")
