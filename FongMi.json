@@ -55,8 +55,8 @@
         "siteUrl": "http://127.0.0.1:9999",
         "count": 4,
         "channelUsername": "xx123pan,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
-        "commonConfig": "./js/peizhi.json",
-        "filter": "./js/douban.json"
+        "commonConfig": "./json/peizhi.json",
+        "filter": "./json/douban.json"
       }
     },
     {
@@ -67,7 +67,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -79,9 +79,18 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json",
-        "share": "./js/网盘集合.json"
+        "commonConfig": "./json/peizhi.json",
+        "share": "./json/网盘集合.json"
       }
+    },
+    {
+      "key": "游戏 | 直播",
+      "name": "游戏 | 直播",
+      "type": 3,
+      "api": "csp_Living",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9966/api/proxy/https://lemonlive.pages.dev"
     },
     {
       "key": "玩偶 | 闪电uc",
@@ -91,9 +100,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "http://1.95.79.193/",
-        "filter": "./js/wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -104,9 +113,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "https://erxiaofn.click/",
-        "filter": "./js/wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -117,9 +126,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "https://www.milvdou.fun/",
-        "filter": "./js/wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -130,9 +139,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "http://tv.yydsys.top/",
-        "filter": "./js/wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -143,9 +152,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "https://labipan.com/",
-        "filter": "./js/wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -156,9 +165,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "http://127.0.0.1:9966/api/proxy/https://mo.666291.xyz/",
-        "filter": "./js/wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -169,9 +178,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json",
+        "commonConfig": "./json/peizhi.json",
         "siteUrl": "https://woggpan.333232.xyz/",
-        "filter": "./js/wogg.json"
+        "filter": "./json/wogg.json"
       }
     },
     {
@@ -184,7 +193,7 @@
       "switchable": 0,
       "ext": {
         "siteUrl": "https://www.qwnull.com",
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -197,7 +206,7 @@
       "switchable": 0,
       "ext": {
         "siteUrl": "https://star.banye.tech:7086/",
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -212,8 +221,8 @@
         "ratio": 1.433
       },
       "ext": {
-        "commonConfig": "./js/peizhi.json",
-        "json": "./js/youtube.json",
+        "commonConfig": "./json/peizhi.json",
+        "json": "./json/youtube.json",
         "cookie": ""
       }
     },
@@ -239,7 +248,7 @@
       "filterable": 1,
       "changeable": 1,
       "api": "./lib/lf_live10_min-output.js",
-      "ext": "./js/lf_live.json"
+      "ext": "./json/lf_live.json"
     },
     {
       "key": "哔哩FM",
@@ -253,7 +262,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./js/bilibili.json",
+        "json": "./json/bilibili.json",
         "cookie": ""
       }
     },
@@ -268,7 +277,7 @@
       "ext": {
         "count": 4,
         "channelUsername": "xx123pan,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -281,7 +290,7 @@
       "switchable": 0,
       "ext": {
         "siteUrl": "https://www.91panta.cn/",
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -294,7 +303,7 @@
       "switchable": 0,
       "ext": {
         "siteUrl": "https://www.leijing1.com/",
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
 
@@ -308,7 +317,7 @@
       "switchable": 0,
       "ext": {
         "cookie": "",
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -319,7 +328,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -330,7 +339,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -340,7 +349,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "./js/alist.json"
+      "ext": "./json/alist.json"
     },
     {
       "key": "push_agent",
@@ -351,7 +360,7 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "commonConfig": "./js/peizhi.json"
+        "commonConfig": "./json/peizhi.json"
       }
     },
 
@@ -398,7 +407,7 @@
       "key": "非凡",
       "name": "非凡",
       "type": 1,
-      "api": "http://api.ffzyapi.com/api.php/provide/vod/",
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "changeable": 1,
       "categories": [
@@ -502,5 +511,5 @@
         ".*ulivetv.*"
       ]
     }
-    ]
+  ]
 }
