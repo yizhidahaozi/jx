@@ -13,3 +13,4 @@ https://framagit.org/168/myys/-/raw/main/bb/jar/fenghuang.jar
 影视点播源
 https://json.doube.eu.org/t3.php
 
+分类url .cateId=分类 .class=类型 .area=地区 .lang=语言 .year=年份 .by=排序 .catePg=类别?
