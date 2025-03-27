@@ -1618,6 +1618,6 @@
  "parses": [],
  "flags": ["youku", "tudou", "qq", "qiyi", "iqiyi", "leshi", "letv", "sohu", "imgo", "mgtv", "bilibili", "pptv", "PPTV", "migu"],
  "wallpaper": "./img/0.jpg",
- "logo": "./img/logo.gif",
- "spider": "./jar/fm.jar"
+ "spider": "./jar/XBPQ.jar",
+ "logo": "./img/logo.gif"
 }
