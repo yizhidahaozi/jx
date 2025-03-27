@@ -1,5 +1,5 @@
 {
- "sites": [{
+ "sites": [ {
    "key": "豆瓣",
    "name": "豆瓣",
    "type": 3,
@@ -69,7 +69,15 @@
    "filterable": 1,
    "api": "csp_XBPQ",
    "jar": "./jar/spider.jar",
-   "ext": "ICAgICLmkq3mlL7mlbDnu4QiOiAiPHRib2R5PiYmPC90Ym9keT4iLAogICAgIuWIhuexuyI6ICLnlLXlvbEkZGlhbnlpbmcj5Yqo55S7JGRvbmdodWEj5Zu95Lqn5YmnJGd1b2NoYW5qdSPnvo7mrKfliackbWVpb3VqdSPml6Xpn6nliackcmloYW5qdSIsCiAgICAi5YiG57G7dXJsIjogImh0dHBzOi8vd3d3LmZveGp1bi5jb20vY2hhbm5lbC97Y2F0ZUlkfS5odG1sP2FwYWdlMT17Y2F0ZVBnfSIsCiAgICAiaXRlbV9zZWxlY3RvciI6ICJ0ciIsCiAgICAidGl0bGVfc2VsZWN0b3IiOiAidGQudGl0bGUgYSIsCiAgICAidXJsX3NlbGVjdG9yIjogInRkLnRpdGxlIGFAaHJlZiIsCiAgICAiZGVzY3JpcHRpb25fc2VsZWN0b3IiOiAidGQuZGVzY3JpcHRpb24iCiAgIH17CiAgICAi5pKt5pS+5pWw57uEIjogIjx0Ym9keT4mJjwvdGJvZHk+IiwKICAgICLliIbnsbsiOiAi55S15b2xJGRpYW55aW5nI+WKqOeUuyRkb25naHVhI+WbveS6p+WJpyRndW9jaGFuanUj576O5qyn5YmnJG1laW91anUj5pel6Z+p5YmnJHJpaGFuanUiLAogICAgIuWIhuexu3VybCI6ICJodHRwczovL3d3dy5mb3hqdW4uY29tL2NoYW5uZWwve2NhdGVJZH0uaHRtbD9hcGFnZTE9e2NhdGVQZ30iLAogICAgIml0ZW1fc2VsZWN0b3IiOiAidHIiLAogICAgInRpdGxlX3NlbGVjdG9yIjogInRkLnRpdGxlIGEiLAogICAgInVybF9zZWxlY3RvciI6ICJ0ZC50aXRsZSBhQGhyZWYiLAogICAgImRlc2NyaXB0aW9uX3NlbGVjdG9yIjogInRkLmRlc2NyaXB0aW9uIg=="
+   "ext": {
+    "播放数组": "<tbody>&&</tbody>",
+    "分类": "电影$dianying#动画$donghua#国产剧$guochanju#美欧剧$meiouju#日韩剧$rihanju",
+    "分类url": "https://www.foxjun.com/channel/{cateId}.html?apage1={catePg}",
+    "item_selector": "tr",
+    "title_selector": "td.title a",
+    "url_selector": "td.title a@href",
+    "description_selector": "td.description"
+   }
   }, {
    "key": "艾旦影视",
    "name": "艾旦影视",
@@ -97,12 +105,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": {
-    "分类url": "https://198mv.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-    "分类": "电影&剧集&综艺&动漫&短剧",
-    "分类值": "1&2&3&4&58",
-    "类型": "动作片$6#喜剧片$7#爱情片$8#高分经典科幻片$9#恐怖片$10#剧情片$11#战争片$12||国产剧$13#香港剧$28#恋爱不分国度$29#台湾剧$27#美国剧$31#泰国剧$33#其它剧$35||无||无||无"
-   }
+   "ext": "ewoi5YiG57G7dXJsIjogImh0dHBzOi8vMTk4bXYuY29tL3ZvZHNob3cve2NhdGVJZH0te2FyZWF9LXtieX0te2NsYXNzfS17bGFuZ30te2xldHRlcn0tLS17Y2F0ZVBnfS0tLXt5ZWFyfS5odG1sIiwKIuWIhuexuyI6ICLnlLXlvbEm5Ymn6ZuGJue7vOiJuibliqjmvKsm55+t5YmnIiwKIuWIhuexu+WAvCI6ICIxJjImMyY0JjU4IiwKIuexu+WeiyI6ICLliqjkvZzniYckNiPllpzliafniYckNyPniLHmg4XniYckOCPpq5jliIbnu4/lhbjnp5HlubvniYckOSPmgZDmgJbniYckMTAj5Ymn5oOF54mHJDExI+aImOS6ieeJhyQxMnx85Zu95Lqn5YmnJDEzI+mmmea4r+WJpyQyOCPmgYvniLHkuI3liIblm73luqYkMjkj5Y+w5rm+5YmnJDI3I+e+juWbveWJpyQzMSPms7Dlm73liackMzMj5YW25a6D5YmnJDM1fHzml6B8fOaXoHx85pegIgp9ewoi5YiG57G7dXJsIjogImh0dHBzOi8vMTk4bXYuY29tL3ZvZHNob3cve2NhdGVJZH0te2FyZWF9LXtieX0te2NsYXNzfS17bGFuZ30te2xldHRlcn0tLS17Y2F0ZVBnfS0tLXt5ZWFyfS5odG1sIiwKIuWIhuexuyI6ICLnlLXlvbEm5Ymn6ZuGJue7vOiJuibliqjmvKsm55+t5YmnIiwKIuWIhuexu+WAvCI6ICIxJjImMyY0JjU4IiwKIuexu+WeiyI6ICLliqjkvZzniYckNiPllpzliafniYckNyPniLHmg4XniYckOCPpq5jliIbnu4/lhbjnp5HlubvniYckOSPmgZDmgJbniYckMTAj5Ymn5oOF54mHJDExI+aImOS6ieeJhyQxMnx85Zu95Lqn5YmnJDEzI+mmmea4r+WJpyQyOCPmgYvniLHkuI3liIblm73luqYkMjkj5Y+w5rm+5YmnJDI3I+e+juWbveWJpyQzMSPms7Dlm73liackMzMj5YW25a6D5YmnJDM1fHzml6B8fOaXoHx85pegIgp9"
   }, {
    "key": "白嫖3",
    "name": "️白嫖影视",
@@ -157,15 +160,6 @@
   }, {
    "key": "2",
    "name": "== 2 =="
-  }, {
-   "key": "黑木耳",
-   "name": "黑木耳",
-   "type": 1,
-   "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": ["国产动漫", "日本动漫", "国产剧"]
   }, {
    "key": "OK资源网",
    "name": "OK资源",
