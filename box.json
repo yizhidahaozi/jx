@@ -80,6 +80,16 @@
    "api": "csp_XBPQ",
    "ext": "./js/s/穷电影.json"
   }, {
+   "key": "7点影视",
+   "name": "7点影视",
+   "type": 3,
+   "changeable": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "csp_XBPQ",
+   "ext": "./js/s/7点.json"
+  }, {
    "key": "可可影视网",
    "name": "可可影视",
    "type": 3,
