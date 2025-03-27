@@ -1622,6 +1622,6 @@
  "parses": [],
  "flags": ["youku", "tudou", "qq", "qiyi", "iqiyi", "leshi", "letv", "sohu", "imgo", "mgtv", "bilibili", "pptv", "PPTV", "migu"],
  "wallpaper": "./img/0.jpg",
- "spider": "./jar/XBPQ.jar",
- "logo": "./img/logo.gif"
+ "logo": "./img/logo.gif",
+ "spider": "./pg.jar"
 }
