@@ -1,10 +1,5 @@
 {
  "sites": [{
-   "key":"T4_豆瓣",
-   "name":"豆瓣(T4)",
-   "type":4,
-   "api":"https://catbox.n13.club/t9/douban.php"
-  }, {
    "key": "豆瓣",
    "name": "豆瓣",
    "type": 3,
@@ -21,15 +16,6 @@
    "searchable": 1,
    "vodPic": "./img/file.jpg",
    "ext": "./js/alist.json"
-  }, {
-   "key": "黑木耳",
-   "name": "黑木耳",
-   "type": 1,
-   "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": ["国产动漫", "日本动漫", "国产剧"]
   }, {
    "key": "MTV",
    "name": "Bili_MTV",
@@ -71,16 +57,6 @@
     "danmu": true
    }
   }, {
-   "key": "黑木耳(海外)",
-   "name": "黑木耳(海外)",
-   "type": 1,
-   "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "playUrl": "",
-   "categories": ["国产动漫", "日本动漫", "国产剧"]
-  }, {
    "key": "1",
    "name": "== 1 =="
   }, {
@@ -93,15 +69,7 @@
    "filterable": 1,
    "api": "csp_XBPQ",
    "jar": "./jar/spider.jar",
-   "ext": {
-    "播放数组": "<tbody>&&</tbody>",
-    "分类": "电影$dianying#动画$donghua#国产剧$guochanju#美欧剧$meiouju#日韩剧$rihanju",
-    "分类url": "https://www.foxjun.com/channel/{cateId}.html?apage1={catePg}",
-    "item_selector": "tr",
-    "title_selector": "td.title a",
-    "url_selector": "td.title a@href",
-    "description_selector": "td.description"
-   }
+   "ext": "ewogICAgIuaSreaUvuaVsOe7hCI6ICI8dGJvZHk+JiY8L3Rib2R5PiIsCiAgICAi5YiG57G7IjogIueUteW9sSRkaWFueWluZyPliqjnlLskZG9uZ2h1YSPlm73kuqfliackZ3VvY2hhbmp1I+e+juasp+WJpyRtZWlvdWp1I+aXpemfqeWJpyRyaWhhbmp1IiwKICAgICLliIbnsbt1cmwiOiAiaHR0cHM6Ly93d3cuZm94anVuLmNvbS9jaGFubmVsL3tjYXRlSWR9Lmh0bWw/YXBhZ2UxPXtjYXRlUGd9IiwKICAgICJpdGVtX3NlbGVjdG9yIjogInRyIiwKICAgICJ0aXRsZV9zZWxlY3RvciI6ICJ0ZC50aXRsZSBhIiwKICAgICJ1cmxfc2VsZWN0b3IiOiAidGQudGl0bGUgYUBocmVmIiwKICAgICJkZXNjcmlwdGlvbl9zZWxlY3RvciI6ICJ0ZC5kZXNjcmlwdGlvbiIKICAgfXsKICAgICLmkq3mlL7mlbDnu4QiOiAiPHRib2R5PiYmPC90Ym9keT4iLAogICAgIuWIhuexuyI6ICLnlLXlvbEkZGlhbnlpbmcj5Yqo55S7JGRvbmdodWEj5Zu95Lqn5YmnJGd1b2NoYW5qdSPnvo7mrKfliackbWVpb3VqdSPml6Xpn6nliackcmloYW5qdSIsCiAgICAi5YiG57G7dXJsIjogImh0dHBzOi8vd3d3LmZveGp1bi5jb20vY2hhbm5lbC97Y2F0ZUlkfS5odG1sP2FwYWdlMT17Y2F0ZVBnfSIsCiAgICAiaXRlbV9zZWxlY3RvciI6ICJ0ciIsCiAgICAidGl0bGVfc2VsZWN0b3IiOiAidGQudGl0bGUgYSIsCiAgICAidXJsX3NlbGVjdG9yIjogInRkLnRpdGxlIGFAaHJlZiIsCiAgICAiZGVzY3JpcHRpb25fc2VsZWN0b3IiOiAidGQuZGVzY3JpcHRpb24iCiAgIH0="
   }, {
    "key": "艾旦影视",
    "name": "艾旦影视",
@@ -189,6 +157,15 @@
   }, {
    "key": "2",
    "name": "== 2 =="
+  }, {
+   "key": "黑木耳",
+   "name": "黑木耳",
+   "type": 1,
+   "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日本动漫", "国产剧"]
   }, {
    "key": "OK资源网",
    "name": "OK资源",
@@ -693,7 +670,7 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG"
+   "ext": "./lib/tokenm.json$$$https://www.wogg.one/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG"
   }, {
    "key": "yydsys",
    "name": "玩你老哥",
