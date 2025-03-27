@@ -69,7 +69,28 @@
    "filterable": 1,
    "api": "csp_XBPQ",
    "jar": "./jar/spider.jar",
-   "ext": "./js/%E7%8B%90%E7%8B%B8%E5%90%9B.json"
+   "ext": "./js/s/狐狸君.json"
+  }, {
+   "key": "穷电影",
+   "name": "穷电影",
+   "type": 3,
+   "changeable": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/穷电影.json"
+  }, {
+   "key": "可可影视网",
+   "name": "可可影视",
+   "type": 3,
+   "changeable": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "csp_XBPQ",
+   "ext": "./js/s/可可.json"
   }, {
    "key": "艾旦影视",
    "name": "艾旦影视",
@@ -89,6 +110,16 @@
    "changeable": 1,
    "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
+   "key": "白嫖1",
+   "name": "️白嫖影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "./js/s/白嫖1.json"
+  }, {
    "key": "白嫖2",
    "name": "️白嫖影视",
    "type": 3,
@@ -97,40 +128,15 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": {
-    "分类url": "https://198mv.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-    "分类": "电影&剧集&综艺&动漫&短剧",
-    "分类值": "1&2&3&4&58",
-    "类型": "动作片$6#喜剧片$7#爱情片$8#高分经典科幻片$9#恐怖片$10#剧情片$11#战争片$12||国产剧$13#香港剧$28#恋爱不分国度$29#台湾剧$27#美国剧$31#泰国剧$33#其它剧$35||无||无||无"
-   }
+   "ext": "./js/s/白嫖2.json"
   }, {
    "key": "白嫖3",
-   "name": "️白嫖影视",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "jar": "./jar/XBPQ.jar",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": {
-    "分类url": "https://www.6699z.cn/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-    "分类": "电影&剧集&综艺&动漫&短剧",
-    "分类值": "1&2&3&4&58",
-    "类型": "动作片$6#喜剧片$7#爱情片$8#高分经典科幻片$9#恐怖片$10#剧情片$11#战争片$12||国产剧$13#香港剧$28#恋爱不分国度$29#台湾剧$27#美国剧$31#泰国剧$33#其它剧$35||无||无||无"
-   }
-  }, {
-   "key": "白嫖者",
    "name": "白嫖影视",
    "type": 3,
    "ua": "okhttp/3.15",
    "api": "csp_XBPQ",
    "jar": "./jar/XBPQ.jar",
-   "ext": {
-    "分类url": "https://www.qyzf88.com/qyvodtype/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-    "分类": "电影$1#电视剧$2#樱花动漫$4#综艺$3",
-    "副标题": "class=\"pic-text text-right\"&&</span>",
-    "简介": "寒+剧情介绍：&&</p >"
-   }
+   "ext": "./js/s/白嫖3.json"
   }, {
    "key": "骚火影视",
    "name": "骚火影视",
@@ -141,22 +147,18 @@
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 1,
-   "ext": {
-    "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
-    "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0",
-    "倒序": "1",
-    "分类": "动漫$4#电影$1#电视剧$2#港剧$21#韩剧$22#台剧$26#日剧$24#美剧$23",
-    "数组二次截取": "class=\"v_list\">&&</ul>",
-    "数组": "\"v_img\"&&/div>",
-    "标题": "title=\"&&\"",
-    "副标题": "v_note\"&&</div",
-    "跳转播放链接": "<iframe*src=\"&&\"",
-    "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
-    "三次跳转播放链接": "\"url\"*\"&&\""
-   }
+   "ext": "./js/s/骚火.json"
   }, {
    "key": "2",
    "name": "== 2 =="
+  }, {
+   "key": "haiwaikan",
+   "name": "海外看",
+   "type": 1,
+   "api": "https://haiwaikan.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1
   }, {
    "key": "OK资源网",
    "name": "OK资源",
@@ -1044,14 +1046,6 @@
    "searchable": 1,
    "changeable": 0,
    "ext": "./lib/duboku.json$$$proxy"
-  }, {
-   "key": "haiwaikan",
-   "name": "海外看",
-   "type": 1,
-   "api": "http://127.0.0.1:10079/p/0/proxy/https://haiwaikan.com/api.php/provide/vod?",
-   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-   "searchable": 1,
-   "changeable": 1
   }, {
    "key": "櫻花资源",
    "name": "櫻花资源",
