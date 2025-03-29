@@ -28,12 +28,8 @@ https://clun.top/api.json
 
 </details>
 
-<a href="https://www.star-history.com/#huang770101/my-iptv&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=huang770101/my-iptv&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=huang770101/my-iptv&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=huang770101/my-iptv&type=Date" />
- </picture>
-</a>
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=cluntop/cluntop.github.io&type=Date)](https://www.star-history.com/#cluntop/cluntop.github.io&Date)
 
 ###### [备份文档](.github/test.md)
