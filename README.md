@@ -28,8 +28,6 @@ https://clun.top/api.json
 
 </details>
 
-## Star History
-
 <a href="https://www.star-history.com/#huang770101/my-iptv&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=huang770101/my-iptv&type=Date&theme=dark" />
