@@ -1511,7 +1511,7 @@
    "ext": "./js/s/白嫖4.json"
   }, {
    "key": "欧乐影视",
-   "name": "欧乐影视XBPQ",
+   "name": "欧乐影视",
    "type": 3,
    "api": "csp_XBPQ",
    "jar": "./jar/XBPQ.jar",
