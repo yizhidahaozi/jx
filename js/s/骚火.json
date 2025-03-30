@@ -7,7 +7,7 @@
  "数组": "\"v_img\"&&/div>",
  "标题": "title=\"&&\"",
  "副标题": "v_note\"&&</div",
- "跳转播放链接": "<iframe*src=\"&&\""
- //"二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
- //"三次跳转播放链接": "\"url\"*\"&&\""
+ "跳转播放链接": "<iframe*src=\"&&\"",
+ "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
+ "三次跳转播放链接": "\"url\"*\"&&\""
 }
