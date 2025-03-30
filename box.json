@@ -33,18 +33,6 @@
     "cookie": ""
    }
   }, {
-   "key": "采集集合",
-   "name": "采集集合",
-   "type": 1,
-   "api": "http://127.0.0.1:1988/lb?lb=3",
-   "jar": "./jar/yt.jar",
-   "searchable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   },
-   "changeable": 1
-  }, {
    "key": "小苹果",
    "name": "苹果影视",
    "type": 3,
@@ -154,12 +142,16 @@
    "name": "骚火影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 1,
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/骚火.json"
+  }, {
+   "key": "久久影视",
+   "name": "久久影视",
+   "type": 3,
+   "api": "csp_AppYsV2",
+   "jar": "./jar/qf.jar",
+   "playerType": 2,
+   "ext": "http://99cms.jj99.icu:8199/api.php/app/"
   }, {
    "key": "2",
    "name": "== 2 =="
@@ -521,6 +513,14 @@
    "searchable": 1,
    "quickSearch": 1,
    "categories": ["国产动漫", "日韩动漫", "国产剧"]
+  }, {
+   "key": "旺旺采集资源",
+   "name": "旺旺短剧",
+   "type": 1,
+   "api": "https://api.wwzy.tv/api.php/provide/vod/",
+   "playerType": 1,
+   "searchable": 1,
+   "changeable": 1
   }, {
    "key": "3",
    "name": "== 3 =="
@@ -1322,7 +1322,7 @@
    "changeable": 0
   }, {
    "key": "5",
-   "name": "== 测试 5 分割 =="
+   "name": "== 5 =="
   }, {
    "key": "虎牙直播",
    "name": "虎牙直播",
@@ -1359,86 +1359,6 @@
    "key": "6",
    "name": "== 6 =="
   }, {
-   "key": "服务器油管go",
-   "name": "服务器油管go",
-   "type": 4,
-   "api": "http://127.0.0.1:1988",
-   "jar": "./jar/yt.jar",
-   "searchable": 1,
-   "changeable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   }
-  }, {
-   "key": "油管播放列表1",
-   "name": "油管播放列表1",
-   "type": 4,
-   "api": "http://127.0.0.1:1988/lb?lb=0",
-   "jar": "./jar/yt.jar",
-   "searchable": 1,
-   "changeable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   }
-  }, {
-   "key": "油管播放列表2",
-   "name": "油管播放列表2",
-   "type": 4,
-   "api": "http://127.0.0.1:1988/lb?lb=1",
-   "jar": "./jar/yt.jar",
-   "searchable": 1,
-   "changeable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   }
-  }, {
-   "key": "短剧2",
-   "name": "短剧",
-   "type": 4,
-   "api": "http://127.0.0.1:1988/lb?lb=2",
-   "jar": "./jar/yt.jar",
-   "searchable": 1,
-   "changeable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   }
-  }, {
-   "key": "爱瓜tv",
-   "name": "爱瓜tv",
-   "type": 4,
-   "api": "http://127.0.0.1:1988/lb?lb=4",
-   "jar": "./jar/yt.jar",
-   "searchable": 1,
-   "changeable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   }
-  }, {
-   "key": "Hi视频(T4)",
-   "name": "Hi视频(T4)",
-   "type": 4,
-   "api": "http://127.0.0.1:1988/lb?lb=5",
-   "jar": "./jar/yt.jar",
-   "searchable": 1,
-   "changeable": 1,
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   }
-  }, {
-   "key": "直播转点播",
-   "name": "直播转点播",
-   "type": 4,
-   "api": "http://127.0.0.1:1988/lb?lb=6",
-   "jar": "./jar/yt.jar",
-   "searchable": 1,
-   "changeable": 0
-  }, {
    "key": "7",
    "name": "== 7 =="
   }, {
@@ -1473,6 +1393,157 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
+  }, {
+   "key": "8",
+   "name": "== 8 =="
+  }, {
+   "key": "人人影视",
+   "name": "人人影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/人人.json"
+  }, {
+   "key": "农民影视",
+   "name": "农民影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/农民.json"
+  }, {
+   "key": "熊猫影视",
+   "name": "熊猫影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/熊猫.json"
+  }, {
+   "key": "秀儿影院",
+   "name": "秀儿影院",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/秀儿.json"
+  }, {
+   "key": "毒舌影视",
+   "name": "毒舌影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/毒舌.json"
+  }, {
+   "key": "星辰影院",
+   "name": "星辰影院",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/星辰.json"
+  }, {
+   "key": "全网看",
+   "name": "全网看",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/全网看.json"
+  }, {
+   "key": "free影视",
+   "name": "free影视",
+   "type": 3,
+   "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/free.json"
+  }, {
+   "key": "喝茶影视",
+   "name": "喝茶影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/喝茶.json"
+  }, {
+   "key": "策弛影视",
+   "name": "策弛影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/策弛.json"
+  }, {
+   "key": "茶杯狐影视",
+   "name": "茶杯狐影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/茶杯狐.json"
+  }, {
+   "key": "瓜籽影院",
+   "name": "瓜籽影院",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/瓜籽.json"
+  }, {
+   "key": "来看点播",
+   "name": "来看点播",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/来看.json"
+  }, {
+   "key": "布卡影视",
+   "name": "布卡影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/布卡.json"
+  }, {
+   "key": "一帆影视",
+   "name": "一帆影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/一帆.json"
+  }, {
+   "key": "白嫖影视",
+   "name": "白嫖影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/白嫖4.json"
+  }, {
+   "key": "欧乐影视",
+   "name": "欧乐影视XBPQ",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/欧乐.json"
+  }, {
+   "key": "MX动漫",
+   "name": "MX-动漫",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/mx.json"
+  }, {
+   "key": "小枫",
+   "name": "小枫影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/小枫.json"
+  }, {
+   "key": "奇迹",
+   "name": "奇迹影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/奇迹.json"
+  }, {
+   "key": "素白白",
+   "name": "素白白",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/素白白.json"
   }
  ],
  "lives": [{
