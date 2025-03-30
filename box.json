@@ -1572,6 +1572,14 @@
    "type": 0,
    "url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
   }, {
+   "name": "mlzlzj",
+   "type": 0,
+   "url": "https://gh.clun.top/github.com/mlzlzj/TV/blob/main/output/result.m3u"
+  }, {
+   "name": "gambiarras",
+   "type": 0,
+   "url": "https://gh.clun.top/github.com/gambiarras/legal-iptv/blob/main/playlist.m3u"
+  }, {
    "name": "epg.pw All",
    "type": 0,
    "url": "https://m3u.002397.xyz/all.m3u"
@@ -1701,6 +1709,6 @@
  "parses": [],
  "flags": ["youku", "tudou", "qq", "qiyi", "iqiyi", "leshi", "letv", "sohu", "imgo", "mgtv", "bilibili", "pptv", "PPTV", "migu"],
  "wallpaper": "./img/0.jpg",
- "logo": "./img/logo.gif",
+ "logo": "./img/pg.gif",
  "spider": "./pg.jar"
 }

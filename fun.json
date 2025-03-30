@@ -9,45 +9,18 @@
    "changeable": 1,
    "ext": "proxy"
   }, {
-   "key": "TGYunPanLocal",
-   "name": "TG频道搜索",
-   "type": 3,
-   "api": "csp_TGYunPanLocal",
-   "timeout": 120,
-   "ext": {
-    "token": "./lib/tokenm.json",
-    "json": "./lib/tgsearch.json",
-    "keywords": "名称,片名,推荐",
-    "tgsearch_url": "http://tg.xueximeng.com",
-    "tgsearch_media_url": "http://tg.xueximeng.com",
-    "channellist": "tgsearchers,alyp_1,guaguale115,hao115,shareAliyun,Aliyun_4K_Movies,ucpanpan,ucquark,ydypzyfx",
-    "proxy": "noproxy",
-    "danmu": true
-   },
-   "style": {
-    "type": "rect",
-    "ratio": 1.77
-   }
+   "key": "AIvin",
+   "name": "AIvin",
+   "type": 0,
+   "api": "http://lbapiby.com/api.php/provide/vod/at/xml"
   }, {
-   "key": "TGYunPan",
-   "name": "TG群组搜索",
-   "type": 3,
-   "api": "csp_TGYunPan",
-   "timeout": 120,
-   "ext": {
-    "token": "./lib/tokenm.json",
-    "json": "./lib/tgsearch.json",
-    "keywords": "名称,片名,推荐",
-    "tgsearch_url": "http://tg.xueximeng.com",
-    "tgsearch_media_url": "http://tg.xueximeng.com",
-    "channellist": "tgsearchers,alyp_1,guaguale115,hao115,shareAliyun,Aliyun_4K_Movies,ucpanpan,ucquark,ydypzyfx",
-    "proxy": "noproxy",
-    "danmu": true
-   },
-   "style": {
-    "type": "rect",
-    "ratio": 1.77
-   }
+   "key": "色猫",
+   "name": "色猫2",
+   "type": 1,
+   "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
   }, {
    "key": "TGYunPan18pan",
    "name": "TG|涩涩",
@@ -185,6 +158,13 @@
    "searchable": 0,
    "quickSearch": 0
   }, {
+   "key": "*抖阴视频",
+   "name": "*抖阴视频",
+   "type": 1,
+   "api": "https://www.888dav.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 0
+  }, {
    "key": "MissAV",
    "name": "MissAV",
    "type": 3,
@@ -278,6 +258,24 @@
    "filterable": 1,
    "ext": "proxy"
   }, {
+   "key": "zp066",
+   "name": "🔞花椒资源",
+   "type": 0,
+   "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "proxy"
+  }, {
+   "key": "大地采集",
+   "name": "🔞大地av",
+   "type": 0,
+   "api": "https://dadiapi.com/apple_m3u8.php",
+   "playUrl": "https://play.dadiapi.com/watch?url=",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0
+  }, {
    "key": "番号资源",
    "name": "番号资源",
    "type": 1,
@@ -295,6 +293,14 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "proxy"
+  }, {
+   "key": "*易看资源",
+   "name": "易看资源",
+   "type": 1,
+   "api": "https://api.yikanapi.com/api.php/provide/vod/",
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 0
   }, {
    "key": "性爱电影",
    "name": "性爱电影",
@@ -320,6 +326,14 @@
    "searchable": 1,
    "quickSearch": 1,
    "ext": "proxy"
+  }, {
+   "key": "奶茶资源",
+   "name": "奶茶资源",
+   "type": 0,
+   "api": "https://caiji.naichaapi.com/inc/api.php",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
   }, {
    "key": "黄AV资源站",
    "name": "AV资源",
@@ -373,6 +387,13 @@
    "searchable": 1,
    "changeable": 1,
    "ext": "proxy"
+  }, {
+   "key": "探探资源",
+   "name": "探探资源",
+   "type": 1,
+   "api": "https://apittzy.com/api.php/provide/vod/",
+   "searchable": 0,
+   "quickSearch": 0
   }
  ],
  "lives": [{
