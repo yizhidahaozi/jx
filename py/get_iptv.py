@@ -4,15 +4,19 @@ import re
 import os
 
 urls = [
+    "https://qu.ax/vUBde.txt",
+    "http://live.nctv.top/x.txt",
+    "http://ttkx.cc:55/lib/kx2024.txt",
+    "http://php.540734621.xyz/migu.txt",
+    "https://json.doube.eu.org/XingHuo.txt",
+    "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt",
+    "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u",
+    "https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.m3u",
+    "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
+    "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
     "https://live.zbds.top/tv/iptv4.txt",
     "https://live.zbds.top/tv/iptv6.txt",
-    "https://json.doube.eu.org/XingHuo.txt",
-    "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
-    "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt",
-    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u",
-    "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-    "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
-    "https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.m3u",
 ]
 
 ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
