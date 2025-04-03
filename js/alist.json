@@ -53,6 +53,9 @@
         }, {
             "name": "ECVE",
             "server": "https://pan.ecve.cn"
+        }, {
+            "name": "一个小站",
+            "server": "https://alist.ygxz.xyz"
         }
     ]
 }
