@@ -9,6 +9,11 @@
    "indexs": 1,
    "ext": "./lib/tokenm.json$$$./lib/douban.json"
   }, {
+   "key": "豆瓣采集",
+   "name": "豆瓣采集",
+   "type": 1,
+   "api": "https://caiji.dbzy.tv/api.php/provide/vod/"
+  }, {
    "key": "AList",
    "name": "Alist",
    "type": 3,
