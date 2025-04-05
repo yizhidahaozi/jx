@@ -25,13 +25,6 @@ jobs:
 
     - name: Find and process zip files
       run: |
-        ZIP_FILE=$(find . -type f -name "pg\.(\d{8})-(\d{4})\.zip" | head -n 1)
-        
-        if [ -z "$ZIP_FILE" ]; then
-          echo "No zip file found"
-          exit 0
-        fi
-
         unzip -o pg\.(\d{8})-(\d{4})\.zip
 
     - name: Commit and push changes
