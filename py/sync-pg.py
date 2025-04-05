@@ -17,6 +17,9 @@ from tqdm import tqdm
 import ssl
 
 # API 密钥
+PHONE = os.environ["PHONE"]
+API_ID = os.environ["API_ID"]
+API_HASH = os.environ["API_HASH"]
 GIT_TOKEN = os.environ["GIT_TOKEN"]
 
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -642,9 +645,9 @@ class TGDown:
 
 
 if __name__ == '__main__':
-    api_id = xxx
-    api_hash = 'xxx'
-    phone = "86xxxxxxxxx"
+    api_id = {API_ID}
+    api_hash = '{API_HASH}'
+    phone = "{PHONE}"
     channel = 'https://t.me/PandaGroovePG'
     username = 'cluntop' # github username
     repo = 'cluntop.github.io' # github repo
