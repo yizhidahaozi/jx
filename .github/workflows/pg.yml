@@ -13,7 +13,7 @@ jobs:
     - name: Checkout target repo
       uses: actions/checkout@v4
       with:
-        repository: username/target-repo
+        repository: cluntop/cluntop.github.io
         token: ${{ secrets.GIT_TOKEN }}
         path: target-repo
 
