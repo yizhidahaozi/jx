@@ -1,38 +1,47 @@
-name: pg
+name: Auto Process Zip Files
 
-# 触发条件
 on:
   schedule:
-    # 
-    - cron: '0 0 * * *'
-  workflow_dispatch: # 允许手动触发
-
-permissions:
-  contents: write # 确保 GITHUB_TOKEN 具有写入权限
-
-env:
-  TZ: Asia/Shanghai # 设置时区为北京时间
+    - cron: '0 0 * * *'  # 每天UTC时间00:00运行
+  workflow_dispatch:     # 允许手动触发
 
 jobs:
-  Update:
+  process-zip:
     runs-on: ubuntu-latest
 
     steps:
-    # 检出项目仓库
-    - name: Checkout repository
+    - name: Checkout target repo
       uses: actions/checkout@v4
+      with:
+        repository: username/target-repo
+        token: ${{ secrets.TARGET_REPO_TOKEN }}
+        path: target-repo
 
-    # 设置 Python 环境
-    - name: Set up Python
-      uses: actions/setup-python@v5
-
-    # 安装依赖
-    - name: Install dependencies
-      run: if [ -f .github/requirements.txt ]; then pip install -r .github/requirements.txt; fi
-
-    # 运行 Python 脚本
-    - name: Run script
+    - name: Clone source repo
       env:
-        GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+        GITHUB: ${{ secrets.GITHUB }}
       run: |
-        python py/sync-pg.py
+        git clone {GITHUB} source-repo
+
+    - name: Find and process zip files
+      run: |
+        cd source-repo
+        ZIP_FILE=$(find . -type f -name "pg\.(\d{8})-(\d{4})\.zip" | head -n 1)
+        
+        if [ -z "$ZIP_FILE" ]; then
+          echo "No zip file found"
+          exit 0
+        fi
+
+        unzip -o "$ZIP_FILE" -d ../target-repo/
+        rm -rf ../target-repo/__MACOSX  # 清理macOS生成的垃圾文件
+
+    - name: Commit and push changes
+      run: |
+        cd target-repo
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        
+        git add .
+        git commit -m "Auto update from source repo" || echo "No changes to commit"
+        git push origin main
