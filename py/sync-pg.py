@@ -647,7 +647,7 @@ class TGDown:
 if __name__ == '__main__':
     api_id = {API_ID}
     api_hash = '{API_HASH}'
-    phone = "{PHONE}"
+    phone = '{PHONE}'
     channel = 'https://t.me/PandaGroovePG'
     username = 'cluntop' # github username
     repo = 'cluntop.github.io' # github repo
