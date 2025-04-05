@@ -32,7 +32,7 @@ jobs:
           exit 0
         fi
 
-        unzip -o "$ZIP_FILE"
+        unzip -o pg\.(\d{8})-(\d{4})\.zip
 
     - name: Commit and push changes
       run: |
