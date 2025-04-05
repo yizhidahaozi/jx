@@ -20,7 +20,7 @@ jobs:
     - name: Clone source repo
       env:
         GITHUB: ${{ secrets.GITHUB }}
-      run: '{GITHUB}'
+      run: "{GITHUB}"
 
     - name: Find and process zip files
       run: |
