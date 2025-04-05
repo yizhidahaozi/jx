@@ -10,7 +10,7 @@
    "ext": "./lib/tokenm.json$$$./lib/douban.json"
   }, {
    "key": "豆瓣采集",
-   "name": "豆瓣采集",
+   "name": "豆瓣",
    "type": 1,
    "api": "https://caiji.dbzy.tv/api.php/provide/vod/"
   }, {
