@@ -28,8 +28,6 @@ https://clun.top/api.json
 
 </details>
 
-## Star History
-
 [![Star History Chart](https://api.star-history.com/svg?repos=cluntop/cluntop.github.io&type=Date)](https://www.star-history.com/#cluntop/cluntop.github.io&Date)
 
 ###### [备份文档](.github/test.md)
