@@ -723,7 +723,7 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "./lib/tokenm.json$$$http://149.88.87.18:6688$$$noproxy$$$1$$$./lib/wogg.json$$$DAWO"
+   "ext": "./lib/tokenm.json$$$http://149.88.87.18:6688/$$$noproxy$$$1$$$./lib/wogg.json$$$DAWO"
   }, {
    "key": "蜡笔网盘",
    "name": "蜡笔网盘",
@@ -743,7 +743,7 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "./lib/tokenm.json$$$http://cj.jiexi.news$$$noproxy$$$1$$$./lib/wogg.json$$$BAIJIA"
+   "ext": "./lib/tokenm.json$$$http://cj.jiexi.news/$$$noproxy$$$1$$$./lib/wogg.json$$$BAIJIA"
   }, {
    "key": "Xiaomi",
    "name": "小米网盘",
