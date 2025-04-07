@@ -28,14 +28,6 @@ https://clun.top/api.json
 
 </details>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=cluntop/cluntop.github.io&type=Date)](https://www.star-history.com/#cluntop/cluntop.github.io&Date)
-
-<a href="https://www.star-history.com/#cluntop/cluntop.github.io&Timeline">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cluntop/cluntop.github.io&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=cluntop/cluntop.github.io&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=cluntop/cluntop.github.io&type=Timeline" />
- </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/svg?repos=cluntop/cluntop.github.io&type=Timeline)](https://www.star-history.com/#cluntop/cluntop.github.io&Timeline)
 
 ###### [备份文档](.github/test.md)
