@@ -1166,7 +1166,7 @@
    "changeable": 0
   }, {
    "key": "py_三号动漫APP",
-   "name": "三号动漫APP(T3)",
+   "name": "三号动漫(T3)",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/三号动漫APP.py",
    "searchable": 1,
@@ -1182,7 +1182,7 @@
    "changeable": 0
   }, {
    "key": "py_剧多短剧APP",
-   "name": "剧多短剧APP(T3)",
+   "name": "剧多短剧(T3)",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/剧多短剧APP.py",
    "searchable": 1,
@@ -1190,7 +1190,7 @@
    "changeable": 0
   }, {
    "key": "py_小苹果APP",
-   "name": "小苹果APP(T3)",
+   "name": "小苹果(T3)",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/小苹果APP.py",
    "searchable": 1,
@@ -1206,7 +1206,7 @@
    "changeable": 0
   }, {
    "key": "py_火车太顺APP",
-   "name": "火车太顺APP(T3)",
+   "name": "火车太顺(T3)",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/火车太顺APP.py",
    "searchable": 1,
@@ -1229,7 +1229,7 @@
    "filterable": 0,
    "changeable": 0
   }, {
-   "key": "py_甜圈短剧",
+   "key": "py_甜圈",
    "name": "甜圈短剧(T3)",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/甜圈短剧.py",
@@ -1237,7 +1237,7 @@
    "filterable": 0,
    "changeable": 0
   }, {
-   "key": "py_红果网页",
+   "key": "py_红果",
    "name": "红果网页(T3)",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/红果网页.py",
@@ -1245,7 +1245,7 @@
    "filterable": 0,
    "changeable": 0
   }, {
-   "key": "py_绝对影视",
+   "key": "py_绝对",
    "name": "绝对影视(T3)",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/绝对影视.py",
@@ -1257,6 +1257,14 @@
    "name": "金牌影院(T3)",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/金牌.py",
+   "searchable": 1,
+   "filterable": 0,
+   "changeable": 0
+  }, {
+   "key": "py_小红",
+   "name": "小红影视(T3)",
+   "type": 3,
+   "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/小红影视.py",
    "searchable": 1,
    "filterable": 0,
    "changeable": 0
