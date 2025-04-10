@@ -1255,6 +1255,14 @@
    "filterable": 0,
    "changeable": 0
   }, {
+   "key": "py_猎手",
+   "name": "电影猎手(T3)",
+   "type": 3,
+   "api": "./py/py_电影猎手.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 0
+  }, {
    "key": "5",
    "name": "== 5 =="
   }, {
