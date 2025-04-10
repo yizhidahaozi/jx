@@ -12,6 +12,7 @@
 | - | - |
 | box.json | 自用 |
 | jsm.json | PG |
+| fun.json | 18+ |
 | api.json | 饭总 |
 
 ```自用
@@ -20,6 +21,10 @@ https://clun.top/box.json
 
 ```PG
 https://clun.top/jsm.json
+```
+
+```18+
+https://clun.top/fun.json
 ```
 
 ```饭总
