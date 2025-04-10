@@ -4,31 +4,25 @@
    "name": "精品资源",
    "type": 1,
    "api": "https://www.jingpinx.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
    "ext": "proxy"
   }, {
    "key": "AIvin",
    "name": "AIvin",
    "type": 0,
-   "api": "http://lbapiby.com/api.php/provide/vod/at/xml"
+   "api": "http://lbapiby.com/api.php/provide/vod/at/xml",
+   "ext": "proxy"
   }, {
    "key": "色猫",
    "name": "色猫",
    "type": 1,
    "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
+   "ext": "proxy"
   }, {
    "key": "色猫",
    "name": "色猫2",
    "type": 1,
    "api": "https://api.maozyapi.com/inc/apijson_vod.php",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
+   "ext": "proxy"
   }, {
    "key": "TGYunPan18pan",
    "name": "TG|涩涩",
@@ -41,8 +35,6 @@
     "token": "./lib/tokenm.json",
     "json": "https://gh.clun.top/raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/18pan.json",
     "keywords": "名称,片名,推荐",
-    "tgsearch_url": "http://tg.xueximeng.com",
-    "tgsearch_media_url": "http://tg.xueximeng.com",
     "channellist": "CosMM18,avpush,ribenseyuge1,cilitu,cctav,ppg1314,avab01,SeseAnime,AVnew,jpccav,PornXOS,CCCTAV",
     "proxy": "noproxy",
     "danmu": true
@@ -89,12 +81,11 @@
    "name": "香蕉超清",
    "type": 3,
    "api": "csp_xBPQ",
-   "jar": "./jar/XBPQ.jar",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
    "ext": "{\"分类url\":\"https://avhh.vip/cq/{cateId}-{catePg}.html\", \"分类\":\"请勿外传$2k-yazhou#按主页切换源$2k-zipaitoupai#无分类切换VPN$2k-chaoqingchuanmei#或者其他网络$2k-3Ddongman#资源网络共享$2k-oumei#有倒卖贩卖纯属欺诈$2k-luanlunrenqi#请勿相信！$2k-siwazhifu#绝对禁止未成年人观看$2k-zhibolubo#SM另类$2k-SMlinglei#超清三级$2k-chaoqingsanji\",\"副标题\":\"duration\\\">&&</div\",\"链接\": \"href=\\\"/cq/Kplay&&.html\\\"\", \"链接前缀\": \"https://avhh.vip/cq/Kplay\", \"链接后缀\": \".html\", \"直接播放\": \"1\" }",
-   "jar": "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExsQzF4dE9XemY5dFFjYVIt.jar"
+   "jar": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExsQzF4dE9XemY5dFFjYVIt.jar"
   }, {
    "key": "csp_xBPQ_聚优AV解说",
    "name": "聚优AV解说",
@@ -103,8 +94,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExwRmRvQzB6bUdZek5GN1Ry.txt",
-   "jar": "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExsQzF4dE9XemY5dFFjYVIt.jar"
+   "ext": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExwRmRvQzB6bUdZek5GN1Ry.txt",
+   "jar": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExsQzF4dE9XemY5dFFjYVIt.jar"
   }, {
    "key": "麻豆视频",
    "name": "麻豆视频",
@@ -122,7 +113,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "changeable": 0
+   "changeable": 0,
+   "ext": "proxy"
   }, {
    "key": "xhm",
    "name": "xhm",
@@ -131,7 +123,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "changeable": 0
+   "changeable": 0,
+   "ext": "proxy"
   }, {
    "key": "csp_pornhub",
    "name": "Pornhub",
@@ -155,7 +148,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "changeable": 0
+   "changeable": 0,
+   "ext": "proxy"
   }, {
    "key": "推特",
    "name": "推特",
@@ -164,35 +158,39 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "changeable": 0
+   "changeable": 0,
+   "ext": "proxy"
   }, {
    "key": "淫水机资源站",
    "name": "水机资源",
    "type": 0,
    "api": "https://www.xrbsp.com/api/xml.php",
    "searchable": 0,
-   "quickSearch": 0
+   "quickSearch": 0,
+   "ext": "proxy"
   }, {
    "key": "香奶儿资源站",
    "name": "香奶资源",
    "type": 0,
    "api": "https://www.gdlsp.com/api/xml.php",
    "searchable": 0,
-   "quickSearch": 0
+   "quickSearch": 0,
+   "ext": "proxy"
   }, {
    "key": "松视开通3",
    "name": "松视3",
    "type": 1,
    "api": "https://api.sexnguon.com/api.php/provide/vod/",
    "searchable": 0,
-   "quickSearch": 0
+   "quickSearch": 0,
+   "ext": "proxy"
   }, {
    "key": "*抖阴视频",
    "name": "*抖阴视频",
    "type": 1,
    "api": "https://www.888dav.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 0
+   "quickSearch": 0,
+   "ext": "proxy"
   }, {
    "key": "MissAV",
    "name": "MissAV",
@@ -303,7 +301,8 @@
    "playUrl": "https://play.dadiapi.com/watch?url=",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 0
+   "filterable": 0,
+   "ext": "proxy"
   }, {
    "key": "番号",
    "name": "番号采集",
@@ -329,7 +328,8 @@
    "api": "https://api.yikanapi.com/api.php/provide/vod/",
    "searchable": 0,
    "quickSearch": 0,
-   "filterable": 0
+   "filterable": 0,
+   "ext": "proxy"
   }, {
    "key": "性爱",
    "name": "性爱采集",
@@ -362,7 +362,8 @@
    "api": "https://caiji.naichaapi.com/inc/api.php",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "ext": "proxy"
   }, {
    "key": "辣椒",
    "name": "辣椒采集",
@@ -371,7 +372,8 @@
    "playUrl": "",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "ext": "proxy"
   }, {
    "key": "黄AV资源站",
    "name": "AV资源",
@@ -431,7 +433,8 @@
    "type": 1,
    "api": "https://apittzy.com/api.php/provide/vod/",
    "searchable": 0,
-   "quickSearch": 0
+   "quickSearch": 0,
+   "ext": "proxy"
   }, {
    "key": "玉兔",
    "name": "玉兔采集",
@@ -440,7 +443,8 @@
    "playUrl": "https://yutujx.com/?url=",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "ext": "proxy"
   }, {
    "key": "森林专场",
    "name": "森林采集",
@@ -449,7 +453,8 @@
    "playUrl": "",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "ext": "proxy"
   }, {
    "key": "芒果专场",
    "name": "芒果采集",
@@ -458,7 +463,8 @@
    "playUrl": "",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "ext": "proxy"
   }, {
    "key": "523专场",
    "name": "523采集",
@@ -467,7 +473,8 @@
    "playUrl": "",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "ext": "proxy"
   }
  ],
  "lives": [{
@@ -673,6 +680,11 @@
    "ua": "okhttp/3.15",
    "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
    "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
+  }, {
+   "name": "zwrt",
+   "url": "https://gh.clun.top/github.com/zwrt/IPTV/blob/Files/Adult.m3u",
+   "type": 0,
+   "ua": "okhttp/3.15"
   }, {
    "group": "redirect",
    "channels": [{
