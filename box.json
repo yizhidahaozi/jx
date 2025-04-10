@@ -185,10 +185,30 @@
    "key": "2",
    "name": "== 2 =="
   }, {
+   "key": "黑木耳",
+   "name": "黑木耳采集",
+   "type": 1,
+   "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+   "playUrl": "https://hoplayer.com/index.html?url=",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+  }, {
+   "key": "淘片",
+   "name": "淘片采集",
+   "type": 1,
+   "api": "https://taopianapi.com/cjapi/sda/vod/json.html",
+   "playUrl": "",
+   "searchable": 1,
+   "quickSearch": 1,
+   "categories": ["国产动漫", "日本动漫", "国产剧", "电影", "电视剧", "综艺", "动漫"]
+  }, {
    "key": "索尼",
    "name": "索尼采集 ",
    "type": 1,
    "api": "https://suoniapi.com/api.php/provide/vod/",
+   "playUrl": "https://www.snplayer.com/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -198,6 +218,7 @@
    "name": "量子采集",
    "type": 1,
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "playUrl": "https://lziplayer.com/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -216,6 +237,7 @@
    "name": "无尽采集",
    "type": 1,
    "api": "https://api.wujinapi.net/api.php/provide/vod/",
+   "playUrl": "https://jx.wujinkk.com/dplayer/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -225,6 +247,7 @@
    "name": "豪华采集",
    "type": 1,
    "api": "https://hhzyapi.com/api.php/provide/vod/",
+   "playUrl": "https://hhjiexi.com/play/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -279,6 +302,7 @@
    "name": "红牛采集",
    "type": 1,
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+   "playUrl": "https://www.hnjiexi.com/m3u8/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -342,6 +366,7 @@
    "name": "卧龙采集",
    "type": 1,
    "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+   "playUrl": "https://jx.wolongm3u8.com:65/m3u8.php?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -396,6 +421,7 @@
    "name": "樱花采集",
    "type": 1,
    "api": "https://api.apiyhzy.com/api.php/provide/vod/",
+   "playUrl": "https://jx.yhzybf.com/player/jx.php?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -459,6 +485,7 @@
    "name": "闪电采集",
    "type": 1,
    "api": "https://sdzyapi.com/api.php/provide/vod/",
+   "playUrl": "https://www.shankubf.com/m3u8/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -472,6 +499,16 @@
    "searchable": 1,
    "quickSearch": 1,
    "categories": ["国产动漫", "日韩动漫", "国产剧"]
+  }, {
+   "key": "魔爪",
+   "name": "魔爪采集",
+   "type": 1,
+   "api": "https://mozhuazy.com/api.php/provide/vod/",
+   "playUrl": "https://mzm3u8jx.com/aliplayer.html?url=",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": ["国产动漫", "日韩动漫", "国产剧", "电影"]
   }, {
    "key": "丫丫",
    "name": "丫丫采集",
@@ -503,6 +540,7 @@
    "name": "U酷采集",
    "type": 1,
    "api": "https://api.ukuapi88.com/api.php/provide/vod/",
+   "playUrl": "https://api.ukubf.com/m3u8/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
@@ -1549,12 +1587,18 @@
  "proxy": ["raw.githubusercontent.com", "googlevideo.com", "cdn.v82u1l.com", "cdn.iz8qkg.com", "cdn.kin6c1.com", "c.biggggg.com", "c.olddddd.com", "haiwaikan.com", "www.histar.tv", "youtube.com", "uhibo.com", ".*boku.*", ".*nivod.*", ".*ulivetv.*", "missav.ws", "javmulu.net", "www.netflav.com"],
  "hosts": ["cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com", "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com", "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com", "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com", "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"],
  "rules": [{
-   "name": "ofiii",
-   "hosts": ["www.ofiii.com"],
-   "script": ["const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"]
+   "host": "*",
+   "rule": ["http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"]
+  }, {
+   "host": "*",
+   "rule": ["http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"]
   }, {
    "name": "proxy",
    "hosts": ["raw.githubusercontent.com", "googlevideo.com", "cdn.v82u1l.com", "cdn.iz8qkg.com", "cdn.kin6c1.com", "c.biggggg.com", "c.olddddd.com", "haiwaikan.com", "www.histar.tv", "youtube.com", "uhibo.com", ".*boku.*", ".*nivod.*", "*.t4tv.hz.cz", ".*ulivetv.*", "missav.ws", "javmulu.net", "www.netflav.com"]
+  }, {
+   "name": "ofiii",
+   "hosts": ["www.ofiii.com"],
+   "script": ["const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"]
   }, {
    "host": "www.djuu.com",
    "rule": ["mp4.djuu.com", "m4a"]
@@ -1615,7 +1659,20 @@
    "regex": ["更多", "社 區", "x u u", "最 新", "直 播", "更 新", "社 区", "有 趣", "英皇体育", "全中文AV在线", "澳门皇冠赌场", "哥哥快来", "美女荷官", "裸聊", "新片首发", "UUE29"]
   }
  ],
- "parses": [],
+ "parses": [{
+   "name": "M3U8",
+   "url": "https://jx.m3u8.tv/jiexi/?url=",
+   "type": 0
+  }, {
+   "name": "PM",
+   "url": "https://www.playm3u8.cn/jiexi.php?url=",
+   "type": 0
+  }, {
+   "name": "七哥",
+   "url": "https://jx.nnxv.cn/tv.php?url=",
+   "type": 0
+  }
+ ],
  "flags": ["youku", "tudou", "qq", "qiyi", "iqiyi", "leshi", "letv", "sohu", "imgo", "mgtv", "bilibili", "pptv", "PPTV", "migu"],
  "wallpaper": "./img/0.jpg",
  "logo": "./img/pg.gif",
