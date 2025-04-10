@@ -1,6 +1,7 @@
 //searchable:搜索开关        0:关闭；1:启用
 //filterable:筛选开关        0:关闭；1:启用
 //changeable:换源开关        0:关闭；1:启用
+//quickSearch:快速开关       0:关闭；1:启用
 //playerType:播放器类型      1:IJK；2:EXO
 //采集接口类型               0:xml；1:json
 //parses:解析类型            0，嗅探，自带播放器；1，解析，返回直链
