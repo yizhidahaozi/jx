@@ -194,15 +194,6 @@
    "changeable": 1,
    "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
-   "key": "快帆",
-   "name": "快帆采集",
-   "type": 1,
-   "api": "https://api.kuaifan.tv/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
-  }, {
    "key": "量子",
    "name": "量子采集",
    "type": 1,
@@ -703,7 +694,7 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "./lib/tokenm.json$$$http://tv.91muou.icu/$$$proxy$$$1$$$./lib/wogg.json$$$MOGG"
+   "ext": "./lib/tokenm.json$$$http://123.666291.xyz/$$$proxy$$$1$$$./lib/wogg.json$$$MOGG"
   }, {
    "key": "WOSS",
    "name": "玩偶叔叔",
@@ -793,6 +784,16 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"
   }, {
+   "key": "QINGYING",
+   "name": "清影|网盘",
+   "type": 3,
+   "api": "csp_Wobg",
+   "quickSearch": 1,
+   "changeable": 1,
+   "filterable": 1,
+   "timeout": 60,
+   "ext": "./lib/tokenm.json$$$https://revohd.com/$$$noproxy$$$1$$$./lib/wogg.json$$$QINGYING"
+  }, {
    "key": "Guazi",
    "name": "瓜子 App",
    "type": 3,
@@ -843,20 +844,6 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://www.libvio.fun/$$$null"
   }, {
-   "key": "Bt0",
-   "name": "不太灵",
-   "type": 3,
-   "api": "csp_Bt0",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$null$$$noproxy$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
    "key": "Gaoqing",
    "name": "中国高清",
    "type": 3,
@@ -867,26 +854,6 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"
   }, {
-   "key": "Yinfans",
-   "name": "音范丝",
-   "type": 3,
-   "api": "csp_Gaoqing",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"
-  }, {
-   "key": "团长资源",
-   "name": "团长网盘",
-   "type": 3,
-   "api": "csp_TZFile",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 120,
-   "ext": "./lib/tokenm.json$$$noproxy$$$1"
-  }, {
    "key": "Hdhive",
    "name": "鸟窝网盘",
    "type": 3,
@@ -896,26 +863,6 @@
    "filterable": 1,
    "timeout": 120,
    "ext": "./lib/tokenm.json$$$https://hdhive.online$$$noproxy$$$1$$$./lib/hdhive.txt"
-  }, {
-   "key": "Huban",
-   "name": "虎斑网盘",
-   "type": 3,
-   "api": "csp_Wobg",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/token.json$$$https://wp.huban.xyz$$$noproxy$$$1$$$./lib/wogg.json$$$U_HUBAN"
-  }, {
-   "key": "Bdys_spider",
-   "name": "修罗磁力",
-   "api": "csp_Bdys01",
-   "type": 3,
-   "filterable": 1,
-   "searchable": 1,
-   "quickSearch": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$https://www.xlys01.com/$$$noproxy$$$1"
   }, {
    "key": "TianYiSou",
    "name": "天逸搜",
@@ -991,31 +938,10 @@
    "timeout": 60,
    "ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
   }, {
-   "key": "4KHDR",
-   "name": "4KHDR|网盘",
-   "type": 3,
-   "api": "csp_FourKHDR",
-   "quickSearch": 1,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "./lib/tokenm.json$$$./lib/4khdr.txt$$$1",
-   "style": {
-    "type": "list",
-    "ratio": 1.1
-   }
-  }, {
    "key": "BLSGod",
    "name": "BLSGod|磁",
    "type": 3,
    "api": "csp_BLSGod",
-   "changeable": 1,
-   "timeout": 60
-  }, {
-   "key": "Xunlei8",
-   "name": "Xunlei8|磁",
-   "type": 3,
-   "api": "csp_Xunlei8",
    "changeable": 1,
    "timeout": 60
   }, {
@@ -1044,28 +970,6 @@
    "filterable": 1,
    "changeable": 1,
    "ext": "https://v.aikanbot.com$$$proxy"
-  }, {
-   "key": "csp_YingShi",
-   "name": "影视海外",
-   "type": 3,
-   "api": "csp_YingShi",
-   "ext": "proxy"
-  }, {
-   "key": "星星",
-   "name": "星星海外",
-   "type": 3,
-   "api": "csp_Star",
-   "searchable": 1,
-   "changeable": 0,
-   "ext": "proxy"
-  }, {
-   "key": "獨播",
-   "name": "獨播海外",
-   "type": 3,
-   "api": "csp_XPathMacFilter",
-   "searchable": 1,
-   "changeable": 0,
-   "ext": "./lib/duboku.json$$$proxy"
   }, {
    "key": "櫻花资源",
    "name": "櫻花资源",
