@@ -9,11 +9,6 @@
    "indexs": 1,
    "ext": "./lib/tokenm.json$$$./lib/douban.json"
   }, {
-   "key": "豆瓣采集",
-   "name": "豆瓣",
-   "type": 1,
-   "api": "https://caiji.dbzy.tv/api.php/provide/vod/"
-  }, {
    "key": "AList",
    "name": "Alist",
    "type": 3,
@@ -185,24 +180,16 @@
    "key": "2",
    "name": "== 2 =="
   }, {
-   "key": "黑木耳",
-   "name": "黑木耳采集",
+   "key": "豆瓣资源",
+   "name": "豆瓣采集",
    "type": 1,
-   "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-   "playUrl": "https://hoplayer.com/index.html?url=",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "api": "https://caiji.dbzy.tv/api.php/provide/vod/"
   }, {
    "key": "淘片",
    "name": "淘片采集",
    "type": 1,
-   "api": "https://taopianapi.com/cjapi/sda/vod/json.html",
-   "playUrl": "",
-   "searchable": 1,
-   "quickSearch": 1,
-   "categories": ["国产动漫", "日本动漫", "国产剧", "电影", "电视剧", "综艺", "动漫"]
+   "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+   "categories": ["动漫/国产动漫", "动漫/日本动漫", "综艺/大陆综艺"]
   }, {
    "key": "索尼",
    "name": "索尼采集 ",
@@ -555,13 +542,16 @@
    "changeable": 1,
    "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
+   "key": "黑木耳",
+   "name": "黑木耳",
+   "type": 1,
+   "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+   "playUrl": "https://hoplayer.com/index.html?url="
+  }, {
    "key": "haiwaikan",
    "name": "海外看",
    "type": 1,
-   "api": "https://haiwaikan.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1
+   "api": "https://haiwaikan.com/api.php/provide/vod/"
   }, {
    "key": "3",
    "name": "== 3 =="
