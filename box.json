@@ -17,7 +17,7 @@
    "vodPic": "./img/file.jpg",
    "ext": "./js/alist.json"
   }, {
-   "key": "MTV",
+   "key": "BiliBili",
    "name": "Bili_MTV",
    "type": 3,
    "api": "csp_Bili",
@@ -183,11 +183,13 @@
    "key": "豆瓣资源",
    "name": "豆瓣采集",
    "type": 1,
+   "quickSearch": 1,
    "api": "https://caiji.dbzy.tv/api.php/provide/vod/"
   }, {
    "key": "淘片",
    "name": "淘片采集",
    "type": 1,
+   "quickSearch": 1,
    "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
    "categories": ["动漫/国产动漫", "动漫/日本动漫", "综艺/大陆综艺"]
   }, {
@@ -228,7 +230,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["国产动漫", "日韩动漫", "国产剧", "预告片"]
   }, {
    "key": "豪华",
    "name": "豪华采集",
@@ -238,16 +240,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
-  }, {
-   "key": "飞速",
-   "name": "飞速采集",
-   "type": 1,
-   "api": "http://fszy1.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["中国动漫", "日本动漫", "大陆综艺", "短剧"]
   }, {
    "key": "暴風",
    "name": "暴風采集",
@@ -270,11 +263,11 @@
    "key": "光速",
    "name": "光速采集",
    "type": 1,
-   "api": "http://api.guangsuapi.com/api.php/provide/vod/",
+   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["动漫", "大陆剧", "综艺", "短剧"]
   }, {
    "key": "极速",
    "name": "极速采集",
@@ -283,7 +276,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["中国动漫", "日本动漫", "综艺", "短剧"]
   }, {
    "key": "红牛",
    "name": "红牛采集",
@@ -293,7 +286,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["动漫", "国产剧", "综艺", "短剧"]
   }, {
    "key": "虎牙",
    "name": "虎牙采集",
@@ -302,7 +295,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["中国动漫", "日本动漫", "内地剧"]
   }, {
    "key": "速播",
    "name": "速播采集",
@@ -311,16 +304,16 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["中国动漫", "日本动漫", "大陆剧"]
   }, {
    "key": "金鹰",
    "name": "金鹰采集",
    "type": 1,
-   "api": "https://jyzyapi.com/provide/vod/",
+   "api": "https://jyzyapi.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["中国动漫", "日本动漫", "内地剧"]
   }, {
    "key": "飘零",
    "name": "飘零采集",
@@ -329,7 +322,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["国产动漫", "国产剧", "综艺", "短剧"]
   }, {
    "key": "影图",
    "name": "影图采集",
@@ -338,16 +331,17 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["动漫", "国产剧", "科幻片", "综艺"]
   }, {
    "key": "新浪",
    "name": "新浪采集",
    "type": 1,
    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+   "playUrl": "https://www.xinlangjiexi.com/m3u8/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["动漫", "大陆剧", "综艺", "短剧"]
   }, {
    "key": "卧龙",
    "name": "卧龙采集",
@@ -357,7 +351,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["国产动漫", "日本动漫", "连续剧", "短剧"]
   }, {
    "key": "华为",
    "name": "华为采集",
@@ -377,15 +371,6 @@
    "changeable": 1,
    "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
-   "key": "最大",
-   "name": "最大采集",
-   "type": 1,
-   "api": "https://zuidazy.co/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
-  }, {
    "key": "快鹰",
    "name": "快鹰采集",
    "type": 1,
@@ -393,26 +378,27 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["动漫", "电视剧", "综艺", "短剧"]
   }, {
    "key": "百度",
    "name": "百度采集",
    "type": 1,
    "api": "https://api.apibdzy.com/api.php/provide/vod/",
+   "playUrl": "https://jx.jxbdzyw.com/m3u8/?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["国产动漫", "日韩动漫", "大陆剧", "大陆综艺"]
   }, {
    "key": "樱花",
    "name": "樱花采集",
    "type": 1,
-   "api": "https://api.apiyhzy.com/api.php/provide/vod/",
+   "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
    "playUrl": "https://jx.yhzybf.com/player/jx.php?url=",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["国产动漫", "日本动漫", "国产剧"]
   }, {
    "key": "龙龙",
    "name": "龙龙影视",
@@ -421,7 +407,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["动漫", "连续剧", "综艺", "短剧"]
   }, {
    "key": "暴风",
    "name": "暴风采集",
@@ -457,7 +443,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["国产动漫", "日本动漫", "国产剧"]
   }, {
    "key": "快车",
    "name": "快车采集",
@@ -483,9 +469,10 @@
    "type": 1,
    "api": "https://www.911ysw.top/tianyi.php/provide/vod/",
    "playUrl": "",
+   "quickSearch": 1,
    "searchable": 1,
    "quickSearch": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["动漫", "科幻片", "国产剧"]
   }, {
    "key": "魔爪",
    "name": "魔爪采集",
@@ -495,7 +482,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧", "电影"]
+   "categories": ["国产动漫", "日韩动漫", "国产剧"]
   }, {
    "key": "丫丫",
    "name": "丫丫采集",
@@ -509,16 +496,18 @@
    "key": "ikun",
    "name": "ikun采集",
    "type": 1,
-   "api": "https://ikunzyapi.com/api.php/provide/vod/",
+   "api": "https://ikunzy.com/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["国产动漫", "日本动漫", "国产剧"]
   }, {
    "key": "360",
    "name": "360采集",
    "type": 1,
    "api": "https://360zy.com/api.php/provide/vod/",
+   "playUrl": "https://www.360jiexi.com/player/?url=",
+   "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
    "categories": ["国产动漫", "日韩动漫", "国产剧"]
@@ -531,7 +520,7 @@
    "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "categories": ["国产动漫", "日韩动漫", "国产剧"]
+   "categories": ["动漫", "电影", "国产剧", "综艺"]
   }, {
    "key": "OK资源网",
    "name": "OK采集",
@@ -546,12 +535,9 @@
    "name": "黑木耳",
    "type": 1,
    "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-   "playUrl": "https://hoplayer.com/index.html?url="
-  }, {
-   "key": "haiwaikan",
-   "name": "海外看",
-   "type": 1,
-   "api": "https://haiwaikan.com/api.php/provide/vod/"
+   "playUrl": "https://hoplayer.com/index.html?url=",
+   "quickSearch": 1,
+   "categories": ["国产动漫", "日本动漫", "国产剧"]
   }, {
    "key": "3",
    "name": "== 3 =="
