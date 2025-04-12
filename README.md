@@ -6,7 +6,7 @@
 
 
 <details>
-<summary>TVBox 自用配置</summary>
+<summary>TVBox 自用接口</summary>
 
 | 文件名 | 说明 |
 | - | - |

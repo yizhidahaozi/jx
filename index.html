@@ -31,6 +31,7 @@
 
     <script src="./js/jquery.min.js" charset="utf-8"></script>
     <script src="./js/cloudflare.js" charset="utf-8"></script>
+    <script src="./js/marked.min.js" charset="utf-8"></script>
 
     <style>
         .container {
@@ -52,7 +53,6 @@
         a {
             color: #20a53a
         }
-        
     </style>
 
 </head>
@@ -62,13 +62,11 @@
 
         <h1>雨呢个人主页</h1>
         <ul>
-            <li>
-                很荣幸您能访问我的网站！
-            </li>
+            <li>很荣幸您能访问我的网站！</li>
+            <div id="markdown"></div>
         </ul>
         <p>
-            <a id="time"></a>
-            <a><span id="cfs"></span></a>
+            <a id="time"></a> | <a id="cfs">显示</a>
         </p>
     </div>
 </body>

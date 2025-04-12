@@ -1,6 +1,7 @@
 const currentDomain = window.location.origin;
+let isShowingIP = false;
 
-async function updateCloudflareInfo() {
+async function getip() {
  try {
   const response = await fetch("/cdn-cgi/trace");
   if (response.ok) {
@@ -13,27 +14,55 @@ async function updateCloudflareInfo() {
      info[parts[0]] = parts[1];
     }
    });
-
-   // 格式化显示信息
-   const cfElement = document.getElementById("cfs");
-   const displayText = ` | 访客:${info.loc} | ${info.http} | IP:${info.ip} | 节点:${info.colo} | 加密:${info.tls}`;
-   cfElement.textContent = displayText;
+   const displayText = `访客:${info.loc} | ${info.http} | IP:${info.ip} | 节点:${info.colo} | 加密:${info.tls}`;
+   return textContent = displayText;
   }
  } catch (error) {
-  console.error("获取 Cloudflare 节点信息失败: ", error);
-  document.getElementById("cfs").textContent = "获取节点信息失败";
+  console.error("获取失败: ", error);
+  return "显示失败";
  }
 }
 
-// 页面加载完成后获取信息
-window.addEventListener("load", function () {
- // 页面加载时间计算
+$(document).ready(function () {
+ originalText = $("#cfs").text();
+
+ $("#cfs").click(async function () {
+  if (!isShowingIP) {
+   const ip = await getip();
+   $(this).text(`${ip}`);
+  } else {
+   $(this).text(originalText);
+  }
+  isShowingIP = !isShowingIP;
+ });
+
  var t1 = performance.now();
- document.getElementById("time").textContent = "页面加载耗时 " + Math.round(t1) + " 毫秒";
+ $("#time").text("页面加载耗时 " + Math.round(t1) + " 毫秒");
 
- // 获取 Cloudflare 信息
- updateCloudflareInfo();
+ const markdownText = `
+
+<details>
+<summary>TVBox 自用接口</summary>
+
+\`自用
+https://clun.top/box.json
+\`
+
+\`PG
+https://clun.top/jsm.json
+\`
+
+\`18+
+https://clun.top/fun.json
+\`
+
+\`饭总
+https://clun.top/api.json
+\`
+
+</details>
+
+`;
+
+ document.getElementById('markdown').innerHTML = marked.parse(markdownText);
 });
-
-// 每60秒更新一次信息
-setInterval(updateCloudflareInfo, 60000);
