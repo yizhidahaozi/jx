@@ -1,6 +1,6 @@
 {
  "主页url": "https://xiaohys.com/",
- "分类url": "https://xiaohys.com/show/{cateId}-{area}--{class}-{lang}-{catePg}---{by}---{year}/",
+ "分类url": "https://xiaohys.com/show/{cateId}-{area}--{class}-{lang}----{by}---{year}/",
  "分类": "电影$movie#电视剧$tv#综艺$variety#动漫$anime",
  "数组": "public-list-div public-list-bj&&</div>",
  "标题": "class=\"public-list-button\">*>&&</a>",
