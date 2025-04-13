@@ -148,6 +148,7 @@
    "name": "小红影视",
    "type": 3,
    "api": "csp_XBPQ",
+   "filterable": 1,
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/小红.json"
   }, {
