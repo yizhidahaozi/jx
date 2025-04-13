@@ -1689,7 +1689,7 @@
     }, {
      "category": 1,
      "name": "http-detect-range-support",
-     "value": "0"
+     "value": "1"
     }, {
      "category": 1,
      "name": "fflags",
@@ -1705,7 +1705,7 @@
     }, {
      "category": 4,
      "name": "max-buffer-size",
-     "value": "5242880"
+     "value": "8388608"
     }, {
      "category": 4,
      "name": "enable-accurate-seek",
@@ -1757,7 +1757,7 @@
     }, {
      "category": 1,
      "name": "http-detect-range-support",
-     "value": "0"
+     "value": "1"
     }, {
      "category": 1,
      "name": "fflags",
@@ -1773,7 +1773,7 @@
     }, {
      "category": 4,
      "name": "max-buffer-size",
-     "value": "5242880"
+     "value": "12582912"
     }, {
      "category": 4,
      "name": "enable-accurate-seek",
