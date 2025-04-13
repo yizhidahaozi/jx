@@ -150,7 +150,7 @@
    "api": "csp_XBPQ",
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/小红.json"
-{
+  }, {
    "key": "7点影视",
    "name": "7点影视",
    "type": 3,
