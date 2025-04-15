@@ -177,13 +177,30 @@
    "key": "狐狸君磁力",
    "name": "狐狸君",
    "type": 3,
-   "changeable": 1,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
    "api": "csp_XBPQ",
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/狐狸君.json"
+  }, {
+   "key": "小镇",
+   "name": "小镇影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/小镇.json"
+  }, {
+   "key": "百思",
+   "name": "百思影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/百思.json"
+  }, {
+   "key": "影院",
+   "name": "影院大全",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/影院.json"
   }, {
    "key": "2",
    "name": "== 2 =="
