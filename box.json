@@ -1288,6 +1288,14 @@
    "searchable": 1,
    "filterable": 0
   }, {
+   "key": "py_零度",
+   "name": "零度影视(T3)",
+   "type": 3,
+   "api": "https://gh.clun.top/github.com/JJBJJ/PyramidStore/blob/main/plugin/app/零度影视APP.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 1
+  }, {
    "key": "py_国外",
    "name": "国外剧情(T3)",
    "type": 3,
