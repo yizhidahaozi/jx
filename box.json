@@ -152,6 +152,27 @@
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/小红.json"
   }, {
+   "key": "小镇",
+   "name": "小镇影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/小镇.json"
+  }, {
+   "key": "百思",
+   "name": "百思影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/百思.json"
+  }, {
+   "key": "影院",
+   "name": "影院大全",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/影院.json"
+  }, {
    "key": "7点影视",
    "name": "7点影视",
    "type": 3,
@@ -180,27 +201,6 @@
    "api": "csp_XBPQ",
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/狐狸君.json"
-  }, {
-   "key": "小镇",
-   "name": "小镇影视",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "jar": "./jar/XBPQ.jar",
-   "ext": "./js/s/小镇.json"
-  }, {
-   "key": "百思",
-   "name": "百思影视",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "jar": "./jar/XBPQ.jar",
-   "ext": "./js/s/百思.json"
-  }, {
-   "key": "影院",
-   "name": "影院大全",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "jar": "./jar/XBPQ.jar",
-   "ext": "./js/s/影院.json"
   }, {
    "key": "2",
    "name": "== 2 =="
@@ -1279,6 +1279,14 @@
    "searchable": 1,
    "filterable": 0,
    "changeable": 0
+  }, {
+   "key": "py_嗷呜",
+   "name": "嗷呜动漫(T3)",
+   "type": 3,
+   "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/嗷呜动漫.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 0
   }, {
    "key": "py_国外",
    "name": "国外剧情(T3)",
