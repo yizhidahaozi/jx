@@ -23,10 +23,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # 获取当前时间并存入环境变量
-    - name: Get time
-      run: echo "DATE=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
-
     # 设置 Python 环境
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -63,7 +59,7 @@ jobs:
       run: |
         git add $(pwd)/lib/iptv.txt
         git add $(pwd)/lib/iptv.m3u
-        git commit -m "Update on $DATE" --allow-empty
+        git commit -m "Update on tv" --allow-empty
         git push origin HEAD:main
 
     # 上传输出文件作为 GitHub Action 的工件 (artifact)
