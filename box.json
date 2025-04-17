@@ -1860,5 +1860,5 @@
  "flags": ["youku", "tudou", "qq", "qiyi", "iqiyi", "leshi", "letv", "sohu", "imgo", "mgtv", "bilibili", "pptv", "PPTV", "migu"],
  "wallpaper": "./img/0.jpg",
  "logo": "./img/pg.gif",
- "spider": "./pg.jar"
+ "spider": "./pg.jar;md5;./pg.jar.md5"
 }
