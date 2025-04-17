@@ -6,6 +6,7 @@ import os
 urls = [
     "https://qu.ax/vUBde.txt",
     "http://live.nctv.top/x.txt",
+    "https://aktv.space/live.m3u",
     "https://json.doube.eu.org/XingHuo.txt",
     "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt",
     "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
