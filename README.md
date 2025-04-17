@@ -14,6 +14,7 @@
 | jsm.json | PG |
 | fun.json | 18+ |
 | api.json | 饭总 |
+| aa.json | 不知 |
 
 ```自用
 https://clun.top/box.json
@@ -29,6 +30,10 @@ https://clun.top/fun.json
 
 ```饭总
 https://clun.top/api.json
+```
+
+```不知
+https://clun.top/js/aa.json
 ```
 
 </details>
