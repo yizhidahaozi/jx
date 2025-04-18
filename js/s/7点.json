@@ -12,7 +12,7 @@
  "搜索": "https://www.7.movie/vodsearch/-------------.html?wd={wd}",
  "搜索图片": "class=\"pic\">*data-original=\"&&\"",
  "搜索链接": "class=\"btn-box\">\"&&\"</",
- "播放数组": "class=\"episode-box scrollbar\">&&</div>",
+ "播放数组": "class=\"episode-box scrollbar\">&&</ul>",
  "线路数组": "<ul class=\"swiper-wrapper\"&&</ul>",
  "线路标题": ">&&<em></em>"
 }
