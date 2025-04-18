@@ -21,3 +21,4 @@ https://www.xn--sss604efuw.com/jm/
 https://github.com/lizaifu200/li
 https://github.com/yoursmile66/TVBox
 https://github.com/977567941/Kowaryou
+https://github.com/fastbuild7099/fastbuild7099
