@@ -14,10 +14,6 @@ https://clun.top/box.json
 https://clun.top/jsm.json
 \`
 
-\`18+
-https://clun.top/fun.json
-\`
-
 \`饭总
 https://clun.top/api.json
 \`
