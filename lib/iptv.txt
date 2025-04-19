@@ -413,7 +413,6 @@ Tvbs精彩,http://108.181.21.27:27347/livehttpplay?channel_id=20136
 XNXTV,http://223.156.148.216:8999/udp/239.76.248.21:1234
 cn卡通,http://108.181.21.27:27347/livehttpplay?channel_id=20048
 cn卡通频道高,http://108.181.21.27:27347/livehttpplay?channel_id=20048
-http://211.72.65.236:8559/.m3u8,http://211.72.65.236:8502/.m3u8
 iHOT爱体育,http://146.56.165.66:7788/TVOD/2000000004000000060/hnbblive/index.m3u8
 tvbs欢乐频高,http://108.181.21.27:27347/livehttpplay?channel_id=20105
 tvbs精彩频标,http://108.181.21.27:27347/livehttpplay?channel_id=20136
