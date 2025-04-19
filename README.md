@@ -8,14 +8,6 @@
 <details>
 <summary>TVBox 自用接口</summary>
 
-| 文件名 | 说明 |
-| - | - |
-| box.json | 自用 |
-| jsm.json | PG |
-| fun.json | 18+ |
-| api.json | 饭总 |
-| aa.json | 不知 |
-
 ```自用
 https://clun.top/box.json
 ```
@@ -34,6 +26,10 @@ https://clun.top/api.json
 
 ```不知
 https://clun.top/js/aa.json
+```
+
+```真心
+https://clun.top/js/FongMi.json
 ```
 
 </details>
