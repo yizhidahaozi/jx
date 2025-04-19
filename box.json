@@ -173,6 +173,13 @@
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/影院.json"
   }, {
+   "key": "随客",
+   "name": "随客影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/随客.json"
+  }, {
    "key": "7点影视",
    "name": "7点影视",
    "type": 3,
@@ -1304,6 +1311,22 @@
    "searchable": 1,
    "filterable": 1
   }, {
+   "key": "py_奇迹",
+   "name": "奇迹APP(T3)",
+   "type": 3,
+   "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/奇迹APP.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 1
+  }, {
+   "key": "py_偷乐",
+   "name": "偷乐短剧(T3)",
+   "type": 3,
+   "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/偷乐短剧.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 0
+  }, {
    "key": "py_猎手",
    "name": "电影猎手(T3)",
    "type": 3,
@@ -1311,6 +1334,14 @@
    "quickSearch": 1,
    "searchable": 1,
    "filterable": 0
+  }, {
+   "key": "py_剧粑",
+   "name": "剧粑粑(T3)",
+   "type": 3,
+   "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/剧粑粑.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 1
   }, {
    "key": "5",
    "name": "== 5 =="
@@ -1531,17 +1562,6 @@
   }
  ],
  "lives": [{
-   "name": "最强国内直播",
-   "type": 0,
-   "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u",
-   "ua": "okhttp/3.15",
-   "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-   "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
-   "catchup": {
-    "type": "append",
-    "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-   }
-  }, {
    "name": "网络源大杂烩",
    "type": 0,
    "url": "http://ttkx.cc:55/lib/kx2024.txt",
