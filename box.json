@@ -41,12 +41,16 @@
    "type": 3,
    "api": "csp_Xpg",
    "jar": "./jar/fenghuang.jar",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
    "ext": {
     "danmu": true
    }
+  }, {
+   "key": "可可影视",
+   "name": "可可影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "ext": "./js/s/可可.json"
   }, {
    "key": "旺旺",
    "name": "旺旺短剧",
@@ -55,17 +59,6 @@
    "playerType": 1,
    "searchable": 1,
    "changeable": 1
-  }, {
-   "key": "可可影视",
-   "name": "可可影视",
-   "type": 3,
-   "changeable": 1,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "api": "csp_XBPQ",
-   "jar": "./jar/XBPQ.jar",
-   "ext": "./js/s/可可.json"
   }, {
    "key": "久久影视",
    "name": "久久影视",
@@ -183,10 +176,6 @@
    "key": "7点影视",
    "name": "7点影视",
    "type": 3,
-   "changeable": 1,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
    "api": "csp_XBPQ",
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/7点.json"
@@ -194,15 +183,11 @@
    "key": "穷电影",
    "name": "穷电影",
    "type": 3,
-   "changeable": 1,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
    "api": "csp_XBPQ",
    "jar": "./jar/XBPQ.jar",
    "ext": "./js/s/穷电影.json"
   }, {
-   "key": "狐狸君磁力",
+   "key": "狐狸君",
    "name": "狐狸君",
    "type": 3,
    "api": "csp_XBPQ",
