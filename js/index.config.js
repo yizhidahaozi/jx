@@ -28,6 +28,9 @@ var index_config_default = {
       bbbb: "aaaaa"
     }
   },
+  commonConfig: {
+    panOrder: 'uc|p123|quark|ali|ty|115',
+  },
   ali: {
     thread: "4",
     chunkSize: "400",
@@ -41,12 +44,17 @@ var index_config_default = {
   },
   uc: {
     cookie: "",
-    token: ""
+    token: "",
+    ut:""
   },
   y115: {
     cookie: ""
   },
   tyi: {
+    username: "",
+    password: ""
+  },
+  p123: {
     username: "",
     password: ""
   },
@@ -66,10 +74,10 @@ var index_config_default = {
     //每个频道返回数量
     count: "4",
     url: 'https://tgsou.651156.xyz',
-    channelUsername: "Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,NewQuark,Mbox115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,longzbija,alyp_4K_Movies,yunpanshare,shareAliyun,ikiviyyp,alyp_1",
+    channelUsername: "xx123pan,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,NewQuark,Mbox115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,longzbija,alyp_4K_Movies,yunpanshare,shareAliyun,ikiviyyp,alyp_1",
   },
   wogg: {
-    url: "https://woggpan.333232.xyz"
+    url: 'http://woggpan.xxooo.cf',
   },
   tudou: {
     url: "https://tudou.lvdoui.top"
@@ -94,6 +102,53 @@ var index_config_default = {
   },
   xxpan: {
     url: "https://xpanpan.site"
+  },
+  m3u8cj: {
+    ykm3u8: [{
+      name: "360源",
+      url: "https://360zy.com/api.php/seaxml/vod/",
+      categories: [],
+      search: true
+    }],
+    doubanm3u8: [{
+      name: "豆瓣采集",
+      url: "https://caiji.dbzy.tv/api.php/provide/vod/from/dbm3u8/at/josn/",
+      categories: [],
+      search: true
+    }],
+    hmm3u8: [{
+      name: "黑木耳",
+      url: "https://json02.heimuer.xyz/api.php/provide/vod/",
+      categories: [],
+      search: true
+    }],
+    clm3u8: [{
+      name: "暴风",
+      url: "https://bfzyapi.com/api.php/provide/vod/",
+      categories: [],
+      search: true
+    }],
+    askm3u8: [{
+      name: "魔都",
+      url: "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
+      search: true
+    }],
+    sngm3u8: [{
+      name: "ikun",
+      url: "https://ikunzyapi.com/api.php/provide/vod/",
+      search: true
+    }],
+    ptm3u8: [{
+      name: "非凡",
+      url: "http://api.ffzyapi.com/api.php/provide/vod/",
+      search: true
+    }],
+    swm3u8: [{
+      name: "量子",
+      url: "https://cj.lziapi.com/api.php/provide/vod/",
+      categories: [],
+      search: true
+    }]
   },
   appys: {
     ttmja: [{
