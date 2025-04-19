@@ -22,6 +22,10 @@ https://clun.top/fun.json
 https://clun.top/api.json
 \`
 
+\`真心
+https://clun.top/js/FongMi.json
+\`
+
 </details>
 
 `;
