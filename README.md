@@ -28,6 +28,10 @@ https://clun.top/api.json
 https://clun.top/js/aa.json
 ```
 
+```拾光
+https://clun.top/js/svip.json
+```
+
 ```真心
 https://clun.top/js/FongMi.json
 ```
