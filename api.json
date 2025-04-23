@@ -1,9 +1,9 @@
 {
- "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1744115630161/f0408a.txt;md5;cb6bb81c2d89c2bb28c9fb7a11e200bb",
+ "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745406107388/f0423a.txt;md5;d67e776740fc297d90f0310f701d8b83",
  "wallpaper": "https://深色壁纸.xxooo.cf/",
  "sites": [{
    "key": "豆",
-   "name": "【神秘的哥哥们】",
+   "name": "修复无效链接【神秘的哥哥们】",
    "type": 3,
    "api": "csp_DouDouGuard",
    "indexs": 1,
@@ -15,6 +15,7 @@
    "name": "👽玩偶哥哥┃4K弹幕",
    "type": 3,
    "api": "csp_WoGGGuard",
+   "timeout": 30,
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 0,
@@ -114,16 +115,6 @@
    "quickSearch": 1,
    "changeable": 1
   }, {
-   "key": "神车",
-   "name": "🐻小熊┃秒播",
-   "type": 3,
-   "api": "csp_AppSKGuard",
-   "timeout": 10,
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": "rfOX1voDIQhH8epBwtCFsq+8syyZ18T30GkibomjS1xHcE9fpWU7oKJ1cO9K0M5hrnOHZ9dKjiJz5HEyTr57RZHCqunfFT7jH/mEy+uqVyo="
-  }, {
    "key": "Lib",
    "name": "🌟立播┃秒播",
    "type": 3,
@@ -157,16 +148,6 @@
    "quickSearch": 1,
    "changeable": 1
   }, {
-   "key": "溢彩",
-   "name": "💡流光┃秒播",
-   "type": 3,
-   "api": "csp_AppSxGuard",
-   "timeout": 10,
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "ext": "rfOb1uAWbkRHp7hdxprG9un3+T/f19e82TUvZMviAElDfhsS/jcju7U0fe1MnN1h63CTaYIPjmEw9C0qVsgBO8um85+eGlSkG/r2q6m0DA=="
-  }, {
    "key": "比特",
    "name": "🍄比特┃手机",
    "type": 3,
@@ -197,16 +178,6 @@
    "changeable": 1,
    "ext": "uqGL1bNENEIVq+dC1p/Y9uWjuA=="
   }, {
-   "key": "兄弟",
-   "name": "🍊水星┃多线",
-   "type": 3,
-   "api": "csp_AppSxGuard",
-   "timeout": 10,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "rfOb1uAWbkRHp7hdxprG9un3+SLP183q3ik3cJDiAwlFdF8L6SIvrvc9LrpTyIg76T7QJZdEkWNj43wiSaA0TJyQpu2IF2jsSLWFx7WkAmG40hFxJ1tI+Jf+EVG8DtoDRcNi+TtVGULnWrSz3EWnVcxR3EJhXnrwYWe1kJtNW5txuHAO"
-  }, {
    "key": "热播",
    "name": "📺热播┃多线",
    "type": 3,
@@ -217,6 +188,16 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "uqGL1bNENExT7/hGxpSE5qU="
+  }, {
+   "key": "兄弟",
+   "name": "🍊水星┃多线",
+   "type": 3,
+   "api": "csp_AppSxGuard",
+   "timeout": 10,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "rfOb1uAWbkRHp7hdxprG9un3+SLP183q3ik3cJDiAwlFdF8L6SIvrvc9LrpTyIg76T7QJZdEkWNj43wiSaA0TJyQpu2IF2jsSLWFx7WkAmG40hFxJ1tI+Jf+EVG8DtoDRcNi+TtVGULnWrSz3EWnVcxR3EJhXnrwYWe1kJtNW5txuHAO"
   }, {
    "key": "欢视",
    "name": "👓欢视┃多线",
@@ -415,6 +396,18 @@
    "style": {
     "type": "rect",
     "ratio": 3.8
+   }
+  }, {
+   "key": "PanSso",
+   "name": "🐌盘他┃三盘",
+   "type": 3,
+   "api": "csp_PanSsoGuard",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": {
+    "Cloud-drive": "tvfan/Cloud-drive.txt",
+    "from": "4k|auto"
    }
   }, {
    "key": "YpanSo",
@@ -623,12 +616,10 @@
  ],
  "logo": "https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
  "lives": [{
-   "name": "牛播一（仅新版影视仓┃ok影视）",
+   "name": "V6范明明",
    "type": 0,
-   "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
-   "playerType": 2,
-   "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-   "logo": "https://epg.v1.mk/logo/{name}.png"
+   "url": "https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+   "playerType": 2
   }, {
    "name": "V4聚合（卡顿请按左┃右键换线）",
    "type": 0,
@@ -636,11 +627,6 @@
    "playerType": 2,
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
    "logo": "https://epg.v1.mk/logo/{name}.png"
-  }, {
-   "name": "V6范明明",
-   "type": 0,
-   "url": "https://gh.clun.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-   "playerType": 2
   }, {
    "name": "平台直播",
    "type": 0,
