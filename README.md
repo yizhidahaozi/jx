@@ -38,6 +38,4 @@ https://clun.top/js/FongMi.json
 
 </details>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=cluntop/cluntop.github.io&type=Timeline)](https://www.star-history.com/#cluntop/cluntop.github.io&Timeline)
-
 ###### [备份文档](.github/test.md)
