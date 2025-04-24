@@ -1568,7 +1568,7 @@
    "ext": "./js/js/奇米动漫.js"
   }, {
    "key": "花子",
-   "name": "花子动漫",
+   "name": "花子｜动漫",
    "type": 3,
    "api": "./js/js/drpy2.min.js",
    "ext": "./js/js/花子动漫.js"
@@ -1761,22 +1761,24 @@
    "ua": "okhttp/3.15"
   }, {
    "name": "LITV 直播",
-   "type": 3,
-   "api": "https://gh.clun.top/raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_litv.py",
-   "ext": {
-     "proxy": {
-        "http": "http://127.0.0.1:10809",
-        "https": "http://127.0.0.1:10809"
-     }}
+   "type": 3,
+   "api": "https://gh.clun.top/raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_litv.py",
+   "ext": {
+    "proxy": {
+     "http": "http://127.0.0.1:10809",
+     "https": "http://127.0.0.1:10809"
+    }
+   }
   }, {
    "name": "SMT 直播",
    "type": 3,
    "api": "https://gh.clun.top/raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt_proxy_001.py",
    "ext": {
-     "proxy": {
-         "http": "http://127.0.0.1:10809",
-         "https": "http://127.0.0.1:10809"
-     }}
+    "proxy": {
+     "http": "http://127.0.0.1:10809",
+     "https": "http://127.0.0.1:10809"
+    }
+   }
   }, {
    "name": "cluntop",
    "type": 0,
