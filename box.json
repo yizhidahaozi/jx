@@ -1347,6 +1347,14 @@
    "searchable": 1,
    "filterable": 1
   }, {
+   "key": "py_柯南",
+   "name": "柯南影视(T3)",
+   "type": 3,
+   "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/柯南影视.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 1
+  }, {
    "key": "py_猎手",
    "name": "电影猎手(T3)",
    "type": 3,
@@ -1406,7 +1414,7 @@
    "key": "py_若惜",
    "name": "若惜影视(T3)",
    "type": 3,
-   "api": "./py/若惜影视.py",
+   "api": "./js/py/若惜影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1434,6 +1442,14 @@
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
+  }, {
+   "key": "py_4KAV",
+   "name": "4KAV(T3)",
+   "type": 3,
+   "api": "./py/4KAV.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 1
   }, {
    "key": "5",
    "name": "== 5 =="
