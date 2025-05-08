@@ -110,6 +110,26 @@
    "filterable": 1,
    "jar": "https://gh.clun.top/raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
   }, {
+   "key": "百万破解AV",
+   "name": "百万破解",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "jar": "./jar/XBPQ.jar",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1,
+   "filterable": 1,
+   "timeout": 120,
+   "ext": "./js/ss/百万.json"
+  }, {
+   "key": "pronlulu",
+   "name": "pronlulu",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "timeout": 120,
+   "jar": "./lib/XBPQ.jar",
+   "ext": "./js/ss/pronlulu.json"
+  }, {
    "key": "玩偶",
    "name": "玩偶姐姐",
    "type": 3,
@@ -151,15 +171,6 @@
    "filterable": 1,
    "ext": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExwRmRvQzB6bUdZek5GN1Ry.txt",
    "jar": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExsQzF4dE9XemY5dFFjYVIt.jar"
-  }, {
-   "key": "麻豆视频",
-   "name": "麻豆视频",
-   "type": 1,
-   "api": "https://91md.me/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "proxy"
   }, {
    "key": "lav",
    "name": "lav",
@@ -214,6 +225,15 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
+   "ext": "proxy"
+  }, {
+   "key": "麻豆视频",
+   "name": "麻豆视频",
+   "type": 1,
+   "api": "https://91md.me/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
    "ext": "proxy"
   }, {
    "key": "淫水机资源站",
