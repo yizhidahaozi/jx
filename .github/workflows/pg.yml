@@ -27,7 +27,7 @@ jobs:
       run: |
         cd source-repo
         
-        ZIP_FILE=$(find . -type f -name "pg\.(\d{8})-(\d{4})\.zip" | head -n 1)
+        ZIP_FILE=$(find . -type f -name "pg.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9].zip" | head -n 1)
         
         if [ -z "$ZIP_FILE" ]; then
           echo "No zip file found"
