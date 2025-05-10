@@ -21,11 +21,20 @@ jobs:
       env:
         GITHUB: ${{ secrets.GITHUB }}
       run: |
-        git clone https://github.com/fish2018/PG.git
+        git clone https://github.com/fish2018/PG.git source-repo
 
     - name: Find and process zip files
       run: |
-        unzip -o 'pg\.(\d{8})-(\d{4})\.zip'
+        cd source-repo
+        
+        ZIP_FILE=$(find . -type f -name "pg\.(\d{8})-(\d{4})\.zip" | head -n 1)
+        
+        if [ -z "$ZIP_FILE" ]; then
+          echo "No zip file found"
+          exit 0
+        fi
+        
+        unzip -o "$ZIP_FILE" -d ./
 
     - name: Commit and push changes
       run: |
