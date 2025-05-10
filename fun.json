@@ -9,7 +9,7 @@
    "key": "py_51吸瓜",
    "name": "51吸瓜(T3)",
    "type": 3,
-   "api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/51吸瓜.py"
+   "api": "./py//51吸瓜.py"
   }, {
    "key": "py_DSYS",
    "name": "DSYS(T3)",
