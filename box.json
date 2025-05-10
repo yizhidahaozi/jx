@@ -180,7 +180,7 @@
    "key": "文才",
    "name": "文才影视",
    "type": 3,
-   "api": "./js/py/文才影视.py",
+   "api": "./py/文才影视.py",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -1064,12 +1064,12 @@
    "key": "hipy_js_KTV歌厅[听]1",
    "name": "KTV歌厅",
    "type": 3,
-   "api": "http://kxrj.site:55/lib/drpy2.min.js",
+   "api": "./lib/drpy2.min.js",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
    "order_num": 0,
-   "ext": "http://kxrj.site:55/lib/js/KTV歌厅[听].js"
+   "ext": "./js/drpy2.js"
   }, {
    "key": "Yinyuetai",
    "name": "音悦台",
@@ -1370,7 +1370,7 @@
    "key": "py_美帕",
    "name": "美帕影视(T3)",
    "type": 3,
-   "api": "./js/py/美帕影视.py",
+   "api": "./py/美帕影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1378,7 +1378,7 @@
    "key": "py_嗨皮",
    "name": "嗨皮影视(T3)",
    "type": 3,
-   "api": "./js/py/嗨皮影视.py",
+   "api": "./py/嗨皮影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1386,7 +1386,7 @@
    "key": "py_云端",
    "name": "云端影视(T3)",
    "type": 3,
-   "api": "./js/py/云端影视.py",
+   "api": "./py/云端影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1394,7 +1394,7 @@
    "key": "py_魔方",
    "name": "魔方影视(T3)",
    "type": 3,
-   "api": "./js/py/魔方影视.py",
+   "api": "./py/魔方影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1402,7 +1402,7 @@
    "key": "py_边缘",
    "name": "边缘影视(T3)",
    "type": 3,
-   "api": "./js/py/边缘影视.py",
+   "api": "./py/边缘影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1410,7 +1410,7 @@
    "key": "py_恋鱼",
    "name": "恋鱼影视(T3)",
    "type": 3,
-   "api": "./js/py/恋鱼影视.py",
+   "api": "./py/恋鱼影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1418,7 +1418,7 @@
    "key": "py_若惜",
    "name": "若惜影视(T3)",
    "type": 3,
-   "api": "./js/py/若惜影视.py",
+   "api": "./py/若惜影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1426,7 +1426,7 @@
    "key": "py_云速",
    "name": "云速影视(T3)",
    "type": 3,
-   "api": "./js/py/云速影视.py",
+   "api": "./py/云速影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1434,7 +1434,7 @@
    "key": "py_旺旺",
    "name": "旺旺影视(T3)",
    "type": 3,
-   "api": "./js/py/旺旺影视.py",
+   "api": "./py/旺旺影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1442,7 +1442,7 @@
    "key": "py_农牧",
    "name": "农牧影视(T3)",
    "type": 3,
-   "api": "./js/py/农民影视.py",
+   "api": "./py/农民影视.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1465,8 +1465,8 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0,
-   "jar": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar",
-   "ext": "https://gh.clun.top/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/虎牙直播.json"
+   "jar": "./custom_spider.jar",
+   "ext": "./虎牙直播.json"
   }, {
    "key": "Wo4k",
    "name": "玩偶4K",
@@ -1496,7 +1496,7 @@
    "key": "MiFunP",
    "name": "MiFunP｜动漫",
    "type": 3,
-   "api": "./js/py/MiFunP.py",
+   "api": "./py/MiFunP.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1504,7 +1504,7 @@
    "key": "CliCli",
    "name": "CliCli｜动漫",
    "type": 3,
-   "api": "./js/py/CliCli动漫.py",
+   "api": "./py/CliCli动漫.py",
    "quickSearch": 1,
    "filterable": 1,
    "playerType": 2
@@ -1524,74 +1524,74 @@
    "key": "56",
    "name": "56｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/56动漫.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/56动漫.js"
   }, {
    "key": "NT",
    "name": "NT｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/NT动漫.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/NT动漫.js"
   }, {
    "key": "Anime1",
    "name": "Anime1｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/Anime1.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/Anime1.js"
   }, {
    "key": "动画片",
    "name": "动画片｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/动画片大全.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/动画片大全.js"
   }, {
    "key": "路漫漫",
    "name": "路漫漫｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/路漫漫.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/路漫漫.js"
   }, {
    "key": "动漫岛",
    "name": "动漫岛｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/动漫岛.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/动漫岛.js"
   }, {
    "key": "去看吧",
    "name": "去看吧｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/去看吧.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/去看吧.js"
   }, {
    "key": "爱弹幕",
    "name": "爱弹幕｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/爱弹幕.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/爱弹幕.js"
   }, {
    "key": "异世界",
    "name": "异世界｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/异世界.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/异世界.js"
   }, {
    "key": "好看",
    "name": "好看｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/好看动漫.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/好看动漫.js"
   }, {
    "key": "奇米",
    "name": "奇米｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/奇米动漫.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/奇米动漫.js"
   }, {
    "key": "花子",
    "name": "花子｜动漫",
    "type": 3,
-   "api": "./js/js/drpy2.min.js",
-   "ext": "./js/js/花子动漫.js"
+   "api": "./js/drpy2.min.js",
+   "ext": "./js/花子动漫.js"
   }, {
    "key": "7",
    "name": "== 7 =="

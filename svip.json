@@ -1,5 +1,5 @@
 ﻿{
-    "spider": "../jar/svip.jar",
+    "spider": "./svip.jar",
     "wallpaper": "https://sgmao.serv00.net/image/",
     "logo": "https://4708.kstore.space/logo.gif",
     "sites": [
@@ -144,7 +144,7 @@
             "type": 3,
             "api": "./py/哔哩视频.py",
             "ext": {
-                "json": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt"
+                "json": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
         {
@@ -196,7 +196,7 @@
             },
             "ext": {
                 "json": "./json/哔哩合集.json",
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt"
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
         {
@@ -2021,7 +2021,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/哔哩哔哩相声.json"
             },
             "style": {
@@ -2038,7 +2038,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/哔哩哔哩小品.json"
             },
             "style": {
@@ -2055,7 +2055,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/哔哩哔哩戏曲.json"
             },
             "style": {
@@ -2312,7 +2312,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/儿童拼音.json"
             },
             "style": {
@@ -2329,7 +2329,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/儿童识字.json"
             },
             "style": {
@@ -2346,7 +2346,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/儿童英语.json"
             },
             "style": {
@@ -2363,7 +2363,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/儿童硬笔.json"
             },
             "style": {
@@ -2380,7 +2380,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/儿童思维.json"
             },
             "style": {
@@ -2397,7 +2397,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/儿童口才.json"
             },
             "style": {
@@ -2414,7 +2414,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/儿童编程.json"
             },
             "style": {
@@ -2431,7 +2431,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/儿童武术.json"
             },
             "style": {
@@ -2448,7 +2448,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/少儿教育.json"
             },
             "style": {
@@ -2465,7 +2465,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/小学课堂.json"
             },
             "style": {
@@ -2482,7 +2482,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/初中课堂.json"
             },
             "style": {
@@ -2499,7 +2499,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/高中课堂.json"
             },
             "style": {
@@ -2516,7 +2516,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/外语课堂.json"
             },
             "style": {
@@ -2533,7 +2533,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/小灯塔百科.json"
             },
             "style": {
@@ -2550,7 +2550,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/小灯塔科学.json"
             },
             "style": {
@@ -2567,7 +2567,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/小灯塔地理.json"
             },
             "style": {
@@ -2584,7 +2584,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/小灯塔国学.json"
             },
             "style": {
@@ -2601,7 +2601,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "cookie": "http://127.0.0.1:8964/file/TVBox/bili_cookie.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "./json/小灯塔人文.json"
             },
             "style": {
