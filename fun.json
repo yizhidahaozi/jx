@@ -351,6 +351,17 @@
    "filterable": 0,
    "timeout": 60
   }, {
+   "key": "kissavtv.com",
+   "name": "kissav",
+   "type": 3,
+   "changeable": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "csp_XBPQ",
+   "jar": "./lib/XBPQ.jar",
+   "ext": "./js/ss/kisd.json"
+  }, {
    "key": "奥斯卡",
    "name": "奥斯卡资源",
    "type": 1,
