@@ -25,7 +25,7 @@ jobs:
 
     - name: Find and process zip files
       run: |
-        unzip -o pg\.(\d{8})-(\d{4})\.zip
+        unzip -o 'pg\.([0-9]{8})-([0-9]{4})\.zip'
 
     - name: Commit and push changes
       run: |
