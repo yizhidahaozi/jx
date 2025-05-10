@@ -34,7 +34,7 @@ jobs:
           exit 0
         fi
         
-        unzip -o "$ZIP_FILE" -d ./
+        unzip -o "$ZIP_FILE" -d ../target-repo/
 
     - name: Commit and push changes
       run: |
