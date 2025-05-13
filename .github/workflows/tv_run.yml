@@ -40,8 +40,8 @@ jobs:
         python py/get_iptv.py
 
     # 列出当前目录中的文件
-    - name: List files in workspace
-      run: ls -la
+    #- name: List files in workspace
+    #  run: ls -la
 
     # 检查 Git 状态，确保文件已经被添加
     - name: Git status
