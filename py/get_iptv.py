@@ -130,7 +130,7 @@ def parse_txt(content: str) -> List[Dict[str, str]]:
         if match := re.match(r"(.+?),\s*(http.+?)(?:,\s*(.+))?$", line):
             program = match.group(1).strip()
             url = match.group(2).strip()
-            group = match.group(3).strip() if match.group(3)
+            group = match.group(3).strip()
             
             # 如果分组未明确指定，尝试根据节目名称匹配引用分组
             if group == "未分组":
