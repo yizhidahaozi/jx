@@ -7,7 +7,6 @@ from typing import List, Dict, Optional, Tuple
 urls = [
     "https://qu.ax/vUBde.txt",
     "http://live.nctv.top/x.txt",
-    "https://aktv.space/live.m3u",
     "https://json.doube.eu.org/XingHuo.txt",
     "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt",
     "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
@@ -20,7 +19,7 @@ urls = [
 ]
 
 # 引用文件内容或路径
-reference_content = "py/config/iptv.txt"
+reference_content = """config/iptv.txt"""
 
 ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
 ipv6_pattern = re.compile(r'^http://\[([a-fA-F0-9:]+)\]')
