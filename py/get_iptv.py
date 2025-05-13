@@ -20,7 +20,7 @@ urls = [
 ]
 
 # 引用文件内容或路径
-reference_content = "config/iptv.txt"
+reference_content = "py/config/iptv.txt"
 
 ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
 ipv6_pattern = re.compile(r'^http://\[([a-fA-F0-9:]+)\]')
