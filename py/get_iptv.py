@@ -21,7 +21,11 @@ urls = [
 
 repo_root = os.environ.get('GITHUB_WORKSPACE', os.getcwd())
 
-def load_group_reference(filepath = os.path.join(repo_root, "/py/config/iptv.txt")):
+def load_group_reference(filepath=None):
+    if filepath is None:
+        repo_root = os.environ.get('GITHUB_WORKSPACE', os.getcwd())
+        filepath = os.path.join(repo_root, "py/config/iptv.txt")
+
     group_reference = {}
     current_group = None
     
