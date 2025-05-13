@@ -2,7 +2,6 @@ import requests
 import pandas as pd
 import re
 import os
-from typing import List, Dict, Optional, Tuple
 
 urls = [
     "https://qu.ax/vUBde.txt",
@@ -18,54 +17,35 @@ urls = [
     "https://live.zbds.top/tv/iptv6.txt",
 ]
 
-# 引用文件内容或路径
-reference_content = "/py/config/iptv.txt"
+# 读取group-title.txt文件
+def load_group_reference(filepath="/py/config/iptv.txt"):
+    group_reference = {}
+    current_group = None
+    
+    with open(filepath, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+                
+            if line.endswith(",#genre#"):
+                # 新的分组
+                current_group = line.split(",")[0]
+                group_reference[current_group] = []
+            elif current_group and line:
+                # 添加到当前分组
+                patterns = [p.strip() for p in line.split("|") if p.strip()]
+                group_reference[current_group].extend(patterns)
+    
+    return group_reference
+
+# 加载分组参考
+GROUP_REFERENCE = load_group_reference()
 
 ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
 ipv6_pattern = re.compile(r'^http://\[([a-fA-F0-9:]+)\]')
 
-def load_reference_groups(content: str) -> List[Tuple[str, List[str]]]:
-    """加载引用文件中的分组信息"""
-    groups = []
-    current_group = None
-    current_patterns = []
-    
-    for line in content.splitlines():
-        line = line.strip()
-        if not line:
-            continue
-            
-        if line.endswith(",#genre#"):
-            # 新分组开始
-            if current_group and current_patterns:
-                groups.append((current_group, current_patterns))
-            current_group = line.replace(",#genre#", "")
-            current_patterns = []
-        elif line.endswith(",") and current_group:
-            # 添加节目名称模式
-            patterns = [p.strip() for p in line[:-1].split("|") if p.strip()]
-            current_patterns.extend(patterns)
-    
-    # 添加最后一个分组
-    if current_group and current_patterns:
-        groups.append((current_group, current_patterns))
-    
-    return groups
-
-# 预加载引用分组
-reference_groups = load_reference_groups(reference_content)
-
-def match_reference_group(program_name: str) -> str:
-    """根据节目名称匹配引用文件中的分组"""
-    for group_name, patterns in reference_groups:
-        for pattern in patterns:
-            # 简单的通配符匹配，可以改为正则表达式更灵活
-            if pattern in program_name or program_name in pattern:
-                return group_name
-    return "未分组 1"
-
-def fetch_streams_from_url(url: str) -> Optional[str]:
-    """从指定URL获取流内容"""
+def fetch_streams_from_url(url):
     print(f"正在爬取网站源: {url}")
     try:
         response = requests.get(url, timeout=10)
@@ -77,8 +57,7 @@ def fetch_streams_from_url(url: str) -> Optional[str]:
         print(f"请求 {url} 时发生错误: {e}")
     return None
 
-def fetch_all_streams() -> str:
-    """从所有URL获取流内容并合并"""
+def fetch_all_streams():
     all_streams = []
     for url in urls:
         if content := fetch_streams_from_url(url):
@@ -87,105 +66,140 @@ def fetch_all_streams() -> str:
             print(f"跳过来源: {url}")
     return "\n".join(all_streams)
 
-def parse_m3u(content: str) -> List[Dict[str, str]]:
-    """解析M3U格式内容，提取节目信息和分组"""
+def get_group_title(program_name):
+    """根据节目名称获取对应的group-title，使用正则表达式匹配"""
+    for group, patterns in GROUP_REFERENCE.items():
+        for pattern in patterns:
+            # 使用正则表达式进行匹配
+            try:
+                if re.search(pattern, program_name, re.IGNORECASE):
+                    return group
+            except re.error:
+                # 如果正则表达式有误，作为普通字符串匹配
+                if pattern.lower() in program_name.lower():
+                    return group
+    return "其他频道"  # 默认分组
+
+def parse_m3u(content):
     streams = []
     current_program = None
-    group_title = "未分组"  # 默认分组
+    current_group = None
+    current_extinf = None
 
     for line in content.splitlines():
-        line = line.strip()
         if line.startswith("#EXTINF"):
-            # 提取tvg-name
+            current_extinf = line
+            # 尝试从EXTINF行中提取group-title
+            if match := re.search(r'group-title="([^"]+)"', line):
+                current_group = match.group(1).strip()
+            else:
+                current_group = None
+                
             if match := re.search(r'tvg-name="([^"]+)"', line):
                 current_program = match.group(1).strip()
-            # 提取group-title
-            if match := re.search(r'group-title="([^"]+)"', line):
-                group_title = match.group(1).strip()
-            # 如果没有明确的分组，尝试根据节目名称匹配引用分组
-            if group_title == "未分组" and current_program:
-                group_title = match_reference_group(current_program)
-        elif line and line.startswith("http"):
+            elif ',' in line:
+                current_program = line.split(',')[-1].strip()
+        elif line.startswith("http"):
             if current_program:
+                # 根据引用文件确定分组，优先使用引用文件的分组
+                final_group = get_group_title(current_program)
+                
                 streams.append({
                     "program_name": current_program,
-                    "stream_url": line,
-                    "group_title": group_title
+                    "stream_url": line.strip(),
+                    "group_title": final_group,
+                    "extinf_line": current_extinf
                 })
                 current_program = None
-                group_title = "未分组"  # 重置为默认值
+                current_group = None
+                current_extinf = None
+
     return streams
 
-def parse_txt(content: str) -> List[Dict[str, str]]:
-    """解析TXT格式内容，支持带分组信息"""
+def parse_txt(content):
     streams = []
     for line in content.splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-            
-        # 支持两种格式：
-        # 1. 节目名称,URL
-        # 2. 节目名称,URL,分组名称
-        if match := re.match(r"(.+?),\s*(http.+?)(?:,\s*(.+))?$", line):
-            program = match.group(1).strip()
-            url = match.group(2).strip()
-            
-            # 如果分组未明确指定，尝试根据节目名称匹配引用分组
-            if group == "未分组":
-                group = match_reference_group(program)
-            
+        if match := re.match(r"(.+?),\s*(http.+)", line):
+            program_name = match.group(1).strip()
+            group_title = get_group_title(program_name)
             streams.append({
-                "program_name": program,
-                "stream_url": url,
-                "group_title": group
+                "program_name": program_name,
+                "stream_url": match.group(2).strip(),
+                "group_title": group_title,
+                "extinf_line": None
             })
     return streams
 
-def organize_streams(content: str) -> pd.DataFrame:
-    """整理流数据并去重"""
+def organize_streams(content):
     parser = parse_m3u if content.startswith("#EXTM3U") else parse_txt
-    df = pd.DataFrame(parser(content))
+    streams = parser(content)
+    
+    # 创建DataFrame
+    df = pd.DataFrame(streams)
+    
+    # 去重
     df = df.drop_duplicates(subset=['program_name', 'stream_url'])
-    return df
+    
+    # 分组整理
+    grouped = df.groupby(['group_title', 'program_name'])['stream_url'].apply(list).reset_index()
+    return grouped
 
-def save_to_txt(df: pd.DataFrame, filename: str = "lib/iptv.txt") -> None:
-    """保存为TXT格式，按IPv4/IPv6分类"""
+def save_to_txt(grouped_streams, filename="lib/iptv.txt"):
     ipv4 = []
     ipv6 = []
+    
+    # 先按group_title分组
+    grouped = grouped_streams.groupby('group_title')
+    
+    for group_name, group_data in grouped:
+        ipv4_group = []
+        ipv6_group = []
+        
+        for _, row in group_data.iterrows():
+            program = row['program_name']
+            for url in row['stream_url']:
+                if ipv4_pattern.match(url):
+                    ipv4_group.append(f"{program},{url}")
+                elif ipv6_pattern.match(url):
+                    ipv6_group.append(f"{program},{url}")
+        
+        if ipv4_group:
+            ipv4.append(f"\n# {group_name}\n" + "\n".join(ipv4_group))
+        if ipv6_group:
+            ipv6.append(f"\n# {group_name}\n" + "\n".join(ipv6_group))
 
-    for _, row in df.iterrows():
-        line = f"{row['program_name']},{row['stream_url']}"
-        if row['group_title'] != "未分组":
-            line += f",{row['group_title']}"
-            
-        if ipv4_pattern.match(row['stream_url']):
-            ipv4.append(line)
-        elif ipv6_pattern.match(row['stream_url']):
-            ipv6.append(line)
-
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename, 'w', encoding='utf-8') as f:
-        f.write("# IPv4 Streams\n" + "\n".join(ipv4))
-        f.write("\n\n# IPv6 Streams\n" + "\n".join(ipv6))
+        f.write("# IPv4 Streams")
+        f.write("\n".join(ipv4))
+        f.write("\n\n# IPv6 Streams")
+        f.write("\n".join(ipv6))
     print(f"文本文件已保存: {os.path.abspath(filename)}")
 
-def save_to_m3u(df: pd.DataFrame, filename: str = "lib/iptv.m3u") -> None:
-    """保存为M3U格式，包含分组信息"""
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
+def save_to_m3u(grouped_streams, filename="lib/iptv.m3u"):
     with open(filename, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
-        for _, row in df.iterrows():
-            f.write(f'#EXTINF:-1 tvg-name="{row["program_name"]}" group-title="{row["group_title"]}",{row["program_name"]}\n')
-            f.write(f"{row['stream_url']}\n")
+        
+        # 先按group_title分组
+        grouped = grouped_streams.groupby('group_title')
+        
+        for group_name, group_data in grouped:
+            # 写入分组标题
+            f.write(f'\n#EXTINF:-1 group-title="{group_name}",{group_name}\n#DUMMY\n')
+            
+            # 写入该分组下的所有频道
+            for _, row in group_data.iterrows():
+                program = row['program_name']
+                for url in row['stream_url']:
+                    f.write(f'#EXTINF:-1 group-title="{group_name}" tvg-name="{program}",{program}\n{url}\n')
+
     print(f"M3U文件已保存: {os.path.abspath(filename)}")
 
 if __name__ == "__main__":
     print("开始抓取所有源...")
     if content := fetch_all_streams():
         print("整理源数据中...")
-        df = organize_streams(content)
-        save_to_txt(df)
-        save_to_m3u(df)
+        organized = organize_streams(content)
+        save_to_txt(organized)
+        save_to_m3u(organized)
     else:
         print("未能获取有效数据")
