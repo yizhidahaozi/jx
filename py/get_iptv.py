@@ -113,7 +113,7 @@ def generate_outputs(channels, template_channels):
                 filtered = [
                     url for url in urls
                     if url and url not in written_urls
-                    and not any(b in url for b in config.url_blacklist)
+                    # and not any(b in url for b in config.url_blacklist)
                 ]
                 if not filtered:
                     continue
