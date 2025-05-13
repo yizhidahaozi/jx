@@ -19,7 +19,7 @@ urls = [
 ]
 
 # 引用文件内容或路径
-reference_content = "$(pwd)/py/config/iptv.txt"
+reference_content = "/py/config/iptv.txt"
 
 ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
 ipv6_pattern = re.compile(r'^http://\[([a-fA-F0-9:]+)\]')
@@ -62,7 +62,7 @@ def match_reference_group(program_name: str) -> str:
             # 简单的通配符匹配，可以改为正则表达式更灵活
             if pattern in program_name or program_name in pattern:
                 return group_name
-    return "未分组"
+    return "未分组 1"
 
 def fetch_streams_from_url(url: str) -> Optional[str]:
     """从指定URL获取流内容"""
@@ -113,7 +113,7 @@ def parse_m3u(content: str) -> List[Dict[str, str]]:
                     "group_title": group_title
                 })
                 current_program = None
-                group_title = "未分组"  # 重置为默认值
+                group_title = "未分组 2"  # 重置为默认值
     return streams
 
 def parse_txt(content: str) -> List[Dict[str, str]]:
@@ -130,7 +130,7 @@ def parse_txt(content: str) -> List[Dict[str, str]]:
         if match := re.match(r"(.+?),\s*(http.+?)(?:,\s*(.+))?$", line):
             program = match.group(1).strip()
             url = match.group(2).strip()
-            group = match.group(3).strip() if match.group(3) else "未分组"
+            group = match.group(3).strip() if match.group(3) else "未分组 3"
             
             # 如果分组未明确指定，尝试根据节目名称匹配引用分组
             if group == "未分组":
@@ -157,7 +157,7 @@ def save_to_txt(df: pd.DataFrame, filename: str = "lib/iptv.txt") -> None:
 
     for _, row in df.iterrows():
         line = f"{row['program_name']},{row['stream_url']}"
-        if row['group_title'] != "未分组":
+        if row['group_title'] != "未分组 4":
             line += f",{row['group_title']}"
             
         if ipv4_pattern.match(row['stream_url']):
