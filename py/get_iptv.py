@@ -119,7 +119,7 @@ def generate_outputs(channels, template_channels):
                     continue
 
                 # IP version priority sorting
-                filtered.sort(key=lambda x: is_ipv6(x) != (config.ip_version_priority == "ipv6"))
+                # filtered.sort(key=lambda x: is_ipv6(x) != (config.ip_version_priority == "ipv6"))
                 
                 # Format URLs
                 total = len(filtered)
