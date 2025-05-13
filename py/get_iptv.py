@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import re
 import os
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 
 urls = [
     "https://qu.ax/vUBde.txt",
@@ -19,8 +19,51 @@ urls = [
     "https://live.zbds.top/tv/iptv6.txt",
 ]
 
+# 引用文件内容或路径
+reference_content = "config/iptv.txt"
+
 ipv4_pattern = re.compile(r'^http://(\d{1,3}\.){3}\d{1,3}')
 ipv6_pattern = re.compile(r'^http://\[([a-fA-F0-9:]+)\]')
+
+def load_reference_groups(content: str) -> List[Tuple[str, List[str]]]:
+    """加载引用文件中的分组信息"""
+    groups = []
+    current_group = None
+    current_patterns = []
+    
+    for line in content.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+            
+        if line.endswith(",#genre#"):
+            # 新分组开始
+            if current_group and current_patterns:
+                groups.append((current_group, current_patterns))
+            current_group = line.replace(",#genre#", "")
+            current_patterns = []
+        elif line.endswith(",") and current_group:
+            # 添加节目名称模式
+            patterns = [p.strip() for p in line[:-1].split("|") if p.strip()]
+            current_patterns.extend(patterns)
+    
+    # 添加最后一个分组
+    if current_group and current_patterns:
+        groups.append((current_group, current_patterns))
+    
+    return groups
+
+# 预加载引用分组
+reference_groups = load_reference_groups(reference_content)
+
+def match_reference_group(program_name: str) -> str:
+    """根据节目名称匹配引用文件中的分组"""
+    for group_name, patterns in reference_groups:
+        for pattern in patterns:
+            # 简单的通配符匹配，可以改为正则表达式更灵活
+            if pattern in program_name or program_name in pattern:
+                return group_name
+    return "未分组"
 
 def fetch_streams_from_url(url: str) -> Optional[str]:
     """从指定URL获取流内容"""
@@ -60,6 +103,9 @@ def parse_m3u(content: str) -> List[Dict[str, str]]:
             # 提取group-title
             if match := re.search(r'group-title="([^"]+)"', line):
                 group_title = match.group(1).strip()
+            # 如果没有明确的分组，尝试根据节目名称匹配引用分组
+            if group_title == "未分组" and current_program:
+                group_title = match_reference_group(current_program)
         elif line and line.startswith("http"):
             if current_program:
                 streams.append({
@@ -86,6 +132,10 @@ def parse_txt(content: str) -> List[Dict[str, str]]:
             program = match.group(1).strip()
             url = match.group(2).strip()
             group = match.group(3).strip() if match.group(3) else "未分组"
+            
+            # 如果分组未明确指定，尝试根据节目名称匹配引用分组
+            if group == "未分组":
+                group = match_reference_group(program)
             
             streams.append({
                 "program_name": program,
