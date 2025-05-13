@@ -18,7 +18,7 @@ urls = [
 ]
 
 # 读取group-title.txt文件
-def load_group_reference(filepath="/py/config/iptv.txt"):
+def load_group_reference(filepath="config/iptv.txt"):
     group_reference = {}
     current_group = None
     
