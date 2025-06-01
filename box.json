@@ -75,6 +75,9 @@
    "key": "艾旦影视",
    "name": "艾旦影视",
    "type": 1,
+   "ext": {
+    "proxy": "proxy"
+   },
    "api": "https://www.lovedan.net/api.php/provide/vod/",
    "quickSearch": 1,
    "searchable": 1,
