@@ -32,7 +32,3 @@ https://clun.top/svip.json
 ```
 
 </details>
-
-## license
-
-MIT License
