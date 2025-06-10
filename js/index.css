@@ -1,19 +1,22 @@
 .container {
- width: 60%;
- margin: 10% auto 0;
- background-color: #f0f0f0;
- padding: 2% 5%;
- border-radius: 10px
+	width: 90%;
+	margin: 5% auto;
+	background-color: #f0f0f0;
+	padding: 2% 5%;
+	border-radius: 10px;
+	box-sizing: border-box;
 }
 
 ul {
- padding-left: 20px;
+	padding-left: 15px;
 }
 
 ul li {
- line-height: 2.3
+	line-height: 1.8;
+	margin-bottom: 8px;
 }
 
 a {
- color: #20a53a
+	color: #20a53a;
+	font-size: 1.1em;
 }
