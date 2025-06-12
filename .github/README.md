@@ -36,10 +36,10 @@ https://clun.top/svip.json
 <details>
 <summary>TVBox APP 下载</summary>
 
-> mobile = 手机版
+> mobile = 手机版  
 > leanback = 电视版
 
-> arm64_v8a = 64 位元
+> arm64_v8a = 64 位元  
 > armeabi_v7a = 32 位元
 
 ###### FongMi leanback [v7a](https://gh.clun.top/raw.githubusercontent.com/FongMi/Release/refs/heads/fongmi/apk/release/leanback-armeabi_v7a.apk) [v8a](https://gh.clun.top/raw.githubusercontent.com/FongMi/Release/refs/heads/fongmi/apk/release/leanback-arm64_v8a.apk)
