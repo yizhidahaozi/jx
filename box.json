@@ -1637,7 +1637,7 @@
 		{
 			"name": "cluntop",
 			"type": 0,
-			"url": "./lib/iptv.m3u",
+			"url": "https://gh.clun.top/raw.githubusercontent.com/cluntop/sh/refs/heads/main/iptv.m3u",
 			"ua": "okhttp/4.1.0"
 		},
 		{
