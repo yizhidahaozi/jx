@@ -20,7 +20,7 @@ https://clun.top/fun.json
 ```
 
 ```饭总
-https://clun.top/api.json
+https://clun.top/fty.json
 ```
 
 ```不知
@@ -29,6 +29,10 @@ https://clun.top/aa.json
 
 ```拾光
 https://clun.top/svip.json
+```
+
+```摸鱼
+https://clun.top/moyu.json
 ```
 
 </details>
