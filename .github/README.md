@@ -7,11 +7,11 @@
 <details>
 <summary>贡献指南</summary>
 
-###### 欢迎贡献代码！请随时提交Pull Request。
+###### 欢迎贡献代码！请随时提交 Pull Request。
 
 ###### Fork 仓库 cluntop/tvbox
 
-> 创建功能分支(git checkout -b cluntop/tvbox)  
+> 创建功能分支( `git checkout -b cluntop/tvbox` )  
 
 > 提交更改(git commit -m '添加某些说明')  
 
