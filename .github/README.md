@@ -5,6 +5,23 @@
 #### 欢迎 Star 及 PR。
 
 <details>
+<summary>贡献指南</summary>
+
+###### 欢迎贡献代码！请随时提交Pull Request。
+
+###### Fork 仓库 cluntop/tvbox
+
+> 创建功能分支(git checkout -b cluntop/tvbox)  
+
+> 提交更改(git commit -m '添加某些说明')  
+
+> 推送到分支(git push origin cluntop/tvbox)  
+
+> 打开 Pull Request
+
+</details>
+
+<details>
 <summary>TVBox 自用接口</summary>
 
 ```自用
@@ -56,19 +73,3 @@ https://clun.top/moyu.json
 
 </details>
 
-<details>
-<summary>贡献指南</summary>
-
-###### 欢迎贡献代码！请随时提交Pull Request。
-
-###### Fork 仓库 cluntop/tvbox
-
-> 创建功能分支(git checkout -b cluntop/tvbox)  
-
-> 提交更改(git commit -m '添加某些说明')  
-
-> 推送到分支(git push origin cluntop/tvbox)  
-
-> 打开 Pull Request
-
-</details>
