@@ -11,11 +11,11 @@
 
 ###### Fork 仓库 cluntop/tvbox
 
-> 创建功能分支( `git checkout -b cluntop/tvbox` )  
+> 创建功能分支(`git checkout -b cluntop/tvbox`)  
 
-> 提交更改(git commit -m '添加某些说明')  
+> 提交更改(`git commit -m '添加某些说明'`)  
 
-> 推送到分支(git push origin cluntop/tvbox)  
+> 推送到分支(`git push origin cluntop/tvbox`)  
 
 > 打开 Pull Request
 
