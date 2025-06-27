@@ -178,7 +178,7 @@
 		},
 		{
 			"key": "三九影视",
-			"name": "三九｜影视",
+			"name": "三九影视",
 			"type": 3,
 			"api": "csp_HBPQ",
 			"jar": "./jar/XBPQ.jar",
@@ -186,7 +186,7 @@
 		},
 		{
 			"key": "巴士动漫",
-			"name": "巴士｜动漫",
+			"name": "巴士动漫",
 			"type": 3,
 			"api": "csp_XYQHiker",
 			"jar": "./jar/XBPQ.jar",
