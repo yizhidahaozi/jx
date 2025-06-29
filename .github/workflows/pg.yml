@@ -1,4 +1,4 @@
-name: Automatically update TG package
+name: update pg package
 
 on:
   schedule:
