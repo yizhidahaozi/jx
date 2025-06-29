@@ -1,4 +1,4 @@
-name: update pg package
+name: Update pg package
 
 on:
   schedule:
