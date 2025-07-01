@@ -40,7 +40,7 @@ https://clun.top/fun.json
 https://clun.top/fty.json
 ```
 
-```不知
+```张佬
 https://clun.top/aa.json
 ```
 
