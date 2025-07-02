@@ -386,26 +386,8 @@
 			"ext": ""
 		},
 		{
-			"name": "谍工看片社",
-			"url": "./lz/wj/谍工看片社.txt"
-		},
-		{
-			"name": "谍影剧场",
-			"url": "./lz/wj/谍影剧场.txt"
-		},
-		{
-			"name": "百家讲坛",
-			"url": "./lz/wj/百家讲坛.txt"
-		},
-		{
 			"name": "政治时事",
 			"url": "http://zhangqun66.com/141.php"
-		},
-		{
-			"name": "野火直播",
-			"url": "./lz/wj/野火改.txt",
-			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
 			"name": "XingHuo",
