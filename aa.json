@@ -380,6 +380,34 @@
 	],
 	"lives": [
 		{
+			"name": "直播爬虫",
+			"type": 3,
+			"api": "https://tang.hz.cz/js/ethtv.js",
+			"ext": ""
+		},
+		{
+			"name": "谍工看片社",
+			"url": "./wj/谍工看片社.txt"
+		},
+		{
+			"name": "谍影剧场",
+			"url": "./wj/谍影剧场.txt"
+		},
+		{
+			"name": "百家讲坛",
+			"url": "./wj/百家讲坛.txt"
+		},
+		{
+			"name": "政治时事",
+			"url": "http://zhangqun66.com/141.php"
+		},
+		{
+			"name": "野火直播",
+			"url": "./wj/野火改.txt",
+			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
+		},
+		{
 			"name": "XingHuo",
 			"url": "https://json.doube.eu.org/XingHuo.txt",
 			"header": {
@@ -399,7 +427,7 @@
 			"type": 3,
 			"api": "csp_Feiyang",
 			"url": "tv.m3u",
-			"ext": "https://gh.clun.top/raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/allinone;md5;https://gh.clun.top/raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/md5",
+			"ext": "https://gh.clun.top/raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/allinone",
 			"jar": "https://gh.clun.top/raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
 		}
 	]
