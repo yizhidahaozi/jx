@@ -1,4 +1,4 @@
-name: Update pg package
+name: Update zip package
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
            unzip xiaosa.zip
            \cp -pdr TVBoxOSC/tvbox/* ./
            rm -rf xiaosa.zip TVBoxOSC
-        shell: bash
+        # shell: bash
 
     - name: Clone source repo
       env:
