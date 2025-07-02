@@ -7,7 +7,7 @@ on:
   workflow_dispatch:     # 允许手动触发
 
 jobs:
-  process-zip:
+  build:
     runs-on: ubuntu-latest
 
     steps:
