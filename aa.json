@@ -387,15 +387,15 @@
 		},
 		{
 			"name": "谍工看片社",
-			"url": "./wj/谍工看片社.txt"
+			"url": "./lz/wj/谍工看片社.txt"
 		},
 		{
 			"name": "谍影剧场",
-			"url": "./wj/谍影剧场.txt"
+			"url": "./lz/wj/谍影剧场.txt"
 		},
 		{
 			"name": "百家讲坛",
-			"url": "./wj/百家讲坛.txt"
+			"url": "./lz/wj/百家讲坛.txt"
 		},
 		{
 			"name": "政治时事",
@@ -403,7 +403,7 @@
 		},
 		{
 			"name": "野火直播",
-			"url": "./wj/野火改.txt",
+			"url": "./lz/wj/野火改.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
