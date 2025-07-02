@@ -24,7 +24,7 @@ jobs:
         # cd xiaosa/
         wget https://gitee.com/PizazzXS/another-d/raw/master/%E5%8D%95%E7%BA%BF%E8%B7%AF.zip -O xiaosa.zip
         unzip xiaosa.zip
-        \cp -pdr TVBoxOSC/tvbox/* ../target-repo/test/xiaosa
+        \cp -pdr TVBoxOSC/tvbox/* ./target-repo/test/xiaosa
         rm -rf xiaosa.zip TVBoxOSC
       shell: bash
 
