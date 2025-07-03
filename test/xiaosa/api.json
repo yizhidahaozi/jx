@@ -958,6 +958,17 @@
             "filterable": 0
         },
         {
+            "key": "河马短剧",
+            "name": "河马｜短剧",
+            "type": 3,
+            "api": "./py/河马短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "偷乐短剧",
             "name": "偷乐｜短剧",
             "type": 3,
