@@ -19,6 +19,16 @@
 
 > 打开 Pull Request
 
+###### WebDav TVbox 接口配置
+
+例如 https://pan.clun.top/dav
+主机 pan.clun.top
+路径 /dav
+协议 SSL
+接口 443
+账号 tvbox
+密码 tvbox
+
 </details>
 
 <details>
