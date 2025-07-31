@@ -36,32 +36,44 @@
 <details>
 <summary>TVBox 自用接口</summary>
 
-```自用
+###### TVBox 自用 接口
+```
 https://clun.top/box.json
 ```
 
-```PG
+###### TVBox PG 接口
+```
 https://clun.top/jsm.json
 ```
 
-```18+
+###### TVBox 18+ 接口
+```
 https://clun.top/fun.json
 ```
 
-```饭总
+###### TVBox 饭总 接口
+```
 https://clun.top/fty.json
 ```
 
-```张佬
+###### TVBox 张佬 接口
+```
 https://clun.top/aa.json
 ```
 
-```拾光
+###### TVBox 拾光 接口
+```
 https://clun.top/svip.json
 ```
 
-```摸鱼
+###### TVBox 摸鱼 接口
+```
 https://clun.top/moyu.json
+```
+
+###### TVBox 王二小 接口
+```
+https://clun.top/wex.json
 ```
 
 </details>
