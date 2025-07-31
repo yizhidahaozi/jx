@@ -88,6 +88,80 @@
             }
         },
         {
+            "key": "火猫",
+            "name": "火猫丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
+                "dataKey": "J6AIORKJ3PQOJKM9",
+                "dataIv": "J6AIORKJ3PQOJKM9",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "若雪",
+            "name": "若雪丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://appcms.rx4k.top",
+                "site": "",
+                "dataKey": "ZX10ysTYZWtIJCTU",
+                "dataIv": "ZX10ysTYZWtIJCTU",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "海豚",
+            "name": "海豚丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://qjappcms.htsp4k.top",
+                "site": "",
+                "dataKey": "R69yVluzg6yLpjp0",
+                "dataIv": "R69yVluzg6yLpjp0",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "哔滴",
+            "name": "哔滴丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "",
+                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
+                "dataKey": "5ae8ee4bb95ea0ce",
+                "dataIv": "5ae8ee4bb95ea0ce",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "丫丫",
+            "name": "丫丫｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://tv.yy-fun.cc",
+                "dataKey": "qkxnwkfjwpcnwycl",
+                "dataIv": "qkxnwkfjwpcnwycl",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "小野",
             "name": "小野｜APP",
             "type": 3,
@@ -160,8 +234,8 @@
             }
         },
         {
-            "key": "雄鹰",
-            "name": "雄鹰｜APP",
+            "key": "蓝鹰",
+            "name": "蓝鹰｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet2",
@@ -195,7 +269,8 @@
             "quickSearch": 1,
             "api": "csp_AppGet2",
             "ext": {
-                "url": "https://newappcms.cs4k.top",
+                "url": "",
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
                 "dataKey": "Z98KXaLtO2wC1Pte",
                 "dataIv": "Z98KXaLtO2wC1Pte",
                 "deviceId": "",
@@ -400,6 +475,17 @@
                 "dataIv": "708FA298F0855840",
                 "deviceId": "2129ec9e6e5703cb0aeeddd79554e38f8",
                 "version": "103"
+            }
+        },
+        {
+            "key": "移动",
+            "name": "移动｜APP",
+            "type": 3,
+            "api": "csp_YD",
+            "searchable": 1,
+            "quickSearch": 1,
+            "style": {
+                "type": "list"
             }
         },
         {
@@ -729,17 +815,6 @@
             "type": 3,
             "api": "./js/cloud.min.js",
             "ext": "./js/爱搜.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "移动",
-            "name": "移动｜4K",
-            "type": 3,
-            "api": "csp_YD",
-            "searchable": 1,
-            "quickSearch": 1,
             "style": {
                 "type": "list"
             }
@@ -1231,15 +1306,16 @@
             }
         },
         {
-            "key": "米饭动漫",
-            "name": "米饭｜动漫",
+            "key": "多多动漫",
+            "name": "多多｜动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://45.43.29.111:9527",
-                "dataKey": "GETMIFUNGEIMIFUN",
-                "dataIv": "GETMIFUNGEIMIFUN",
+                "url": "",
+                "site": "https://app.cf4k.xyz/1.txt",
+                "dataKey": "qqqqqqqqqqqqqqqq",
+                "dataIv": "qqqqqqqqqqqqqqqq",
                 "deviceId": "",
                 "version": ""
             }
@@ -1268,20 +1344,6 @@
                 "url": "https://qjappcms.acg.party",
                 "dataKey": "AmtMYFCJDPoTlK7z",
                 "dataIv": "AmtMYFCJDPoTlK7z",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "丫丫",
-            "name": "丫丫｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://tv.yy-fun.cc",
-                "dataKey": "qkxnwkfjwpcnwycl",
-                "dataIv": "qkxnwkfjwpcnwycl",
                 "deviceId": "",
                 "version": ""
             }
