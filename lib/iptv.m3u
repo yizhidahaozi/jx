@@ -3657,7 +3657,7 @@ http://a21709.tv.netsite.cc/proxy/562106987/562106987.m3u8$LR•IPV4•75『线�
 #EXTINF:-1 tvg-id="62" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
 http://220.192.12.20:8003/udp/225.0.4.187:7980?$LR•IPV4•75『线路62』
 #EXTINF:-1 tvg-id="63" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
-http://p.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202508091807/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•75『线路63』
+http://p.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202508092008/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•75『线路63』
 #EXTINF:-1 tvg-id="64" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
 http://39.134.65.75/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8$LR•IPV4•75『线路64』
 #EXTINF:-1 tvg-id="65" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
@@ -5049,7 +5049,7 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="58" tvg-name="河南卫视" group-title="卫视频道",河南卫视
 http://a21709.tv.netsite.cc/proxy/251465659/251465659.m3u8$LR•IPV4•73『线路58』
 #EXTINF:-1 tvg-id="59" tvg-name="河南卫视" group-title="卫视频道",河南卫视
-http://14.29.45.87/tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=5e6e11e2645b89c82ba65dc4e0c304f7&wsTime=1754741303&wsSession=7c51d62a9fcd0cd670e6a522-175473769275686&wsIPSercert=f1ed5e80c31ab65580d88c6bbb451005&wsiphost=local&wsBindIP=1$LR•IPV4•73『线路59』
+http://14.29.45.87/tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=d7d73734c653a37f5b0d6b00691b23dc&wsTime=1754755704&wsSession=7c51d62a9fcd0cd670e6a522-175474491283954&wsIPSercert=f1ed5e80c31ab65580d88c6bbb451005&wsiphost=local&wsBindIP=1$LR•IPV4•73『线路59』
 #EXTINF:-1 tvg-id="60" tvg-name="河南卫视" group-title="卫视频道",河南卫视
 http://1.94.31.214/php/hntv.php?id=hnws$LR•IPV4•73『线路60』
 #EXTINF:-1 tvg-id="61" tvg-name="河南卫视" group-title="卫视频道",河南卫视
@@ -6959,7 +6959,7 @@ http://dsj.motem.top:8880/bptv/10000100000000050000000003887434.m3u8$LR•IPV4�
 #EXTINF:-1 tvg-id="42" tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
 http://a21709.tv.netsite.cc/proxy/1062504144/1062504144.m3u8$LR•IPV4•55『线路42』
 #EXTINF:-1 tvg-id="43" tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
-https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=f2714950a0d12253812edf8089a2b492&time=68972c3d$LR•IPV4•55『线路43』
+https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=b10696bdb00f77784e9a65237ae8c142&time=68974870$LR•IPV4•55『线路43』
 #EXTINF:-1 tvg-id="44" tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
 http://39.134.65.72/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225638/index.m3u8$LR•IPV4•55『线路44』
 #EXTINF:-1 tvg-id="45" tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
@@ -8877,7 +8877,7 @@ http://tvgslb.hn.chinamobile.com:8089/000000001000//6000000003000016791/1.m3u8?c
 #EXTINF:-1 tvg-id="39" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
 http://tvgslb.hn.chinamobile.com:8089/000000001000//5201381050640253101/1.m3u8?channel-id=ystenlive&Contentid=5201381050640253101&livemode=1&stbId=lzz123$LR•IPV4•54『线路39』
 #EXTINF:-1 tvg-id="40" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
-http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnRlcm09NSZxaWQ9JmNkbmV4X2lkPXFxX3Bob25lX2xpdmUmY2hzPSZkZWY9MSZzPTZmZDZmODMwMzhhMmI2MzFmMWIxMjA3YzdlNTk1MzgzJnVpZD0mdXVpZD1mZWQwOGE0YjhjMTAxZTQxZGVkNjljM2Q1ZWJmNzMyNi02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzU0NzQzMTI5/JYKTMPP360.m3u8$LR•IPV4•54『线路40』
+http://phonetx.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnRlcm09NSZxaWQ9JmNkbmV4X2lkPXR4X3Bob25lX2xpdmUmY2hzPSZkZWY9MSZzPWQ5NDRlOTc3OGY3MzgyMWQ5YTJmMGRjNTYxMTdlMzcxJnVpZD0mdXVpZD03MTc0NTkxYWRjM2M0YWIwMDBlNWUwMjUyYzhiZGVmMC02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzU0NzcxOTUx/JYKTMPP360.m3u8$LR•IPV4•54『线路40』
 #EXTINF:-1 tvg-id="41" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
 http://itv.iptv1688.top:2016/itv.php?id=金鹰卡通$LR•IPV4•54『线路41』
 #EXTINF:-1 tvg-id="42" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
