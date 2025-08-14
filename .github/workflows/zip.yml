@@ -46,6 +46,19 @@ jobs:
 
         unzip -o "$ZIP_FILE" -x "README.txt" -d ../target-repo/
 
+    - name: Clean up the garbage
+        run: |
+          # 检查 Git 仓库的完整性
+          git fsck --full --force
+          # 清理本地引用日志中过期的记录
+          git reflog expire --all
+          # 清理无效对象并优化仓库存储
+          git gc --aggressive --prune
+          # 清理本地仓库中所有引用的操作日志
+          git reflog expire --expire=now --all
+          # 通过激进的压缩算法优化仓库存储
+          git gc --prune=now --aggressive
+
     - name: Commit and push changes
       run: |
         cd target-repo
