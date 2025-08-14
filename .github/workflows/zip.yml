@@ -47,7 +47,7 @@ jobs:
         unzip -o "$ZIP_FILE" -x "README.txt" -d ../target-repo/
 
     - name: Clean up the garbage
-        run: |
+      run: |
         # 检查 Git 仓库的完整性
         git fsck --full --force
         # 清理本地引用日志中过期的记录
