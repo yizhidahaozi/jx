@@ -52,11 +52,8 @@ jobs:
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
 
-        git fsck --full
-        git reflog expire --all
-        git gc --aggressive --prune
-        git gc --prune=now --aggressive
         git reflog expire --expire=now --all
+        git gc --prune=now --aggressive
 
         git add .
         git commit -m "Update zip" || echo "No changes to commit"
