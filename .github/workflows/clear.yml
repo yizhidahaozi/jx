@@ -29,6 +29,7 @@ jobs:
 
     - name: Start cleaning up
       run: |
+        du -sh .git/objects/pack
         git reflog expire --expire=now --all
         git gc --prune=now --aggressive --prune
       # shell: bash
@@ -43,5 +44,5 @@ jobs:
         git config user.email "actions@github.com"
 
         git add .
-        git commit -m "Clean up" || echo "No changes to commit"
+        git commit -m "Clean up"
         git push origin HEAD:main
