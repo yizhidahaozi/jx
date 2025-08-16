@@ -17,12 +17,25 @@ jobs:
         repository: cluntop/tvbox
         token: ${{ secrets.GIT_TOKEN }}
         # path: target-repo
+    
+    - name: rm deletes a folder
+      run: |
+        if [ -d ".git/objects/pack" ]; then
+          rm -rf ./.git/objects/pack/*
+          echo "Git pack files deleted"
+        else
+          echo "Git pack directory not found"
+        fi
 
     - name: Start cleaning up
       run: |
         git reflog expire --expire=now --all
         git gc --prune=now --aggressive
       # shell: bash
+
+    - name: Verify and clean up
+      run: |
+        du -sh .git/objects/pack
 
     - name: Commit and push changes
       run: |
