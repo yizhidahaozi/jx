@@ -48,8 +48,7 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        cd ../target-repo && ls
-        cd target-repo && ls
+        ls && cd target-repo && ls
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
 
