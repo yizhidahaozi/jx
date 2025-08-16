@@ -21,7 +21,7 @@ jobs:
     - name: rm deletes a folder
       run: |
         if [ -d ".git/objects/pack" ]; then
-          rm -rf ./.git/objects/pack/*
+          # rm -rf .git/objects/pack/*
           echo "Git pack files deleted"
         else
           echo "Git pack directory not found"
@@ -30,7 +30,7 @@ jobs:
     - name: Start cleaning up
       run: |
         git reflog expire --expire=now --all
-        git gc --prune=now --aggressive
+        git gc --prune=now --aggressive --prune
       # shell: bash
 
     - name: Verify and clean up
