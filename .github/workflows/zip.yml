@@ -17,6 +17,7 @@ jobs:
         repository: cluntop/tvbox
         token: ${{ secrets.GIT_TOKEN }}
         path: target-repo
+        depth: 1
 
     - name: wget the xiaosa 
       run: |
