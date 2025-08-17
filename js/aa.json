@@ -410,7 +410,7 @@
         {
             "name": "MQiTV",
             "api": "csp_MQiTV",
-            "jar": "https://slink.ltd/https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/jar/fmMQiTV.jar",
+            "jar": "https://gh.clun.top/raw.githubusercontent.com/sqspot/tac/refs/heads/main/jar/fmMQiTV.jar",
             "ext": "https://59.125.210.231:4433",
             "playerType": 1,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
@@ -420,8 +420,8 @@
             "type": 3,
             "api": "csp_Feiyang",
             "url": "tv.m3u",
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/allinone;md5;https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/md5",
-            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+            "ext": "https://gh.clun.top/raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/allinone;md5;https://gh.clun.top/raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/md5",
+            "jar": "https://gh.clun.top/raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
         }
     ]
 }

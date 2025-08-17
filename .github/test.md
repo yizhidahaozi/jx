@@ -19,11 +19,12 @@ https://www.xn--sss604efuw.com/jm/
 分类url .cateId=分类 .class=类型 .area=地区 .lang=语言 .year=年份 .by=排序 .catePg=类别?
 
 https://github.com/fangkuia/XPTV
+https://github.com/fafa002/yf2025
 https://github.com/fanmingming/live
 https://github.com/yoursmile66/TVBox
 https://github.com/977567941/Kowaryou
 https://github.com/xyq254245/xyqonlinerule
-https://github.com/fafa002/yf2025/tree/main
+https://github.com/towerstreet/IPTV-TVBOX
 https://github.com/fastbuild7099/fastbuild7099
 
 -
