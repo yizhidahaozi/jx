@@ -55,6 +55,6 @@ jobs:
 
         git add .
         git reflog expire --expire=now --all
-        git gc --prune=now --aggressive
+        git gc --prune=now --aggressive --prune
         git commit -m "Update zip" || echo "No changes to commit"
         git push origin HEAD:main
