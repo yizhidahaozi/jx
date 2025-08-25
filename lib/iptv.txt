@@ -1751,7 +1751,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8$LR•IPV4•7『线路7』
 重庆卫视,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8$LR•IPV6•72『线路51』
 重庆卫视,http://a21709.tv.netsite.cc/proxy/562106987/562106987.m3u8$LR•IPV4•72『线路52』
 重庆卫视,http://220.192.12.20:8003/udp/225.0.4.187:7980?$LR•IPV4•72『线路53』
-重庆卫视,http://p.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202508252224/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•72『线路54』
+重庆卫视,http://p.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202508260026/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•72『线路54』
 重庆卫视,http://112.27.235.94:8000/hls/36/index.m3u8$LR•IPV4•72『线路55』
 重庆卫视,http://39.134.65.75/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8$LR•IPV4•72『线路56』
 重庆卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cqws$LR•IPV4•72『线路57』
@@ -3347,7 +3347,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8$LR•IPV4•7『线路7』
 西藏卫视,http://home.wwang.pw:35455/itv/6603041244077933770.m3u8?cdn=ystenlive$LR•IPV4•54『线路36』
 西藏卫视,http://dsj.motem.top:8880/bptv/10000100000000050000000003887434.m3u8$LR•IPV4•54『线路37』
 西藏卫视,http://a21709.tv.netsite.cc/proxy/1062504144/1062504144.m3u8$LR•IPV4•54『线路38』
-西藏卫视,https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=92338eccbccc933c346b09cbc6ad07d9&time=68ac8b3c$LR•IPV4•54『线路39』
+西藏卫视,https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=2a887da7636dcaa6769a5258c085a1c8&time=68ac987b$LR•IPV4•54『线路39』
 西藏卫视,http://39.134.65.72/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225638/index.m3u8$LR•IPV4•54『线路40』
 西藏卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=xzws$LR•IPV4•54『线路41』
 西藏卫视,http://[2409:8087:1a15:10d1::39]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226433/index.m3u8$LR•IPV6•54『线路42』

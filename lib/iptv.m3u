@@ -3497,7 +3497,7 @@ http://a21709.tv.netsite.cc/proxy/562106987/562106987.m3u8$LR•IPV4•72『线�
 #EXTINF:-1 tvg-id="53" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
 http://220.192.12.20:8003/udp/225.0.4.187:7980?$LR•IPV4•72『线路53』
 #EXTINF:-1 tvg-id="54" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
-http://p.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202508252224/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•72『线路54』
+http://p.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202508260026/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•72『线路54』
 #EXTINF:-1 tvg-id="55" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
 http://112.27.235.94:8000/hls/36/index.m3u8$LR•IPV4•72『线路55』
 #EXTINF:-1 tvg-id="56" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
@@ -6689,7 +6689,7 @@ http://dsj.motem.top:8880/bptv/10000100000000050000000003887434.m3u8$LR•IPV4�
 #EXTINF:-1 tvg-id="38" tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
 http://a21709.tv.netsite.cc/proxy/1062504144/1062504144.m3u8$LR•IPV4•54『线路38』
 #EXTINF:-1 tvg-id="39" tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
-https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=92338eccbccc933c346b09cbc6ad07d9&time=68ac8b3c$LR•IPV4•54『线路39』
+https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=2a887da7636dcaa6769a5258c085a1c8&time=68ac987b$LR•IPV4•54『线路39』
 #EXTINF:-1 tvg-id="40" tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
 http://39.134.65.72/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225638/index.m3u8$LR•IPV4•54『线路40』
 #EXTINF:-1 tvg-id="41" tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
