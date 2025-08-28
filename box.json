@@ -1413,6 +1413,16 @@
 			"url": "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u"
 		},
 		{
+			"name": "tv_jp",
+			"type": "0",
+			"url": "https://raw.githubusercontent.com/luongz/iptv-jp/refs/heads/main/jp.m3u"
+		},
+		{
+			"name": "tv_jp_clean",
+			"type": "0",
+			"url": "https://raw.githubusercontent.com/luongz/iptv-jp/refs/heads/main/jp_clean.m3u"
+		},
+		{
 			"name": "平台直播",
 			"type": 0,
 			"url": "https://tv.iill.top/m3u/Live",
