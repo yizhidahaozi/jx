@@ -21,6 +21,10 @@
 			"name": "摸鱼"
 		},
 		{
+			"url": "https://clun.top/js/xiaosa/api.json",
+			"name": "潇洒"
+		},
+		{
 			"url": "https://clun.top/jsm.json",
 			"name": "PG"
 		},
