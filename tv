@@ -5,6 +5,10 @@
 			"name": "自用"
 		},
 		{
+			"url": "https://clun.top/js/wex/api.json",
+			"name": "王二小"
+		},
+		{
 			"url": "https://clun.top/js/fty/api.json",
 			"name": "饭总"
 		},
