@@ -229,6 +229,14 @@
 			"ext": "./js/s/狐狸君.json"
 		},
 		{
+			"key": "大白鲨",
+			"name": "大白鲨",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./jar/XBPQ.jar",
+			"ext": "./js/s/大白鲨.json"
+		},
+		{
 			"key": "2",
 			"name": "== 2 =="
 		},
@@ -2000,5 +2008,6 @@
 	"disabled_wallpaper": "",
 	"wallpaper": "./img/0.jpg",
 	"logo": "./img/pg.gif",
-	"spider": "./pg.jar"
+	"spider": "./pg.jar",
+  "warningText": "1"
 }
