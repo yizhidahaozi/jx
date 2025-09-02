@@ -7,7 +7,7 @@
   "图片": "https+://dabaisha.tv/upload/+data-src=\"/upload/&&\"",
   "标题": "title=\"&&\"",
   "副标题": "class=\"public-list-prb hide ft2\">&&<",
-  "链接": "https+://dabaisha.tv/album/+data-src=\"/album/&&\"",
+  "链接": "href=\"&&\"",
   "线路数组": "<h2&&</h2>",
   "播放二次截取": "class=\"anthology-list top20 select-a\"&&</div>",
   "播放数组": "class=\"anthology-list-play&&</ul>",
