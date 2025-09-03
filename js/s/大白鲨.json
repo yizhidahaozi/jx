@@ -2,7 +2,7 @@
   "站名": "大白鲨",
   "主页url": "https://dabaisha.tv/",
   "编码": "UTF-8",
-  "分类url": "https://dabaisha.tv/{cateId}/explore/page-{lang}-area-{area}-by-{by}-class-{class}-year-{year}.html",
+  "分类url": "https://dabaisha.tv/{cateId}/explore/page-{catePg}-area-{area}-by-{by}-class-{class}-year-{year}.html",
   "数组": "class=\"public-list-exp\"&&</div>",
   "图片": "https+://dabaisha.tv/upload/+data-src=\"/upload/&&\"",
   "标题": "title=\"&&\"",
