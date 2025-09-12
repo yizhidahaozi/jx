@@ -174,9 +174,9 @@
             "api": "csp_AppQi",
             "ext": {
                 "url": "",
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
-                "dataKey": "Z98KXaLtO2wC1Pte",
-                "dataIv": "Z98KXaLtO2wC1Pte",
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+                "dataKey": "da61247f5b662597",
+                "dataIv": "da61247f5b662597",
                 "deviceId": "",
                 "version": "120"
             }
@@ -213,18 +213,18 @@
             }
         },
         {
-            "key": "仓鼠",
-            "name": "仓鼠丨APP",
+            "key": "爱看",
+            "name": "爱看丨APP",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppQi",
+            "api": "csp_AppGet",
             "ext": {
-                "url": "",
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-                "dataKey": "da61247f5b662597",
-                "dataIv": "da61247f5b662597",
+                "url": "https://aikan.my",
+                "site": "",
+                "dataKey": "hzxjRSmyTmSE4ENE",
+                "dataIv": "hzxjRSmyTmSE4ENE",
                 "deviceId": "",
-                "version": "120",
+                "version": "",
                 "ua": ""
             }
         },
@@ -2089,7 +2089,7 @@
             ]
         },
         {
-            "name": "磁力",
+            "name": "磁力广告",
             "hosts": [
                 "magnet"
             ],
