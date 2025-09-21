@@ -6,16 +6,13 @@ on:
  
   workflow_dispatch:
 
-env:
-  DEPLOY_TRIGGER_BRANCH: ${{ github.event.inputs.deploy_branch || 'main' }}
-
 permissions:
   contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: "pages-${{ env.DEPLOY_TRIGGER_BRANCH }}"
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
