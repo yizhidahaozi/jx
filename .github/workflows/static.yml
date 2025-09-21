@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-   DEPLOY_TRIGGER_BRANCH: ${{ github.event.inputs.deploy_branch || 'main' }}
+  DEPLOY_TRIGGER_BRANCH: ${{ github.event.inputs.deploy_branch || 'main' }}
 
 permissions:
   contents: read
