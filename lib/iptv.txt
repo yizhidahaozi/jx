@@ -1597,7 +1597,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8$LR•IPV4•6『线路6』
 重庆卫视,http://36.32.174.67:60080/newlive/live/hls/34/live.m3u8$LR•IPV4•68『线路48』
 重庆卫视,http://a21709.tv.netsite.cc/proxy/562106987/562106987.m3u8$LR•IPV4•68『线路49』
 重庆卫视,http://220.192.12.20:8003/udp/225.0.4.187:7980?$LR•IPV4•68『线路50』
-重庆卫视,http://p.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202509211317/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•68『线路51』
+重庆卫视,http://p.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202509211547/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•68『线路51』
 重庆卫视,http://iptv.huuc.edu.cn/hls/cqhd.m3u8$LR•IPV4•68『线路52』
 重庆卫视,http://112.27.235.94:8000/hls/36/index.m3u8$LR•IPV4•68『线路53』
 重庆卫视,http://39.134.65.75/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8$LR•IPV4•68『线路54』
