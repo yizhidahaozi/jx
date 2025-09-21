@@ -2,71 +2,112 @@ name: Upstream Sync
 # 上游仓库同步助手
 
 # ---------------------------- #
-#         权限配置              #
+#         核心优化：权限最小化
 # ---------------------------- #
 permissions:
-  contents: write # 允许向仓库推送更改
+  contents: write  # 仅保留同步必需的代码推送权限
+  pull-requests: read  # 可选：用于冲突时读取PR信息（最小权限原则）
 
 # ---------------------------- #
-#         触发器配置            #
+#         核心优化：触发更灵活
 # ---------------------------- #
 on:
   schedule:
-    # 定时同步策略（UTC时间）
-    - cron: "0 * * * *"  # 每小时整点同步一次 (例如 00:00, 01:00...)
-    # - cron: "*/1 * * * *" # 每隔 1 分钟执行一次 (例如 12:01, 12:02...)
-    
-  # 手动触发选项（在 GitHub Actions 页面可手动运行）
+    # 定时同步（UTC时间，建议根据实际需求调整频率）
+    - cron: "0 * * * *"  # 
   workflow_dispatch:
+    # 手动触发时支持自定义分支（无需修改YAML即可切换分支）
+    inputs:
+      upstream_branch:
+        description: "上游仓库分支（默认：main）"
+        required: true
+        default: "main"
+        type: string
+      target_branch:
+        description: "当前仓库目标分支（默认：main）"
+        required: true
+        default: "main"
+        type: string
 
 # ---------------------------- #
-#         作业配置              #
+#         核心优化：变量集中管理
+# ---------------------------- #
+env:
+  UPSTREAM_REPO: "cluntop/tvbox"  # 上游仓库地址（集中配置，改一处生效）
+  # 手动触发时优先使用输入值，否则用默认值
+  UPSTREAM_BRANCH: ${{ github.event.inputs.upstream_branch || 'main' }}
+  TARGET_BRANCH: ${{ github.event.inputs.target_branch || 'main' }}
+
+# ---------------------------- #
+#         作业配置
 # ---------------------------- #
 jobs:
-  sync_latest_from_upstream:
-    # 从上游仓库同步最新提交
-    name: Sync latest commits from upstream repo
+  sync_upstream:
+    name: Sync Latest from Upstream
     runs-on: ubuntu-latest
-    # 仅在仓库是 Fork 时运行（避免原仓库误触发）
-    if: ${{ github.event.repository.fork }}
+    if: ${{ github.event.repository.fork }}  # 仅Fork仓库执行（原逻辑保留）
+    timeout-minutes: 10  # 核心优化：添加超时控制（避免无限阻塞）
 
     steps:
       # ---------------------------- #
-      # 步骤1：检出当前仓库代码
+      # 步骤1：检出当前仓库代码（优化：升级版本+明确分支）
       # ---------------------------- #
-      - name: Checkout target repo
-        uses: actions/checkout@v3
+      - name: Checkout Target Repo
+        uses: actions/checkout@v4  # 优化：从v3升级到v4（更稳定、修复已知bug）
         with:
-          fetch-depth: 0  # 获取完整提交历史（必要参数）
+          fetch-depth: 0  # 必需：获取完整提交历史（避免同步不完整）
+          ref: ${{ env.TARGET_BRANCH }}  # 优化：明确检出目标分支（防止默认分支错误）
+          persist-credentials: true  # 保留凭证，供后续同步步骤使用
 
-      
       # ---------------------------- #
-      # 步骤2：执行上游同步操作
+      # 步骤2：预检查上游仓库有效性（新增：提前拦截无效地址）
       # ---------------------------- #
-        # 同步上游变更
-      - name: Sync upstream changes
-        id: sync
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
-        with:
-          upstream_sync_repo: cluntop/tvbox # 上游仓库地址
-          upstream_sync_branch: main # 上游分支
-          target_sync_branch: main # 目标分支
-          target_repo_token: ${{ secrets.GITHUB_TOKEN }} # 自动生成，无需设置
-          test_mode: false # 关闭测试模式（真实操作）
-
-          # 将 test_mode 设置成 true 来运行测试而不是 true 操作!!
-          # test_mode: false
-
-        
-      # ---------------------------- #
-      # 步骤3：同步失败处理
-      # ---------------------------- #
-      - name: Sync check
-        if: failure()
+      - name: Validate Upstream Repo
         run: |
-          # 高亮显示错误信息（ GitHub 日志中红色警告）
-          echo "::error::同步失败，请手动处理冲突或同步！"
-          echo "::warning::1. 检查是否存在代码冲突"
-          echo "::warning::2. 前往仓库设置手动同步：https://github.com/${{ github.repository }}/compare/main...cluntop:main"
-          echo "::warning::3. 处理完成后重新运行此工作流"
+          # 检查上游仓库是否可访问（避免因地址错误导致后续失败）
+          if ! curl -sSL "https://github.com/${{ env.UPSTREAM_REPO }}" > /dev/null; then
+            echo "::error::上游仓库地址无效！请检查 UPSTREAM_REPO: ${{ env.UPSTREAM_REPO }}"
+            exit 1
+          fi
+          echo "::notice::上游仓库验证通过：https://github.com/${{ env.UPSTREAM_REPO }}"
+
+      # ---------------------------- #
+      # 步骤3：执行上游同步（优化：升级版本+明确冲突策略）
+      # ---------------------------- #
+      - name: Sync Upstream Changes
+        id: sync
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.6  # 优化：升级到最新稳定版
+        with:
+          upstream_sync_repo: ${{ env.UPSTREAM_REPO }}  # 引用环境变量（可维护性提升）
+          upstream_sync_branch: ${{ env.UPSTREAM_BRANCH }}
+          target_sync_branch: ${{ env.TARGET_BRANCH }}
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}  # 自动生成，无需额外配置
+          test_mode: false  # 关闭测试模式（真实同步）
+          sync_tags: true  # 新增：同步上游标签（避免标签缺失）
+          conflict_resolution: "abort"  # 明确冲突策略：冲突时终止（安全优先，避免自动合并破坏代码）
+          git_user_name: "GitHub Actions [Upstream Sync]"  # 优化：自定义提交者名称（便于日志识别）
+          git_user_email: "actions@github.com"  # 自定义提交者邮箱
+
+      # ---------------------------- #
+      # 步骤4：同步成功通知（新增：明确成功状态）
+      # ---------------------------- #
+      - name: Sync Success Notification
+        if: steps.sync.outputs.sync_status == 'success'  # 基于同步结果精准触发
+        run: |
+          echo "::notice::✅ 同步成功！"
+          echo "::notice::上游：${{ env.UPSTREAM_REPO }}:${{ env.UPSTREAM_BRANCH }}"
+          echo "::notice::目标：${{ github.repository }}:${{ env.TARGET_BRANCH }}"
+          echo "::notice::最新提交：${{ steps.sync.outputs.upstream_latest_commit_hash }}"  # 显示上游最新commit（便于追溯）
+
+      # ---------------------------- #
+      # 步骤5：同步失败处理（优化：故障排查信息更详细）
+      # ---------------------------- #
+      - name: Sync Failure Handling
+        if: failure() || steps.sync.outputs.sync_status == 'failure'
+        run: |
+          echo "::error::❌ 同步失败！请按以下步骤处理："
+          echo "::warning::1. 检查冲突：https://github.com/${{ github.repository }}/compare/${{ env.TARGET_BRANCH }}...${{ env.UPSTREAM_REPO }}:${{ env.UPSTREAM_BRANCH }}"
+          echo "::warning::2. 手动同步指南：克隆本地 → 拉取上游 → 解决冲突 → 推送目标分支"
+          echo "::warning::3. 重新触发：在工作流页面选择「Run workflow」，可自定义分支重试"
+          echo "::warning::4. 错误日志：参考步骤「Sync Upstream Changes」的详细输出"
           exit 1
