@@ -1,4 +1,4 @@
-name: Deploy Static Content to Pages
+name: Update Deploy to Pages
 
 on:
   push:
