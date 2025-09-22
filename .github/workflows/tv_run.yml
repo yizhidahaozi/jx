@@ -22,6 +22,12 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Delete old records
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0       # 保留 0 天的记录
+        keep_minimum_runs: 0 # 至少保留 0 次记录
+
     # 设置 Python 环境
     - name: Set up Python
       uses: actions/setup-python@v5
