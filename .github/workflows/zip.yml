@@ -6,14 +6,19 @@ on:
     # - cron: '0 0 * * *'  # 每天UTC时间00:00运行
   workflow_dispatch:     # 允许手动触发
 
-permissions:
-  contents: read  # 原有权限（如有）保留
-  actions: write
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
+    - name: Delete old records
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0       # 保留 0 天的记录
+        keep_minimum_runs: 0 # 至少保留 0 次记录
 
     - name: Checkout target repo
       uses: actions/checkout@v4
@@ -22,12 +27,6 @@ jobs:
         token: ${{ secrets.GIT_TOKEN }}
         path: target-repo
         depth: 1
-
-    - name: Delete old records
-      uses: Mattraks/delete-workflow-runs@main
-      with:
-        retain_days: 0       # 保留 0 天的记录
-        keep_minimum_runs: 0 # 至少保留 0 次记录
 
     - name: wget the xiaosa 
       run: |
