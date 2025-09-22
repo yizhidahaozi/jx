@@ -1,5 +1,9 @@
 name: Update data m3u
 
+permissions:
+  contents: read
+  actions: write
+
 # 触发条件
 on:
   schedule:
