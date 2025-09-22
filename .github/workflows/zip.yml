@@ -1,5 +1,9 @@
 name: Update zip package
 
+permissions:
+  contents: read
+  actions: write
+
 on:
   schedule:
     - cron: '0 * * * *'  # 每小时自动处理运行
