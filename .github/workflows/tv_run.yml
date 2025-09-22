@@ -1,5 +1,4 @@
-name: Grabbing iptv data m3u
-# https://github.com/qq254950134/my-iptv
+name: Update data m3u
 
 # 触发条件
 on:
@@ -7,10 +6,8 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch: # 允许手动触发
 
-permissions:
-  contents: write # 确保 GITHUB_TOKEN 具有写入权限
-
 env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   TZ: Asia/Shanghai # 设置时区为北京时间
 
 jobs:
@@ -18,15 +15,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 检出项目仓库
-    - name: Checkout repository
-      uses: actions/checkout@v4
 
     - name: Delete old records
       uses: Mattraks/delete-workflow-runs@main
       with:
         retain_days: 0       # 保留 0 天的记录
         keep_minimum_runs: 0 # 至少保留 0 次记录
+
+    # 检出项目仓库
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
     # 设置 Python 环境
     - name: Set up Python
@@ -46,8 +44,8 @@ jobs:
         python py/get_iptv.py
 
     # 列出当前目录中的文件
-    #- name: List files in workspace
-    #  run: ls -la
+    - name: List files in workspace
+      run: ls -la
 
     # 检查 Git 状态，确保文件已经被添加
     - name: Git status
