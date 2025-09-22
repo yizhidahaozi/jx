@@ -1,5 +1,9 @@
 name: I love working
 
+permissions:
+  contents: read
+  actions: write
+
 on:
   schedule:
     - cron: '0 * * * *'
