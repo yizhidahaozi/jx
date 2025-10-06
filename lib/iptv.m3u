@@ -397,7 +397,7 @@ http://58.57.40.22:9901/tsfile/live/1003_1.m3u8$LR•IPV4•60『线路40』
 #EXTINF:-1 tvg-id="41" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
 https://cc06.tv12.xyz/4.m3u8$LR•IPV4•60『线路41』
 #EXTINF:-1 tvg-id="42" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1759795335-1-pcs8e1c474b4bbd4b8ea7bdb867139509c7-ebab449b4d8e7f7b0783b2ff6328c1b1&yid=pcs8e1c474b4bbd4b8ea7bdb867139509c7$LR•IPV4•60『线路42』
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1759798974-1-pcs4ff9e46523774200b974e49b638a6415-d7546589df47ab95eeb42c8a1bef7160&yid=pcs4ff9e46523774200b974e49b638a6415$LR•IPV4•60『线路42』
 #EXTINF:-1 tvg-id="43" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
 http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8$LR•IPV4•60『线路43』
 #EXTINF:-1 tvg-id="44" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
@@ -2549,7 +2549,7 @@ http://58.57.40.22:9901/tsfile/live/1029_1.m3u8$LR•IPV4•87『线路66』
 #EXTINF:-1 tvg-id="67" tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$LR•IPV4•87『线路67』
 #EXTINF:-1 tvg-id="68" tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
-http://zwebl02.cztv.com/live/channel01720Pnew.m3u8?auth_key=1759738861-2246516d8022cf771dbedf326e0103a3-0-1b094fd39a7db31edaa25902ec355959$LR•IPV4•87『线路68』
+http://zwebl02.cztv.com/live/channel01720Pnew.m3u8?auth_key=1759742470-44f711b032f818d03926aead7b9e55d7-0-80ce18d8fb9c09e552299ae10b20364e$LR•IPV4•87『线路68』
 #EXTINF:-1 tvg-id="69" tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
 http://iptv.huuc.edu.cn/hls/zjhd.m3u8$LR•IPV4•87『线路69』
 #EXTINF:-1 tvg-id="70" tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
@@ -3213,7 +3213,7 @@ https://cc06.tv12.xyz/34.m3u8$LR•IPV4•69『线路48』
 #EXTINF:-1 tvg-id="49" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
 http://220.192.12.20:8003/udp/225.0.4.187:7980?$LR•IPV4•69『线路49』
 #EXTINF:-1 tvg-id="50" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
-http://p2.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202510061531/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•69『线路50』
+http://p2.ytelc.com/videojs.php?id=https://sjlivecdn9.cbg.cn/202510061745/app_2/_definst_/ls_2.stream/chunklist.m3u8$LR•IPV4•69『线路50』
 #EXTINF:-1 tvg-id="51" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
 http://iptv.huuc.edu.cn/hls/cqhd.m3u8$LR•IPV4•69『线路51』
 #EXTINF:-1 tvg-id="52" tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
