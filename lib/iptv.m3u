@@ -327,7 +327,7 @@ http://58.57.40.22:9901/tsfile/live/1003_1.m3u8$LR•IPV4•52『线路32』
 #EXTINF:-1 tvg-id="33" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
 https://cc06.tv12.xyz/4.m3u8$LR•IPV4•52『线路33』
 #EXTINF:-1 tvg-id="34" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1760050961-1-pcs818e64bc49024cbfa0406ffe87827f54-b1e2b862f1c68bf9dfccb1be19fab648&yid=pcs818e64bc49024cbfa0406ffe87827f54$LR•IPV4•52『线路34』
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1760054509-1-pcsa5a9e020c4794bfabc3a15e9cfdd5365-8638c93a3a288c084514be6fc26eb40b&yid=pcsa5a9e020c4794bfabc3a15e9cfdd5365$LR•IPV4•52『线路34』
 #EXTINF:-1 tvg-id="35" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
 http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8$LR•IPV4•52『线路35』
 #EXTINF:-1 tvg-id="36" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
@@ -2241,7 +2241,7 @@ http://58.57.40.22:9901/tsfile/live/1029_1.m3u8$LR•IPV4•85『线路64』
 #EXTINF:-1 tvg-id="65" tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$LR•IPV4•85『线路65』
 #EXTINF:-1 tvg-id="66" tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
-http://zwebl02.cztv.com/live/channel01720Pnew.m3u8?auth_key=1759995271-e76234237ff55807d75aeb16b24b6ef2-0-0e4527c1c6b9ac1b6d962ca2420798db$LR•IPV4•85『线路66』
+http://zwebl02.cztv.com/live/channel01720Pnew.m3u8?auth_key=1759998899-450408614032f0a047259d1fe66aa9b7-0-16a3a33275c288c74471a0050ab85060$LR•IPV4•85『线路66』
 #EXTINF:-1 tvg-id="67" tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
 http://iptv.huuc.edu.cn/hls/zjhd.m3u8$LR•IPV4•85『线路67』
 #EXTINF:-1 tvg-id="68" tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
