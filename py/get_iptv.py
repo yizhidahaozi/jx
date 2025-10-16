@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 tv_urls = [
     "https://qu.ax/vUBde.txt",
     "https://m3u.ibert.me/fmml_ipv6.m3u",
-    "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt",
+    "https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/gd/output/result.m3u",
     "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.m3u",
     "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
     "https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.m3u",
@@ -20,8 +20,8 @@ tv_urls = [
     "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
     "https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u",
     "https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u",
-    "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
-    "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+    "",
+    "",
 ]
 
 def parse_template(template_file):
