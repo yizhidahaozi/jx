@@ -205,7 +205,63 @@ def is_ipv6(url):
     return re.match(r"^http:\/\/\[[0-9a-fA-F:]+\]", url) is not None
 
 def generate_outputs(channels, template_channels):
-    # 添加调试信息
+
+    written_urls = set()
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    
+    with open("lib/iptv.m3u", "w", encoding="utf-8") as m3u, \
+         open("lib/iptv.txt", "w", encoding="utf-8") as txt:
+
+        # 写入 M3U 头
+        m3u.write("#EXTM3U x-tvg-url=\"\"\n")
+        
+        total_count = 0
+        for category in template_channels:
+            if category not in channels:
+                continue
+
+            txt.write(f"\n{category},#genre#\n")
+            for name in template_channels[category]:
+                primary_name = name.split("|")[0].strip()
+                channel_data_list = channels[category].get(primary_name, [])
+
+                # URL 去重
+                unique_channels = []
+                seen_urls = set()
+                for channel_data in channel_data_list:
+                    url = channel_data['url']
+                    if url and url not in seen_urls and url not in written_urls:
+                        seen_urls.add(url)
+                        unique_channels.append(channel_data)
+
+                if not unique_channels:
+                    continue
+
+                # 格式化输出
+                total = len(unique_channels)
+                for idx, channel_data in enumerate(unique_channels, 1):
+                    url = channel_data['url']
+                    tvg_name = channel_data['tvg_name']
+                    tvg_logo = channel_data['tvg_logo']
+                    group_title = channel_data['group_title']
+                    
+                    # 构建后缀
+                    suffix = "$LR•" + ("IPV6" if is_ipv6(url) else "IPV4")
+                    if total > 1:
+                        suffix += f"•{total}『线路{idx}』"
+                    final_url = f"{url}{suffix}"
+
+                    # 写入 M3U 条目
+                    logo_attr = f' tvg-logo="{tvg_logo}"' if tvg_logo else ""
+                    m3u.write(f'#EXTINF:-1 tvg-id="{tvg_name}" tvg-name="{tvg_name}"{logo_attr} group-title="{group_title}",{primary_name}\n')
+                    m3u.write(f"{final_url}\n")
+                    
+                    # 写入 TXT 条目
+                    txt.write(f"{primary_name},{final_url}\n")
+                    
+                    written_urls.add(url)
+                    total_count += 1
+
     print("=== 频道处理调试信息 ===")
     total_matched_categories = 0
     total_matched_channels = 0
@@ -221,11 +277,7 @@ def generate_outputs(channels, template_channels):
     
     print(f"总计: {total_matched_categories} 个分类匹配成功，{total_matched_channels} 个频道待处理")
     print("========================")
-    
-    # 原有代码继续...
-    written_urls = set()
-    current_date = datetime.now().strftime("%Y-%m-%d")
-
+ 
 def filter_sources(template_file):
     template = parse_template(template_file)
     all_channels = OrderedDict()
