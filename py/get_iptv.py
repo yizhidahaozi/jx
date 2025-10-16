@@ -52,13 +52,11 @@ def fetch_channels(url):
         response = requests.get(url, timeout=120)
         response.raise_for_status()
         response.encoding = "utf-8"
-        if response.status_code == 200:
-                return response.text
+        if response.status_code != 200:
             print(f"从 {url} 获取数据失败，状态码: {response.status_code}")
-        except requests.exceptions.RequestException as e:
-            print(f"请求 {url} 时发生错误: {e}")
-        return None
+            return None
         
+        lines = response.text.split("\n")
         is_m3u = any("#EXTINF" in line for line in lines[:5])
         current_category = None
 
@@ -90,8 +88,11 @@ def fetch_channels(url):
                         channels[current_category].append((name.strip(), url.strip()))
         return channels
 
+    except requests.exceptions.RequestException as e:
+        print(f"请求 {url} 时发生错误: {e}")
+        return OrderedDict()
     except Exception as e:
-        print(f"Error fetching {url}: {str(e)}")
+        print(f"处理 {url} 时发生未知错误: {str(e)}")
         return OrderedDict()
 
 def match_channels(template_channels, all_channels):
