@@ -53,10 +53,11 @@ def fetch_channels(url):
         response.raise_for_status()
         response.encoding = "utf-8"
         if response.status_code == 200:
-                lines = response.text.split("\n")
+                return response.text
             print(f"从 {url} 获取数据失败，状态码: {response.status_code}")
         except requests.exceptions.RequestException as e:
             print(f"请求 {url} 时发生错误: {e}")
+        return None
         
         is_m3u = any("#EXTINF" in line for line in lines[:5])
         current_category = None
