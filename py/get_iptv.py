@@ -20,7 +20,7 @@ tv_urls = [
     "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
     "https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u",
     "https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u",
-    "",
+    "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
     "",
 ]
 
