@@ -116,7 +116,7 @@ def fetch_channels(url):
                             'tvg_name': channel_info['tvg_name'] or channel_info['name'],
                             'tvg_logo': channel_info['tvg_logo'],
                             'group_title': channel_info['group_title'] or current_category or "Default",
-                            'display_name': channel_info['name']
+                            'display_name': channel_info['tvg_name']
                         })
 
         else:
