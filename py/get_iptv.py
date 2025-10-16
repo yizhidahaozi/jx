@@ -102,7 +102,7 @@ def fetch_channels(url):
                             'tvg_name': tvg_name or channel_name,
                             'tvg_logo': tvg_logo,
                             'group_title': group_title or current_category or "Default",
-                            'display_name': channel_name
+                            'display_name': tvg_name
                         }
                         
                         if group_title not in channels:
@@ -125,7 +125,7 @@ def fetch_channels(url):
                             'tvg_name': name.strip(),
                             'tvg_logo': "",
                             'group_title': current_category,
-                            'display_name': name.strip()
+                            'display_name': tvg_name.strip()
                         }
                         channels[current_category].append(channel_data)
 
