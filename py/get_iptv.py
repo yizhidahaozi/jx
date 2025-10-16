@@ -54,21 +54,61 @@ def fetch_channels(url):
         current_category = None
 
         if is_m3u:
-            channel_name = ""
+            # 增强正则表达式以同时捕获 tvg-name 和 group-title
+            extinf_pattern = re.compile(
+                r'#EXTINF:-1\s*'
+                r'(?:tvg-id="[^"]*"\s*)?'
+                r'(?:tvg-name="([^"]*)"\s*)?'  # 捕获 tvg-name
+                r'(?:tvg-logo="[^"]*"\s*)?'
+                r'(?:group-title="([^"]*)"\s*)?'  # 捕获 group-title
+                r',(.*)'  # 捕获显示名称
+            )
+            
+            tvg_name = None
+            display_name = None
+            channel_url = None
+            
             for line in lines:
                 line = line.strip()
+                if not line:
+                    continue
+                    
                 if line.startswith("#EXTINF"):
-                    match = re.search(r'group-title="(.*?)",(.*)', line)
+                    # 解析 EXTINF 行
+                    match = extinf_pattern.match(line)
                     if match:
-                        current_category = match.group(1).strip()
-                        channel_name = match.group(2).strip()
+                        # 提取捕获组
+                        tvg_name = match.group(1)  # tvg-name
+                        group_title = match.group(2)  # group-title
+                        display_name = match.group(3).strip()  # 显示名称
+                        
+                        # 优先使用 group-title，如果没有则保持之前的分类
+                        if group_title:
+                            current_category = group_title.strip()
+                            
+                        # 如果还没有分类，使用默认分类
+                        if not current_category:
+                            current_category = "默认"
+                            
+                        # 初始化分类列表（如需要）
                         if current_category not in channels:
                             channels[current_category] = []
-                elif line and not line.startswith("#"):
-                    if current_category and channel_name:
-                        channels[current_category].append((channel_name, line))
-                        channel_name = ""
+                    
+                elif not line.startswith("#") and line:
+                    # 处理 URL 行
+                    channel_url = line
+                    if current_category and display_name:
+                        # 优先使用 tvg-name，如果没有则使用显示名称
+                        chan_name = tvg_name.strip() if tvg_name else display_name
+                        channels[current_category].append((chan_name, channel_url))
+                        
+                        # 重置变量
+                        tvg_name = None
+                        display_name = None
+                        channel_url = None
+
         else:
+            # 非 M3U 格式处理
             for line in lines:
                 line = line.strip()
                 if "#genre#" in line:
@@ -79,6 +119,7 @@ def fetch_channels(url):
                     if len(parts) == 2:
                         name, url = parts
                         channels[current_category].append((name.strip(), url.strip()))
+        
         return channels
 
     except requests.exceptions.RequestException as e:
