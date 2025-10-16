@@ -152,6 +152,15 @@ def generate_outputs(channels, template_channels):
                     total_count += 1
 
         print(f"频道处理完成，总计有效频道数：{total_count}")
+        try:
+            response = requests.get(url, timeout=10)
+            response.encoding = 'utf-8'
+            if response.status_code == 200:
+                return response.text
+            print(f"从 {url} 获取数据失败，状态码: {response.status_code}")
+        except requests.exceptions.RequestException as e:
+            print(f"请求 {url} 时发生错误: {e}")
+        return None
 
 def filter_sources(template_file):
     template = parse_template(template_file)
