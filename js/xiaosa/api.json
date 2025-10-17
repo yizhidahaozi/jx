@@ -240,6 +240,21 @@
             }
         },
         {
+            "key": "星空",
+            "name": "星空｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://xkcms.xkgzs.xyz",
+                "site": "",
+                "dataKey": "AJcdjkAjkdJDkvcd",
+                "dataIv": "AJcdjkAjkdJDkvcd",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "于浅",
             "name": "于浅｜APP",
             "type": 3,
