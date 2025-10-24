@@ -15,8 +15,8 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8$LR•IP
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV-7 国防军事" group-title="自用",CCTV-7 国防军事
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="8" tvg-name="CCTV-8K 超高清" group-title="自用",CCTV-8K 超高清
-https://tv.cry33.com/ys4k.php?id=8k$LR•IPV4
+#EXTINF:-1 tvg-id="8" tvg-name="CCTV-8 电视剧" group-title="自用",CCTV-8 电视剧
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV-9 纪录" group-title="自用",CCTV-9 纪录
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV-10 科教" group-title="自用",CCTV-10 科教
@@ -35,47 +35,49 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8$LR•IP
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV-17 农业农村" group-title="自用",CCTV-17 农业农村
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="18" tvg-name="CCTV-4" group-title="自用",CCTV-4
-http://php.jdshipin.com/TVOD/hljyd.php?id=3221226428$LR•IPV4
-#EXTINF:-1 tvg-id="19" tvg-name="CCTV-8" group-title="自用",CCTV-8
-http://1.31.14.70:54321/hls/14/index.m3u8$LR•IPV4
+#EXTINF:-1 tvg-id="18" tvg-name="CCTV-4K" group-title="自用",CCTV-4K
+https://live.mxdyeah.top/live.php?id=CCTV4K$LR•IPV4
+#EXTINF:-1 tvg-id="19" tvg-name="CCTV8" group-title="自用",CCTV8
+http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4
 #EXTINF:-1 tvg-id="20" tvg-name="CCTV1" group-title="自用",CCTV1
 http://112.27.235.94:8000/hls/1/index.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="21" tvg-name="第一剧场" group-title="自用",第一剧场
-https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="22" tvg-name="怀旧剧场" group-title="自用",怀旧剧场
-https://cc06.tv12.xyz/52.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="23" tvg-name="风云剧场" group-title="自用",风云剧场
-https://hls-gateway.vpstv.net/streams/708861.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="24" tvg-name="风云音乐" group-title="自用",风云音乐
-https://hls-gateway.vpstv.net/streams/708858.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="25" tvg-name="兵器科技" group-title="自用",兵器科技
-https://hls-gateway.vpstv.net/streams/708856.m3u8$LR•IPV4
+#EXTINF:-1 tvg-id="21" tvg-name="CCTV第一剧场" group-title="自用",CCTV第一剧场
+https://live.mxdyeah.top/live.php?id=diyijuchangHD$LR•IPV4
+#EXTINF:-1 tvg-id="22" tvg-name="CCTV怀旧剧场" group-title="自用",CCTV怀旧剧场
+https://live.mxdyeah.top/live.php?id=hjjcHD$LR•IPV4
+#EXTINF:-1 tvg-id="23" tvg-name="CCTV风云剧场" group-title="自用",CCTV风云剧场
+https://live.mxdyeah.top/live.php?id=fyjcHD$LR•IPV4
+#EXTINF:-1 tvg-id="24" tvg-name="CCTV风云音乐" group-title="自用",CCTV风云音乐
+https://live.mxdyeah.top/live.php?id=fyyyHD$LR•IPV4
+#EXTINF:-1 tvg-id="25" tvg-name="CCTV兵器科技" group-title="自用",CCTV兵器科技
+https://live.mxdyeah.top/live.php?id=bqkjHD$LR•IPV4
 #EXTINF:-1 tvg-id="26" tvg-name="CCTV老故事" group-title="自用",CCTV老故事
 http://mg.hmysapp.cn:177/ckmg/zb.php?id=lgs$LR•IPV4
-#EXTINF:-1 tvg-id="27" tvg-name="高尔夫网球" group-title="自用",高尔夫网球
-https://hls-gateway.vpstv.net/streams/708857.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="28" tvg-name="央视台球" group-title="自用",央视台球
-http://[2409:8087:7001:20:2::3]/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226956/index.m3u8$LR•IPV6
-#EXTINF:-1 tvg-id="29" tvg-name="女性时尚" group-title="自用",女性时尚
-https://cc06.tv12.xyz/95.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="30" tvg-name="电视指南" group-title="自用",电视指南
-https://cc06.tv12.xyz/39.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="31" tvg-name="文化精品" group-title="自用",文化精品
+#EXTINF:-1 tvg-id="27" tvg-name="CCTV风云足球" group-title="自用",CCTV风云足球
+https://live.mxdyeah.top/live.php?id=fyzqHD$LR•IPV4
+#EXTINF:-1 tvg-id="28" tvg-name="CCTV高尔夫网球" group-title="自用",CCTV高尔夫网球
+http://43.152.25.114:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/golfHD/__op/default/__f/index.m3u8$LR•IPV4
+#EXTINF:-1 tvg-id="29" tvg-name="CCTV央视台球" group-title="自用",CCTV央视台球
+https://live.mxdyeah.top/live.php?id=ystqHD$LR•IPV4
+#EXTINF:-1 tvg-id="30" tvg-name="CCTV女性时尚" group-title="自用",CCTV女性时尚
+http://sh.lnott.top:880/dx105.m3u8$LR•IPV4
+#EXTINF:-1 tvg-id="31" tvg-name="CCTV电视指南" group-title="自用",CCTV电视指南
+http://sh.lnott.top:880/dx97.m3u8$LR•IPV4
+#EXTINF:-1 tvg-id="32" tvg-name="文化精品" group-title="自用",文化精品
 https://hls-gateway.vpstv.net/streams/708832.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="32" tvg-name="世界地理" group-title="自用",世界地理
-http://[2409:8087:7001:20:2::3]/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226947/index.m3u8$LR•IPV6
-#EXTINF:-1 tvg-id="33" tvg-name="CCTV发现之旅" group-title="自用",CCTV发现之旅
+#EXTINF:-1 tvg-id="33" tvg-name="CCTV世界地理" group-title="自用",CCTV世界地理
+http://sh.lnott.top:880/dx72.m3u8$LR•IPV4
+#EXTINF:-1 tvg-id="34" tvg-name="CCTV发现之旅" group-title="自用",CCTV发现之旅
 http://mg.hmysapp.cn:177/ckmg/zb.php?id=fxzl$LR•IPV4
-#EXTINF:-1 tvg-id="34" tvg-name="CCTV-卫生健康" group-title="自用",CCTV-卫生健康
+#EXTINF:-1 tvg-id="35" tvg-name="CCTV-卫生健康" group-title="自用",CCTV-卫生健康
 http://nas.hssvm.com:8888/udp/225.1.1.210:5002$LR•IPV4
-#EXTINF:-1 tvg-id="35" tvg-name="中国天气" group-title="自用",中国天气
+#EXTINF:-1 tvg-id="36" tvg-name="中国天气" group-title="自用",中国天气
 http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="36" tvg-name="CCTV中学生" group-title="自用",CCTV中学生
+#EXTINF:-1 tvg-id="37" tvg-name="CCTV中学生" group-title="自用",CCTV中学生
 http://mg.hmysapp.cn:177/ckmg/zb.php?id=zxs$LR•IPV4
-#EXTINF:-1 tvg-id="37" tvg-name="CETV-1" group-title="自用",CETV-1
+#EXTINF:-1 tvg-id="38" tvg-name="CETV-1" group-title="自用",CETV-1
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="38" tvg-name="CETV-2" group-title="自用",CETV-2
+#EXTINF:-1 tvg-id="39" tvg-name="CETV-2" group-title="自用",CETV-2
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="39" tvg-name="CETV-4" group-title="自用",CETV-4
+#EXTINF:-1 tvg-id="40" tvg-name="CETV-4" group-title="自用",CETV-4
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8$LR•IPV4
