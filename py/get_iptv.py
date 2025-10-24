@@ -129,7 +129,7 @@ def match_channels(template_channels, all_channels):
             name_variants = [n.strip() for n in name.split("|") if n.strip()]
             primary_name = name_variants[0] if name_variants else name
             
-            found = True
+            found = False
             for src_category, channels in all_channels.items():
                 for chan_name, chan_url in channels:
                     # 检查是否已经使用过这个URL
@@ -142,7 +142,7 @@ def match_channels(template_channels, all_channels):
                         if variant in chan_name or chan_name in variant:
                             matched[category].setdefault(primary_name, []).append((chan_name, chan_url))
                             used_channels.add(channel_key)
-                            found = True
+                            found = False
                             break
                     if found:
                         break
