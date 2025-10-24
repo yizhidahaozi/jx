@@ -3,6 +3,10 @@ import requests
 from collections import OrderedDict
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
+
+# 添加线程锁确保线程安全
+write_lock = threading.Lock()
 
 tv_urls = [
     "https://qu.ax/vUBde.txt",
@@ -47,7 +51,7 @@ def fetch_channels(url):
         response.encoding = "utf-8"
         if response.status_code != 200:
             print(f"从 {url} 获取数据失败，状态码: {response.status_code}")
-            return None
+            return OrderedDict()
 
         lines = response.text.split("\n")
         is_m3u = any("#EXTINF" in line for line in lines[:5])
@@ -55,59 +59,39 @@ def fetch_channels(url):
 
         if is_m3u:
             channel_name = ""
-            tvg_name = ""
-            tvg_logo = ""
-            group_title = ""
+            channel_url = ""
 
             for line in lines:
                 line = line.strip()
 
                 if line.startswith("#EXTINF"):
-                    # 重置变量
-                    channel_name = ""
-                    tvg_name = ""
-                    tvg_logo = ""
-                    group_title = ""
+                    # 更健壮的正则表达式匹配
+                    group_match = re.search(r'group-title="([^"]*)"', line)
+                    name_match = re.search(r',([^,]*)$', line)
                     
-                    # 提取 tvg-name
-                    tvg_name_match = re.search(r'tvg-name="([^"]*)"', line)
-                    if tvg_name_match:
-                        tvg_name = tvg_name_match.group(1).strip()
+                    if group_match:
+                        current_category = group_match.group(1).strip()
+                    else:
+                        # 如果没有group-title，使用默认分类
+                        current_category = "默认分类"
                     
-                    # 提取 tvg-logo
-                    tvg_logo_match = re.search(r'tvg-logo="([^"]*)"', line)
-                    if tvg_logo_match:
-                        tvg_logo = tvg_logo_match.group(1).strip()
-                    
-                    # 提取 group-title
-                    group_title_match = re.search(r'group-title="([^"]*)"', line)
-                    if group_title_match:
-                        group_title = group_title_match.group(1).strip()
-                        current_category = group_title
-                    
-                    # 提取频道名称（最后的部分）
-                    name_match = re.search(r',(.*)$', line)
                     if name_match:
                         channel_name = name_match.group(1).strip()
-                    
-                    # 如果没有获取到 group-title，使用默认分类
-                    if not group_title and current_category:
-                        group_title = current_category
+                    else:
+                        # 如果无法提取频道名称，标记为未知
+                        channel_name = "未知频道"
 
-                elif line and not line.startswith("#"):
-                    if channel_name and line:
-                        # 使用提取的信息构建频道数据
-                        channel_data = {
-                            'url': line.strip(),
-                            'tvg_name': tvg_name or channel_name,
-                            'tvg_logo': tvg_logo,
-                            'group_title': group_title or current_category or "Default",
-                            'display_name': channel_name
-                        }
-                        
-                        if group_title not in channels:
-                            channels[group_title] = []
-                        channels[group_title].append(channel_data)
+                    if current_category not in channels:
+                        channels[current_category] = []
+
+                elif line and not line.startswith("#") and line.startswith("http"):
+                    channel_url = line
+                    if current_category and channel_name:
+                        # 确保频道名称不为空
+                        final_name = channel_name if channel_name and channel_name != "未知频道" else f"频道_{len(channels[current_category])}"
+                        channels[current_category].append((final_name, channel_url))
+                        channel_name = ""
+                        channel_url = ""
 
         else:
             # 非 M3U 格式处理
@@ -116,18 +100,14 @@ def fetch_channels(url):
                 if "#genre#" in line:
                     current_category = line.split(",")[0].strip()
                     channels[current_category] = []
-                elif current_category and line:
+                elif current_category and line and "," in line:
                     parts = line.split(",", 1)
                     if len(parts) == 2:
                         name, url = parts
-                        channel_data = {
-                            'url': url.strip(),
-                            'tvg_name': name.strip(),
-                            'tvg_logo': "",
-                            'group_title': current_category,
-                            'display_name': name.strip()
-                        }
-                        channels[current_category].append(channel_data)
+                        name = name.strip()
+                        url = url.strip()
+                        if name and url:
+                            channels[current_category].append((name, url))
 
         return channels
 
@@ -140,25 +120,39 @@ def fetch_channels(url):
 
 def match_channels(template_channels, all_channels):
     matched = OrderedDict()
+    used_channels = set()  # 记录已使用的频道，避免重复
+    
     for category, names in template_channels.items():
         matched[category] = OrderedDict()
         for name in names:
-            primary_name = name.split("|")[0].strip()
-            matched[category][primary_name] = []
+            # 提取所有可能的名称变体
+            name_variants = [n.strip() for n in name.split("|") if n.strip()]
+            primary_name = name_variants[0] if name_variants else name
             
-            # 在所有频道源中搜索匹配的频道
+            found = False
             for src_category, channels in all_channels.items():
-                for channel_data in channels:
-                    chan_name = channel_data['display_name']
-                    tvg_name = channel_data['tvg_name']
+                for chan_name, chan_url in channels:
+                    # 检查是否已经使用过这个URL
+                    channel_key = f"{chan_name}_{chan_url}"
+                    if channel_key in used_channels:
+                        continue
                     
-                    # 检查是否匹配模板中的任何名称（用 | 分隔）
-                    template_names = [n.strip() for n in name.split("|")]
-                    
-                    if any(template_name in chan_name or template_name in tvg_name 
-                          for template_name in template_names):
-                        matched[category][primary_name].append(channel_data)
-    
+                    # 检查频道名称是否匹配任何变体
+                    for variant in name_variants:
+                        if variant in chan_name or chan_name in variant:
+                            matched[category].setdefault(primary_name, []).append((chan_name, chan_url))
+                            used_channels.add(channel_key)
+                            found = True
+                            break
+                    if found:
+                        break
+                if found:
+                    break
+            
+            # 如果没有找到匹配，创建一个空条目
+            if not found and primary_name not in matched[category]:
+                matched[category][primary_name] = []
+
     return matched
 
 def is_ipv6(url):
@@ -166,67 +160,71 @@ def is_ipv6(url):
 
 def generate_outputs(channels, template_channels):
     written_urls = set()
-    current_date = datetime.now().strftime("%Y-%m-%d")
+    channel_counter = 0
 
-    with open("lib/iptv.m3u", "w", encoding="utf-8") as m3u, \
-         open("lib/iptv.txt", "w", encoding="utf-8") as txt:
+    with write_lock:
+        with open("lib/iptv.m3u", "w", encoding="utf-8") as m3u, \
+             open("lib/iptv.txt", "w", encoding="utf-8") as txt:
 
-        # 写入 M3U 头
-        m3u.write("#EXTM3U x-tvg-url=\"\"\n")
-        
-        total_count = 0
-        for category in template_channels:
-            if category not in channels:
-                continue
+            # 写入M3U头
+            m3u.write("#EXTM3U\n")
 
-            txt.write(f"\n{category},#genre#\n")
-            for name in template_channels[category]:
-                primary_name = name.split("|")[0].strip()
-                channel_data_list = channels[category].get(primary_name, [])
-
-                # URL 去重
-                unique_channels = []
-                seen_urls = set()
-                for channel_data in channel_data_list:
-                    url = channel_data['url']
-                    if url and url not in seen_urls and url not in written_urls:
-                        seen_urls.add(url)
-                        unique_channels.append(channel_data)
-
-                if not unique_channels:
+            for category in template_channels:
+                if category not in channels:
                     continue
 
-                # 格式化输出
-                total = len(unique_channels)
-                for idx, channel_data in enumerate(unique_channels, 1):
-                    url = channel_data['url']
-                    tvg_name = channel_data['tvg_name']
-                    tvg_logo = channel_data['tvg_logo']
-                    group_title = channel_data['group_title']
+                # 在txt文件中写入分类标题
+                txt.write(f"\n{category},#genre#\n")
+                
+                for name in template_channels[category]:
+                    primary_name = name.split("|")[0].strip()
+                    channel_data = channels[category].get(primary_name, [])
                     
-                    # 构建后缀
-                    suffix = "$LR•" + ("IPV6" if is_ipv6(url) else "IPV4")
-                    if total > 1:
-                        suffix += f"•{total}『线路{idx}』"
-                    final_url = f"{url}{suffix}"
+                    if not channel_data:
+                        continue
 
-                    # 写入 M3U 条目
-                    logo_attr = f' tvg-logo="{tvg_logo}"' if tvg_logo else ""
-                    m3u.write(f'#EXTINF:-1 tvg-id="{tvg_name}" tvg-name="{tvg_name}"{logo_attr} group-title="{group_title}",{primary_name}\n')
-                    m3u.write(f"{final_url}\n")
+                    # 去重处理
+                    unique_channels = []
+                    seen_urls = set()
                     
-                    # 写入 TXT 条目
-                    txt.write(f"{primary_name},{final_url}\n")
-                    
-                    written_urls.add(url)
-                    total_count += 1
+                    for chan_name, chan_url in channel_data:
+                        if chan_url not in seen_urls and chan_url not in written_urls:
+                            unique_channels.append((chan_name, chan_url))
+                            seen_urls.add(chan_url)
 
-        print(f"频道处理完成，总计有效频道数：{total_count}")
+                    if not unique_channels:
+                        continue
 
-def filter_sources(template_file):
+                    # 为每个频道生成输出
+                    total = len(unique_channels)
+                    for idx, (chan_name, chan_url) in enumerate(unique_channels, 1):
+                        # 使用获取的频道名称，如果没有则使用模板名称
+                        display_name = chan_name if chan_name and chan_name != "未知频道" else primary_name
+                        
+                        base_url = chan_url.split("$")[0]
+                        suffix = "$LR•" + ("IPV6" if is_ipv6(chan_url) else "IPV4")
+                        if total > 1:
+                            suffix += f"•{total}『线路{idx}』"
+                        final_url = f"{base_url}{suffix}"
+
+                        # 写入M3U条目
+                        m3u.write(f'#EXTINF:-1 tvg-id="{channel_counter}" tvg-name="{display_name}" group-title="{category}",{display_name}\n')
+                        m3u.write(f"{final_url}\n")
+                        
+                        # 写入TXT条目
+                        txt.write(f"{display_name},{final_url}\n")
+                        
+                        written_urls.add(chan_url)
+                        channel_counter += 1
+
+            print(f"频道处理完成，总计有效频道数：{channel_counter}")
+
+def filter_sources(template_file, tv_urls):
     template = parse_template(template_file)
     all_channels = OrderedDict()
 
+    print(f"开始从 {len(tv_urls)} 个源获取频道数据...")
+    
     with ThreadPoolExecutor(max_workers=5) as executor:
         futures = {executor.submit(fetch_channels, url): url for url in tv_urls}
         for future in as_completed(futures):
@@ -237,12 +235,19 @@ def filter_sources(template_file):
                     for cat, chans in result.items():
                         if cat not in all_channels:
                             all_channels[cat] = []
-                        all_channels[cat].extend(chans)
+                        # 添加来源信息以便调试
+                        for chan_name, chan_url in chans:
+                            all_channels[cat].append((chan_name, chan_url))
+                    print(f"成功从 {url} 获取 {len(result)} 个分类的频道数据")
+                else:
+                    print(f"从 {url} 获取数据为空")
             except Exception as e:
                 print(f"处理源 {url} 时出错: {str(e)}")
 
+    print(f"总共获取到 {sum(len(chans) for chans in all_channels.values())} 个频道")
     return match_channels(template, all_channels), template
 
 if __name__ == "__main__":
-    matched_channels, template = filter_sources("py/config/iptv.txt")
+    
+    matched_channels, template = filter_sources("py/config/iptv.txt", tv_urls)
     generate_outputs(matched_channels, template)
