@@ -121,6 +121,11 @@ def fetch_channels(url):
 def match_channels(template_channels, all_channels):
     matched = OrderedDict()
     used_channels = set()  # 记录已使用的频道，避免重复
+    unmatched_channels = OrderedDict()  # 记录未匹配的频道
+    
+    # 初始化未匹配频道结构
+    for category in template_channels:
+        unmatched_channels[category] = []
     
     for category, names in template_channels.items():
         matched[category] = OrderedDict()
@@ -139,26 +144,26 @@ def match_channels(template_channels, all_channels):
                     
                     # 检查频道名称是否匹配任何变体
                     for variant in name_variants:
-                        if variant in chan_name or chan_name in variant:
+                        if variant.lower() in chan_name.lower() or chan_name.lower() in variant.lower():
                             matched[category].setdefault(primary_name, []).append((chan_name, chan_url))
                             used_channels.add(channel_key)
-                            found = False
+                            found = True
                             break
                     if found:
                         break
                 if found:
                     break
             
-            # 如果没有找到匹配，创建一个空条目
-            if not found and primary_name not in matched[category]:
-                matched[category][primary_name] = []
+            # 如果没有找到匹配，记录到未匹配列表
+            if not found:
+                unmatched_channels[category].append(name)
 
-    return matched
+    return matched, unmatched_channels
 
 def is_ipv6(url):
     return re.match(r"^http:\/\/\[[0-9a-fA-F:]+\]", url) is not None
 
-def generate_outputs(channels, template_channels):
+def generate_outputs(channels, template_channels, unmatched_channels):
     written_urls = set()
     channel_counter = 0
 
@@ -219,6 +224,36 @@ def generate_outputs(channels, template_channels):
 
             print(f"频道处理完成，总计有效频道数：{channel_counter}")
 
+def generate_unmatched_report(unmatched_channels, output_file="py/config/iptv_test.txt"):
+    """生成未匹配频道的报告"""
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("# 未匹配频道报告\n")
+        f.write("# 以下频道在源中未找到匹配项\n")
+        f.write("# 生成时间: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "\n\n")
+        
+        total_unmatched = 0
+        for category, channels in unmatched_channels.items():
+            if channels:
+                f.write(f"{category},#genre#\n")
+                for channel in channels:
+                    f.write(f"{channel},\n")
+                    total_unmatched += 1
+                f.write("\n")
+        
+        f.write(f"\n# 总计未匹配频道数: {total_unmatched}\n")
+    
+    print(f"未匹配频道报告已生成: {output_file}")
+    print(f"总计未匹配频道数: {total_unmatched}")
+    
+    # 在控制台也输出未匹配频道
+    if total_unmatched > 0:
+        print("\n=== 未匹配频道列表 ===")
+        for category, channels in unmatched_channels.items():
+            if channels:
+                print(f"\n{category},#genre#")
+                for channel in channels:
+                    print(f"{channel},")
+
 def filter_sources(template_file, tv_urls):
     template = parse_template(template_file)
     all_channels = OrderedDict()
@@ -244,10 +279,17 @@ def filter_sources(template_file, tv_urls):
             except Exception as e:
                 print(f"处理源 {url} 时出错: {str(e)}")
 
-    print(f"总共获取到 {sum(len(chans) for chans in all_channels.values())} 个频道")
-    return match_channels(template, all_channels), template
+    total_channels = sum(len(chans) for chans in all_channels.values())
+    print(f"总共获取到 {total_channels} 个频道")
+    
+    # 返回匹配结果和未匹配频道
+    matched_channels, unmatched_channels = match_channels(template, all_channels)
+    
+    return matched_channels, unmatched_channels, template
 
+# 示例使用
 if __name__ == "__main__":
     
-    matched_channels, template = filter_sources("py/config/iptv.txt", tv_urls)
-    generate_outputs(matched_channels, template)
+    matched_channels, unmatched_channels, template = filter_sources("py/config/iptv.txt", tv_urls)
+    generate_outputs(matched_channels, template, unmatched_channels)
+    generate_unmatched_report(unmatched_channels)
