@@ -1583,8 +1583,8 @@ https://live.catvod.com/catvod_com.php?id=ttvnews_twn$LR•IPV4•2『线路1』
 http://api.mytv666.top/api/hk.php?id=3532663033343761633136633334333932346565303765616636633239323362267469643d74762669643d3533$LR•IPV4•2『线路2』
 #EXTINF:-1 tvg-id="791" tvg-name="民视" group-title="港·澳·台",民视
 http://fm1077.serv00.net/Smart.php?id=ftvhd_taiwan$LR•IPV4•2『线路1』
-#EXTINF:-1 tvg-id="792" tvg-name="民视频道" group-title="港·澳·台",民视频道
-rtmp://f13h.mine.nu/sat/tv051$LR•IPV4•2『线路2』
+#EXTINF:-1 tvg-id="792" tvg-name="民视新闻HD" group-title="港·澳·台",民视新闻HD
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8$LR•IPV4•2『线路2』
 #EXTINF:-1 tvg-id="793" tvg-name="民视新闻" group-title="港·澳·台",民视新闻
 http://fm1077.serv00.net/Smart.php?id=ftvnew_taiwan$LR•IPV4•2『线路1』
 #EXTINF:-1 tvg-id="794" tvg-name="民视新闻" group-title="港·澳·台",民视新闻
@@ -1599,8 +1599,8 @@ rtmp://f13h.mine.nu/sat/tv521$LR•IPV4
 http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="799" tvg-name="番薯台" group-title="港·澳·台",番薯台
 http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8$LR•IPV4
-#EXTINF:-1 tvg-id="800" tvg-name="AMC电影台" group-title="港·澳·台",AMC电影台
-http://122.117.71.103:8559/http/61.222.53.250:8092/upload/115/AMC_TS-1111_1.m3u8$LR•IPV4
+#EXTINF:-1 tvg-id="800" tvg-name="AMC电影" group-title="港·澳·台",AMC电影
+http://61.221.215.25:8800/hls/43/index.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="801" tvg-name="CAT电影" group-title="港·澳·台",CAT电影
 http://litv.zapi.us.kg/?id=4gtv-4gtv076$LR•IPV4
 #EXTINF:-1 tvg-id="802" tvg-name="数位电影" group-title="港·澳·台",数位电影
@@ -1638,7 +1638,7 @@ http://api.mytv666.top/api/hk.php?id=3265643234663932333564313563356430663036346
 #EXTINF:-1 tvg-id="818" tvg-name="中视闽南" group-title="港·澳·台",中视闽南
 http://api.mytv666.top/api/hk.php?id=3735333965643234313330643235393236666134346364646139393065363839267469643d74762669643d3638$LR•IPV4
 #EXTINF:-1 tvg-id="819" tvg-name="中视新闻" group-title="港·澳·台",中视新闻
-https://live.catvod.com/catvod_com.php?id=zhongshinews_twn$LR•IPV4
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="820" tvg-name="中天新聞台" group-title="港·澳·台",中天新聞台
 http://bxtv.3a.ink/api.php?id=ztxw$LR•IPV4
 #EXTINF:-1 tvg-id="821" tvg-name="中天亚洲" group-title="港·澳·台",中天亚洲
@@ -1743,12 +1743,12 @@ http://aktv-stream.m16tv.cfd/stream/aktv3/zoomoo/AKTV.m3u8$LR•IPV4
 http://api.mytv666.top/api/hk.php?id=6166663738326236646135356364343066353033643135666631306136313965267469643d74762669643d313335$LR•IPV4
 #EXTINF:-1 tvg-id="871" tvg-name="PTS Taigi (公視台語台) Ⓨ Ⓖ" group-title="港·澳·台",PTS Taigi (公視台語台) Ⓨ Ⓖ
 https://www.youtube.com/watch?v=6KlRR_DGhmI$LR•IPV4
-#EXTINF:-1 tvg-id="872" tvg-name="华视频道" group-title="港·澳·台",华视频道
-rtmp://f13h.mine.nu/sat/tv111$LR•IPV4
+#EXTINF:-1 tvg-id="872" tvg-name="华视HD" group-title="港·澳·台",华视HD
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="873" tvg-name="华视闽南" group-title="港·澳·台",华视闽南
 http://api.mytv666.top/api/hk.php?id=3365666436303335663238313031386236313534663061623262383237396633267469643d74762669643d3731$LR•IPV4
-#EXTINF:-1 tvg-id="874" tvg-name="寰宇新闻" group-title="港·澳·台",寰宇新闻
-https://live.catvod.com/catvod_com.php?id=huanyuxinwen_twn$LR•IPV4
+#EXTINF:-1 tvg-id="874" tvg-name="寰宇新闻台" group-title="港·澳·台",寰宇新闻台
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="875" tvg-name="靖天国际" group-title="港·澳·台",靖天国际
 http://api.mytv666.top/api/hk.php?id=6364643431346437396338333162316133383236656439623265636138303732267469643d74762669643d313635$LR•IPV4
 #EXTINF:-1 tvg-id="876" tvg-name="靖天卡通" group-title="港·澳·台",靖天卡通
@@ -1839,8 +1839,8 @@ http://1.94.31.214:35455/huya/11601968$LR•IPV4
 http://1.94.31.214:35455/huya/11352876$LR•IPV4
 #EXTINF:-1 tvg-id="919" tvg-name="李连杰电影" group-title="影视轮播",李连杰电影
 http://1.94.31.214:35455/huya/11342390$LR•IPV4
-#EXTINF:-1 tvg-id="920" tvg-name="刘德华电影" group-title="影视轮播",刘德华电影
-http://1.94.31.214:35455/huya/11342424$LR•IPV4
+#EXTINF:-1 tvg-id="920" tvg-name="电影刘德华" group-title="影视轮播",电影刘德华
+http://live.metshop.top/huya/11342424?cdn=alicdn$LR•IPV4
 #EXTINF:-1 tvg-id="921" tvg-name="动作电影" group-title="影视轮播",动作电影
 http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010003$LR•IPV4
 #EXTINF:-1 tvg-id="922" tvg-name="鹿鼎记" group-title="yy轮播",鹿鼎记
@@ -2094,7 +2094,7 @@ https://stream1.freetv.fun/jing-dian-dian-ying-9.ctv$LR•IPV4
 #EXTINF:-1 tvg-id="1046" tvg-name="龙华电影" group-title="地方影视",龙华电影
 http://37.27.111.214:8080/live/19/hls.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="1047" tvg-name="AMC电影台" group-title="地方影视",AMC电影台
-http://61.221.215.25:8800/hls/43/index.m3u8$LR•IPV4
+http://122.117.71.103:8559/http/61.222.53.250:8092/upload/115/AMC_TS-1111_1.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="1048" tvg-name="东阳影视生活" group-title="地方影视",东阳影视生活
 http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8$LR•IPV4
 #EXTINF:-1 tvg-id="1049" tvg-name="安徽影视" group-title="地方影视",安徽影视

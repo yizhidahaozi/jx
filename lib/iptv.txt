@@ -856,7 +856,7 @@ TVB Plus,https://stream1.freetv.fun/tvb-j2-2.ctv$LR•IPV4•2『线路2』
 台视新闻,https://live.catvod.com/catvod_com.php?id=ttvnews_twn$LR•IPV4•2『线路1』
 台视新闻,http://api.mytv666.top/api/hk.php?id=3532663033343761633136633334333932346565303765616636633239323362267469643d74762669643d3533$LR•IPV4•2『线路2』
 民视,http://fm1077.serv00.net/Smart.php?id=ftvhd_taiwan$LR•IPV4•2『线路1』
-民视频道,rtmp://f13h.mine.nu/sat/tv051$LR•IPV4•2『线路2』
+民视新闻HD,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8$LR•IPV4•2『线路2』
 民视新闻,http://fm1077.serv00.net/Smart.php?id=ftvnew_taiwan$LR•IPV4•2『线路1』
 民视新闻,https://live.catvod.com/catvod_com.php?id=ftvnew_taiwan$LR•IPV4•2『线路2』
 翡翠,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40$LR•IPV4
@@ -864,7 +864,7 @@ TVB Plus,https://stream1.freetv.fun/tvb-j2-2.ctv$LR•IPV4•2『线路2』
 中天新闻,rtmp://f13h.mine.nu/sat/tv521$LR•IPV4
 美亚C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8$LR•IPV4
 番薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8$LR•IPV4
-AMC电影台,http://122.117.71.103:8559/http/61.222.53.250:8092/upload/115/AMC_TS-1111_1.m3u8$LR•IPV4
+AMC电影,http://61.221.215.25:8800/hls/43/index.m3u8$LR•IPV4
 CAT电影,http://litv.zapi.us.kg/?id=4gtv-4gtv076$LR•IPV4
 数位电影,http://litv.zapi.us.kg/?id=4gtv-4gtv011$LR•IPV4
 靖天电影,http://api.mytv666.top/api/hk.php?id=3235646236316132333834636665636537663935383763353038393730396532267469643d74762669643d313236$LR•IPV4•2『线路1』
@@ -883,7 +883,7 @@ CAT电影,http://litv.zapi.us.kg/?id=4gtv-4gtv076$LR•IPV4
 中视经典,http://api.mytv666.top/api/hk.php?id=3130643637316464346664313538393839303063663564663535386230323339267469643d74762669643d313331$LR•IPV4
 中视菁采,http://api.mytv666.top/api/hk.php?id=3265643234663932333564313563356430663036346636303535616139663434267469643d74762669643d313534$LR•IPV4
 中视闽南,http://api.mytv666.top/api/hk.php?id=3735333965643234313330643235393236666134346364646139393065363839267469643d74762669643d3638$LR•IPV4
-中视新闻,https://live.catvod.com/catvod_com.php?id=zhongshinews_twn$LR•IPV4
+中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8$LR•IPV4
 中天新聞台,http://bxtv.3a.ink/api.php?id=ztxw$LR•IPV4
 中天亚洲,http://api.mytv666.top/api/hk.php?id=3962383334666661326334396461326537383063663333666566333830363536267469643d74762669643d313030$LR•IPV4
 中天娱乐,https://gdfire2.67890123.cn:8088/live/ztxw201.m3u8$LR•IPV4
@@ -936,9 +936,9 @@ Thrill,http://aktv-stream.m16tv.cfd/stream/aktv3/thrill/AKTV.m3u8$LR•IPV4
 ZooMoo,http://aktv-stream.m16tv.cfd/stream/aktv3/zoomoo/AKTV.m3u8$LR•IPV4
 公视戏剧,http://api.mytv666.top/api/hk.php?id=6166663738326236646135356364343066353033643135666631306136313965267469643d74762669643d313335$LR•IPV4
 PTS Taigi (公視台語台) Ⓨ Ⓖ,https://www.youtube.com/watch?v=6KlRR_DGhmI$LR•IPV4
-华视频道,rtmp://f13h.mine.nu/sat/tv111$LR•IPV4
+华视HD,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8$LR•IPV4
 华视闽南,http://api.mytv666.top/api/hk.php?id=3365666436303335663238313031386236313534663061623262383237396633267469643d74762669643d3731$LR•IPV4
-寰宇新闻,https://live.catvod.com/catvod_com.php?id=huanyuxinwen_twn$LR•IPV4
+寰宇新闻台,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8$LR•IPV4
 靖天国际,http://api.mytv666.top/api/hk.php?id=6364643431346437396338333162316133383236656439623265636138303732267469643d74762669643d313635$LR•IPV4
 靖天卡通,http://api.mytv666.top/api/hk.php?id=3536363563306635366665346566326566613430323937633364666166666632267469643d74762669643d313632$LR•IPV4
 靖洋戏剧,http://api.mytv666.top/api/hk.php?id=3339666661346639386533613638363831376163336238643537356233633165267469643d74762669643d313333$LR•IPV4
@@ -986,7 +986,7 @@ PTS Taigi (公視台語台) Ⓨ Ⓖ,https://www.youtube.com/watch?v=6KlRR_DGhmI$
 沈腾电影,http://1.94.31.214:35455/huya/11601968$LR•IPV4
 黄渤电影,http://1.94.31.214:35455/huya/11352876$LR•IPV4
 李连杰电影,http://1.94.31.214:35455/huya/11342390$LR•IPV4
-刘德华电影,http://1.94.31.214:35455/huya/11342424$LR•IPV4
+电影刘德华,http://live.metshop.top/huya/11342424?cdn=alicdn$LR•IPV4
 动作电影,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010003$LR•IPV4
 
 yy轮播,#genre#
@@ -1119,7 +1119,7 @@ yy轮播,#genre#
 地方影视,#genre#
 经典电影,https://stream1.freetv.fun/jing-dian-dian-ying-9.ctv$LR•IPV4
 龙华电影,http://37.27.111.214:8080/live/19/hls.m3u8$LR•IPV4
-AMC电影台,http://61.221.215.25:8800/hls/43/index.m3u8$LR•IPV4
+AMC电影台,http://122.117.71.103:8559/http/61.222.53.250:8092/upload/115/AMC_TS-1111_1.m3u8$LR•IPV4
 东阳影视生活,http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8$LR•IPV4
 安徽影视,https://stream1.freetv.fun/an-hui-ying-shi-15.m3u8$LR•IPV4
 广州影视,https://live.lalifeier.eu.org/gztv/yingshi.m3u8?t=1746292937&key=a30a89b429981379ff7c586fdb54ac86$LR•IPV4
