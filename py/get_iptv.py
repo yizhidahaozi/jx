@@ -1,11 +1,11 @@
 import re
+import os
+import shutil
 import requests
+import threading
 from collections import OrderedDict
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import threading
-
-import os
 
 # 添加线程锁确保线程安全
 write_lock = threading.Lock()
@@ -332,26 +332,37 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
 
 def remove_unmatched_from_template(template_file, unmatched_template_channels):
     """从模板文件中删除未匹配的频道"""
-    # 创建备份文件
-    backup_file = template_file + ".backup"
-    shutil.copy2(template_file, backup_file)
-    print(f"已创建模板备份文件: {backup_file}")
+    try:
+        # 创建备份文件
+        backup_file = template_file + ".backup"
+        shutil.copy2(template_file, backup_file)
+        print(f"已创建模板备份文件: {backup_file}")
+    except Exception as e:
+        print(f"创建备份文件失败: {e}")
+        return
     
     # 读取原始模板文件
-    with open(template_file, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+    try:
+        with open(template_file, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"读取模板文件失败: {e}")
+        return
     
     # 创建新的模板内容
     new_lines = []
     current_category = None
-    skip_channel = False
     
     for line in lines:
         original_line = line.strip()
-        line = line.rstrip()  # 保留行尾的空白
         
-        if not original_line or original_line.startswith("#"):
-            # 保留注释和空行
+        if not original_line:
+            # 保留空行
+            new_lines.append(line)
+            continue
+            
+        if original_line.startswith("#"):
+            # 保留注释
             new_lines.append(line)
             continue
             
@@ -380,12 +391,12 @@ def remove_unmatched_from_template(template_file, unmatched_template_channels):
                 new_lines.append(line)
     
     # 写入新的模板文件
-    with open(template_file, "w", encoding="utf-8") as f:
-        f.write("\n".join(new_lines))
-        if new_lines and not new_lines[-1].endswith("\n"):
-            f.write("\n")
-    
-    print(f"已更新模板文件: {template_file}，删除了未匹配的频道")
+    try:
+        with open(template_file, "w", encoding="utf-8") as f:
+            f.writelines(new_lines)
+        print(f"已更新模板文件: {template_file}，删除了未匹配的频道")
+    except Exception as e:
+        print(f"写入模板文件失败: {e}")
 
 def filter_sources(template_file, tv_urls):
     template = parse_template(template_file)
