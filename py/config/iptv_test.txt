@@ -1,6 +1,6 @@
 # 未匹配频道报告
 # 以下频道在源中未找到匹配项
-# 生成时间: 2025-10-25 17:09:42
+# 生成时间: 2025-10-25 18:09:34
 
 ## 模板中未匹配的频道（在源中找不到）
 
@@ -23,60 +23,6 @@
 足球频道,
 CETV-3,
 陕西卫视,
-
-央视频道,#genre#
-CGTN英语,
-CGTN记录,
-CGTN俄语,
-CGTN法语,
-CGTN西语,
-CGTN阿语,
-CGTN纪录,
-CGTN,
-CCTV文化精品,
-CCTV-文化精品,
-CCTV-央视高网,
-中国交通,
-直播中国,
-熊猫直播,
-CETV-3 教育服务,
-CCTV 4K,
-CCTV 8K,
-支持作者,
-
-卫视频道,#genre#
-山西卫视,
-陕西卫视,
-中国教育3台,
-内蒙古蒙语卫视,
-上海卫视,
-内蒙古视,
-北京纪实,
-极速汽车,
-家庭理财,
-金色学堂,
-梨园,
-辽宁公共,
-文物宝库,
-武术世界,
-游戏风云,
-中华特产,
-哈尔滨新闻,
-鹤岗新闻,
-佳木斯新闻,
-齐齐哈尔新闻,
-河北4K,
-珠江卫视,
-央视新闻,
-
-内蒙频道,#genre#
-蒙语卫视,
-呼市新闻综合,
-包头新闻综合,
-鄂尔多斯新闻,
-巴彦淖尔新闻,
-赤峰新闻综合,
-乌兰察布新闻,
 
 🕘️更新时间,#genre#
 2025-10-25 06:23:44,
@@ -479,6 +425,51 @@ CN卡通,
 天龙八部,
 仙剑奇侠传,
 
+央视频道,#genre#
+CGTN英语,
+CGTN纪录,
+CGTN俄语,
+CGTN法语,
+CGTN西语,
+CGTN阿语,
+CGTN记录,
+CGTN,
+CCTV文化精品,
+CCTV-文化精品,
+CCTV-央视高网,
+中国交通,
+直播中国,
+熊猫直播,
+CETV-3 教育服务,
+CCTV 4K,
+CCTV 8K,
+支持作者,
+
+卫视频道,#genre#
+内蒙古蒙语卫视,
+山西卫视,
+陕西卫视,
+上海卫视,
+中国教育3台,
+内蒙古视,
+北京纪实,
+极速汽车,
+家庭理财,
+金色学堂,
+梨园,
+辽宁公共,
+文物宝库,
+武术世界,
+游戏风云,
+中华特产,
+哈尔滨新闻,
+鹤岗新闻,
+佳木斯新闻,
+齐齐哈尔新闻,
+河北4K,
+珠江卫视,
+央视新闻,
+
 数字频道,#genre#
 爱动漫,
 金色学堂,
@@ -520,6 +511,15 @@ JJ斗地主,
 
 剧集轮播,#genre#
 倚天屠龙记,
+
+内蒙频道,#genre#
+蒙语卫视,
+呼市新闻综合,
+包头新闻综合,
+鄂尔多斯新闻,
+巴彦淖尔新闻,
+赤峰新闻综合,
+乌兰察布新闻,
 
 港澳台外,#genre#
 民视频道,
@@ -847,47 +847,6 @@ AI七宗罪.人工智能三大定律竟有致命漏洞,
 爱真的只是激素吗.当灵魂超脱肉体人类又能否逃离天罚,
 人类永远无法战胜的初代魔王,
 从苏美到波斯.最后的阿努纳奇,
-
-港澳台,#genre#
-澳门卫视,
-Pet Club TV,
-Bloomberg TV Asia,
-HKS,
-Celestial Movies,
-TVB News,
-Good,
-Good 2,
-Beautiful Life TV,
-Supreme Master TV,
-Taiwan Plus TV,
-Genius Go Go Go,
-DaAi 1,
-DaAi 2,
-Dali TV,
-EBC YOYO,
-CTi News,
-FTV News,
-Global News,
-SET iNews,
-TTV News,
-mnews,
-ET Mall 60,
-东森财经新闻,
-Momo 1,
-Momo 2,
-信大,
-NU,
-NU2,
-JP1,
-KPop,
-民视新闻HD,
-
-央视台,#genre#
-CGNT 记录频道,
-CGNT 新闻频道,
-
-卫视台,#genre#
-陕西卫视,
 
 央视高清,#genre#
 上海纪实,
@@ -1474,6 +1433,46 @@ Tastemade,
 MovieSphere,
 The Lego Channel,
 NextUp Live Comedy,
+
+港澳台,#genre#
+澳门卫视,
+Pet Club TV,
+Bloomberg TV Asia,
+HKS,
+Celestial Movies,
+TVB News,
+Good,
+Good 2,
+Beautiful Life TV,
+Supreme Master TV,
+Taiwan Plus TV,
+Genius Go Go Go,
+DaAi 1,
+DaAi 2,
+Dali TV,
+EBC YOYO,
+CTi News,
+FTV News,
+Global News,
+SET iNews,
+TTV News,
+mnews,
+ET Mall 60,
+东森财经新闻,
+Momo 1,
+Momo 2,
+信大,
+NU,
+NU2,
+JP1,
+KPop,
+民视新闻HD,
+
+央视台,#genre#
+CGNT 新闻频道,
+
+卫视台,#genre#
+陕西卫视,
 
 央卫备用,#genre#
 陕西卫视,
@@ -3670,6 +3669,6 @@ JJ斗地主,
 黄花城水长城03,
 黄龙,
 
-# 源中未匹配频道总计: 3317
+# 源中未匹配频道总计: 3316
 
-# 未匹配频道总计: 3317
+# 未匹配频道总计: 3316
