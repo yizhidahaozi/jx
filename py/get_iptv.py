@@ -4,6 +4,7 @@ from collections import OrderedDict
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+
 import os
 
 # 添加线程锁确保线程安全
@@ -326,6 +327,65 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
                 for channel_name in unique_channel_names:
                     # 在控制台输出中只显示频道名称，不显示链接
                     print(f"{channel_name},")
+    
+    return total_template_unmatched
+
+def remove_unmatched_from_template(template_file, unmatched_template_channels):
+    """从模板文件中删除未匹配的频道"""
+    # 创建备份文件
+    backup_file = template_file + ".backup"
+    shutil.copy2(template_file, backup_file)
+    print(f"已创建模板备份文件: {backup_file}")
+    
+    # 读取原始模板文件
+    with open(template_file, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+    
+    # 创建新的模板内容
+    new_lines = []
+    current_category = None
+    skip_channel = False
+    
+    for line in lines:
+        original_line = line.strip()
+        line = line.rstrip()  # 保留行尾的空白
+        
+        if not original_line or original_line.startswith("#"):
+            # 保留注释和空行
+            new_lines.append(line)
+            continue
+            
+        if "#genre#" in original_line:
+            current_category = original_line.split(",")[0].strip()
+            new_lines.append(line)
+            continue
+            
+        if current_category and original_line:
+            # 提取频道名称（去掉可能存在的URL部分）
+            channel_name = original_line.split(",")[0].strip()
+            
+            # 检查这个频道是否在未匹配列表中
+            skip_channel = False
+            if current_category in unmatched_template_channels:
+                for unmatched_channel in unmatched_template_channels[current_category]:
+                    # 比较频道名称，考虑可能包含|符号的情况
+                    unmatched_primary = unmatched_channel.split("|")[0].strip()
+                    channel_primary = channel_name.split("|")[0].strip()
+                    if unmatched_primary == channel_primary:
+                        skip_channel = True
+                        print(f"从模板中删除未匹配频道: {channel_name}")
+                        break
+            
+            if not skip_channel:
+                new_lines.append(line)
+    
+    # 写入新的模板文件
+    with open(template_file, "w", encoding="utf-8") as f:
+        f.write("\n".join(new_lines))
+        if new_lines and not new_lines[-1].endswith("\n"):
+            f.write("\n")
+    
+    print(f"已更新模板文件: {template_file}，删除了未匹配的频道")
 
 def filter_sources(template_file, tv_urls):
     template = parse_template(template_file)
@@ -363,6 +423,16 @@ def filter_sources(template_file, tv_urls):
 # 示例使用
 if __name__ == "__main__":
     
-    matched_channels, unmatched_template_channels, unmatched_source_channels, template = filter_sources("py/config/iptv.txt", tv_urls)
+    template_file = "py/config/iptv.txt"
+    matched_channels, unmatched_template_channels, unmatched_source_channels, template = filter_sources(template_file, tv_urls)
     generate_outputs(matched_channels, template, unmatched_template_channels, unmatched_source_channels)
-    generate_unmatched_report(unmatched_template_channels, unmatched_source_channels)
+    total_unmatched = generate_unmatched_report(unmatched_template_channels, unmatched_source_channels)
+    
+    # 如果存在未匹配的频道，询问是否从模板中删除
+    if total_unmatched > 0:
+        print(f"\n检测到 {total_unmatched} 个未匹配的频道")
+        # 在GitHub Actions中自动删除未匹配频道
+        print("自动从模板文件中删除未匹配的频道...")
+        remove_unmatched_from_template(template_file, unmatched_template_channels)
+    else:
+        print("\n没有检测到未匹配的频道，无需更新模板文件")
