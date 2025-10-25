@@ -263,7 +263,8 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
             if channels:
                 f.write(f"\n{category},#genre#\n")
                 for channel_name, channel_url in channels:
-                    f.write(f"{channel_name},{channel_url}\n")
+                    # 在报告中只写入频道名称，不写入链接
+                    f.write(f"{channel_name},\n")
                     total_source_unmatched += 1
         
         f.write(f"\n# 源中未匹配频道总计: {total_source_unmatched}\n")
@@ -289,7 +290,8 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
             if channels:
                 print(f"\n{category},#genre#")
                 for channel_name, channel_url in channels:
-                    print(f"{channel_name},{channel_url}")
+                    # 在控制台输出中只显示频道名称，不显示链接
+                    print(f"{channel_name},")
 
 def filter_sources(template_file, tv_urls):
     template = parse_template(template_file)
