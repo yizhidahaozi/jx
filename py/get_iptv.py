@@ -155,14 +155,13 @@ def match_channels(template_channels, all_channels):
                         # 将变体转换为正则表达式模式，允许名称中的一些变化
                         pattern = re.compile(re.escape(variant), re.IGNORECASE)
                         if pattern.search(chan_name):
-                            matched[category].setdefault(primary_name, []).append((chan_name, chan_url))
+                            if primary_name not in matched[category]:
+                                matched[category][primary_name] = []
+                            matched[category][primary_name].append((chan_name, chan_url))
                             used_channels.add(channel_key)
                             found = True
                             break
-                    if found:
-                        break
-                if found:
-                    break
+                    # 注意：这里不break，让同一个模板频道可以匹配多个源频道（多个线路）
             
             # 如果没有找到匹配，记录到未匹配列表
             if not found:
@@ -173,6 +172,8 @@ def match_channels(template_channels, all_channels):
         for chan_name, chan_url in channels:
             channel_key = f"{chan_name}_{chan_url}"
             if channel_key not in used_channels:
+                if src_category not in unmatched_source_channels:
+                    unmatched_source_channels[src_category] = []
                 unmatched_source_channels[src_category].append((chan_name, chan_url))
 
     return matched, unmatched_template_channels, unmatched_source_channels
@@ -205,7 +206,7 @@ def generate_outputs(channels, template_channels, unmatched_template_channels, u
                     if not channel_data:
                         continue
 
-                    # 去重处理 - 使用频道名称和URL的组合来去重
+                    # 去重处理 - 只去除完全相同的频道名称和URL组合
                     unique_channels = []
                     seen_channel_keys = set()
                     
@@ -219,7 +220,7 @@ def generate_outputs(channels, template_channels, unmatched_template_channels, u
                     if not unique_channels:
                         continue
 
-                    # 为每个频道生成输出
+                    # 为每个频道生成输出 - 每个频道单独计算线路数
                     total = len(unique_channels)
                     for idx, (chan_name, chan_url) in enumerate(unique_channels, 1):
                         # 使用获取的频道名称，如果没有则使用模板名称
@@ -255,8 +256,13 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
         for category, channels in unmatched_template_channels.items():
             if channels:
                 f.write(f"\n{category},#genre#\n")
-                # 使用集合去重
-                unique_channels = list(OrderedDict.fromkeys(channels))
+                # 使用有序字典去重，保持顺序
+                unique_channels = []
+                seen_channels = set()
+                for channel in channels:
+                    if channel not in seen_channels:
+                        unique_channels.append(channel)
+                        seen_channels.add(channel)
                 for channel in unique_channels:
                     f.write(f"{channel},\n")
                     total_template_unmatched += 1
@@ -269,14 +275,17 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
         for category, channels in unmatched_source_channels.items():
             if channels:
                 f.write(f"\n{category},#genre#\n")
-                # 使用集合去重，只保留频道名称
-                unique_channel_names = set()
+                # 使用有序字典去重，只保留频道名称
+                unique_channel_names = []
+                seen_channel_names = set()
                 for channel_name, channel_url in channels:
-                    if channel_name not in unique_channel_names:
-                        unique_channel_names.add(channel_name)
-                        # 在报告中只写入频道名称，不写入链接
-                        f.write(f"{channel_name},\n")
-                        total_source_unmatched += 1
+                    if channel_name not in seen_channel_names:
+                        unique_channel_names.append(channel_name)
+                        seen_channel_names.add(channel_name)
+                for channel_name in unique_channel_names:
+                    # 在报告中只写入频道名称，不写入链接
+                    f.write(f"{channel_name},\n")
+                    total_source_unmatched += 1
         
         f.write(f"\n# 源中未匹配频道总计: {total_source_unmatched}\n")
         f.write(f"\n# 未匹配频道总计: {total_template_unmatched + total_source_unmatched}\n")
@@ -292,8 +301,13 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
         for category, channels in unmatched_template_channels.items():
             if channels:
                 print(f"\n{category},#genre#")
-                # 使用集合去重
-                unique_channels = list(OrderedDict.fromkeys(channels))
+                # 使用有序字典去重，保持顺序
+                unique_channels = []
+                seen_channels = set()
+                for channel in channels:
+                    if channel not in seen_channels:
+                        unique_channels.append(channel)
+                        seen_channels.add(channel)
                 for channel in unique_channels:
                     print(f"{channel},")
     
@@ -302,13 +316,16 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
         for category, channels in unmatched_source_channels.items():
             if channels:
                 print(f"\n{category},#genre#")
-                # 使用集合去重，只保留频道名称
-                unique_channel_names = set()
+                # 使用有序字典去重，只保留频道名称
+                unique_channel_names = []
+                seen_channel_names = set()
                 for channel_name, channel_url in channels:
-                    if channel_name not in unique_channel_names:
-                        unique_channel_names.add(channel_name)
-                        # 在控制台输出中只显示频道名称，不显示链接
-                        print(f"{channel_name},")
+                    if channel_name not in seen_channel_names:
+                        unique_channel_names.append(channel_name)
+                        seen_channel_names.add(channel_name)
+                for channel_name in unique_channel_names:
+                    # 在控制台输出中只显示频道名称，不显示链接
+                    print(f"{channel_name},")
 
 def filter_sources(template_file, tv_urls):
     template = parse_template(template_file)
